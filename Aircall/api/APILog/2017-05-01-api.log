@@ -1,0 +1,7 @@
+2017-05-01 15:42:41.3921|INFO|api.Helpers.NLogger|JSON
+Method: POST
+URL: http://192.168.1.126:9999/api/v1/profile/clientlogin
+Controller : api.Controllers.ProfileController
+Action : Login
+Action Parameters : {"messageFormat":"JSON","messageArguments":[{"model":{"Email":"testlocalcoding@gmail.com","Password":"7f2765757d527eaeeb14fb706039bac7","DeviceType":null,"DeviceToken":null,"Latitude":null,"Longitude":null}}]}
+

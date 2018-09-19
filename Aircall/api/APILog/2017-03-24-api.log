@@ -1,0 +1,112 @@
+2017-03-24 15:41:07.6434|INFO|api.Helpers.NLogger|JSON
+Method: GET
+URL: http://192.168.1.119:9999/api/v1/profile/checkClientExists?Email=testing.demo+1@gamil.com
+Controller : api.Controllers.ProfileController
+Action : checkClientExists
+Action Parameters : {"messageFormat":"JSON","messageArguments":[{"Email":"testing.demo 1@gamil.com"}]}
+
+2017-03-24 15:44:52.7185|INFO|api.Helpers.NLogger|JSON
+Method: GET
+URL: http://192.168.1.119:9999/api/v1/profile/checkClientExists?Email=testing.demo%2b1%40gamil.com
+Controller : api.Controllers.ProfileController
+Action : checkClientExists
+Action Parameters : {"messageFormat":"JSON","messageArguments":[{"Email":"testing.demo+1@gamil.com"}]}
+
+2017-03-24 15:47:12.6512|INFO|api.Helpers.NLogger|JSON
+Method: GET
+URL: http://192.168.1.119:9999/api/v1/profile/checkClientExists?Email=testing.demo%2b1%40gamil.com
+Controller : api.Controllers.ProfileController
+Action : checkClientExists
+Action Parameters : {"messageFormat":"JSON","messageArguments":[{"Email":"testing.demo+1@gamil.com"}]}
+
+2017-03-24 15:48:42.8034|INFO|api.Helpers.NLogger|JSON
+Method: GET
+URL: http://192.168.1.119:9999/api/v1/profile/checkClientExists?Email=testing.demo%2b1%40gamil.com
+Controller : api.Controllers.ProfileController
+Action : checkClientExists
+Action Parameters : {"messageFormat":"JSON","messageArguments":[{"Email":"testing.demo+1@gamil.com"}]}
+
+2017-03-24 15:52:19.6672|INFO|api.Helpers.NLogger|JSON
+Method: GET
+URL: http://192.168.1.119:9999/api/v1/profile/checkClientExists?Email=testing.demo%2b1%40gamil.com
+Controller : api.Controllers.ProfileController
+Action : checkClientExists
+Action Parameters : {"messageFormat":"JSON","messageArguments":[{"Email":"testing.demo+1@gamil.com"}]}
+
+2017-03-24 15:53:35.2369|INFO|api.Helpers.NLogger|JSON
+Method: GET
+URL: http://192.168.1.119:9999/api/v1/profile/checkClientExists?Email=testing.demo%2b1%40gamil.com
+Controller : api.Controllers.ProfileController
+Action : checkClientExists
+Action Parameters : {"messageFormat":"JSON","messageArguments":[{"Email":"testing.demo+1@gamil.com"}]}
+
+2017-03-24 15:54:08.4104|INFO|api.Helpers.NLogger|JSON
+Method: GET
+URL: http://192.168.1.119:9999/api/v1/profile/checkClientExists?Email=testing.demo%2b1%40gamil.com
+Controller : api.Controllers.ProfileController
+Action : checkClientExists
+Action Parameters : {"messageFormat":"JSON","messageArguments":[{"Email":"testing.demo+1@gamil.com"}]}
+
+2017-03-24 17:10:39.8492|INFO|api.Helpers.NLogger|JSON
+Method: POST
+URL: http://192.168.1.119:9999/api/v1/profile/ClientDashboard
+Controller : api.Controllers.ProfileController
+Action : ClientDashboard
+Action Parameters : {"messageFormat":"JSON","messageArguments":[{"request":{"Email":null,"ClientId":1005,"PlanTypeId":0,"PlanId":0,"PartId":0,"Month":0,"Year":0,"AddressId":null,"UnitId":0,"ServiceId":null,"RequestedServiceId":null,"PartType":null,"PartTypeId":null,"PageId":0,"ShowDeleted":false,"ServiceCaseNumber":null,"LastCallDateTime":null,"PageNumber":null,"pageSize":0,"DeviceType":null,"DeviceToken":null,"NotificationId":null,"EmployeeId":0,"BillingId":null}}]}
+
+2017-03-24 17:10:43.3464|INFO|api.Helpers.NLogger|JSON
+Method: POST
+URL: http://192.168.1.119:9999/api/v1/profile/clientlogout
+Controller : api.Controllers.ProfileController
+Action : clientlogout
+Action Parameters : {"messageFormat":"JSON","messageArguments":[{"request":{"Email":null,"ClientId":1005,"PlanTypeId":0,"PlanId":0,"PartId":0,"Month":0,"Year":0,"AddressId":null,"UnitId":0,"ServiceId":null,"RequestedServiceId":null,"PartType":null,"PartTypeId":null,"PageId":0,"ShowDeleted":false,"ServiceCaseNumber":null,"LastCallDateTime":null,"PageNumber":null,"pageSize":0,"DeviceType":null,"DeviceToken":null,"NotificationId":null,"EmployeeId":0,"BillingId":null}}]}
+
+2017-03-24 19:43:01.1065|INFO|api.Helpers.NLogger|JSON
+Method: GET
+URL: http://192.168.1.119:9999/api/v1/profile/checkClientExists?Email=testing.demo%2b22%40gamil.com
+Controller : api.Controllers.ProfileController
+Action : checkClientExists
+Action Parameters : {"messageFormat":"JSON","messageArguments":[{"Email":"testing.demo+22@gamil.com"}]}
+
+2017-03-24 19:43:01.1065|INFO|api.Helpers.NLogger|JSON
+Method: GET
+URL: http://192.168.1.119:9999/api/v1/profile/checkClientExists?Email=testing.demo%2b22%40gamil.com
+Controller : api.Controllers.ProfileController
+Action : checkClientExists
+Action Parameters : {"messageFormat":"JSON","messageArguments":[{"Email":"testing.demo+22@gamil.com"}]}
+
+2017-03-24 19:46:25.0283|INFO|api.Helpers.NLogger|JSON
+Method: GET
+URL: http://192.168.1.119:9999/api/v1/profile/checkClientExists?Email=testing.demo%2b22%40gamil.com
+Controller : api.Controllers.ProfileController
+Action : checkClientExists
+Action Parameters : {"messageFormat":"JSON","messageArguments":[{"Email":"testing.demo+22@gamil.com"}]}
+
+2017-03-24 19:51:29.8652|INFO|api.Helpers.NLogger|JSON
+Method: GET
+URL: http://192.168.1.119:9999/api/v1/profile/checkClientExists?Email=testing.demo%2b22%40gamil.com
+Controller : api.Controllers.ProfileController
+Action : checkClientExists
+Action Parameters : {"messageFormat":"JSON","messageArguments":[{"Email":"testing.demo+22@gamil.com"}]}
+
+2017-03-24 19:51:49.7666|INFO|api.Helpers.NLogger|JSON
+Method: GET
+URL: http://192.168.1.119:9999/api/v1/profile/checkClientExists?Email=testing.demo%2b22%40gamil.com
+Controller : api.Controllers.ProfileController
+Action : checkClientExists
+Action Parameters : {"messageFormat":"JSON","messageArguments":[{"Email":"testing.demo+22@gamil.com"}]}
+
+2017-03-24 19:52:33.1919|INFO|api.Helpers.NLogger|JSON
+Method: GET
+URL: http://192.168.1.119:9999/api/v1/profile/checkClientExists?Email=testing.demo%2b22%40gamil.com
+Controller : api.Controllers.ProfileController
+Action : checkClientExists
+Action Parameters : {"messageFormat":"JSON","messageArguments":[{"Email":"testing.demo+22@gamil.com"}]}
+
+2017-03-24 19:52:54.8952|INFO|api.Helpers.NLogger|JSON
+Method: GET
+URL: http://192.168.1.119:9999/api/v1/profile/checkClientExists?Email=testing.demo%2b22%40gamil.com
+Controller : api.Controllers.ProfileController
+Action : checkClientExists
+Action Parameters : {"messageFormat":"JSON","messageArguments":[{"Email":"testing.demo+22@gamil.com"}]}
+

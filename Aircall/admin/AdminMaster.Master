@@ -1,0 +1,94 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="AdminMaster.master.cs" Inherits="Aircall.admin.AdminMaster" %>
+
+<%@ Register TagPrefix="uc1" TagName="Header" Src="~/admin/controls/header.ascx" %>
+<%@ Register TagPrefix="uc1" TagName="Sidebar" Src="~/admin/controls/sidebar.ascx" %>
+<%@ Register TagPrefix="uc1" TagName="Footer" Src="~/admin/controls/footer.ascx" %>
+
+<!DOCTYPE html>
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+    <title>Aircall Admin</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no" />
+    <meta content="" name="description" />
+    <meta content="" name="author" />
+    <link href="<%=Application["SiteAddress"] %>admin/assets/bootstrap/css/bootstrap.min.css" rel="stylesheet" />
+    <link href="<%=Application["SiteAddress"] %>admin/assets/bootstrap/css/bootstrap-responsive.min.css" rel="stylesheet" />
+    <link href="<%=Application["SiteAddress"] %>admin/assets/font-awesome/css/font-awesome.css" rel="stylesheet" />
+    <link rel="stylesheet" href="<%=Application["SiteAddress"] %>admin/assets/bootstrap-toggle-buttons/static/stylesheets/bootstrap-toggle-buttons.css" />
+    <link href="<%=Application["SiteAddress"]%>admin/assets/uniform/css/uniform.default.css" rel="stylesheet" type="text/css" />
+    <link rel="stylesheet" type="text/css" href="<%=Application["SiteAddress"]%>admin/assets/chosen-bootstrap/chosen/chosen.css" />
+    <link href="<%=Application["SiteAddress"] %>admin/css/style.min.css" rel="stylesheet" />
+    <link href="<%=Application["SiteAddress"] %>admin/css/style_responsive.css" rel="stylesheet" />
+    <link href="<%=Application["SiteAddress"] %>admin/css/style_default.css" rel="stylesheet" id="style_color" />
+    <link rel="stylesheet" type="text/css" href="<%=Application["SiteAddress"] %>admin/assets/bootstrap-datepicker/css/datepicker.css" />
+    <link rel="stylesheet" type="text/css" href="<%=Application["SiteAddress"] %>admin/assets/bootstrap-timepicker/compiled/timepicker.css" />
+    <link rel="stylesheet" type="text/css" href="<%=Application["SiteAddress"] %>admin/assets/bootstrap-colorpicker/css/colorpicker.css" />
+    <link rel="stylesheet" href="<%=Application["SiteAddress"] %>admin/assets/data-tables/DT_bootstrap.css" />
+    <link href="<%=Application["SiteAddress"] %>admin/assets/fancybox/source/jquery.fancybox.css" rel="stylesheet" />
+    <link rel="stylesheet" type="text/css" href="<%=Application["SiteAddress"] %>admin/assets/bootstrap-daterangepicker/daterangepicker.css" />
+    <script src="<%=Application["SiteAddress"] %>admin/js/jquery-1.8.3.min.js"></script>
+    <asp:ContentPlaceHolder ID="head" runat="server">
+    </asp:ContentPlaceHolder>
+</head>
+<body class="fixed-top">
+    <form id="aspNetForm" runat="server">
+        <asp:ScriptManager ID="ScriptManager1" runat="server"></asp:ScriptManager>
+        <!--Header-->
+        <uc1:Header ID="Header" runat="server" />
+
+        <!--Content-->
+        <div id="container" class="row-fluid">
+
+            <!--Sidebar Start-->
+            <div id="sidebar" class="nav-collapse collapse equal-height">
+                <div class="sidebar-toggler hidden-phone"></div>
+                <uc1:Sidebar ID="Sidebar" runat="server" />
+            </div>
+            <!--Sidebar End-->
+
+            <!--Main Content Start-->
+            <div id="main-content" class="equal-height">
+                <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+                </asp:ContentPlaceHolder>
+            </div>
+            <!--Main Content End-->
+        </div>
+
+        <!--Footer-->
+        <uc1:Footer ID="Footer" runat="server" />
+
+
+        <script type="text/javascript" src="<%=Application["SiteAddress"] %>admin/ckeditor/ckeditor.js"></script>
+        <script type="text/javascript" src="<%=Application["SiteAddress"] %>admin/assets/bootstrap/js/bootstrap.min.js"></script>
+        <script type="text/javascript" src="<%=Application["SiteAddress"] %>admin/assets/fancybox/source/jquery.fancybox.pack.js"></script>
+        <script type="text/javascript" src="<%=Application["SiteAddress"] %>admin/js/jquery.blockui.js"></script>
+        <script type="text/javascript" src="<%=Application["SiteAddress"] %>admin/assets/flot/jquery.flot.js"></script>
+        <script type="text/javascript" src="<%=Application["SiteAddress"] %>admin/assets/flot/jquery.flot.resize.js"></script>
+        <script type="text/javascript" src="<%=Application["SiteAddress"] %>admin/assets/flot/jquery.flot.pie.js"></script>
+        <script type="text/javascript" src="<%=Application["SiteAddress"] %>admin/assets/flot/jquery.flot.stack.js"></script>
+        <script type="text/javascript" src="<%=Application["SiteAddress"] %>admin/assets/flot/jquery.flot.crosshair.js"></script>
+        <script type="text/javascript" src="<%=Application["SiteAddress"] %>admin/assets/flot/jquery.flot.axislabels.js"></script>
+        <script type="text/javascript" src="<%=Application["SiteAddress"] %>admin/assets/chosen-bootstrap/chosen/chosen.jquery.min.js"></script>
+        <script type="text/javascript" src="<%=Application["SiteAddress"] %>admin/assets/uniform/jquery.uniform.min.js"></script>
+        <script type="text/javascript" src="<%=Application["SiteAddress"] %>admin/assets/data-tables/jquery.dataTables.js"></script>
+        <script type="text/javascript" src="<%=Application["SiteAddress"] %>admin/assets/bootstrap-toggle-buttons/static/js/jquery.toggle.buttons.js"></script>
+        <script type="text/javascript" src="<%=Application["SiteAddress"] %>admin/assets/data-tables/DT_bootstrap.js"></script>
+        <script type="text/javascript" src="<%=Application["SiteAddress"] %>admin/assets/bootstrap-datepicker/js/bootstrap-datepicker.js"></script>
+        <script type="text/javascript" src="<%=Application["SiteAddress"] %>admin/assets/bootstrap-daterangepicker/date.js"></script>
+        <script type="text/javascript" src="<%=Application["SiteAddress"] %>admin/assets/bootstrap-daterangepicker/daterangepicker.js"></script>
+        <script type="text/javascript" src="<%=Application["SiteAddress"] %>admin/assets/bootstrap-colorpicker/js/bootstrap-colorpicker.js"></script>
+        <script type="text/javascript" src="<%=Application["SiteAddress"] %>admin/assets/bootstrap-timepicker/js/bootstrap-timepicker.js"></script>
+        <script src="<%=Application["SiteAddress"] %>admin/js/scripts.js"></script>
+        <script src="<%=Application["SiteAddress"] %>admin/js/common.js?v=4"></script>
+        <script>
+            jQuery(document).ready(function () {
+                if (document.URL.indexOf("dashboard.aspx") != -1 || document.URL.indexOf("sales_report.aspx") != -1 || document.URL.indexOf("rating_report.aspx") != -1) {
+
+                }
+                else { App.init(); }
+            });
+        </script>
+    </form>
+</body>
+</html>

@@ -1,0 +1,77 @@
+2016-11-18 11:51:38.3734|INFO|api.Helpers.NLogger|JSON
+Method: POST
+URL: http://192.168.1.119:6987/v1/profile/ClientDashboard
+Controller : api.Controllers.ProfileController
+Action : ClientDashboard
+Action Parameters : {"messageFormat":"JSON","messageArguments":[{"request":{"Email":null,"ClientId":7,"PlanTypeId":0,"PlanId":0,"PartId":0,"Month":0,"Year":0,"AddressId":null,"UnitId":0,"ServiceId":null,"RequestedServiceId":null,"PartType":null,"PartTypeId":null,"PageId":0,"ShowDeleted":false,"ServiceCaseNumber":null,"LastCallDateTime":null,"PageNumber":null,"pageSize":0,"DeviceType":null,"DeviceToken":null,"NotificationId":null,"EmployeeId":0,"BillingId":null}}]}
+
+2016-11-18 11:51:45.4101|INFO|api.Helpers.NLogger|JSON
+Method: POST
+URL: http://192.168.1.119:6987/v1/profile/clientlogout
+Controller : api.Controllers.ProfileController
+Action : clientlogout
+Action Parameters : {"messageFormat":"JSON","messageArguments":[{"request":{"Email":null,"ClientId":0,"PlanTypeId":0,"PlanId":0,"PartId":0,"Month":0,"Year":0,"AddressId":null,"UnitId":0,"ServiceId":null,"RequestedServiceId":null,"PartType":null,"PartTypeId":null,"PageId":0,"ShowDeleted":false,"ServiceCaseNumber":null,"LastCallDateTime":null,"PageNumber":null,"pageSize":0,"DeviceType":null,"DeviceToken":null,"NotificationId":null,"EmployeeId":0,"BillingId":null}}]}
+
+2016-11-18 11:51:47.0433|INFO|api.Helpers.NLogger|JSON
+Method: POST
+URL: http://192.168.1.119:6987/v1/profile/clientlogin
+Controller : api.Controllers.ProfileController
+Action : Login
+Action Parameters : {"messageFormat":"JSON","messageArguments":[{"model":{"Email":"andrew@gmail.com","Password":"e10adc3949ba59abbe56e057f20f883e","DeviceType":"Android","DeviceToken":null}}]}
+
+2016-11-18 11:51:50.7541|INFO|api.Helpers.NLogger|JSON
+Method: POST
+URL: http://192.168.1.119:6987/v1/profile/ClientDashboard
+Controller : api.Controllers.ProfileController
+Action : ClientDashboard
+Action Parameters : {"messageFormat":"JSON","messageArguments":[{"request":{"Email":null,"ClientId":7,"PlanTypeId":0,"PlanId":0,"PartId":0,"Month":0,"Year":0,"AddressId":null,"UnitId":0,"ServiceId":null,"RequestedServiceId":null,"PartType":null,"PartTypeId":null,"PageId":0,"ShowDeleted":false,"ServiceCaseNumber":null,"LastCallDateTime":null,"PageNumber":null,"pageSize":0,"DeviceType":null,"DeviceToken":null,"NotificationId":null,"EmployeeId":0,"BillingId":null}}]}
+
+2016-11-18 11:51:54.1912|INFO|api.Helpers.NLogger|JSON
+Method: GET
+URL: http://192.168.1.119:6987/v1/profile/GetClientAddress?ClientId=7
+Controller : api.Controllers.ProfileController
+Action : GetClientAddress
+Action Parameters : {"messageFormat":"JSON","messageArguments":[{"ClientId":7}]}
+
+2016-11-18 11:52:01.9781|INFO|api.Helpers.NLogger|JSON
+Method: POST
+URL: http://192.168.1.119:6987/v1/profile/UpdateClientAddress
+Controller : api.Controllers.ProfileController
+Action : UpdateClientAddress
+Action Parameters : {"messageFormat":"JSON","messageArguments":[{"ModelData":{"Id":6,"ClientId":7,"Address":"Street 35","State":622,"StateName":null,"City":1,"CityName":null,"ZipCode":"90001","Latitude":null,"Longitude":null,"IsDefaultAddress":true,"AllowDelete":false,"ShowAddressInApp":false,"PhoneNumber":null,"MobileNumber":null,"OfficeNumber":null,"HomeNumber":null,"Email":null}}]}
+
+2016-11-18 11:53:40.9910|INFO|api.Helpers.NLogger|JSON
+Method: GET
+URL: http://192.168.1.119:6987/v1/Location/GetAllState
+Controller : api.Controllers.LocationController
+Action : GetAllState
+Action Parameters : {"messageFormat":"JSON","messageArguments":[{}]}
+
+2016-11-18 11:53:46.5548|INFO|api.Helpers.NLogger|JSON
+Method: POST
+URL: http://192.168.1.119:6987/v1/profile/UpdateClientAddress
+Controller : api.Controllers.ProfileController
+Action : UpdateClientAddress
+Action Parameters : {"messageFormat":"JSON","messageArguments":[{"ModelData":{"Id":6,"ClientId":7,"Address":"Street 35","State":1,"StateName":null,"City":622,"CityName":null,"ZipCode":"90001","Latitude":null,"Longitude":null,"IsDefaultAddress":true,"AllowDelete":false,"ShowAddressInApp":false,"PhoneNumber":null,"MobileNumber":null,"OfficeNumber":null,"HomeNumber":null,"Email":null}}]}
+
+2016-11-18 11:54:29.6059|INFO|api.Helpers.NLogger|JSON
+Method: GET
+URL: http://192.168.1.119:6987/v1/profile/GetClientAddress?ClientId=7
+Controller : api.Controllers.ProfileController
+Action : GetClientAddress
+Action Parameters : {"messageFormat":"JSON","messageArguments":[{"ClientId":7}]}
+
+2016-11-18 11:54:48.2820|INFO|api.Helpers.NLogger|JSON
+Method: POST
+URL: http://192.168.1.119:6987/v1/profile/UpdateClientAddress
+Controller : api.Controllers.ProfileController
+Action : UpdateClientAddress
+Action Parameters : {"messageFormat":"JSON","messageArguments":[{"ModelData":{"Id":6,"ClientId":7,"Address":"Street 35","State":622,"StateName":null,"City":1,"CityName":null,"ZipCode":"90001","Latitude":null,"Longitude":null,"IsDefaultAddress":true,"AllowDelete":false,"ShowAddressInApp":false,"PhoneNumber":null,"MobileNumber":null,"OfficeNumber":null,"HomeNumber":null,"Email":null}}]}
+
+2016-11-18 11:57:07.6410|INFO|api.Helpers.NLogger|JSON
+Method: POST
+URL: http://192.168.1.119:6987/v1/profile/ClientDashboard
+Controller : api.Controllers.ProfileController
+Action : ClientDashboard
+Action Parameters : {"messageFormat":"JSON","messageArguments":[{"request":{"Email":null,"ClientId":7,"PlanTypeId":0,"PlanId":0,"PartId":0,"Month":0,"Year":0,"AddressId":null,"UnitId":0,"ServiceId":null,"RequestedServiceId":null,"PartType":null,"PartTypeId":null,"PageId":0,"ShowDeleted":false,"ServiceCaseNumber":null,"LastCallDateTime":null,"PageNumber":null,"pageSize":0,"DeviceType":null,"DeviceToken":null,"NotificationId":null,"EmployeeId":0,"BillingId":null}}]}
+

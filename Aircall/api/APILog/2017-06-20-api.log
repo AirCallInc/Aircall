@@ -1,0 +1,378 @@
+2017-06-20 18:48:06.0251|INFO|api.Helpers.NLogger|JSON
+Method: POST
+URL: http://192.168.1.124:8989/api/v1/profile/ClientDashboard
+Controller : api.Controllers.ProfileController
+Action : ClientDashboard
+Action Parameters : {"messageFormat":"JSON","messageArguments":[{"request":{"Email":null,"ClientId":8,"PlanTypeId":0,"PlanId":0,"PartId":0,"Month":0,"Year":0,"AddressId":null,"UnitId":0,"ServiceId":null,"RequestedServiceId":null,"PartType":null,"PartTypeId":null,"PageId":0,"ShowDeleted":false,"ServiceCaseNumber":null,"LastCallDateTime":null,"PageNumber":null,"pageSize":0,"DeviceType":null,"DeviceToken":null,"NotificationId":null,"EmployeeId":0,"BillingId":null}}]}
+
+2017-06-20 18:48:07.4592|INFO|api.Helpers.NLogger|JSON
+Method: POST
+URL: http://192.168.1.124:8989/api/v1/profile/NotificationList
+Controller : api.Controllers.NewProfileController
+Action : NotificationList
+Action Parameters : {"messageFormat":"JSON","messageArguments":[{"request":{"Email":null,"ClientId":8,"PlanTypeId":0,"PlanId":0,"PartId":0,"Month":0,"Year":0,"AddressId":null,"UnitId":0,"ServiceId":null,"RequestedServiceId":null,"PartType":null,"PartTypeId":null,"PageId":0,"ShowDeleted":false,"ServiceCaseNumber":null,"LastCallDateTime":null,"PageNumber":1,"pageSize":0,"DeviceType":null,"DeviceToken":null,"NotificationId":null,"EmployeeId":0,"BillingId":null}}]}
+
+2017-06-20 18:48:09.1590|INFO|api.Helpers.NLogger|JSON
+Method: POST
+URL: http://192.168.1.124:8989/api/v1/profile/ClientDashboard
+Controller : api.Controllers.ProfileController
+Action : ClientDashboard
+Action Parameters : {"messageFormat":"JSON","messageArguments":[{"request":{"Email":null,"ClientId":8,"PlanTypeId":0,"PlanId":0,"PartId":0,"Month":0,"Year":0,"AddressId":null,"UnitId":0,"ServiceId":null,"RequestedServiceId":null,"PartType":null,"PartTypeId":null,"PageId":0,"ShowDeleted":false,"ServiceCaseNumber":null,"LastCallDateTime":null,"PageNumber":null,"pageSize":0,"DeviceType":null,"DeviceToken":null,"NotificationId":null,"EmployeeId":0,"BillingId":null}}]}
+
+2017-06-20 18:48:21.3649|INFO|api.Helpers.NLogger|JSON
+Method: POST
+URL: http://192.168.1.124:8989/api/v1/profile/ClientDashboard
+Controller : api.Controllers.ProfileController
+Action : ClientDashboard
+Action Parameters : {"messageFormat":"JSON","messageArguments":[{"request":{"Email":null,"ClientId":8,"PlanTypeId":0,"PlanId":0,"PartId":0,"Month":0,"Year":0,"AddressId":null,"UnitId":0,"ServiceId":null,"RequestedServiceId":null,"PartType":null,"PartTypeId":null,"PageId":0,"ShowDeleted":false,"ServiceCaseNumber":null,"LastCallDateTime":null,"PageNumber":null,"pageSize":0,"DeviceType":null,"DeviceToken":null,"NotificationId":null,"EmployeeId":0,"BillingId":null}}]}
+
+2017-06-20 11:50:59.2615|INFO|api.Helpers.NLogger|JSON
+Method: POST
+URL: http://192.168.1.124:8989/api/v1/profile/ClientDashboard
+Controller : api.Controllers.ProfileController
+Action : ClientDashboard
+Action Parameters : {"messageFormat":"JSON","messageArguments":[{"request":{"Email":null,"ClientId":8,"PlanTypeId":0,"PlanId":0,"PartId":0,"Month":0,"Year":0,"AddressId":null,"UnitId":0,"ServiceId":null,"RequestedServiceId":null,"PartType":null,"PartTypeId":null,"PageId":0,"ShowDeleted":false,"ServiceCaseNumber":null,"LastCallDateTime":null,"PageNumber":null,"pageSize":0,"DeviceType":null,"DeviceToken":null,"NotificationId":null,"EmployeeId":0,"BillingId":null}}]}
+
+2017-06-20 11:51:20.0139|INFO|api.Helpers.NLogger|JSON
+Method: POST
+URL: http://192.168.1.124:8989/api/v1/profile/ClientDashboard
+Controller : api.Controllers.ProfileController
+Action : ClientDashboard
+Action Parameters : {"messageFormat":"JSON","messageArguments":[{"request":{"Email":null,"ClientId":8,"PlanTypeId":0,"PlanId":0,"PartId":0,"Month":0,"Year":0,"AddressId":null,"UnitId":0,"ServiceId":null,"RequestedServiceId":null,"PartType":null,"PartTypeId":null,"PageId":0,"ShowDeleted":false,"ServiceCaseNumber":null,"LastCallDateTime":null,"PageNumber":null,"pageSize":0,"DeviceType":null,"DeviceToken":null,"NotificationId":null,"EmployeeId":0,"BillingId":null}}]}
+
+2017-06-20 11:51:22.7492|INFO|api.Helpers.NLogger|JSON
+Method: GET
+URL: http://192.168.1.124:8989/api/v1/profile/GetClientAddress?ClientId=8
+Controller : api.Controllers.ProfileController
+Action : GetClientAddress
+Action Parameters : {"messageFormat":"JSON","messageArguments":[{"ClientId":8}]}
+
+2017-06-20 11:51:22.8429|INFO|api.Helpers.NLogger|JSON
+Method: GET
+URL: http://192.168.1.124:8989/api/v1/common/GetAllPlanTypeFromAddressID?AddressId=1065
+Controller : api.Controllers.CommonController
+Action : GetAllPlanTypeFromAddressID
+Action Parameters : {"messageFormat":"JSON","messageArguments":[{"AddressId":1065}]}
+
+2017-06-20 11:51:22.9211|INFO|api.Helpers.NLogger|JSON
+Method: POST
+URL: http://192.168.1.124:8989/api/v1/profile/GetClientUnitByAddressIdPlanType
+Controller : api.Controllers.NewProfileController
+Action : GetClientUnit
+Action Parameters : {"messageFormat":"JSON","messageArguments":[{"request":{"Email":null,"ClientId":8,"PlanTypeId":1,"PlanId":0,"PartId":0,"Month":0,"Year":0,"AddressId":1065,"UnitId":0,"ServiceId":null,"RequestedServiceId":null,"PartType":null,"PartTypeId":null,"PageId":0,"ShowDeleted":false,"ServiceCaseNumber":null,"LastCallDateTime":null,"PageNumber":null,"pageSize":0,"DeviceType":null,"DeviceToken":null,"NotificationId":null,"EmployeeId":0,"BillingId":null}}]}
+
+2017-06-20 11:51:22.9523|INFO|api.Helpers.NLogger|JSON
+Method: POST
+URL: http://192.168.1.124:8989/api/v1/common/GetScheduleTimeByPlanTypeServiceId
+Controller : api.Controllers.CommonController
+Action : GetScheduleTimeByPlanTypeServiceId
+Action Parameters : {"messageFormat":"JSON","messageArguments":[{"request":{"Email":null,"ClientId":0,"PlanTypeId":1,"PlanId":0,"PartId":0,"Month":0,"Year":0,"AddressId":null,"UnitId":0,"ServiceId":null,"RequestedServiceId":null,"PartType":null,"PartTypeId":null,"PageId":0,"ShowDeleted":false,"ServiceCaseNumber":null,"LastCallDateTime":null,"PageNumber":null,"pageSize":0,"DeviceType":null,"DeviceToken":null,"NotificationId":null,"EmployeeId":0,"BillingId":null}}]}
+
+2017-06-20 11:51:26.4030|INFO|api.Helpers.NLogger|JSON
+Method: POST
+URL: http://192.168.1.124:8989/api/v1/profile/ClientDashboard
+Controller : api.Controllers.ProfileController
+Action : ClientDashboard
+Action Parameters : {"messageFormat":"JSON","messageArguments":[{"request":{"Email":null,"ClientId":8,"PlanTypeId":0,"PlanId":0,"PartId":0,"Month":0,"Year":0,"AddressId":null,"UnitId":0,"ServiceId":null,"RequestedServiceId":null,"PartType":null,"PartTypeId":null,"PageId":0,"ShowDeleted":false,"ServiceCaseNumber":null,"LastCallDateTime":null,"PageNumber":null,"pageSize":0,"DeviceType":null,"DeviceToken":null,"NotificationId":null,"EmployeeId":0,"BillingId":null}}]}
+
+2017-06-20 11:51:30.9813|INFO|api.Helpers.NLogger|JSON
+Method: GET
+URL: http://192.168.1.124:8989/api/v1/profile/GetClientAddress?ClientId=8
+Controller : api.Controllers.ProfileController
+Action : GetClientAddress
+Action Parameters : {"messageFormat":"JSON","messageArguments":[{"ClientId":8}]}
+
+2017-06-20 11:51:31.0594|INFO|api.Helpers.NLogger|JSON
+Method: GET
+URL: http://192.168.1.124:8989/api/v1/common/GetAllPlanTypeFromAddressID?AddressId=1065
+Controller : api.Controllers.CommonController
+Action : GetAllPlanTypeFromAddressID
+Action Parameters : {"messageFormat":"JSON","messageArguments":[{"AddressId":1065}]}
+
+2017-06-20 11:51:31.1063|INFO|api.Helpers.NLogger|JSON
+Method: POST
+URL: http://192.168.1.124:8989/api/v1/profile/GetClientUnitByAddressIdPlanType
+Controller : api.Controllers.NewProfileController
+Action : GetClientUnit
+Action Parameters : {"messageFormat":"JSON","messageArguments":[{"request":{"Email":null,"ClientId":8,"PlanTypeId":1,"PlanId":0,"PartId":0,"Month":0,"Year":0,"AddressId":1065,"UnitId":0,"ServiceId":null,"RequestedServiceId":null,"PartType":null,"PartTypeId":null,"PageId":0,"ShowDeleted":false,"ServiceCaseNumber":null,"LastCallDateTime":null,"PageNumber":null,"pageSize":0,"DeviceType":null,"DeviceToken":null,"NotificationId":null,"EmployeeId":0,"BillingId":null}}]}
+
+2017-06-20 11:51:31.1219|INFO|api.Helpers.NLogger|JSON
+Method: POST
+URL: http://192.168.1.124:8989/api/v1/common/GetScheduleTimeByPlanTypeServiceId
+Controller : api.Controllers.CommonController
+Action : GetScheduleTimeByPlanTypeServiceId
+Action Parameters : {"messageFormat":"JSON","messageArguments":[{"request":{"Email":null,"ClientId":0,"PlanTypeId":1,"PlanId":0,"PartId":0,"Month":0,"Year":0,"AddressId":null,"UnitId":0,"ServiceId":null,"RequestedServiceId":null,"PartType":null,"PartTypeId":null,"PageId":0,"ShowDeleted":false,"ServiceCaseNumber":null,"LastCallDateTime":null,"PageNumber":null,"pageSize":0,"DeviceType":null,"DeviceToken":null,"NotificationId":null,"EmployeeId":0,"BillingId":null}}]}
+
+2017-06-20 11:52:52.1749|INFO|api.Helpers.NLogger|JSON
+Method: POST
+URL: http://192.168.1.124:8989/api/v1/profile/ClientDashboard
+Controller : api.Controllers.ProfileController
+Action : ClientDashboard
+Action Parameters : {"messageFormat":"JSON","messageArguments":[{"request":{"Email":null,"ClientId":8,"PlanTypeId":0,"PlanId":0,"PartId":0,"Month":0,"Year":0,"AddressId":null,"UnitId":0,"ServiceId":null,"RequestedServiceId":null,"PartType":null,"PartTypeId":null,"PageId":0,"ShowDeleted":false,"ServiceCaseNumber":null,"LastCallDateTime":null,"PageNumber":null,"pageSize":0,"DeviceType":null,"DeviceToken":null,"NotificationId":null,"EmployeeId":0,"BillingId":null}}]}
+
+2017-06-20 11:52:58.1918|INFO|api.Helpers.NLogger|JSON
+Method: GET
+URL: http://192.168.1.124:8989/api/v1/profile/GetClientAddress?ClientId=8
+Controller : api.Controllers.ProfileController
+Action : GetClientAddress
+Action Parameters : {"messageFormat":"JSON","messageArguments":[{"ClientId":8}]}
+
+2017-06-20 11:52:58.2634|INFO|api.Helpers.NLogger|JSON
+Method: GET
+URL: http://192.168.1.124:8989/api/v1/common/GetAllPlanTypeFromAddressID?AddressId=1065
+Controller : api.Controllers.CommonController
+Action : GetAllPlanTypeFromAddressID
+Action Parameters : {"messageFormat":"JSON","messageArguments":[{"AddressId":1065}]}
+
+2017-06-20 11:52:58.3258|INFO|api.Helpers.NLogger|JSON
+Method: POST
+URL: http://192.168.1.124:8989/api/v1/profile/GetClientUnitByAddressIdPlanType
+Controller : api.Controllers.NewProfileController
+Action : GetClientUnit
+Action Parameters : {"messageFormat":"JSON","messageArguments":[{"request":{"Email":null,"ClientId":8,"PlanTypeId":1,"PlanId":0,"PartId":0,"Month":0,"Year":0,"AddressId":1065,"UnitId":0,"ServiceId":null,"RequestedServiceId":null,"PartType":null,"PartTypeId":null,"PageId":0,"ShowDeleted":false,"ServiceCaseNumber":null,"LastCallDateTime":null,"PageNumber":null,"pageSize":0,"DeviceType":null,"DeviceToken":null,"NotificationId":null,"EmployeeId":0,"BillingId":null}}]}
+
+2017-06-20 11:52:58.3414|INFO|api.Helpers.NLogger|JSON
+Method: POST
+URL: http://192.168.1.124:8989/api/v1/common/GetScheduleTimeByPlanTypeServiceId
+Controller : api.Controllers.CommonController
+Action : GetScheduleTimeByPlanTypeServiceId
+Action Parameters : {"messageFormat":"JSON","messageArguments":[{"request":{"Email":null,"ClientId":0,"PlanTypeId":1,"PlanId":0,"PartId":0,"Month":0,"Year":0,"AddressId":null,"UnitId":0,"ServiceId":null,"RequestedServiceId":null,"PartType":null,"PartTypeId":null,"PageId":0,"ShowDeleted":false,"ServiceCaseNumber":null,"LastCallDateTime":null,"PageNumber":null,"pageSize":0,"DeviceType":null,"DeviceToken":null,"NotificationId":null,"EmployeeId":0,"BillingId":null}}]}
+
+2017-06-20 11:53:25.6479|INFO|api.Helpers.NLogger|JSON
+Method: POST
+URL: http://192.168.1.124:8989/api/v1/profile/AddRequestForService
+Controller : api.Controllers.ProfileController
+Action : AddRequestForService
+Action Parameters : {"messageFormat":"JSON","messageArguments":[{"request":{"EmployeeId":null,"ServiceId":null,"ClientId":8,"AddressId":1065,"PurposeOfVisit":"3","ServiceRequestedTime":"08:00 AM - 12:00 PM","ServiceRequestedOn":"\/Date(1498156200000)\/","Notes":"","Reason":null,"IsCancelled":false,"Units":[1306],"NotificationId":0,"IsLateReschedule":false}}]}
+
+2017-06-20 11:53:29.2015|INFO|api.Helpers.NLogger|JSON
+Method: POST
+URL: http://192.168.1.124:8989/api/v1/profile/GetClientUnitByAddressIdPlanType
+Controller : api.Controllers.NewProfileController
+Action : GetClientUnit
+Action Parameters : {"messageFormat":"JSON","messageArguments":[{"request":{"Email":null,"ClientId":8,"PlanTypeId":4,"PlanId":0,"PartId":0,"Month":0,"Year":0,"AddressId":1065,"UnitId":0,"ServiceId":null,"RequestedServiceId":null,"PartType":null,"PartTypeId":null,"PageId":0,"ShowDeleted":false,"ServiceCaseNumber":null,"LastCallDateTime":null,"PageNumber":null,"pageSize":0,"DeviceType":null,"DeviceToken":null,"NotificationId":null,"EmployeeId":0,"BillingId":null}}]}
+
+2017-06-20 11:53:29.2015|INFO|api.Helpers.NLogger|JSON
+Method: POST
+URL: http://192.168.1.124:8989/api/v1/common/GetScheduleTimeByPlanTypeServiceId
+Controller : api.Controllers.CommonController
+Action : GetScheduleTimeByPlanTypeServiceId
+Action Parameters : {"messageFormat":"JSON","messageArguments":[{"request":{"Email":null,"ClientId":0,"PlanTypeId":4,"PlanId":0,"PartId":0,"Month":0,"Year":0,"AddressId":null,"UnitId":0,"ServiceId":null,"RequestedServiceId":null,"PartType":null,"PartTypeId":null,"PageId":0,"ShowDeleted":false,"ServiceCaseNumber":null,"LastCallDateTime":null,"PageNumber":null,"pageSize":0,"DeviceType":null,"DeviceToken":null,"NotificationId":null,"EmployeeId":0,"BillingId":null}}]}
+
+2017-06-20 11:53:36.3968|INFO|api.Helpers.NLogger|JSON
+Method: POST
+URL: http://192.168.1.124:8989/api/v1/profile/AddRequestForService
+Controller : api.Controllers.ProfileController
+Action : AddRequestForService
+Action Parameters : {"messageFormat":"JSON","messageArguments":[{"request":{"EmployeeId":null,"ServiceId":null,"ClientId":8,"AddressId":1065,"PurposeOfVisit":"3","ServiceRequestedTime":"12:00 PM - 04:00 PM","ServiceRequestedOn":"\/Date(1498156200000)\/","Notes":"","Reason":null,"IsCancelled":false,"Units":[1308],"NotificationId":0,"IsLateReschedule":false}}]}
+
+2017-06-20 11:53:37.4282|INFO|api.Helpers.NLogger|JSON
+Method: POST
+URL: http://192.168.1.124:8989/api/v1/profile/RequestForServiceList
+Controller : api.Controllers.ProfileController
+Action : RequestForServiceList
+Action Parameters : {"messageFormat":"JSON","messageArguments":[{"request":{"Email":null,"ClientId":8,"PlanTypeId":0,"PlanId":0,"PartId":0,"Month":0,"Year":0,"AddressId":null,"UnitId":0,"ServiceId":null,"RequestedServiceId":null,"PartType":null,"PartTypeId":null,"PageId":0,"ShowDeleted":false,"ServiceCaseNumber":null,"LastCallDateTime":null,"PageNumber":null,"pageSize":0,"DeviceType":null,"DeviceToken":null,"NotificationId":null,"EmployeeId":0,"BillingId":null}}]}
+
+2017-06-20 11:53:39.2417|INFO|api.Helpers.NLogger|JSON
+Method: GET
+URL: http://192.168.1.124:8989/api/v1/profile/GetClientAddress?ClientId=8
+Controller : api.Controllers.ProfileController
+Action : GetClientAddress
+Action Parameters : {"messageFormat":"JSON","messageArguments":[{"ClientId":8}]}
+
+2017-06-20 11:53:39.3043|INFO|api.Helpers.NLogger|JSON
+Method: GET
+URL: http://192.168.1.124:8989/api/v1/common/GetAllPlanTypeFromAddressID?AddressId=1065
+Controller : api.Controllers.CommonController
+Action : GetAllPlanTypeFromAddressID
+Action Parameters : {"messageFormat":"JSON","messageArguments":[{"AddressId":1065}]}
+
+2017-06-20 11:53:39.3667|INFO|api.Helpers.NLogger|JSON
+Method: POST
+URL: http://192.168.1.124:8989/api/v1/profile/GetClientUnitByAddressIdPlanType
+Controller : api.Controllers.NewProfileController
+Action : GetClientUnit
+Action Parameters : {"messageFormat":"JSON","messageArguments":[{"request":{"Email":null,"ClientId":8,"PlanTypeId":1,"PlanId":0,"PartId":0,"Month":0,"Year":0,"AddressId":1065,"UnitId":0,"ServiceId":null,"RequestedServiceId":null,"PartType":null,"PartTypeId":null,"PageId":0,"ShowDeleted":false,"ServiceCaseNumber":null,"LastCallDateTime":null,"PageNumber":null,"pageSize":0,"DeviceType":null,"DeviceToken":null,"NotificationId":null,"EmployeeId":0,"BillingId":null}}]}
+
+2017-06-20 11:53:39.3667|INFO|api.Helpers.NLogger|JSON
+Method: POST
+URL: http://192.168.1.124:8989/api/v1/common/GetScheduleTimeByPlanTypeServiceId
+Controller : api.Controllers.CommonController
+Action : GetScheduleTimeByPlanTypeServiceId
+Action Parameters : {"messageFormat":"JSON","messageArguments":[{"request":{"Email":null,"ClientId":0,"PlanTypeId":1,"PlanId":0,"PartId":0,"Month":0,"Year":0,"AddressId":null,"UnitId":0,"ServiceId":null,"RequestedServiceId":null,"PartType":null,"PartTypeId":null,"PageId":0,"ShowDeleted":false,"ServiceCaseNumber":null,"LastCallDateTime":null,"PageNumber":null,"pageSize":0,"DeviceType":null,"DeviceToken":null,"NotificationId":null,"EmployeeId":0,"BillingId":null}}]}
+
+2017-06-20 11:53:41.8563|INFO|api.Helpers.NLogger|JSON
+Method: GET
+URL: http://192.168.1.124:8989/api/v1/common/GetAllPlanTypeFromAddressID?AddressId=1012
+Controller : api.Controllers.CommonController
+Action : GetAllPlanTypeFromAddressID
+Action Parameters : {"messageFormat":"JSON","messageArguments":[{"AddressId":1012}]}
+
+2017-06-20 11:53:41.9188|INFO|api.Helpers.NLogger|JSON
+Method: POST
+URL: http://192.168.1.124:8989/api/v1/common/GetScheduleTimeByPlanTypeServiceId
+Controller : api.Controllers.CommonController
+Action : GetScheduleTimeByPlanTypeServiceId
+Action Parameters : {"messageFormat":"JSON","messageArguments":[{"request":{"Email":null,"ClientId":0,"PlanTypeId":1,"PlanId":0,"PartId":0,"Month":0,"Year":0,"AddressId":null,"UnitId":0,"ServiceId":null,"RequestedServiceId":null,"PartType":null,"PartTypeId":null,"PageId":0,"ShowDeleted":false,"ServiceCaseNumber":null,"LastCallDateTime":null,"PageNumber":null,"pageSize":0,"DeviceType":null,"DeviceToken":null,"NotificationId":null,"EmployeeId":0,"BillingId":null}}]}
+
+2017-06-20 11:53:41.9188|INFO|api.Helpers.NLogger|JSON
+Method: POST
+URL: http://192.168.1.124:8989/api/v1/profile/GetClientUnitByAddressIdPlanType
+Controller : api.Controllers.NewProfileController
+Action : GetClientUnit
+Action Parameters : {"messageFormat":"JSON","messageArguments":[{"request":{"Email":null,"ClientId":8,"PlanTypeId":1,"PlanId":0,"PartId":0,"Month":0,"Year":0,"AddressId":1012,"UnitId":0,"ServiceId":null,"RequestedServiceId":null,"PartType":null,"PartTypeId":null,"PageId":0,"ShowDeleted":false,"ServiceCaseNumber":null,"LastCallDateTime":null,"PageNumber":null,"pageSize":0,"DeviceType":null,"DeviceToken":null,"NotificationId":null,"EmployeeId":0,"BillingId":null}}]}
+
+2017-06-20 11:53:52.9627|INFO|api.Helpers.NLogger|JSON
+Method: POST
+URL: http://192.168.1.124:8989/api/v1/profile/AddRequestForService
+Controller : api.Controllers.ProfileController
+Action : AddRequestForService
+Action Parameters : {"messageFormat":"JSON","messageArguments":[{"request":{"EmployeeId":null,"ServiceId":null,"ClientId":8,"AddressId":1012,"PurposeOfVisit":"3","ServiceRequestedTime":"08:00 AM - 12:00 PM","ServiceRequestedOn":"\/Date(1498156200000)\/","Notes":"","Reason":null,"IsCancelled":false,"Units":[1035],"NotificationId":0,"IsLateReschedule":false}}]}
+
+2017-06-20 11:54:00.8721|INFO|api.Helpers.NLogger|JSON
+Method: POST
+URL: http://192.168.1.124:8989/api/v1/profile/AddRequestForService
+Controller : api.Controllers.ProfileController
+Action : AddRequestForService
+Action Parameters : {"messageFormat":"JSON","messageArguments":[{"request":{"EmployeeId":null,"ServiceId":null,"ClientId":8,"AddressId":1012,"PurposeOfVisit":"3","ServiceRequestedTime":"08:00 AM - 12:00 PM","ServiceRequestedOn":"\/Date(1498156200000)\/","Notes":"","Reason":null,"IsCancelled":false,"Units":[1034],"NotificationId":0,"IsLateReschedule":false}}]}
+
+2017-06-20 11:54:09.9408|INFO|api.Helpers.NLogger|JSON
+Method: POST
+URL: http://192.168.1.124:8989/api/v1/profile/AddRequestForService
+Controller : api.Controllers.ProfileController
+Action : AddRequestForService
+Action Parameters : {"messageFormat":"JSON","messageArguments":[{"request":{"EmployeeId":null,"ServiceId":null,"ClientId":8,"AddressId":1012,"PurposeOfVisit":"3","ServiceRequestedTime":"08:00 AM - 12:00 PM","ServiceRequestedOn":"\/Date(1498156200000)\/","Notes":"","Reason":null,"IsCancelled":false,"Units":[1036],"NotificationId":0,"IsLateReschedule":false}}]}
+
+2017-06-20 11:54:15.0670|INFO|api.Helpers.NLogger|JSON
+Method: POST
+URL: http://192.168.1.124:8989/api/v1/profile/ClientDashboard
+Controller : api.Controllers.ProfileController
+Action : ClientDashboard
+Action Parameters : {"messageFormat":"JSON","messageArguments":[{"request":{"Email":null,"ClientId":8,"PlanTypeId":0,"PlanId":0,"PartId":0,"Month":0,"Year":0,"AddressId":null,"UnitId":0,"ServiceId":null,"RequestedServiceId":null,"PartType":null,"PartTypeId":null,"PageId":0,"ShowDeleted":false,"ServiceCaseNumber":null,"LastCallDateTime":null,"PageNumber":null,"pageSize":0,"DeviceType":null,"DeviceToken":null,"NotificationId":null,"EmployeeId":0,"BillingId":null}}]}
+
+2017-06-20 12:06:53.5712|INFO|api.Helpers.NLogger|JSON
+Method: POST
+URL: http://192.168.1.124:8989/api/v1/profile/ClientDashboard
+Controller : api.Controllers.ProfileController
+Action : ClientDashboard
+Action Parameters : {"messageFormat":"JSON","messageArguments":[{"request":{"Email":null,"ClientId":8,"PlanTypeId":0,"PlanId":0,"PartId":0,"Month":0,"Year":0,"AddressId":null,"UnitId":0,"ServiceId":null,"RequestedServiceId":null,"PartType":null,"PartTypeId":null,"PageId":0,"ShowDeleted":false,"ServiceCaseNumber":null,"LastCallDateTime":null,"PageNumber":null,"pageSize":0,"DeviceType":null,"DeviceToken":null,"NotificationId":null,"EmployeeId":0,"BillingId":null}}]}
+
+2017-06-20 12:09:19.3621|INFO|api.Helpers.NLogger|JSON
+Method: POST
+URL: http://192.168.1.124:8989/api/v1/profile/ClientDashboard
+Controller : api.Controllers.ProfileController
+Action : ClientDashboard
+Action Parameters : {"messageFormat":"JSON","messageArguments":[{"request":{"Email":null,"ClientId":8,"PlanTypeId":0,"PlanId":0,"PartId":0,"Month":0,"Year":0,"AddressId":null,"UnitId":0,"ServiceId":null,"RequestedServiceId":null,"PartType":null,"PartTypeId":null,"PageId":0,"ShowDeleted":false,"ServiceCaseNumber":null,"LastCallDateTime":null,"PageNumber":null,"pageSize":0,"DeviceType":null,"DeviceToken":null,"NotificationId":null,"EmployeeId":0,"BillingId":null}}]}
+
+2017-06-20 12:09:31.5059|INFO|api.Helpers.NLogger|JSON
+Method: POST
+URL: http://192.168.1.124:8989/api/v1/profile/NotificationList
+Controller : api.Controllers.NewProfileController
+Action : NotificationList
+Action Parameters : {"messageFormat":"JSON","messageArguments":[{"request":{"Email":null,"ClientId":8,"PlanTypeId":0,"PlanId":0,"PartId":0,"Month":0,"Year":0,"AddressId":null,"UnitId":0,"ServiceId":null,"RequestedServiceId":null,"PartType":null,"PartTypeId":null,"PageId":0,"ShowDeleted":false,"ServiceCaseNumber":null,"LastCallDateTime":null,"PageNumber":1,"pageSize":0,"DeviceType":null,"DeviceToken":null,"NotificationId":null,"EmployeeId":0,"BillingId":null}}]}
+
+2017-06-20 12:09:35.4069|INFO|api.Helpers.NLogger|JSON
+Method: POST
+URL: http://192.168.1.124:8989/api/v1/profile/WaitingServiceDetail
+Controller : api.Controllers.ProfileController
+Action : WaitingServiceDetail
+Action Parameters : {"messageFormat":"JSON","messageArguments":[{"request":{"ClientId":8,"CardId":0,"UnitId":0,"NotificationId":11581,"ServiceId":10336,"Status":false}}]}
+
+2017-06-20 12:09:36.8446|INFO|api.Helpers.NLogger|JSON
+Method: POST
+URL: http://192.168.1.124:8989/api/v1/profile/ApproveWaitingService
+Controller : api.Controllers.ProfileController
+Action : ApproveWaitingService
+Action Parameters : {"messageFormat":"JSON","messageArguments":[{"request":{"ClientId":8,"CardId":0,"UnitId":0,"NotificationId":11581,"ServiceId":10336,"Status":false}}]}
+
+2017-06-20 12:09:38.1477|INFO|api.Helpers.NLogger|JSON
+Method: POST
+URL: http://192.168.1.124:8989/api/v1/profile/NotificationList
+Controller : api.Controllers.NewProfileController
+Action : NotificationList
+Action Parameters : {"messageFormat":"JSON","messageArguments":[{"request":{"Email":null,"ClientId":8,"PlanTypeId":0,"PlanId":0,"PartId":0,"Month":0,"Year":0,"AddressId":null,"UnitId":0,"ServiceId":null,"RequestedServiceId":null,"PartType":null,"PartTypeId":null,"PageId":0,"ShowDeleted":false,"ServiceCaseNumber":null,"LastCallDateTime":null,"PageNumber":1,"pageSize":0,"DeviceType":null,"DeviceToken":null,"NotificationId":null,"EmployeeId":0,"BillingId":null}}]}
+
+2017-06-20 12:09:41.6552|INFO|api.Helpers.NLogger|JSON
+Method: POST
+URL: http://192.168.1.124:8989/api/v1/profile/ClientDashboard
+Controller : api.Controllers.ProfileController
+Action : ClientDashboard
+Action Parameters : {"messageFormat":"JSON","messageArguments":[{"request":{"Email":null,"ClientId":8,"PlanTypeId":0,"PlanId":0,"PartId":0,"Month":0,"Year":0,"AddressId":null,"UnitId":0,"ServiceId":null,"RequestedServiceId":null,"PartType":null,"PartTypeId":null,"PageId":0,"ShowDeleted":false,"ServiceCaseNumber":null,"LastCallDateTime":null,"PageNumber":null,"pageSize":0,"DeviceType":null,"DeviceToken":null,"NotificationId":null,"EmployeeId":0,"BillingId":null}}]}
+
+2017-06-20 12:09:43.8428|INFO|api.Helpers.NLogger|JSON
+Method: GET
+URL: http://192.168.1.124:8989/api/v1/profile/GetClientAddress?ClientId=8
+Controller : api.Controllers.ProfileController
+Action : GetClientAddress
+Action Parameters : {"messageFormat":"JSON","messageArguments":[{"ClientId":8}]}
+
+2017-06-20 12:09:43.9053|INFO|api.Helpers.NLogger|JSON
+Method: GET
+URL: http://192.168.1.124:8989/api/v1/common/GetAllPlanTypeFromAddressID?AddressId=1065
+Controller : api.Controllers.CommonController
+Action : GetAllPlanTypeFromAddressID
+Action Parameters : {"messageFormat":"JSON","messageArguments":[{"AddressId":1065}]}
+
+2017-06-20 12:09:43.9678|INFO|api.Helpers.NLogger|JSON
+Method: POST
+URL: http://192.168.1.124:8989/api/v1/profile/GetClientUnitByAddressIdPlanType
+Controller : api.Controllers.NewProfileController
+Action : GetClientUnit
+Action Parameters : {"messageFormat":"JSON","messageArguments":[{"request":{"Email":null,"ClientId":8,"PlanTypeId":1,"PlanId":0,"PartId":0,"Month":0,"Year":0,"AddressId":1065,"UnitId":0,"ServiceId":null,"RequestedServiceId":null,"PartType":null,"PartTypeId":null,"PageId":0,"ShowDeleted":false,"ServiceCaseNumber":null,"LastCallDateTime":null,"PageNumber":null,"pageSize":0,"DeviceType":null,"DeviceToken":null,"NotificationId":null,"EmployeeId":0,"BillingId":null}}]}
+
+2017-06-20 12:09:43.9834|INFO|api.Helpers.NLogger|JSON
+Method: POST
+URL: http://192.168.1.124:8989/api/v1/common/GetScheduleTimeByPlanTypeServiceId
+Controller : api.Controllers.CommonController
+Action : GetScheduleTimeByPlanTypeServiceId
+Action Parameters : {"messageFormat":"JSON","messageArguments":[{"request":{"Email":null,"ClientId":0,"PlanTypeId":1,"PlanId":0,"PartId":0,"Month":0,"Year":0,"AddressId":null,"UnitId":0,"ServiceId":null,"RequestedServiceId":null,"PartType":null,"PartTypeId":null,"PageId":0,"ShowDeleted":false,"ServiceCaseNumber":null,"LastCallDateTime":null,"PageNumber":null,"pageSize":0,"DeviceType":null,"DeviceToken":null,"NotificationId":null,"EmployeeId":0,"BillingId":null}}]}
+
+2017-06-20 12:09:46.1867|INFO|api.Helpers.NLogger|JSON
+Method: POST
+URL: http://192.168.1.124:8989/api/v1/profile/UpcomingServices
+Controller : api.Controllers.ProfileController
+Action : UpcomingServices
+Action Parameters : {"messageFormat":"JSON","messageArguments":[{"request":{"Email":null,"ClientId":8,"PlanTypeId":0,"PlanId":0,"PartId":0,"Month":0,"Year":0,"AddressId":null,"UnitId":0,"ServiceId":null,"RequestedServiceId":null,"PartType":null,"PartTypeId":null,"PageId":0,"ShowDeleted":false,"ServiceCaseNumber":null,"LastCallDateTime":null,"PageNumber":null,"pageSize":0,"DeviceType":null,"DeviceToken":null,"NotificationId":null,"EmployeeId":0,"BillingId":null}}]}
+
+2017-06-20 19:11:16.9362|INFO|api.Helpers.NLogger|JSON
+Method: POST
+URL: http://192.168.1.124:8989/api/v1/profile/UpcomingServices
+Controller : api.Controllers.ProfileController
+Action : UpcomingServices
+Action Parameters : {"messageFormat":"JSON","messageArguments":[{"request":{"Email":null,"ClientId":1061,"PlanTypeId":0,"PlanId":0,"PartId":0,"Month":0,"Year":0,"AddressId":null,"UnitId":0,"ServiceId":null,"RequestedServiceId":null,"PartType":null,"PartTypeId":null,"PageId":0,"ShowDeleted":false,"ServiceCaseNumber":null,"LastCallDateTime":null,"PageNumber":null,"pageSize":0,"DeviceType":null,"DeviceToken":null,"NotificationId":null,"EmployeeId":0,"BillingId":null}}]}
+
+2017-06-20 20:12:36.4934|INFO|api.Helpers.NLogger|JSON
+Method: POST
+URL: http://192.168.1.124:8989/api/v1/profile/ClientDashboard
+Controller : api.Controllers.ProfileController
+Action : ClientDashboard
+Action Parameters : {"messageFormat":"JSON","messageArguments":[{"request":{"Email":null,"ClientId":1061,"PlanTypeId":0,"PlanId":0,"PartId":0,"Month":0,"Year":0,"AddressId":null,"UnitId":0,"ServiceId":null,"RequestedServiceId":null,"PartType":null,"PartTypeId":null,"PageId":0,"ShowDeleted":false,"ServiceCaseNumber":null,"LastCallDateTime":null,"PageNumber":null,"pageSize":0,"DeviceType":null,"DeviceToken":null,"NotificationId":null,"EmployeeId":0,"BillingId":null}}]}
+
+2017-06-20 20:12:54.2992|INFO|api.Helpers.NLogger|JSON
+Method: GET
+URL: http://192.168.1.124:8989/api/v1/profile/GetClientAddress?ClientId=1061
+Controller : api.Controllers.ProfileController
+Action : GetClientAddress
+Action Parameters : {"messageFormat":"JSON","messageArguments":[{"ClientId":1061}]}
+
+2017-06-20 20:12:54.4032|INFO|api.Helpers.NLogger|JSON
+Method: GET
+URL: http://192.168.1.124:8989/api/v1/common/GetAllPlanTypeFromAddressID?AddressId=1069
+Controller : api.Controllers.CommonController
+Action : GetAllPlanTypeFromAddressID
+Action Parameters : {"messageFormat":"JSON","messageArguments":[{"AddressId":1069}]}
+
+2017-06-20 20:12:54.6652|INFO|api.Helpers.NLogger|JSON
+Method: POST
+URL: http://192.168.1.124:8989/api/v1/profile/GetClientUnitByAddressIdPlanType
+Controller : api.Controllers.NewProfileController
+Action : GetClientUnit
+Action Parameters : {"messageFormat":"JSON","messageArguments":[{"request":{"Email":null,"ClientId":1061,"PlanTypeId":1,"PlanId":0,"PartId":0,"Month":0,"Year":0,"AddressId":1069,"UnitId":0,"ServiceId":null,"RequestedServiceId":null,"PartType":null,"PartTypeId":null,"PageId":0,"ShowDeleted":false,"ServiceCaseNumber":null,"LastCallDateTime":null,"PageNumber":null,"pageSize":0,"DeviceType":null,"DeviceToken":null,"NotificationId":null,"EmployeeId":0,"BillingId":null}}]}
+
+2017-06-20 20:12:54.6722|INFO|api.Helpers.NLogger|JSON
+Method: POST
+URL: http://192.168.1.124:8989/api/v1/common/GetScheduleTimeByPlanTypeServiceId
+Controller : api.Controllers.CommonController
+Action : GetScheduleTimeByPlanTypeServiceId
+Action Parameters : {"messageFormat":"JSON","messageArguments":[{"request":{"Email":null,"ClientId":0,"PlanTypeId":1,"PlanId":0,"PartId":0,"Month":0,"Year":0,"AddressId":null,"UnitId":0,"ServiceId":null,"RequestedServiceId":null,"PartType":null,"PartTypeId":null,"PageId":0,"ShowDeleted":false,"ServiceCaseNumber":null,"LastCallDateTime":null,"PageNumber":null,"pageSize":0,"DeviceType":null,"DeviceToken":null,"NotificationId":null,"EmployeeId":0,"BillingId":null}}]}
+

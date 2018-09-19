@@ -1,0 +1,84 @@
+2016-12-22 11:54:21.6985|INFO|api.Helpers.NLogger|JSON
+Method: POST
+URL: http://192.168.1.119:6987/v1/profile/UpcomingServices
+Controller : api.Controllers.ProfileController
+Action : UpcomingServices
+Action Parameters : {"messageFormat":"JSON","messageArguments":[{"request":{"Email":null,"ClientId":5,"PlanTypeId":0,"PlanId":0,"PartId":0,"Month":0,"Year":0,"AddressId":null,"UnitId":0,"ServiceId":null,"RequestedServiceId":null,"PartType":null,"PartTypeId":null,"PageId":0,"ShowDeleted":false,"ServiceCaseNumber":null,"LastCallDateTime":null,"PageNumber":null,"pageSize":0,"DeviceType":null,"DeviceToken":null,"NotificationId":null,"EmployeeId":0,"BillingId":null}}]}
+
+2016-12-22 11:55:10.6062|INFO|api.Helpers.NLogger|JSON
+Method: POST
+URL: http://192.168.1.119:6987/v1/profile/UpcomingServices
+Controller : api.Controllers.ProfileController
+Action : UpcomingServices
+Action Parameters : {"messageFormat":"JSON","messageArguments":[{"request":{"Email":null,"ClientId":5,"PlanTypeId":0,"PlanId":0,"PartId":0,"Month":0,"Year":0,"AddressId":null,"UnitId":0,"ServiceId":null,"RequestedServiceId":null,"PartType":null,"PartTypeId":null,"PageId":0,"ShowDeleted":false,"ServiceCaseNumber":null,"LastCallDateTime":null,"PageNumber":null,"pageSize":0,"DeviceType":null,"DeviceToken":null,"NotificationId":null,"EmployeeId":0,"BillingId":null}}]}
+
+2016-12-22 12:17:05.2803|INFO|api.Helpers.NLogger|JSON
+Method: POST
+URL: http://192.168.1.119:6987/v1/profile/UpcomingServices
+Controller : api.Controllers.ProfileController
+Action : UpcomingServices
+Action Parameters : {"messageFormat":"JSON","messageArguments":[{"request":{"Email":null,"ClientId":5,"PlanTypeId":0,"PlanId":0,"PartId":0,"Month":0,"Year":0,"AddressId":null,"UnitId":0,"ServiceId":null,"RequestedServiceId":null,"PartType":null,"PartTypeId":null,"PageId":0,"ShowDeleted":false,"ServiceCaseNumber":null,"LastCallDateTime":null,"PageNumber":null,"pageSize":0,"DeviceType":null,"DeviceToken":null,"NotificationId":null,"EmployeeId":0,"BillingId":null}}]}
+
+2016-12-22 12:45:42.7641|INFO|api.Helpers.NLogger|JSON
+Method: POST
+URL: http://192.168.1.119:6987/v1/employee/ResendOrder
+Controller : api.Controllers.EmployeeController
+Action : ResendOrder
+Action Parameters : {"messageFormat":"JSON","messageArguments":[{"emp":{"NotificationId":0,"EmployeeId":3,"SalesVisitRequestId":0,"Month":0,"Year":0,"Day":0,"ServiceId":0,"ReportId":0,"UnitId":0,"Latitude":null,"Longitude":null,"SearchTerm":null,"PageId":0,"LastCallDateTime":null,"PageNumber":null,"pageSize":0,"OrderId":26,"StatDate":null,"EndDate":null,"DeviceType":null,"DeviceToken":null,"ClientEmails":["testing.demi@gmail.com","testing.demi@gmail.com"],"CCEmail":null}}]}
+
+2016-12-22 13:06:10.9794|INFO|api.Helpers.NLogger|JSON
+Method: POST
+URL: http://192.168.1.119:6987/v1/employee/ResendReport
+Controller : api.Controllers.EmployeeController
+Action : ResendReport
+Action Parameters : {"messageFormat":"JSON","messageArguments":[{"emp":{"NotificationId":0,"EmployeeId":1,"SalesVisitRequestId":0,"Month":0,"Year":0,"Day":0,"ServiceId":0,"ReportId":12,"UnitId":0,"Latitude":null,"Longitude":null,"SearchTerm":null,"PageId":0,"LastCallDateTime":null,"PageNumber":null,"pageSize":0,"OrderId":0,"StatDate":null,"EndDate":null,"DeviceType":null,"DeviceToken":null,"ClientEmails":["testanynews@gmail.com",""],"CCEmail":null}}]}
+
+2016-12-22 13:07:12.4318|INFO|api.Helpers.NLogger|JSON
+Method: POST
+URL: http://192.168.1.119:6987/v1/employee/ResendReport
+Controller : api.Controllers.EmployeeController
+Action : ResendReport
+Action Parameters : {"messageFormat":"JSON","messageArguments":[{"emp":{"NotificationId":0,"EmployeeId":1,"SalesVisitRequestId":0,"Month":0,"Year":0,"Day":0,"ServiceId":0,"ReportId":12,"UnitId":0,"Latitude":null,"Longitude":null,"SearchTerm":null,"PageId":0,"LastCallDateTime":null,"PageNumber":null,"pageSize":0,"OrderId":0,"StatDate":null,"EndDate":null,"DeviceType":null,"DeviceToken":null,"ClientEmails":["testanynews@gmail.com",""],"CCEmail":null}}]}
+
+2016-12-22 13:07:41.0344|INFO|api.Helpers.NLogger|JSON
+Method: POST
+URL: http://192.168.1.119:6987/v1/employee/ResendReport
+Controller : api.Controllers.EmployeeController
+Action : ResendReport
+Action Parameters : {"messageFormat":"JSON","messageArguments":[{"emp":{"NotificationId":0,"EmployeeId":1,"SalesVisitRequestId":0,"Month":0,"Year":0,"Day":0,"ServiceId":0,"ReportId":12,"UnitId":0,"Latitude":null,"Longitude":null,"SearchTerm":null,"PageId":0,"LastCallDateTime":null,"PageNumber":null,"pageSize":0,"OrderId":0,"StatDate":null,"EndDate":null,"DeviceType":null,"DeviceToken":null,"ClientEmails":["testanynews@gmail.com",""],"CCEmail":null}}]}
+
+2016-12-22 16:28:34.5504|INFO|api.Helpers.NLogger|JSON
+Method: POST
+URL: http://192.168.1.119:6987/v1/employee/SubmitPartOrder
+Controller : api.Controllers.EmployeeController
+Action : SubmitPartOrder
+Action Parameters : {"messageFormat":"JSON","messageArguments":[{}]}
+
+2016-12-22 16:56:28.2848|INFO|api.Helpers.NLogger|JSON
+Method: POST
+URL: http://192.168.1.119:6987/v1/profile/UpcomingServices
+Controller : api.Controllers.ProfileController
+Action : UpcomingServices
+Action Parameters : {"messageFormat":"JSON","messageArguments":[{"request":{"Email":null,"ClientId":6,"PlanTypeId":0,"PlanId":0,"PartId":0,"Month":0,"Year":0,"AddressId":null,"UnitId":0,"ServiceId":null,"RequestedServiceId":null,"PartType":null,"PartTypeId":null,"PageId":0,"ShowDeleted":false,"ServiceCaseNumber":null,"LastCallDateTime":null,"PageNumber":null,"pageSize":0,"DeviceType":null,"DeviceToken":null,"NotificationId":null,"EmployeeId":0,"BillingId":null}}]}
+
+2016-12-22 16:57:13.4403|INFO|api.Helpers.NLogger|JSON
+Method: POST
+URL: http://192.168.1.119:6987/v1/profile/UpcomingServices
+Controller : api.Controllers.ProfileController
+Action : UpcomingServices
+Action Parameters : {"messageFormat":"JSON","messageArguments":[{"request":{"Email":null,"ClientId":6,"PlanTypeId":0,"PlanId":0,"PartId":0,"Month":0,"Year":0,"AddressId":null,"UnitId":0,"ServiceId":null,"RequestedServiceId":null,"PartType":null,"PartTypeId":null,"PageId":0,"ShowDeleted":false,"ServiceCaseNumber":null,"LastCallDateTime":null,"PageNumber":null,"pageSize":0,"DeviceType":null,"DeviceToken":null,"NotificationId":null,"EmployeeId":0,"BillingId":null}}]}
+
+2016-12-22 17:02:07.9059|INFO|api.Helpers.NLogger|JSON
+Method: POST
+URL: http://192.168.1.119:6987/v1/employee/CompletedReportsDetail
+Controller : api.Controllers.EmployeeController
+Action : CompletedReportsDetail
+Action Parameters : {"messageFormat":"JSON","messageArguments":[{"request":{"NotificationId":0,"EmployeeId":1,"SalesVisitRequestId":0,"Month":0,"Year":0,"Day":0,"ServiceId":0,"ReportId":18,"UnitId":0,"Latitude":null,"Longitude":null,"SearchTerm":null,"PageId":0,"LastCallDateTime":null,"PageNumber":null,"pageSize":0,"OrderId":0,"StatDate":null,"EndDate":null,"DeviceType":null,"DeviceToken":null,"ClientEmails":null,"CCEmail":null}}]}
+
+2016-12-22 17:44:52.0405|INFO|api.Helpers.NLogger|JSON
+Method: POST
+URL: http://192.168.1.119:6987/v1/profile/GetClientUnit
+Controller : api.Controllers.ProfileController
+Action : GetClientUnit
+Action Parameters : {"messageFormat":"JSON","messageArguments":[{"request":{"Email":null,"ClientId":7,"PlanTypeId":0,"PlanId":0,"PartId":0,"Month":0,"Year":0,"AddressId":null,"UnitId":0,"ServiceId":null,"RequestedServiceId":null,"PartType":null,"PartTypeId":null,"PageId":0,"ShowDeleted":false,"ServiceCaseNumber":null,"LastCallDateTime":null,"PageNumber":null,"pageSize":0,"DeviceType":null,"DeviceToken":null,"NotificationId":null,"EmployeeId":0,"BillingId":null}}]}
+

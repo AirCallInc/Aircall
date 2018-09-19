@@ -1,0 +1,21 @@
+2017-04-19 12:46:13.4083|INFO|api.Helpers.NLogger|JSON
+Method: POST
+URL: http://192.168.1.126:9999/api/v1/profile/clientlogin
+Controller : api.Controllers.ProfileController
+Action : Login
+Action Parameters : {"messageFormat":"JSON","messageArguments":[{"model":{"Email":"richard@gmail.com","Password":"7f2765757d527eaeeb14fb706039bac7","DeviceType":null,"DeviceToken":null,"Latitude":null,"Longitude":null}}]}
+
+2017-04-19 12:47:06.8803|INFO|api.Helpers.NLogger|JSON
+Method: POST
+URL: http://192.168.1.126:9999/api/v1/profile/clientlogin
+Controller : api.Controllers.ProfileController
+Action : Login
+Action Parameters : {"messageFormat":"JSON","messageArguments":[{"model":{"Email":"richard@gmail.com","Password":"7f2765757d527eaeeb14fb706039bac7","DeviceType":null,"DeviceToken":null,"Latitude":null,"Longitude":null}}]}
+
+2017-04-19 12:47:29.3177|INFO|api.Helpers.NLogger|JSON
+Method: POST
+URL: http://192.168.1.126:9999/api/v1/profile/clientlogin
+Controller : api.Controllers.ProfileController
+Action : Login
+Action Parameters : {"messageFormat":"JSON","messageArguments":[{"model":{"Email":"richard@gmail.com","Password":"7f2765757d527eaeeb14fb706039bac7","DeviceType":null,"DeviceToken":null,"Latitude":null,"Longitude":null}}]}
+

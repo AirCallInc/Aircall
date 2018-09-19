@@ -1,0 +1,28 @@
+2016-08-29 12:27:31.9449|INFO|api.Helpers.NLogger|JSON
+Method: POST
+URL: http://192.168.1.119:6987/v1/profile/DeleteOldData
+Controller : api.Controllers.ProfileController
+Action : DeleteOldData
+Action Parameters : {"messageFormat":"JSON","messageArguments":[{"request":{"ClientId":1049,"UnitName":null,"ManufactureDate":null,"PlanTypeId":null,"UnitTon":null,"AddressId":null,"UnitTypeId":null,"AutoRenewal":null,"SpecialOffer":null,"Status":null,"OptionalInformation":null,"DeleteOldData":false}}]}
+
+2016-08-29 12:30:26.2064|INFO|api.Helpers.NLogger|JSON
+Method: POST
+URL: http://192.168.1.119:6987/v1/profile/DeleteOldData
+Controller : api.Controllers.ProfileController
+Action : DeleteOldData
+Action Parameters : {"messageFormat":"JSON","messageArguments":[{"request":{"ClientId":1049,"UnitName":null,"ManufactureDate":null,"PlanTypeId":null,"UnitTon":null,"AddressId":null,"UnitTypeId":null,"AutoRenewal":null,"SpecialOffer":null,"Status":null,"OptionalInformation":null,"DeleteOldData":false}}]}
+
+2016-08-29 12:30:40.0984|INFO|api.Helpers.NLogger|JSON
+Method: POST
+URL: http://192.168.1.119:6987/v1/profile/DeleteOldData
+Controller : api.Controllers.ProfileController
+Action : DeleteOldData
+Action Parameters : {"messageFormat":"JSON","messageArguments":[{"request":{"ClientId":1049,"UnitName":null,"ManufactureDate":null,"PlanTypeId":null,"UnitTon":null,"AddressId":null,"UnitTypeId":null,"AutoRenewal":null,"SpecialOffer":null,"Status":null,"OptionalInformation":null,"DeleteOldData":false}}]}
+
+2016-08-29 12:33:42.0055|INFO|api.Helpers.NLogger|JSON
+Method: POST
+URL: http://192.168.1.119:6987/v1/profile/DeleteOldData
+Controller : api.Controllers.ProfileController
+Action : DeleteOldData
+Action Parameters : {"messageFormat":"JSON","messageArguments":[{"request":{"ClientId":1049,"UnitName":null,"ManufactureDate":null,"PlanTypeId":null,"UnitTon":null,"AddressId":null,"UnitTypeId":null,"AutoRenewal":null,"SpecialOffer":null,"Status":null,"OptionalInformation":null,"DeleteOldData":false}}]}
+

@@ -1,0 +1,105 @@
+2018-08-08 15:29:46.2358|INFO|api.Helpers.NLogger|JSON
+Method: POST
+URL: http://localhost:15419/v1/profile/clientlogin
+Controller : api.Controllers.ProfileController
+Action : Login
+Action Parameters : {"messageFormat":"JSON","messageArguments":[{"model":{"Email":"elva.wang@gmail.com","Password":"58d65bdd8944dc8375c30b2ba10ae699","DeviceType":null,"DeviceToken":"abc123","Latitude":null,"Longitude":null}}]}
+
+2018-08-08 15:31:03.0347|INFO|api.Helpers.NLogger|JSON
+Method: POST
+URL: http://localhost:15419/v1/Profile/GetBillingHistory
+Controller : api.Controllers.ProfileController
+Action : GetBillingHistory
+Action Parameters : {"messageFormat":"JSON","messageArguments":[{"request":{"Email":null,"ClientId":1149,"PlanTypeId":0,"PlanId":0,"PartId":0,"Month":0,"Year":0,"AddressId":null,"UnitId":0,"ServiceId":null,"RequestedServiceId":null,"PartType":null,"PartTypeId":null,"PageId":0,"ShowDeleted":false,"ServiceCaseNumber":null,"LastCallDateTime":null,"PageNumber":null,"pageSize":0,"DeviceType":null,"DeviceToken":null,"NotificationId":null,"EmployeeId":0,"BillingId":null}}]}
+
+2018-08-08 15:32:26.5704|INFO|api.Helpers.NLogger|JSON
+Method: POST
+URL: http://localhost:15419/v1/Profile/GetCreditCard
+Controller : api.Controllers.ProfileController
+Action : GetCreditCard
+Action Parameters : {"messageFormat":"JSON","messageArguments":[{"request":{"Id":0,"ClientId":1149,"CardType":null,"NameOnCard":null,"CardNumber":null,"ExpiryMonth":null,"CVV":0,"ExpiryYear":0,"IsDefaultPayment":null,"StripeCardId":null}}]}
+
+2018-08-08 15:34:43.8331|INFO|api.Helpers.NLogger|JSON
+Method: POST
+URL: http://localhost:15419/v1/Profile/GetBillingHistoryDetail
+Controller : api.Controllers.ProfileController
+Action : GetBillingHistoryDetail
+Action Parameters : {"messageFormat":"JSON","messageArguments":[{"request":{"Email":null,"ClientId":0,"PlanTypeId":0,"PlanId":0,"PartId":0,"Month":0,"Year":0,"AddressId":null,"UnitId":0,"ServiceId":null,"RequestedServiceId":null,"PartType":null,"PartTypeId":null,"PageId":0,"ShowDeleted":false,"ServiceCaseNumber":null,"LastCallDateTime":null,"PageNumber":null,"pageSize":0,"DeviceType":null,"DeviceToken":null,"NotificationId":null,"EmployeeId":0,"BillingId":2941}}]}
+
+2018-08-08 15:36:03.8884|INFO|api.Helpers.NLogger|JSON
+Method: POST
+URL: http://localhost:15419/v1/Profile/GetBillingHistoryDetail
+Controller : api.Controllers.ProfileController
+Action : GetBillingHistoryDetail
+Action Parameters : {"messageFormat":"JSON","messageArguments":[{"request":{"Email":null,"ClientId":0,"PlanTypeId":0,"PlanId":0,"PartId":0,"Month":0,"Year":0,"AddressId":null,"UnitId":0,"ServiceId":null,"RequestedServiceId":null,"PartType":null,"PartTypeId":null,"PageId":0,"ShowDeleted":false,"ServiceCaseNumber":null,"LastCallDateTime":null,"PageNumber":null,"pageSize":0,"DeviceType":null,"DeviceToken":null,"NotificationId":null,"EmployeeId":0,"BillingId":2941}}]}
+
+2018-08-08 15:37:00.2262|INFO|api.Helpers.NLogger|JSON
+Method: POST
+URL: http://localhost:15419/v1/Profile/GetBillingHistoryDetail
+Controller : api.Controllers.ProfileController
+Action : GetBillingHistoryDetail
+Action Parameters : {"messageFormat":"JSON","messageArguments":[{"request":{"Email":null,"ClientId":0,"PlanTypeId":0,"PlanId":0,"PartId":0,"Month":0,"Year":0,"AddressId":null,"UnitId":0,"ServiceId":null,"RequestedServiceId":null,"PartType":null,"PartTypeId":null,"PageId":0,"ShowDeleted":false,"ServiceCaseNumber":null,"LastCallDateTime":null,"PageNumber":null,"pageSize":0,"DeviceType":null,"DeviceToken":null,"NotificationId":null,"EmployeeId":0,"BillingId":2941}}]}
+
+2018-08-08 15:38:53.1643|INFO|api.Helpers.NLogger|JSON
+Method: POST
+URL: http://localhost:15419/v1/Profile/GetBillingHistoryDetail
+Controller : api.Controllers.ProfileController
+Action : GetBillingHistoryDetail
+Action Parameters : {"messageFormat":"JSON","messageArguments":[{"request":{"Email":null,"ClientId":1149,"PlanTypeId":0,"PlanId":0,"PartId":0,"Month":0,"Year":0,"AddressId":null,"UnitId":0,"ServiceId":null,"RequestedServiceId":null,"PartType":null,"PartTypeId":null,"PageId":0,"ShowDeleted":false,"ServiceCaseNumber":null,"LastCallDateTime":null,"PageNumber":null,"pageSize":0,"DeviceType":null,"DeviceToken":null,"NotificationId":null,"EmployeeId":0,"BillingId":2941}}]}
+
+2018-08-08 15:39:27.8789|INFO|api.Helpers.NLogger|JSON
+Method: POST
+URL: http://localhost:15419/v1/Profile/GetBillingHistory
+Controller : api.Controllers.ProfileController
+Action : GetBillingHistory
+Action Parameters : {"messageFormat":"JSON","messageArguments":[{"request":{"Email":null,"ClientId":1149,"PlanTypeId":0,"PlanId":0,"PartId":0,"Month":0,"Year":0,"AddressId":null,"UnitId":0,"ServiceId":null,"RequestedServiceId":null,"PartType":null,"PartTypeId":null,"PageId":0,"ShowDeleted":false,"ServiceCaseNumber":null,"LastCallDateTime":null,"PageNumber":null,"pageSize":0,"DeviceType":null,"DeviceToken":null,"NotificationId":null,"EmployeeId":0,"BillingId":null}}]}
+
+2018-08-08 15:39:56.4578|INFO|api.Helpers.NLogger|JSON
+Method: POST
+URL: http://localhost:15419/v1/Profile/GetCreditCard
+Controller : api.Controllers.ProfileController
+Action : GetCreditCard
+Action Parameters : {"messageFormat":"JSON","messageArguments":[{"request":{"Id":0,"ClientId":1149,"CardType":null,"NameOnCard":null,"CardNumber":null,"ExpiryMonth":null,"CVV":0,"ExpiryYear":0,"IsDefaultPayment":null,"StripeCardId":null}}]}
+
+2018-08-08 16:29:31.1636|INFO|api.Helpers.NLogger|JSON
+Method: POST
+URL: http://localhost:15419/v1/Profile/GetUnPaidClientUnitsByClientId
+Controller : api.Controllers.ProfileController
+Action : GetUnPaidClientUnitsByClientId
+Action Parameters : {"messageFormat":"JSON","messageArguments":[{"request":{"Email":null,"ClientId":1149,"PlanTypeId":0,"PlanId":0,"PartId":0,"Month":0,"Year":0,"AddressId":null,"UnitId":0,"ServiceId":null,"RequestedServiceId":null,"PartType":null,"PartTypeId":null,"PageId":0,"ShowDeleted":false,"ServiceCaseNumber":null,"LastCallDateTime":null,"PageNumber":null,"pageSize":0,"DeviceType":null,"DeviceToken":null,"NotificationId":null,"EmployeeId":0,"BillingId":null}}]}
+
+2018-08-08 16:31:06.7129|INFO|api.Helpers.NLogger|JSON
+Method: POST
+URL: http://localhost:15419/v1/Profile/GetBillingHistory
+Controller : api.Controllers.ProfileController
+Action : GetBillingHistory
+Action Parameters : {"messageFormat":"JSON","messageArguments":[{"request":{"Email":null,"ClientId":1149,"PlanTypeId":0,"PlanId":0,"PartId":0,"Month":0,"Year":0,"AddressId":null,"UnitId":0,"ServiceId":null,"RequestedServiceId":null,"PartType":null,"PartTypeId":null,"PageId":0,"ShowDeleted":false,"ServiceCaseNumber":null,"LastCallDateTime":null,"PageNumber":null,"pageSize":0,"DeviceType":null,"DeviceToken":null,"NotificationId":null,"EmployeeId":0,"BillingId":null}}]}
+
+2018-08-08 16:31:20.1499|INFO|api.Helpers.NLogger|JSON
+Method: POST
+URL: http://localhost:15419/v1/Profile/GetUnPaidClientUnitsByClientId
+Controller : api.Controllers.ProfileController
+Action : GetUnPaidClientUnitsByClientId
+Action Parameters : {"messageFormat":"JSON","messageArguments":[{"request":{"Email":null,"ClientId":1149,"PlanTypeId":0,"PlanId":0,"PartId":0,"Month":0,"Year":0,"AddressId":null,"UnitId":0,"ServiceId":null,"RequestedServiceId":null,"PartType":null,"PartTypeId":null,"PageId":0,"ShowDeleted":false,"ServiceCaseNumber":null,"LastCallDateTime":null,"PageNumber":null,"pageSize":0,"DeviceType":null,"DeviceToken":null,"NotificationId":null,"EmployeeId":0,"BillingId":null}}]}
+
+2018-08-08 16:31:30.8127|INFO|api.Helpers.NLogger|JSON
+Method: POST
+URL: http://localhost:15419/v1/profile/clientlogin
+Controller : api.Controllers.ProfileController
+Action : Login
+Action Parameters : {"messageFormat":"JSON","messageArguments":[{"model":{"Email":"elva.wang@gmail.com","Password":"58d65bdd8944dc8375c30b2ba10ae699","DeviceType":null,"DeviceToken":"abc123","Latitude":null,"Longitude":null}}]}
+
+2018-08-08 16:32:03.1134|INFO|api.Helpers.NLogger|JSON
+Method: POST
+URL: http://localhost:15419/v1/Profile/GetUnPaidClientUnitsByClientId
+Controller : api.Controllers.ProfileController
+Action : GetUnPaidClientUnitsByClientId
+Action Parameters : {"messageFormat":"JSON","messageArguments":[{"request":{"Email":null,"ClientId":1149,"PlanTypeId":0,"PlanId":0,"PartId":0,"Month":0,"Year":0,"AddressId":null,"UnitId":0,"ServiceId":null,"RequestedServiceId":null,"PartType":null,"PartTypeId":null,"PageId":0,"ShowDeleted":false,"ServiceCaseNumber":null,"LastCallDateTime":null,"PageNumber":null,"pageSize":0,"DeviceType":null,"DeviceToken":null,"NotificationId":null,"EmployeeId":0,"BillingId":null}}]}
+
+2018-08-08 17:05:12.6218|INFO|api.Helpers.NLogger|JSON
+Method: POST
+URL: http://localhost:15419/v1/Profile/GetUnPaidClientUnitsByClientId
+Controller : api.Controllers.ProfileController
+Action : GetUnPaidClientUnitsByClientId
+Action Parameters : {"messageFormat":"JSON","messageArguments":[{"request":{"Email":null,"ClientId":1149,"PlanTypeId":0,"PlanId":0,"PartId":0,"Month":0,"Year":0,"AddressId":null,"UnitId":0,"ServiceId":null,"RequestedServiceId":null,"PartType":null,"PartTypeId":null,"PageId":0,"ShowDeleted":false,"ServiceCaseNumber":null,"LastCallDateTime":null,"PageNumber":null,"pageSize":0,"DeviceType":null,"DeviceToken":null,"NotificationId":null,"EmployeeId":0,"BillingId":null}}]}
+

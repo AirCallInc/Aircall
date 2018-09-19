@@ -1,0 +1,77 @@
+2016-08-26 15:27:14.9235|INFO|api.Helpers.NLogger|JSON
+Method: POST
+URL: http://192.168.1.119:6987/v1/profile/NotificationList
+Controller : api.Controllers.NewProfileController
+Action : NotificationList
+Action Parameters : {"messageFormat":"JSON","messageArguments":[{"request":{"Email":null,"ClientId":2,"PlanTypeId":0,"PlanId":0,"PartId":0,"Month":0,"AddressId":null,"UnitId":0,"ServiceId":null,"RequestedServiceId":null,"PartType":null,"PartTypeId":null,"PageId":0,"ShowDeleted":false,"ServiceCaseNumber":null,"LastCallDateTime":null,"PageNumber":null,"pageSize":0,"DeviceType":null,"DeviceToken":null,"NotificationId":null}}]}
+
+2016-08-26 15:44:28.0594|INFO|api.Helpers.NLogger|JSON
+Method: POST
+URL: http://192.168.1.119:6987/v1/profile/NotificationList
+Controller : api.Controllers.NewProfileController
+Action : NotificationList
+Action Parameters : {"messageFormat":"JSON","messageArguments":[{"request":{"Email":null,"ClientId":2,"PlanTypeId":0,"PlanId":0,"PartId":0,"Month":0,"AddressId":null,"UnitId":0,"ServiceId":null,"RequestedServiceId":null,"PartType":null,"PartTypeId":null,"PageId":0,"ShowDeleted":false,"ServiceCaseNumber":null,"LastCallDateTime":null,"PageNumber":null,"pageSize":0,"DeviceType":null,"DeviceToken":null,"NotificationId":null}}]}
+
+2016-08-26 15:44:37.8993|INFO|api.Helpers.NLogger|JSON
+Method: POST
+URL: http://192.168.1.119:6987/v1/profile/NotificationList
+Controller : api.Controllers.NewProfileController
+Action : NotificationList
+Action Parameters : {"messageFormat":"JSON","messageArguments":[{"request":{"Email":null,"ClientId":2,"PlanTypeId":0,"PlanId":0,"PartId":0,"Month":0,"AddressId":null,"UnitId":0,"ServiceId":null,"RequestedServiceId":null,"PartType":null,"PartTypeId":null,"PageId":0,"ShowDeleted":false,"ServiceCaseNumber":null,"LastCallDateTime":null,"PageNumber":null,"pageSize":0,"DeviceType":null,"DeviceToken":null,"NotificationId":null}}]}
+
+2016-08-26 15:47:52.3307|INFO|api.Helpers.NLogger|JSON
+Method: POST
+URL: http://192.168.1.119:6987/v1/profile/NotificationList
+Controller : api.Controllers.NewProfileController
+Action : NotificationList
+Action Parameters : {"messageFormat":"JSON","messageArguments":[{"request":{"Email":null,"ClientId":2,"PlanTypeId":0,"PlanId":0,"PartId":0,"Month":0,"AddressId":null,"UnitId":0,"ServiceId":null,"RequestedServiceId":null,"PartType":null,"PartTypeId":null,"PageId":0,"ShowDeleted":false,"ServiceCaseNumber":null,"LastCallDateTime":null,"PageNumber":null,"pageSize":0,"DeviceType":null,"DeviceToken":null,"NotificationId":null}}]}
+
+2016-08-26 15:48:48.2766|INFO|api.Helpers.NLogger|JSON
+Method: POST
+URL: http://192.168.1.119:6987/v1/profile/NotificationList
+Controller : api.Controllers.NewProfileController
+Action : NotificationList
+Action Parameters : {"messageFormat":"JSON","messageArguments":[{"request":{"Email":null,"ClientId":2,"PlanTypeId":0,"PlanId":0,"PartId":0,"Month":0,"AddressId":null,"UnitId":0,"ServiceId":null,"RequestedServiceId":null,"PartType":null,"PartTypeId":null,"PageId":0,"ShowDeleted":false,"ServiceCaseNumber":null,"LastCallDateTime":null,"PageNumber":null,"pageSize":0,"DeviceType":null,"DeviceToken":null,"NotificationId":null}}]}
+
+2016-08-26 16:04:26.4830|INFO|api.Helpers.NLogger|JSON
+Method: POST
+URL: http://192.168.1.119:6987/v1/employee/NotificationList
+Controller : api.Controllers.NewEmployeeController
+Action : NotificationList
+Action Parameters : {"messageFormat":"JSON","messageArguments":[{"request":{"NotificationId":0,"EmployeeId":4,"SalesVisitRequestId":0,"Month":0,"Day":0,"ServiceId":0,"ReportId":0,"UnitId":0,"Latitude":null,"Longitude":null,"SearchTerm":null,"PageId":0,"LastCallDateTime":null,"PageNumber":1,"pageSize":0,"OrderId":0,"StatDate":null,"EndDate":null,"DeviceType":null,"DeviceToken":null}}]}
+
+2016-08-26 16:05:59.3263|INFO|api.Helpers.NLogger|JSON
+Method: POST
+URL: http://192.168.1.119:6987/v1/employee/NotificationList
+Controller : api.Controllers.NewEmployeeController
+Action : NotificationList
+Action Parameters : {"messageFormat":"JSON","messageArguments":[{"request":{"NotificationId":0,"EmployeeId":4,"SalesVisitRequestId":0,"Month":0,"Day":0,"ServiceId":0,"ReportId":0,"UnitId":0,"Latitude":null,"Longitude":null,"SearchTerm":null,"PageId":0,"LastCallDateTime":null,"PageNumber":1,"pageSize":0,"OrderId":0,"StatDate":null,"EndDate":null,"DeviceType":null,"DeviceToken":null}}]}
+
+2016-08-26 16:06:16.5731|INFO|api.Helpers.NLogger|JSON
+Method: POST
+URL: http://192.168.1.119:6987/v1/employee/NotificationList
+Controller : api.Controllers.NewEmployeeController
+Action : NotificationList
+Action Parameters : {"messageFormat":"JSON","messageArguments":[{"request":{"NotificationId":0,"EmployeeId":4,"SalesVisitRequestId":0,"Month":0,"Day":0,"ServiceId":0,"ReportId":0,"UnitId":0,"Latitude":null,"Longitude":null,"SearchTerm":null,"PageId":0,"LastCallDateTime":null,"PageNumber":1,"pageSize":0,"OrderId":0,"StatDate":null,"EndDate":null,"DeviceType":null,"DeviceToken":null}}]}
+
+2016-08-26 16:15:44.6837|INFO|api.Helpers.NLogger|JSON
+Method: POST
+URL: http://192.168.1.119:6987/v1/employee/NotificationList
+Controller : api.Controllers.NewEmployeeController
+Action : NotificationList
+Action Parameters : {"messageFormat":"JSON","messageArguments":[{"request":{"NotificationId":0,"EmployeeId":4,"SalesVisitRequestId":0,"Month":0,"Day":0,"ServiceId":0,"ReportId":0,"UnitId":0,"Latitude":null,"Longitude":null,"SearchTerm":null,"PageId":0,"LastCallDateTime":null,"PageNumber":1,"pageSize":0,"OrderId":0,"StatDate":null,"EndDate":null,"DeviceType":null,"DeviceToken":null}}]}
+
+2016-08-26 16:15:56.4175|INFO|api.Helpers.NLogger|JSON
+Method: POST
+URL: http://192.168.1.119:6987/v1/employee/NotificationList
+Controller : api.Controllers.NewEmployeeController
+Action : NotificationList
+Action Parameters : {"messageFormat":"JSON","messageArguments":[{"request":{"NotificationId":0,"EmployeeId":4,"SalesVisitRequestId":0,"Month":0,"Day":0,"ServiceId":0,"ReportId":0,"UnitId":0,"Latitude":null,"Longitude":null,"SearchTerm":null,"PageId":0,"LastCallDateTime":null,"PageNumber":1,"pageSize":0,"OrderId":0,"StatDate":null,"EndDate":null,"DeviceType":null,"DeviceToken":null}}]}
+
+2016-08-26 16:20:31.6775|INFO|api.Helpers.NLogger|JSON
+Method: POST
+URL: http://192.168.1.119:6987/v1/employee/NotificationList
+Controller : api.Controllers.NewEmployeeController
+Action : NotificationList
+Action Parameters : {"messageFormat":"JSON","messageArguments":[{"request":{"NotificationId":0,"EmployeeId":4,"SalesVisitRequestId":0,"Month":0,"Day":0,"ServiceId":0,"ReportId":0,"UnitId":0,"Latitude":null,"Longitude":null,"SearchTerm":null,"PageId":0,"LastCallDateTime":null,"PageNumber":1,"pageSize":0,"OrderId":0,"StatDate":null,"EndDate":null,"DeviceType":null,"DeviceToken":null}}]}
+

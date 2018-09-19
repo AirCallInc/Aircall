@@ -1,0 +1,63 @@
+2016-08-20 11:48:50.2376|INFO|api.Helpers.NLogger|JSON
+Method: POST
+URL: http://192.168.1.119:6987/v1/profile/NoShowServiceDetails
+Controller : api.Controllers.NewProfileController
+Action : NoShowServiceDetails
+Action Parameters : {"messageFormat":"JSON","messageArguments":[{"request":{"ClientId":4,"CardId":0,"UnitId":0,"NotificationId":10508,"ServiceId":5,"Status":false}}]}
+
+2016-08-20 11:53:27.5855|INFO|api.Helpers.NLogger|JSON
+Method: POST
+URL: http://192.168.1.119:6987/v1/profile/NoShowServiceDetails
+Controller : api.Controllers.NewProfileController
+Action : NoShowServiceDetails
+Action Parameters : {"messageFormat":"JSON","messageArguments":[{"request":{"ClientId":4,"CardId":0,"UnitId":0,"NotificationId":10508,"ServiceId":5,"Status":false}}]}
+
+2016-08-20 11:53:41.6670|INFO|api.Helpers.NLogger|JSON
+Method: POST
+URL: http://192.168.1.119:6987/v1/profile/NoShowServiceDetails
+Controller : api.Controllers.NewProfileController
+Action : NoShowServiceDetails
+Action Parameters : {"messageFormat":"JSON","messageArguments":[{"request":{"ClientId":4,"CardId":0,"UnitId":0,"NotificationId":10508,"ServiceId":5,"Status":false}}]}
+
+2016-08-20 12:12:50.1482|INFO|api.Helpers.NLogger|JSON
+Method: POST
+URL: http://192.168.1.119:6987/v1/profile/ClientDashboard
+Controller : api.Controllers.ProfileController
+Action : ClientDashboard
+Action Parameters : {"messageFormat":"JSON","messageArguments":[{"request":{"Email":null,"ClientId":2,"PlanTypeId":0,"PlanId":0,"Month":0,"AddressId":null,"UnitId":0,"ServiceId":0,"PartType":null,"PartTypeId":null,"PageId":0,"ShowDeleted":false,"ServiceCaseNumber":null,"LastCallDateTime":null,"PageNumber":null,"pageSize":0,"DeviceType":null,"DeviceToken":null,"NotificationId":null}}]}
+
+2016-08-20 16:20:04.4760|INFO|api.Helpers.NLogger|JSON
+Method: POST
+URL: http://192.168.1.119:6987/v1/profile/ClientDashboard
+Controller : api.Controllers.ProfileController
+Action : ClientDashboard
+Action Parameters : {"messageFormat":"JSON","messageArguments":[{"request":{"Email":null,"ClientId":1050,"PlanTypeId":0,"PlanId":0,"Month":0,"AddressId":null,"UnitId":0,"ServiceId":0,"PartType":null,"PartTypeId":null,"PageId":0,"ShowDeleted":false,"ServiceCaseNumber":null,"LastCallDateTime":null,"PageNumber":null,"pageSize":0,"DeviceType":null,"DeviceToken":null,"NotificationId":null}}]}
+
+2016-08-20 17:03:24.1604|INFO|api.Helpers.NLogger|JSON
+Method: POST
+URL: http://192.168.1.119:6987/v1/employee/SubmitUnitPayment
+Controller : api.Controllers.NewEmployeeController
+Action : SubmitUnitPayment
+Action Parameters : {"messageFormat":"JSON","messageArguments":[{}]}
+
+2016-08-20 17:06:05.9753|INFO|api.Helpers.NLogger|JSON
+Method: POST
+URL: http://192.168.1.119:6987/v1/employee/SubmitUnitPayment
+Controller : api.Controllers.NewEmployeeController
+Action : SubmitUnitPayment
+Action Parameters : {"messageFormat":"JSON","messageArguments":[{}]}
+
+2016-08-20 18:41:17.7263|INFO|api.Helpers.NLogger|JSON
+Method: POST
+URL: http://192.168.1.119:6987/v1/employee/SubmitServiceReport
+Controller : api.Controllers.EmployeeController
+Action : SubmitServiceReport
+Action Parameters : {"messageFormat":"JSON","messageArguments":[{"emp":{"EmployeeId":1,"ServiceId":20519,"ScheduleStartTime":"6:40 PM","ScheduleEndTime":"6:41 PM","IsWorkNotDone":true,"WorkPerformed":"Not done","Recommendationsforcustomer":"Not at home","EmailToClient":["luke@gmail.com",""],"CCEmail":"","RequestedParts":[],"EmployeeNotes":"Emp notes","Units":[],"Images":null,"ClientId":null}}]}
+
+2016-08-20 18:41:21.3532|INFO|api.Helpers.NLogger|JSON
+Method: POST
+URL: http://192.168.1.119:6987/v1/employee/SubmitServiceReportImage
+Controller : api.Controllers.EmployeeController
+Action : SubmitServiceReportImage
+Action Parameters : {"messageFormat":"JSON","messageArguments":[{}]}
+

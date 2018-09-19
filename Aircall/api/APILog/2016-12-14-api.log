@@ -1,0 +1,147 @@
+2016-12-14 11:57:26.2937|INFO|api.Helpers.NLogger|JSON
+Method: POST
+URL: http://192.168.1.119:6987/v1/employee/GetServiceDetails
+Controller : api.Controllers.EmployeeController
+Action : GetServiceDetails
+Action Parameters : {"messageFormat":"JSON","messageArguments":[{"request":{"NotificationId":22550,"EmployeeId":7,"SalesVisitRequestId":0,"Month":0,"Year":0,"Day":0,"ServiceId":10948,"ReportId":0,"UnitId":0,"Latitude":null,"Longitude":null,"SearchTerm":null,"PageId":0,"LastCallDateTime":null,"PageNumber":null,"pageSize":0,"OrderId":0,"StatDate":null,"EndDate":null,"DeviceType":null,"DeviceToken":null,"ClientEmails":null}}]}
+
+2016-12-14 11:58:15.9045|INFO|api.Helpers.NLogger|JSON
+Method: POST
+URL: http://192.168.1.119:6987/v1/employee/GetServiceDetails
+Controller : api.Controllers.EmployeeController
+Action : GetServiceDetails
+Action Parameters : {"messageFormat":"JSON","messageArguments":[{"request":{"NotificationId":22550,"EmployeeId":7,"SalesVisitRequestId":0,"Month":0,"Year":0,"Day":0,"ServiceId":10948,"ReportId":0,"UnitId":0,"Latitude":null,"Longitude":null,"SearchTerm":null,"PageId":0,"LastCallDateTime":null,"PageNumber":null,"pageSize":0,"OrderId":0,"StatDate":null,"EndDate":null,"DeviceType":null,"DeviceToken":null,"ClientEmails":null}}]}
+
+2016-12-14 13:06:31.6221|INFO|api.Helpers.NLogger|JSON
+Method: POST
+URL: http://192.168.1.119:6987/v1/employee/AddUnitDetails
+Controller : api.Controllers.NewEmployeeController
+Action : AddUnitDetails
+Action Parameters : {"messageFormat":"JSON","messageArguments":[{"emp":{"EmployeeId":7,"ClientId":10,"UnitName":"","PlanTypeId":4,"AddressId":18,"UnitTypeId":null,"AutoRenewal":true,"SpecialOffer":false,"IsMatched":false,"Notes":"","Parts":[{"IsMatched":true,"ModelNumber":"acm1000","SerialNumber":"acs1000","UnitType":"Packaged","ManufactureDate":"\/Date(1354366800000)\/","ManufactureBrand":null,"UnitTon":null,"Refrigerant":null,"ElectricalService":null,"Breaker":null,"MaxBreaker":null,"Compressor":null,"Capacitor":null,"Contactor":null,"Filterdryer":null,"Defrostboard":null,"Relay":null,"TXVValve":null,"ReversingValve":null,"BlowerMotor":null,"Condensingfanmotor":null,"Inducerdraftmotor":null,"Transformer":null,"Controlboard":null,"Limitswitch":null,"Ignitor":null,"Gasvalve":null,"Pressureswitch":null,"Flamesensor":null,"Rolloutsensor":null,"Doorswitch":null,"Ignitioncontrolboard":null,"CoilCleaner":null,"Misc":null,"OptionalInformation":{"QuantityOfFilter":0,"Filters":[],"QuantityOfFuses":0,"FuseTypes":[],"BoosterTypes":null}}]}}]}
+
+2016-12-14 13:09:00.1596|INFO|api.Helpers.NLogger|JSON
+Method: POST
+URL: http://192.168.1.119:6987/v1/employee/AddUnitDetails
+Controller : api.Controllers.NewEmployeeController
+Action : AddUnitDetails
+Action Parameters : {"messageFormat":"JSON","messageArguments":[{"emp":{"EmployeeId":7,"ClientId":10,"UnitName":"","PlanTypeId":2,"AddressId":18,"UnitTypeId":null,"AutoRenewal":false,"SpecialOffer":true,"IsMatched":false,"Notes":"","Parts":[{"IsMatched":true,"ModelNumber":"acm1000","SerialNumber":"acs1000","UnitType":"Packaged","ManufactureDate":"\/Date(1325422800000)\/","ManufactureBrand":null,"UnitTon":null,"Refrigerant":null,"ElectricalService":null,"Breaker":null,"MaxBreaker":null,"Compressor":null,"Capacitor":null,"Contactor":null,"Filterdryer":null,"Defrostboard":null,"Relay":null,"TXVValve":null,"ReversingValve":null,"BlowerMotor":null,"Condensingfanmotor":null,"Inducerdraftmotor":null,"Transformer":null,"Controlboard":null,"Limitswitch":null,"Ignitor":null,"Gasvalve":null,"Pressureswitch":null,"Flamesensor":null,"Rolloutsensor":null,"Doorswitch":null,"Ignitioncontrolboard":null,"CoilCleaner":null,"Misc":null,"OptionalInformation":{"QuantityOfFilter":1,"Filters":[{"size":2055,"LocationOfPart":true}],"QuantityOfFuses":0,"FuseTypes":[],"BoosterTypes":null}}]}}]}
+
+2016-12-14 13:10:04.6372|INFO|api.Helpers.NLogger|JSON
+Method: POST
+URL: http://192.168.1.119:6987/v1/employee/AddUnitDetails
+Controller : api.Controllers.NewEmployeeController
+Action : AddUnitDetails
+Action Parameters : {"messageFormat":"JSON","messageArguments":[{"emp":{"EmployeeId":15,"ClientId":36,"UnitName":"","PlanTypeId":2,"AddressId":3148,"UnitTypeId":null,"AutoRenewal":false,"SpecialOffer":true,"IsMatched":false,"Notes":"","Parts":[{"IsMatched":true,"ModelNumber":"acm1000","SerialNumber":"Ghjghj","UnitType":"Packaged","ManufactureDate":"\/Date(1164978000000)\/","ManufactureBrand":null,"UnitTon":null,"Refrigerant":null,"ElectricalService":null,"Breaker":null,"MaxBreaker":null,"Compressor":null,"Capacitor":null,"Contactor":null,"Filterdryer":null,"Defrostboard":null,"Relay":null,"TXVValve":null,"ReversingValve":null,"BlowerMotor":null,"Condensingfanmotor":null,"Inducerdraftmotor":null,"Transformer":null,"Controlboard":null,"Limitswitch":null,"Ignitor":null,"Gasvalve":null,"Pressureswitch":null,"Flamesensor":null,"Rolloutsensor":null,"Doorswitch":null,"Ignitioncontrolboard":null,"CoilCleaner":null,"Misc":null,"OptionalInformation":{"QuantityOfFilter":0,"Filters":[],"QuantityOfFuses":0,"FuseTypes":[],"BoosterTypes":null}}]}}]}
+
+2016-12-14 13:10:13.1577|INFO|api.Helpers.NLogger|JSON
+Method: POST
+URL: http://192.168.1.119:6987/v1/employee/AddUnitDetails
+Controller : api.Controllers.NewEmployeeController
+Action : AddUnitDetails
+Action Parameters : {"messageFormat":"JSON","messageArguments":[{"emp":{"EmployeeId":7,"ClientId":10,"UnitName":"","PlanTypeId":3,"AddressId":18,"UnitTypeId":null,"AutoRenewal":false,"SpecialOffer":true,"IsMatched":false,"Notes":"","Parts":[{"IsMatched":true,"ModelNumber":"acm1000","SerialNumber":"acs1000","UnitType":"Packaged","ManufactureDate":"\/Date(1291208400000)\/","ManufactureBrand":null,"UnitTon":null,"Refrigerant":null,"ElectricalService":null,"Breaker":null,"MaxBreaker":null,"Compressor":null,"Capacitor":null,"Contactor":null,"Filterdryer":null,"Defrostboard":null,"Relay":null,"TXVValve":null,"ReversingValve":null,"BlowerMotor":null,"Condensingfanmotor":null,"Inducerdraftmotor":null,"Transformer":null,"Controlboard":null,"Limitswitch":null,"Ignitor":null,"Gasvalve":null,"Pressureswitch":null,"Flamesensor":null,"Rolloutsensor":null,"Doorswitch":null,"Ignitioncontrolboard":null,"CoilCleaner":null,"Misc":null,"OptionalInformation":{"QuantityOfFilter":0,"Filters":[],"QuantityOfFuses":0,"FuseTypes":[],"BoosterTypes":null}}]}}]}
+
+2016-12-14 13:11:26.6169|INFO|api.Helpers.NLogger|JSON
+Method: POST
+URL: http://192.168.1.119:6987/v1/employee/AddUnitDetails
+Controller : api.Controllers.NewEmployeeController
+Action : AddUnitDetails
+Action Parameters : {"messageFormat":"JSON","messageArguments":[{"emp":{"EmployeeId":7,"ClientId":10,"UnitName":"","PlanTypeId":4,"AddressId":5172,"UnitTypeId":null,"AutoRenewal":false,"SpecialOffer":true,"IsMatched":false,"Notes":"","Parts":[{"IsMatched":true,"ModelNumber":"acm1000","SerialNumber":"acs1000","UnitType":"Packaged","ManufactureDate":"\/Date(723214800000)\/","ManufactureBrand":null,"UnitTon":null,"Refrigerant":null,"ElectricalService":null,"Breaker":null,"MaxBreaker":null,"Compressor":null,"Capacitor":null,"Contactor":null,"Filterdryer":null,"Defrostboard":null,"Relay":null,"TXVValve":null,"ReversingValve":null,"BlowerMotor":null,"Condensingfanmotor":null,"Inducerdraftmotor":null,"Transformer":null,"Controlboard":null,"Limitswitch":null,"Ignitor":null,"Gasvalve":null,"Pressureswitch":null,"Flamesensor":null,"Rolloutsensor":null,"Doorswitch":null,"Ignitioncontrolboard":null,"CoilCleaner":null,"Misc":null,"OptionalInformation":{"QuantityOfFilter":0,"Filters":[],"QuantityOfFuses":0,"FuseTypes":[],"BoosterTypes":null}}]}}]}
+
+2016-12-14 13:12:16.3538|INFO|api.Helpers.NLogger|JSON
+Method: POST
+URL: http://192.168.1.119:6987/v1/employee/AddUnitDetails
+Controller : api.Controllers.NewEmployeeController
+Action : AddUnitDetails
+Action Parameters : {"messageFormat":"JSON","messageArguments":[{"emp":{"EmployeeId":15,"ClientId":36,"UnitName":"","PlanTypeId":3,"AddressId":3148,"UnitTypeId":null,"AutoRenewal":true,"SpecialOffer":false,"IsMatched":false,"Notes":"","Parts":[{"IsMatched":true,"ModelNumber":"acm1000","SerialNumber":"Gdsfgdfg","UnitType":"Packaged","ManufactureDate":"\/Date(1159707600000)\/","ManufactureBrand":null,"UnitTon":null,"Refrigerant":null,"ElectricalService":null,"Breaker":null,"MaxBreaker":null,"Compressor":null,"Capacitor":null,"Contactor":null,"Filterdryer":null,"Defrostboard":null,"Relay":null,"TXVValve":null,"ReversingValve":null,"BlowerMotor":null,"Condensingfanmotor":null,"Inducerdraftmotor":null,"Transformer":null,"Controlboard":null,"Limitswitch":null,"Ignitor":null,"Gasvalve":null,"Pressureswitch":null,"Flamesensor":null,"Rolloutsensor":null,"Doorswitch":null,"Ignitioncontrolboard":null,"CoilCleaner":null,"Misc":null,"OptionalInformation":{"QuantityOfFilter":0,"Filters":[],"QuantityOfFuses":0,"FuseTypes":[],"BoosterTypes":null}}]}}]}
+
+2016-12-14 13:12:59.2132|INFO|api.Helpers.NLogger|JSON
+Method: POST
+URL: http://192.168.1.119:6987/v1/employee/AddUnitDetails
+Controller : api.Controllers.NewEmployeeController
+Action : AddUnitDetails
+Action Parameters : {"messageFormat":"JSON","messageArguments":[{"emp":{"EmployeeId":15,"ClientId":36,"UnitName":"","PlanTypeId":3,"AddressId":3148,"UnitTypeId":null,"AutoRenewal":false,"SpecialOffer":true,"IsMatched":false,"Notes":"","Parts":[{"IsMatched":true,"ModelNumber":"acm1000","SerialNumber":"Jhjhk,jlk","UnitType":"Packaged","ManufactureDate":"\/Date(1378040400000)\/","ManufactureBrand":null,"UnitTon":null,"Refrigerant":null,"ElectricalService":null,"Breaker":null,"MaxBreaker":null,"Compressor":null,"Capacitor":null,"Contactor":null,"Filterdryer":null,"Defrostboard":null,"Relay":null,"TXVValve":null,"ReversingValve":null,"BlowerMotor":null,"Condensingfanmotor":null,"Inducerdraftmotor":null,"Transformer":null,"Controlboard":null,"Limitswitch":null,"Ignitor":null,"Gasvalve":null,"Pressureswitch":null,"Flamesensor":null,"Rolloutsensor":null,"Doorswitch":null,"Ignitioncontrolboard":null,"CoilCleaner":null,"Misc":null,"OptionalInformation":{"QuantityOfFilter":0,"Filters":[],"QuantityOfFuses":0,"FuseTypes":[],"BoosterTypes":null}}]}}]}
+
+2016-12-14 13:13:17.7113|INFO|api.Helpers.NLogger|JSON
+Method: POST
+URL: http://192.168.1.119:6987/v1/employee/AddUnitDetails
+Controller : api.Controllers.NewEmployeeController
+Action : AddUnitDetails
+Action Parameters : {"messageFormat":"JSON","messageArguments":[{"emp":{"EmployeeId":7,"ClientId":10,"UnitName":"","PlanTypeId":4,"AddressId":18,"UnitTypeId":null,"AutoRenewal":false,"SpecialOffer":true,"IsMatched":false,"Notes":"","Parts":[{"IsMatched":true,"ModelNumber":"acm1000","SerialNumber":"acs1000","UnitType":"Packaged","ManufactureDate":"\/Date(1259672400000)\/","ManufactureBrand":null,"UnitTon":null,"Refrigerant":null,"ElectricalService":null,"Breaker":null,"MaxBreaker":null,"Compressor":null,"Capacitor":null,"Contactor":null,"Filterdryer":null,"Defrostboard":null,"Relay":null,"TXVValve":null,"ReversingValve":null,"BlowerMotor":null,"Condensingfanmotor":null,"Inducerdraftmotor":null,"Transformer":null,"Controlboard":null,"Limitswitch":null,"Ignitor":null,"Gasvalve":null,"Pressureswitch":null,"Flamesensor":null,"Rolloutsensor":null,"Doorswitch":null,"Ignitioncontrolboard":null,"CoilCleaner":null,"Misc":null,"OptionalInformation":{"QuantityOfFilter":0,"Filters":[],"QuantityOfFuses":0,"FuseTypes":[],"BoosterTypes":null}}]}}]}
+
+2016-12-14 13:15:47.4178|INFO|api.Helpers.NLogger|JSON
+Method: POST
+URL: http://192.168.1.119:6987/v1/employee/AddUnitDetails
+Controller : api.Controllers.NewEmployeeController
+Action : AddUnitDetails
+Action Parameters : {"messageFormat":"JSON","messageArguments":[{"emp":{"EmployeeId":7,"ClientId":10,"UnitName":"","PlanTypeId":1,"AddressId":18,"UnitTypeId":null,"AutoRenewal":false,"SpecialOffer":true,"IsMatched":false,"Notes":"","Parts":[{"IsMatched":false,"ModelNumber":"a1000","SerialNumber":"b1000","UnitType":"Heating","ManufactureDate":"\/Date(1196514000000)\/","ManufactureBrand":"a","UnitTon":"v","Refrigerant":38,"ElectricalService":"460/3/60","Breaker":6,"MaxBreaker":"35amp","Compressor":31,"Capacitor":8,"Contactor":10,"Filterdryer":11,"Defrostboard":12,"Relay":13,"TXVValve":14,"ReversingValve":15,"BlowerMotor":42,"Condensingfanmotor":17,"Inducerdraftmotor":18,"Transformer":19,"Controlboard":20,"Limitswitch":21,"Ignitor":22,"Gasvalve":23,"Pressureswitch":24,"Flamesensor":25,"Rolloutsensor":26,"Doorswitch":27,"Ignitioncontrolboard":28,"CoilCleaner":39,"Misc":1042,"OptionalInformation":{"QuantityOfFilter":0,"Filters":[],"QuantityOfFuses":0,"FuseTypes":[],"BoosterTypes":4}}]}}]}
+
+2016-12-14 13:18:03.4946|INFO|api.Helpers.NLogger|JSON
+Method: POST
+URL: http://192.168.1.119:6987/v1/employee/AddUnitDetails
+Controller : api.Controllers.NewEmployeeController
+Action : AddUnitDetails
+Action Parameters : {"messageFormat":"JSON","messageArguments":[{"emp":{"EmployeeId":15,"ClientId":3,"UnitName":"","PlanTypeId":2,"AddressId":2,"UnitTypeId":null,"AutoRenewal":true,"SpecialOffer":false,"IsMatched":false,"Notes":"","Parts":[{"IsMatched":true,"ModelNumber":"acm1000","SerialNumber":"Ghjghjhjk","UnitType":"Packaged","ManufactureDate":"\/Date(1309525200000)\/","ManufactureBrand":null,"UnitTon":null,"Refrigerant":null,"ElectricalService":null,"Breaker":null,"MaxBreaker":null,"Compressor":null,"Capacitor":null,"Contactor":null,"Filterdryer":null,"Defrostboard":null,"Relay":null,"TXVValve":null,"ReversingValve":null,"BlowerMotor":null,"Condensingfanmotor":null,"Inducerdraftmotor":null,"Transformer":null,"Controlboard":null,"Limitswitch":null,"Ignitor":null,"Gasvalve":null,"Pressureswitch":null,"Flamesensor":null,"Rolloutsensor":null,"Doorswitch":null,"Ignitioncontrolboard":null,"CoilCleaner":null,"Misc":null,"OptionalInformation":{"QuantityOfFilter":0,"Filters":[],"QuantityOfFuses":0,"FuseTypes":[],"BoosterTypes":null}}]}}]}
+
+2016-12-14 13:18:44.2059|INFO|api.Helpers.NLogger|JSON
+Method: POST
+URL: http://192.168.1.119:6987/v1/employee/AddUnitDetails
+Controller : api.Controllers.NewEmployeeController
+Action : AddUnitDetails
+Action Parameters : {"messageFormat":"JSON","messageArguments":[{"emp":{"EmployeeId":7,"ClientId":10,"UnitName":"","PlanTypeId":2,"AddressId":5172,"UnitTypeId":null,"AutoRenewal":true,"SpecialOffer":false,"IsMatched":false,"Notes":"","Parts":[{"IsMatched":true,"ModelNumber":"acm1000","SerialNumber":"acs1000","UnitType":"Packaged","ManufactureDate":"\/Date(1212325200000)\/","ManufactureBrand":null,"UnitTon":null,"Refrigerant":null,"ElectricalService":null,"Breaker":null,"MaxBreaker":null,"Compressor":null,"Capacitor":null,"Contactor":null,"Filterdryer":null,"Defrostboard":null,"Relay":null,"TXVValve":null,"ReversingValve":null,"BlowerMotor":null,"Condensingfanmotor":null,"Inducerdraftmotor":null,"Transformer":null,"Controlboard":null,"Limitswitch":null,"Ignitor":null,"Gasvalve":null,"Pressureswitch":null,"Flamesensor":null,"Rolloutsensor":null,"Doorswitch":null,"Ignitioncontrolboard":null,"CoilCleaner":null,"Misc":null,"OptionalInformation":{"QuantityOfFilter":6,"Filters":[{"size":2055,"LocationOfPart":true}],"QuantityOfFuses":0,"FuseTypes":[],"BoosterTypes":null}}]}}]}
+
+2016-12-14 13:18:58.9387|INFO|api.Helpers.NLogger|JSON
+Method: POST
+URL: http://192.168.1.119:6987/v1/employee/AddUnitDetails
+Controller : api.Controllers.NewEmployeeController
+Action : AddUnitDetails
+Action Parameters : {"messageFormat":"JSON","messageArguments":[{"emp":{"EmployeeId":15,"ClientId":3,"UnitName":"","PlanTypeId":1,"AddressId":2,"UnitTypeId":null,"AutoRenewal":false,"SpecialOffer":true,"IsMatched":false,"Notes":"","Parts":[{"IsMatched":true,"ModelNumber":"acm900","SerialNumber":"Fghfghfgh","UnitType":"Packaged","ManufactureDate":"\/Date(1322744400000)\/","ManufactureBrand":null,"UnitTon":null,"Refrigerant":null,"ElectricalService":null,"Breaker":null,"MaxBreaker":null,"Compressor":null,"Capacitor":null,"Contactor":null,"Filterdryer":null,"Defrostboard":null,"Relay":null,"TXVValve":null,"ReversingValve":null,"BlowerMotor":null,"Condensingfanmotor":null,"Inducerdraftmotor":null,"Transformer":null,"Controlboard":null,"Limitswitch":null,"Ignitor":null,"Gasvalve":null,"Pressureswitch":null,"Flamesensor":null,"Rolloutsensor":null,"Doorswitch":null,"Ignitioncontrolboard":null,"CoilCleaner":null,"Misc":null,"OptionalInformation":{"QuantityOfFilter":0,"Filters":[],"QuantityOfFuses":0,"FuseTypes":[],"BoosterTypes":null}}]}}]}
+
+2016-12-14 13:21:13.4454|INFO|api.Helpers.NLogger|JSON
+Method: POST
+URL: http://192.168.1.119:6987/v1/employee/AddUnitDetails
+Controller : api.Controllers.NewEmployeeController
+Action : AddUnitDetails
+Action Parameters : {"messageFormat":"JSON","messageArguments":[{"emp":{"EmployeeId":1016,"ClientId":2143,"UnitName":"ac1","PlanTypeId":1,"AddressId":2142,"UnitTypeId":null,"AutoRenewal":false,"SpecialOffer":true,"IsMatched":false,"Notes":"R","Parts":[{"IsMatched":true,"ModelNumber":"acm1000","SerialNumber":"s","UnitType":"Packaged","ManufactureDate":"\/Date(1480597200000)\/","ManufactureBrand":null,"UnitTon":null,"Refrigerant":null,"ElectricalService":null,"Breaker":null,"MaxBreaker":null,"Compressor":null,"Capacitor":null,"Contactor":null,"Filterdryer":null,"Defrostboard":null,"Relay":null,"TXVValve":null,"ReversingValve":null,"BlowerMotor":null,"Condensingfanmotor":null,"Inducerdraftmotor":null,"Transformer":null,"Controlboard":null,"Limitswitch":null,"Ignitor":null,"Gasvalve":null,"Pressureswitch":null,"Flamesensor":null,"Rolloutsensor":null,"Doorswitch":null,"Ignitioncontrolboard":null,"CoilCleaner":null,"Misc":null,"OptionalInformation":{"QuantityOfFilter":0,"Filters":[],"QuantityOfFuses":1,"FuseTypes":[{"FuseType":30}],"BoosterTypes":3}}]}}]}
+
+2016-12-14 13:26:32.6486|INFO|api.Helpers.NLogger|JSON
+Method: POST
+URL: http://192.168.1.119:6987/v1/employee/AddUnitDetails
+Controller : api.Controllers.NewEmployeeController
+Action : AddUnitDetails
+Action Parameters : {"messageFormat":"JSON","messageArguments":[{"emp":{"EmployeeId":1,"ClientId":10,"UnitName":"","PlanTypeId":3,"AddressId":5172,"UnitTypeId":null,"AutoRenewal":false,"SpecialOffer":true,"IsMatched":false,"Notes":"","Parts":[{"IsMatched":true,"ModelNumber":"acm1000","SerialNumber":"acs1000","UnitType":"Packaged","ManufactureDate":"\/Date(1291208400000)\/","ManufactureBrand":null,"UnitTon":null,"Refrigerant":null,"ElectricalService":null,"Breaker":null,"MaxBreaker":null,"Compressor":null,"Capacitor":null,"Contactor":null,"Filterdryer":null,"Defrostboard":null,"Relay":null,"TXVValve":null,"ReversingValve":null,"BlowerMotor":null,"Condensingfanmotor":null,"Inducerdraftmotor":null,"Transformer":null,"Controlboard":null,"Limitswitch":null,"Ignitor":null,"Gasvalve":null,"Pressureswitch":null,"Flamesensor":null,"Rolloutsensor":null,"Doorswitch":null,"Ignitioncontrolboard":null,"CoilCleaner":null,"Misc":null,"OptionalInformation":{"QuantityOfFilter":1,"Filters":[{"size":2055,"LocationOfPart":false}],"QuantityOfFuses":0,"FuseTypes":[],"BoosterTypes":null}}]}}]}
+
+2016-12-14 17:07:40.2678|INFO|api.Helpers.NLogger|JSON
+Method: POST
+URL: http://192.168.1.119:6987/v1/employee/AddUnitDetails
+Controller : api.Controllers.NewEmployeeController
+Action : AddUnitDetails
+Action Parameters : {"messageFormat":"JSON","messageArguments":[{"emp":{"EmployeeId":1,"ClientId":2,"UnitName":"","PlanTypeId":2,"AddressId":1,"UnitTypeId":null,"AutoRenewal":false,"SpecialOffer":true,"IsMatched":false,"Notes":"Crash","Parts":[{"IsMatched":true,"ModelNumber":"acm1000","SerialNumber":"acs1000","UnitType":"Packaged","ManufactureDate":"\/Date(723214800000)\/","ManufactureBrand":null,"UnitTon":null,"Refrigerant":null,"ElectricalService":null,"Breaker":null,"MaxBreaker":null,"Compressor":null,"Capacitor":null,"Contactor":null,"Filterdryer":null,"Defrostboard":null,"Relay":null,"TXVValve":null,"ReversingValve":null,"BlowerMotor":null,"Condensingfanmotor":null,"Inducerdraftmotor":null,"Transformer":null,"Controlboard":null,"Limitswitch":null,"Ignitor":null,"Gasvalve":null,"Pressureswitch":null,"Flamesensor":null,"Rolloutsensor":null,"Doorswitch":null,"Ignitioncontrolboard":null,"CoilCleaner":null,"Misc":null,"OptionalInformation":{"QuantityOfFilter":1,"Filters":[{"size":2055,"LocationOfPart":false}],"QuantityOfFuses":1,"FuseTypes":[{"FuseType":30}],"BoosterTypes":null}}]}}]}
+
+2016-12-14 17:12:12.7424|INFO|api.Helpers.NLogger|JSON
+Method: POST
+URL: http://192.168.1.119:6987/v1/employee/AddUnitDetails
+Controller : api.Controllers.NewEmployeeController
+Action : AddUnitDetails
+Action Parameters : {"messageFormat":"JSON","messageArguments":[{"emp":{"EmployeeId":1,"ClientId":2,"UnitName":"","PlanTypeId":4,"AddressId":2127,"UnitTypeId":null,"AutoRenewal":false,"SpecialOffer":true,"IsMatched":false,"Notes":"Crash","Parts":[{"IsMatched":false,"ModelNumber":"acm 1700","SerialNumber":"abc","UnitType":"Packaged","ManufactureDate":"\/Date(631198800000)\/","ManufactureBrand":"abx","UnitTon":"ghg 46","Refrigerant":38,"ElectricalService":"460/3/60","Breaker":6,"MaxBreaker":"30amp","Compressor":31,"Capacitor":8,"Contactor":10,"Filterdryer":11,"Defrostboard":12,"Relay":null,"TXVValve":null,"ReversingValve":null,"BlowerMotor":null,"Condensingfanmotor":null,"Inducerdraftmotor":null,"Transformer":null,"Controlboard":null,"Limitswitch":null,"Ignitor":null,"Gasvalve":null,"Pressureswitch":null,"Flamesensor":null,"Rolloutsensor":null,"Doorswitch":null,"Ignitioncontrolboard":null,"CoilCleaner":null,"Misc":null,"OptionalInformation":{"QuantityOfFilter":0,"Filters":[],"QuantityOfFuses":0,"FuseTypes":[],"BoosterTypes":null}}]}}]}
+
+2016-12-14 17:13:47.3358|INFO|api.Helpers.NLogger|JSON
+Method: POST
+URL: http://192.168.1.119:6987/v1/employee/AddUnitDetails
+Controller : api.Controllers.NewEmployeeController
+Action : AddUnitDetails
+Action Parameters : {"messageFormat":"JSON","messageArguments":[{"emp":{"EmployeeId":1,"ClientId":10,"UnitName":"h 576","PlanTypeId":1,"AddressId":5172,"UnitTypeId":null,"AutoRenewal":true,"SpecialOffer":false,"IsMatched":false,"Notes":"","Parts":[{"IsMatched":true,"ModelNumber":"acm1000","SerialNumber":"acs1000","UnitType":"Packaged","ManufactureDate":"\/Date(975675600000)\/","ManufactureBrand":null,"UnitTon":null,"Refrigerant":null,"ElectricalService":null,"Breaker":null,"MaxBreaker":null,"Compressor":null,"Capacitor":null,"Contactor":null,"Filterdryer":null,"Defrostboard":null,"Relay":null,"TXVValve":null,"ReversingValve":null,"BlowerMotor":null,"Condensingfanmotor":null,"Inducerdraftmotor":null,"Transformer":null,"Controlboard":null,"Limitswitch":null,"Ignitor":null,"Gasvalve":null,"Pressureswitch":null,"Flamesensor":null,"Rolloutsensor":null,"Doorswitch":null,"Ignitioncontrolboard":null,"CoilCleaner":null,"Misc":null,"OptionalInformation":{"QuantityOfFilter":0,"Filters":[],"QuantityOfFuses":0,"FuseTypes":[],"BoosterTypes":null}}]}}]}
+
+2016-12-14 17:15:11.4886|INFO|api.Helpers.NLogger|JSON
+Method: POST
+URL: http://192.168.1.119:6987/v1/employee/AddUnitDetails
+Controller : api.Controllers.NewEmployeeController
+Action : AddUnitDetails
+Action Parameters : {"messageFormat":"JSON","messageArguments":[{"emp":{"EmployeeId":1,"ClientId":10,"UnitName":"","PlanTypeId":1,"AddressId":18,"UnitTypeId":null,"AutoRenewal":false,"SpecialOffer":true,"IsMatched":false,"Notes":"Note","Parts":[{"IsMatched":true,"ModelNumber":"acm1000","SerialNumber":"acs1000","UnitType":"Packaged","ManufactureDate":"\/Date(1214917200000)\/","ManufactureBrand":null,"UnitTon":null,"Refrigerant":null,"ElectricalService":null,"Breaker":null,"MaxBreaker":null,"Compressor":null,"Capacitor":null,"Contactor":null,"Filterdryer":null,"Defrostboard":null,"Relay":null,"TXVValve":null,"ReversingValve":null,"BlowerMotor":null,"Condensingfanmotor":null,"Inducerdraftmotor":null,"Transformer":null,"Controlboard":null,"Limitswitch":null,"Ignitor":null,"Gasvalve":null,"Pressureswitch":null,"Flamesensor":null,"Rolloutsensor":null,"Doorswitch":null,"Ignitioncontrolboard":null,"CoilCleaner":null,"Misc":null,"OptionalInformation":{"QuantityOfFilter":2,"Filters":[{"size":2055,"LocationOfPart":true},{"size":2055,"LocationOfPart":true}],"QuantityOfFuses":0,"FuseTypes":[],"BoosterTypes":4}}]}}]}
+
+2016-12-14 17:15:35.9290|INFO|api.Helpers.NLogger|JSON
+Method: POST
+URL: http://192.168.1.119:6987/v1/employee/AddUnitDetails
+Controller : api.Controllers.NewEmployeeController
+Action : AddUnitDetails
+Action Parameters : {"messageFormat":"JSON","messageArguments":[{"emp":{"EmployeeId":1,"ClientId":10,"UnitName":"","PlanTypeId":1,"AddressId":18,"UnitTypeId":null,"AutoRenewal":false,"SpecialOffer":true,"IsMatched":false,"Notes":"Note","Parts":[{"IsMatched":true,"ModelNumber":"acm1000","SerialNumber":"acs1000","UnitType":"Packaged","ManufactureDate":"\/Date(1214917200000)\/","ManufactureBrand":null,"UnitTon":null,"Refrigerant":null,"ElectricalService":null,"Breaker":null,"MaxBreaker":null,"Compressor":null,"Capacitor":null,"Contactor":null,"Filterdryer":null,"Defrostboard":null,"Relay":null,"TXVValve":null,"ReversingValve":null,"BlowerMotor":null,"Condensingfanmotor":null,"Inducerdraftmotor":null,"Transformer":null,"Controlboard":null,"Limitswitch":null,"Ignitor":null,"Gasvalve":null,"Pressureswitch":null,"Flamesensor":null,"Rolloutsensor":null,"Doorswitch":null,"Ignitioncontrolboard":null,"CoilCleaner":null,"Misc":null,"OptionalInformation":{"QuantityOfFilter":2,"Filters":[{"size":2055,"LocationOfPart":true},{"size":2055,"LocationOfPart":true}],"QuantityOfFuses":0,"FuseTypes":[],"BoosterTypes":4}}]}}]}
+

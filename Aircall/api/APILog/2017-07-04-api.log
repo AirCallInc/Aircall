@@ -1,0 +1,413 @@
+2017-07-04 11:54:08.5468|INFO|api.Helpers.NLogger|JSON
+Method: POST
+URL: http://192.168.1.121:8989/api/v1/employee/NotificationList
+Controller : api.Controllers.NewEmployeeController
+Action : NotificationList
+Action Parameters : {"messageFormat":"JSON","messageArguments":[{"request":{"NotificationId":0,"EmployeeId":1012,"SalesVisitRequestId":0,"Month":0,"Year":0,"Day":0,"ServiceId":0,"ReportId":0,"UnitId":0,"Latitude":null,"Longitude":null,"SearchTerm":null,"PageId":0,"LastCallDateTime":null,"PageNumber":1,"pageSize":0,"OrderId":0,"StatDate":null,"EndDate":null,"DeviceType":null,"DeviceToken":null,"ClientEmails":null,"CCEmail":null}}]}
+
+2017-07-04 11:54:08.5468|INFO|api.Helpers.NLogger|JSON
+Method: POST
+URL: http://192.168.1.121:8989/api/v1/employee/employeeUpdateToken
+Controller : api.Controllers.NewEmployeeController
+Action : employeeUpdateToken
+Action Parameters : {"messageFormat":"JSON","messageArguments":[{"request":{"NotificationId":0,"EmployeeId":1012,"SalesVisitRequestId":0,"Month":0,"Year":0,"Day":0,"ServiceId":0,"ReportId":0,"UnitId":0,"Latitude":null,"Longitude":null,"SearchTerm":null,"PageId":0,"LastCallDateTime":null,"PageNumber":null,"pageSize":0,"OrderId":0,"StatDate":null,"EndDate":null,"DeviceType":"iPhone","DeviceToken":"059f3de7d8b557a42e8256ac6fd62c353628e0cff10d4f7e63c00a58ac5224af","ClientEmails":null,"CCEmail":null}}]}
+
+2017-07-04 11:54:08.5468|INFO|api.Helpers.NLogger|JSON
+Method: POST
+URL: http://192.168.1.121:8989/api/v1/employee/UpdateEmployeeLocation
+Controller : api.Controllers.EmployeeController
+Action : UpdateEmployeeLocation
+Action Parameters : {"messageFormat":"JSON","messageArguments":[{"request":{"NotificationId":0,"EmployeeId":1012,"SalesVisitRequestId":0,"Month":0,"Year":0,"Day":0,"ServiceId":0,"ReportId":0,"UnitId":0,"Latitude":23.02626713,"Longitude":72.52368020,"SearchTerm":null,"PageId":0,"LastCallDateTime":null,"PageNumber":null,"pageSize":0,"OrderId":0,"StatDate":null,"EndDate":null,"DeviceType":null,"DeviceToken":null,"ClientEmails":null,"CCEmail":null}}]}
+
+2017-07-04 11:54:48.6616|INFO|api.Helpers.NLogger|JSON
+Method: POST
+URL: http://192.168.1.121:8989/api/v1/employee/logout
+Controller : api.Controllers.EmployeeController
+Action : logout
+Action Parameters : {"messageFormat":"JSON","messageArguments":[{"request":{"NotificationId":0,"EmployeeId":1012,"SalesVisitRequestId":0,"Month":0,"Year":0,"Day":0,"ServiceId":0,"ReportId":0,"UnitId":0,"Latitude":null,"Longitude":null,"SearchTerm":null,"PageId":0,"LastCallDateTime":null,"PageNumber":null,"pageSize":0,"OrderId":0,"StatDate":null,"EndDate":null,"DeviceType":null,"DeviceToken":null,"ClientEmails":null,"CCEmail":null}}]}
+
+2017-07-04 11:55:03.8614|INFO|api.Helpers.NLogger|JSON
+Method: POST
+URL: http://192.168.1.121:8989/api/v1/employee/login
+Controller : api.Controllers.EmployeeController
+Action : Login
+Action Parameters : {"messageFormat":"JSON","messageArguments":[{"model":{"Email":"testing.demo@gmail.com","Password":"7f2765757d527eaeeb14fb706039bac7","DeviceType":"iPhone","DeviceToken":"059f3de7d8b557a42e8256ac6fd62c353628e0cff10d4f7e63c00a58ac5224af","Latitude":23.02626659,"Longitude":72.52368525}}]}
+
+2017-07-04 11:55:04.3210|INFO|api.Helpers.NLogger|JSON
+Method: POST
+URL: http://192.168.1.121:8989/api/v1/employee/NotificationList
+Controller : api.Controllers.NewEmployeeController
+Action : NotificationList
+Action Parameters : {"messageFormat":"JSON","messageArguments":[{"request":{"NotificationId":0,"EmployeeId":1012,"SalesVisitRequestId":0,"Month":0,"Year":0,"Day":0,"ServiceId":0,"ReportId":0,"UnitId":0,"Latitude":null,"Longitude":null,"SearchTerm":null,"PageId":0,"LastCallDateTime":null,"PageNumber":1,"pageSize":0,"OrderId":0,"StatDate":null,"EndDate":null,"DeviceType":null,"DeviceToken":null,"ClientEmails":null,"CCEmail":null}}]}
+
+2017-07-04 11:55:04.8212|INFO|api.Helpers.NLogger|JSON
+Method: POST
+URL: http://192.168.1.121:8989/api/v1/employee/employeeUpdateToken
+Controller : api.Controllers.NewEmployeeController
+Action : employeeUpdateToken
+Action Parameters : {"messageFormat":"JSON","messageArguments":[{"request":{"NotificationId":0,"EmployeeId":1012,"SalesVisitRequestId":0,"Month":0,"Year":0,"Day":0,"ServiceId":0,"ReportId":0,"UnitId":0,"Latitude":null,"Longitude":null,"SearchTerm":null,"PageId":0,"LastCallDateTime":null,"PageNumber":null,"pageSize":0,"OrderId":0,"StatDate":null,"EndDate":null,"DeviceType":"iPhone","DeviceToken":"399d5f1f7068b826741dd6f81d2cdc8c590572e82a0041b842a495f278f048d7","ClientEmails":null,"CCEmail":null}}]}
+
+2017-07-04 11:55:19.8198|INFO|api.Helpers.NLogger|JSON
+Method: GET
+URL: http://192.168.1.121:8989/api/v1/empcommon/getallplantype?EmployeeId=1012
+Controller : api.Controllers.EmpCommonController
+Action : GetAllPlanType
+Action Parameters : {"messageFormat":"JSON","messageArguments":[{"EmployeeId":1012}]}
+
+2017-07-04 11:55:41.2733|INFO|api.Helpers.NLogger|JSON
+Method: GET
+URL: http://192.168.1.121:8989/api/v1/employee/GetAllClients?EmployeeId=1012&ShowOnlyWorkAreaClient=false
+Controller : api.Controllers.EmployeeController
+Action : GetAllClients
+Action Parameters : {"messageFormat":"JSON","messageArguments":[{"EmployeeId":1012,"ShowOnlyWorkAreaClient":false}]}
+
+2017-07-04 11:55:58.6996|INFO|api.Helpers.NLogger|JSON
+Method: GET
+URL: http://192.168.1.121:8989/api/v1/employee/GetClientAddress?ClientId=1098&EmployeeId=1012
+Controller : api.Controllers.EmployeeController
+Action : GetClientAddress
+Action Parameters : {"messageFormat":"JSON","messageArguments":[{"ClientId":1098,"EmployeeId":1012}]}
+
+2017-07-04 11:56:01.0989|INFO|api.Helpers.NLogger|JSON
+Method: POST
+URL: http://192.168.1.121:8989/api/v1/empcommon/GetSpecialRateByPlanType
+Controller : api.Controllers.EmpCommonController
+Action : GetSpecialRateByPlanType
+Action Parameters : {"messageFormat":"JSON","messageArguments":[{"request":{"Email":null,"ClientId":0,"PlanTypeId":1,"PlanId":0,"PartId":0,"Month":0,"Year":0,"AddressId":null,"UnitId":0,"ServiceId":null,"RequestedServiceId":null,"PartType":null,"PartTypeId":null,"PageId":0,"ShowDeleted":false,"ServiceCaseNumber":null,"LastCallDateTime":null,"PageNumber":null,"pageSize":0,"DeviceType":null,"DeviceToken":null,"NotificationId":null,"EmployeeId":1012,"BillingId":null}}]}
+
+2017-07-04 11:56:03.5454|INFO|api.Helpers.NLogger|JSON
+Method: POST
+URL: http://192.168.1.121:8989/api/v1/employee/AddClientUnitSalesPerson
+Controller : api.Controllers.SalesPersonController
+Action : AddClientUnitSalesPerson
+Action Parameters : {"messageFormat":"JSON","messageArguments":[{"request":{"ClientId":1098,"UnitId":0,"Qty":1,"UnitName":"","ManufactureDate":null,"PlanTypeId":1,"UnitTon":null,"AddressId":1070,"UnitTypeId":null,"AutoRenewal":false,"SpecialOffer":false,"Status":null,"OptionalInformation":[{"SplitType":"Packaged","ModelNumber":"","SerialNumber":"","UnitTon":null,"QuantityOfFilter":0,"ManufactureDate":null,"Filters":null,"QuantityOfFuses":0,"FuseTypes":null,"ThermostatTypes":null}],"DeleteOldData":false,"EmployeeId":1012,"CurrentPaymentMethod":"PO"}}]}
+
+2017-07-04 11:56:06.0994|INFO|api.Helpers.NLogger|JSON
+Method: GET
+URL: http://192.168.1.121:8989/api/v1/empcommon/getallplantype?EmployeeId=1012
+Controller : api.Controllers.EmpCommonController
+Action : GetAllPlanType
+Action Parameters : {"messageFormat":"JSON","messageArguments":[{"EmployeeId":1012}]}
+
+2017-07-04 11:56:06.0994|INFO|api.Helpers.NLogger|JSON
+Method: GET
+URL: http://192.168.1.121:8989/api/v1/employee/GetClientAddress?ClientId=1098&EmployeeId=1012
+Controller : api.Controllers.EmployeeController
+Action : GetClientAddress
+Action Parameters : {"messageFormat":"JSON","messageArguments":[{"ClientId":1098,"EmployeeId":1012}]}
+
+2017-07-04 11:56:07.8096|INFO|api.Helpers.NLogger|JSON
+Method: POST
+URL: http://192.168.1.121:8989/api/v1/empcommon/GetSpecialRateByPlanType
+Controller : api.Controllers.EmpCommonController
+Action : GetSpecialRateByPlanType
+Action Parameters : {"messageFormat":"JSON","messageArguments":[{"request":{"Email":null,"ClientId":0,"PlanTypeId":1,"PlanId":0,"PartId":0,"Month":0,"Year":0,"AddressId":null,"UnitId":0,"ServiceId":null,"RequestedServiceId":null,"PartType":null,"PartTypeId":null,"PageId":0,"ShowDeleted":false,"ServiceCaseNumber":null,"LastCallDateTime":null,"PageNumber":null,"pageSize":0,"DeviceType":null,"DeviceToken":null,"NotificationId":null,"EmployeeId":1012,"BillingId":null}}]}
+
+2017-07-04 11:56:08.4888|INFO|api.Helpers.NLogger|JSON
+Method: POST
+URL: http://192.168.1.121:8989/api/v1/employee/AddClientUnitSalesPerson
+Controller : api.Controllers.SalesPersonController
+Action : AddClientUnitSalesPerson
+Action Parameters : {"messageFormat":"JSON","messageArguments":[{"request":{"ClientId":1098,"UnitId":0,"Qty":1,"UnitName":"","ManufactureDate":null,"PlanTypeId":1,"UnitTon":null,"AddressId":1070,"UnitTypeId":null,"AutoRenewal":false,"SpecialOffer":false,"Status":null,"OptionalInformation":[{"SplitType":"Packaged","ModelNumber":"","SerialNumber":"","UnitTon":null,"QuantityOfFilter":0,"ManufactureDate":null,"Filters":null,"QuantityOfFuses":0,"FuseTypes":null,"ThermostatTypes":null}],"DeleteOldData":false,"EmployeeId":1012,"CurrentPaymentMethod":"PO"}}]}
+
+2017-07-04 11:56:09.8218|INFO|api.Helpers.NLogger|JSON
+Method: GET
+URL: http://192.168.1.121:8989/api/v1/employee/GetClientDefaultAddress?ClientId=1098&EmployeeId=1012
+Controller : api.Controllers.EmployeeController
+Action : GetClientDefaultAddress
+Action Parameters : {"messageFormat":"JSON","messageArguments":[{"ClientId":1098,"EmployeeId":1012}]}
+
+2017-07-04 11:56:10.8801|INFO|api.Helpers.NLogger|JSON
+Method: POST
+URL: http://192.168.1.121:8989/api/v1/employee/ValidateClientAddress
+Controller : api.Controllers.NewEmployeeController
+Action : ValidateClientAddress
+Action Parameters : {"messageFormat":"JSON","messageArguments":[{"ModelData":{"Id":0,"ClientId":1098,"Address":"4809 kenwood palace","State":1,"StateName":null,"City":182,"CityName":null,"ZipCode":"94103","Latitude":null,"Longitude":null,"IsDefaultAddress":null,"AllowDelete":false,"ShowAddressInApp":false,"PhoneNumber":null,"MobileNumber":null,"OfficeNumber":null,"HomeNumber":null,"Email":null,"PDFUrl":null,"PendingInactive":false}}]}
+
+2017-07-04 11:56:17.8856|INFO|api.Helpers.NLogger|JSON
+Method: POST
+URL: http://192.168.1.121:8989/api/v1/employee/SubmitUnitPayment
+Controller : api.Controllers.NewEmployeeController
+Action : SubmitUnitPayment
+Action Parameters : {"messageFormat":"JSON","messageArguments":[{}]}
+
+2017-07-04 11:56:20.5573|INFO|api.Helpers.NLogger|JSON
+Method: POST
+URL: http://192.168.1.121:8989/api/v1/employee/NotificationList
+Controller : api.Controllers.NewEmployeeController
+Action : NotificationList
+Action Parameters : {"messageFormat":"JSON","messageArguments":[{"request":{"NotificationId":0,"EmployeeId":1012,"SalesVisitRequestId":0,"Month":0,"Year":0,"Day":0,"ServiceId":0,"ReportId":0,"UnitId":0,"Latitude":null,"Longitude":null,"SearchTerm":null,"PageId":0,"LastCallDateTime":null,"PageNumber":1,"pageSize":0,"OrderId":0,"StatDate":null,"EndDate":null,"DeviceType":null,"DeviceToken":null,"ClientEmails":null,"CCEmail":null}}]}
+
+2017-07-04 11:59:26.3613|INFO|api.Helpers.NLogger|JSON
+Method: POST
+URL: http://192.168.1.121:8989/api/v1/employee/UpdateEmployeeLocation
+Controller : api.Controllers.EmployeeController
+Action : UpdateEmployeeLocation
+Action Parameters : {"messageFormat":"JSON","messageArguments":[{"request":{"NotificationId":0,"EmployeeId":1012,"SalesVisitRequestId":0,"Month":0,"Year":0,"Day":0,"ServiceId":0,"ReportId":0,"UnitId":0,"Latitude":23.02510176,"Longitude":72.52114700,"SearchTerm":null,"PageId":0,"LastCallDateTime":null,"PageNumber":null,"pageSize":0,"OrderId":0,"StatDate":null,"EndDate":null,"DeviceType":null,"DeviceToken":null,"ClientEmails":null,"CCEmail":null}}]}
+
+2017-07-04 16:00:57.2680|INFO|api.Helpers.NLogger|JSON
+Method: POST
+URL: http://192.168.1.121:8989/api/v1/employee/employeeUpdateToken
+Controller : api.Controllers.NewEmployeeController
+Action : employeeUpdateToken
+Action Parameters : {"messageFormat":"JSON","messageArguments":[{"request":{"NotificationId":0,"EmployeeId":1012,"SalesVisitRequestId":0,"Month":0,"Year":0,"Day":0,"ServiceId":0,"ReportId":0,"UnitId":0,"Latitude":null,"Longitude":null,"SearchTerm":null,"PageId":0,"LastCallDateTime":null,"PageNumber":null,"pageSize":0,"OrderId":0,"StatDate":null,"EndDate":null,"DeviceType":"iPhone","DeviceToken":"399d5f1f7068b826741dd6f81d2cdc8c590572e82a0041b842a495f278f048d7","ClientEmails":null,"CCEmail":null}}]}
+
+2017-07-04 16:00:57.2680|INFO|api.Helpers.NLogger|JSON
+Method: POST
+URL: http://192.168.1.121:8989/api/v1/employee/UpdateEmployeeLocation
+Controller : api.Controllers.EmployeeController
+Action : UpdateEmployeeLocation
+Action Parameters : {"messageFormat":"JSON","messageArguments":[{"request":{"NotificationId":0,"EmployeeId":1012,"SalesVisitRequestId":0,"Month":0,"Year":0,"Day":0,"ServiceId":0,"ReportId":0,"UnitId":0,"Latitude":23.02628123,"Longitude":72.52361336,"SearchTerm":null,"PageId":0,"LastCallDateTime":null,"PageNumber":null,"pageSize":0,"OrderId":0,"StatDate":null,"EndDate":null,"DeviceType":null,"DeviceToken":null,"ClientEmails":null,"CCEmail":null}}]}
+
+2017-07-04 16:00:57.2680|INFO|api.Helpers.NLogger|JSON
+Method: POST
+URL: http://192.168.1.121:8989/api/v1/employee/NotificationList
+Controller : api.Controllers.NewEmployeeController
+Action : NotificationList
+Action Parameters : {"messageFormat":"JSON","messageArguments":[{"request":{"NotificationId":0,"EmployeeId":1012,"SalesVisitRequestId":0,"Month":0,"Year":0,"Day":0,"ServiceId":0,"ReportId":0,"UnitId":0,"Latitude":null,"Longitude":null,"SearchTerm":null,"PageId":0,"LastCallDateTime":null,"PageNumber":1,"pageSize":0,"OrderId":0,"StatDate":null,"EndDate":null,"DeviceType":null,"DeviceToken":null,"ClientEmails":null,"CCEmail":null}}]}
+
+2017-07-04 16:01:03.1540|INFO|api.Helpers.NLogger|JSON
+Method: POST
+URL: http://192.168.1.121:8989/api/v1/employee/logout
+Controller : api.Controllers.EmployeeController
+Action : logout
+Action Parameters : {"messageFormat":"JSON","messageArguments":[{"request":{"NotificationId":0,"EmployeeId":1012,"SalesVisitRequestId":0,"Month":0,"Year":0,"Day":0,"ServiceId":0,"ReportId":0,"UnitId":0,"Latitude":null,"Longitude":null,"SearchTerm":null,"PageId":0,"LastCallDateTime":null,"PageNumber":null,"pageSize":0,"OrderId":0,"StatDate":null,"EndDate":null,"DeviceType":null,"DeviceToken":null,"ClientEmails":null,"CCEmail":null}}]}
+
+2017-07-04 16:01:20.9094|INFO|api.Helpers.NLogger|JSON
+Method: POST
+URL: http://192.168.1.121:8989/api/v1/employee/login
+Controller : api.Controllers.EmployeeController
+Action : Login
+Action Parameters : {"messageFormat":"JSON","messageArguments":[{"model":{"Email":"testing.demo@gmail.com","Password":"7f2765757d527eaeeb14fb706039bac7","DeviceType":"iPhone","DeviceToken":"399d5f1f7068b826741dd6f81d2cdc8c590572e82a0041b842a495f278f048d7","Latitude":23.02630605,"Longitude":72.52370971}}]}
+
+2017-07-04 16:01:21.5244|INFO|api.Helpers.NLogger|JSON
+Method: POST
+URL: http://192.168.1.121:8989/api/v1/employee/NotificationList
+Controller : api.Controllers.NewEmployeeController
+Action : NotificationList
+Action Parameters : {"messageFormat":"JSON","messageArguments":[{"request":{"NotificationId":0,"EmployeeId":1012,"SalesVisitRequestId":0,"Month":0,"Year":0,"Day":0,"ServiceId":0,"ReportId":0,"UnitId":0,"Latitude":null,"Longitude":null,"SearchTerm":null,"PageId":0,"LastCallDateTime":null,"PageNumber":1,"pageSize":0,"OrderId":0,"StatDate":null,"EndDate":null,"DeviceType":null,"DeviceToken":null,"ClientEmails":null,"CCEmail":null}}]}
+
+2017-07-04 16:01:22.0356|INFO|api.Helpers.NLogger|JSON
+Method: POST
+URL: http://192.168.1.121:8989/api/v1/employee/employeeUpdateToken
+Controller : api.Controllers.NewEmployeeController
+Action : employeeUpdateToken
+Action Parameters : {"messageFormat":"JSON","messageArguments":[{"request":{"NotificationId":0,"EmployeeId":1012,"SalesVisitRequestId":0,"Month":0,"Year":0,"Day":0,"ServiceId":0,"ReportId":0,"UnitId":0,"Latitude":null,"Longitude":null,"SearchTerm":null,"PageId":0,"LastCallDateTime":null,"PageNumber":null,"pageSize":0,"OrderId":0,"StatDate":null,"EndDate":null,"DeviceType":"iPhone","DeviceToken":"18cdf5e26cb96e7a19f8ba8001e55464f883b77e9a31745ef7a2ab3791e6f46f","ClientEmails":null,"CCEmail":null}}]}
+
+2017-07-04 16:01:24.3353|INFO|api.Helpers.NLogger|JSON
+Method: GET
+URL: http://192.168.1.121:8989/api/v1/empcommon/getallplantype?EmployeeId=1012
+Controller : api.Controllers.EmpCommonController
+Action : GetAllPlanType
+Action Parameters : {"messageFormat":"JSON","messageArguments":[{"EmployeeId":1012}]}
+
+2017-07-04 16:01:28.1672|INFO|api.Helpers.NLogger|JSON
+Method: POST
+URL: http://192.168.1.121:8989/api/v1/employee/NotificationList
+Controller : api.Controllers.NewEmployeeController
+Action : NotificationList
+Action Parameters : {"messageFormat":"JSON","messageArguments":[{"request":{"NotificationId":0,"EmployeeId":1012,"SalesVisitRequestId":0,"Month":0,"Year":0,"Day":0,"ServiceId":0,"ReportId":0,"UnitId":0,"Latitude":null,"Longitude":null,"SearchTerm":null,"PageId":0,"LastCallDateTime":null,"PageNumber":1,"pageSize":0,"OrderId":0,"StatDate":null,"EndDate":null,"DeviceType":null,"DeviceToken":null,"ClientEmails":null,"CCEmail":null}}]}
+
+2017-07-04 16:01:30.0692|INFO|api.Helpers.NLogger|JSON
+Method: GET
+URL: http://192.168.1.121:8989/api/v1/empcommon/getallplantype?EmployeeId=1012
+Controller : api.Controllers.EmpCommonController
+Action : GetAllPlanType
+Action Parameters : {"messageFormat":"JSON","messageArguments":[{"EmployeeId":1012}]}
+
+2017-07-04 16:01:31.3913|INFO|api.Helpers.NLogger|JSON
+Method: GET
+URL: http://192.168.1.121:8989/api/v1/employee/GetAllClients?EmployeeId=1012&ShowOnlyWorkAreaClient=false
+Controller : api.Controllers.EmployeeController
+Action : GetAllClients
+Action Parameters : {"messageFormat":"JSON","messageArguments":[{"EmployeeId":1012,"ShowOnlyWorkAreaClient":false}]}
+
+2017-07-04 16:01:34.5746|INFO|api.Helpers.NLogger|JSON
+Method: GET
+URL: http://192.168.1.121:8989/api/v1/employee/GetClientAddress?ClientId=1098&EmployeeId=1012
+Controller : api.Controllers.EmployeeController
+Action : GetClientAddress
+Action Parameters : {"messageFormat":"JSON","messageArguments":[{"ClientId":1098,"EmployeeId":1012}]}
+
+2017-07-04 16:01:37.8387|INFO|api.Helpers.NLogger|JSON
+Method: POST
+URL: http://192.168.1.121:8989/api/v1/empcommon/GetSpecialRateByPlanType
+Controller : api.Controllers.EmpCommonController
+Action : GetSpecialRateByPlanType
+Action Parameters : {"messageFormat":"JSON","messageArguments":[{"request":{"Email":null,"ClientId":0,"PlanTypeId":1,"PlanId":0,"PartId":0,"Month":0,"Year":0,"AddressId":null,"UnitId":0,"ServiceId":null,"RequestedServiceId":null,"PartType":null,"PartTypeId":null,"PageId":0,"ShowDeleted":false,"ServiceCaseNumber":null,"LastCallDateTime":null,"PageNumber":null,"pageSize":0,"DeviceType":null,"DeviceToken":null,"NotificationId":null,"EmployeeId":1012,"BillingId":null}}]}
+
+2017-07-04 16:01:42.5397|INFO|api.Helpers.NLogger|JSON
+Method: POST
+URL: http://192.168.1.121:8989/api/v1/employee/AddClientUnitSalesPerson
+Controller : api.Controllers.SalesPersonController
+Action : AddClientUnitSalesPerson
+Action Parameters : {"messageFormat":"JSON","messageArguments":[{"request":{"ClientId":1098,"UnitId":0,"Qty":1,"UnitName":"","ManufactureDate":null,"PlanTypeId":1,"UnitTon":null,"AddressId":1070,"UnitTypeId":null,"AutoRenewal":false,"SpecialOffer":false,"Status":null,"OptionalInformation":[{"SplitType":"Packaged","ModelNumber":"","SerialNumber":"","UnitTon":null,"QuantityOfFilter":0,"ManufactureDate":null,"Filters":null,"QuantityOfFuses":0,"FuseTypes":null,"ThermostatTypes":null}],"DeleteOldData":false,"EmployeeId":1012,"CurrentPaymentMethod":"Check"}}]}
+
+2017-07-04 16:01:48.1639|INFO|api.Helpers.NLogger|JSON
+Method: GET
+URL: http://192.168.1.121:8989/api/v1/employee/GetClientDefaultAddress?ClientId=1098&EmployeeId=1012
+Controller : api.Controllers.EmployeeController
+Action : GetClientDefaultAddress
+Action Parameters : {"messageFormat":"JSON","messageArguments":[{"ClientId":1098,"EmployeeId":1012}]}
+
+2017-07-04 16:02:03.1703|INFO|api.Helpers.NLogger|JSON
+Method: POST
+URL: http://192.168.1.121:8989/api/v1/employee/ValidateClientAddress
+Controller : api.Controllers.NewEmployeeController
+Action : ValidateClientAddress
+Action Parameters : {"messageFormat":"JSON","messageArguments":[{"ModelData":{"Id":0,"ClientId":1098,"Address":"4809 kenwood palace","State":1,"StateName":null,"City":182,"CityName":null,"ZipCode":"94103","Latitude":null,"Longitude":null,"IsDefaultAddress":null,"AllowDelete":false,"ShowAddressInApp":false,"PhoneNumber":null,"MobileNumber":null,"OfficeNumber":null,"HomeNumber":null,"Email":null,"PDFUrl":null,"PendingInactive":false}}]}
+
+2017-07-04 16:02:28.6032|INFO|api.Helpers.NLogger|JSON
+Method: POST
+URL: http://192.168.1.121:8989/api/v1/employee/ValidateClientAddress
+Controller : api.Controllers.NewEmployeeController
+Action : ValidateClientAddress
+Action Parameters : {"messageFormat":"JSON","messageArguments":[{"ModelData":{"Id":0,"ClientId":1098,"Address":"4809 kenwood palace","State":1,"StateName":null,"City":182,"CityName":null,"ZipCode":"94103","Latitude":null,"Longitude":null,"IsDefaultAddress":null,"AllowDelete":false,"ShowAddressInApp":false,"PhoneNumber":null,"MobileNumber":null,"OfficeNumber":null,"HomeNumber":null,"Email":null,"PDFUrl":null,"PendingInactive":false}}]}
+
+2017-07-04 16:02:32.9361|INFO|api.Helpers.NLogger|JSON
+Method: POST
+URL: http://192.168.1.121:8989/api/v1/employee/SubmitUnitPayment
+Controller : api.Controllers.NewEmployeeController
+Action : SubmitUnitPayment
+Action Parameters : {"messageFormat":"JSON","messageArguments":[{}]}
+
+2017-07-04 16:02:35.8323|INFO|api.Helpers.NLogger|JSON
+Method: POST
+URL: http://192.168.1.121:8989/api/v1/employee/NotificationList
+Controller : api.Controllers.NewEmployeeController
+Action : NotificationList
+Action Parameters : {"messageFormat":"JSON","messageArguments":[{"request":{"NotificationId":0,"EmployeeId":1012,"SalesVisitRequestId":0,"Month":0,"Year":0,"Day":0,"ServiceId":0,"ReportId":0,"UnitId":0,"Latitude":null,"Longitude":null,"SearchTerm":null,"PageId":0,"LastCallDateTime":null,"PageNumber":1,"pageSize":0,"OrderId":0,"StatDate":null,"EndDate":null,"DeviceType":null,"DeviceToken":null,"ClientEmails":null,"CCEmail":null}}]}
+
+2017-07-04 16:02:38.2756|INFO|api.Helpers.NLogger|JSON
+Method: GET
+URL: http://192.168.1.121:8989/api/v1/empcommon/getallplantype?EmployeeId=1012
+Controller : api.Controllers.EmpCommonController
+Action : GetAllPlanType
+Action Parameters : {"messageFormat":"JSON","messageArguments":[{"EmployeeId":1012}]}
+
+2017-07-04 16:02:39.5133|INFO|api.Helpers.NLogger|JSON
+Method: GET
+URL: http://192.168.1.121:8989/api/v1/employee/GetAllClients?EmployeeId=1012&ShowOnlyWorkAreaClient=false
+Controller : api.Controllers.EmployeeController
+Action : GetAllClients
+Action Parameters : {"messageFormat":"JSON","messageArguments":[{"EmployeeId":1012,"ShowOnlyWorkAreaClient":false}]}
+
+2017-07-04 16:02:42.6653|INFO|api.Helpers.NLogger|JSON
+Method: GET
+URL: http://192.168.1.121:8989/api/v1/employee/GetClientAddress?ClientId=1098&EmployeeId=1012
+Controller : api.Controllers.EmployeeController
+Action : GetClientAddress
+Action Parameters : {"messageFormat":"JSON","messageArguments":[{"ClientId":1098,"EmployeeId":1012}]}
+
+2017-07-04 16:02:43.5014|INFO|api.Helpers.NLogger|JSON
+Method: POST
+URL: http://192.168.1.121:8989/api/v1/empcommon/GetSpecialRateByPlanType
+Controller : api.Controllers.EmpCommonController
+Action : GetSpecialRateByPlanType
+Action Parameters : {"messageFormat":"JSON","messageArguments":[{"request":{"Email":null,"ClientId":0,"PlanTypeId":1,"PlanId":0,"PartId":0,"Month":0,"Year":0,"AddressId":null,"UnitId":0,"ServiceId":null,"RequestedServiceId":null,"PartType":null,"PartTypeId":null,"PageId":0,"ShowDeleted":false,"ServiceCaseNumber":null,"LastCallDateTime":null,"PageNumber":null,"pageSize":0,"DeviceType":null,"DeviceToken":null,"NotificationId":null,"EmployeeId":1012,"BillingId":null}}]}
+
+2017-07-04 16:02:44.5613|INFO|api.Helpers.NLogger|JSON
+Method: POST
+URL: http://192.168.1.121:8989/api/v1/employee/AddClientUnitSalesPerson
+Controller : api.Controllers.SalesPersonController
+Action : AddClientUnitSalesPerson
+Action Parameters : {"messageFormat":"JSON","messageArguments":[{"request":{"ClientId":1098,"UnitId":0,"Qty":1,"UnitName":"","ManufactureDate":null,"PlanTypeId":1,"UnitTon":null,"AddressId":1070,"UnitTypeId":null,"AutoRenewal":false,"SpecialOffer":false,"Status":null,"OptionalInformation":[{"SplitType":"Packaged","ModelNumber":"","SerialNumber":"","UnitTon":null,"QuantityOfFilter":0,"ManufactureDate":null,"Filters":null,"QuantityOfFuses":0,"FuseTypes":null,"ThermostatTypes":null}],"DeleteOldData":false,"EmployeeId":1012,"CurrentPaymentMethod":"PO"}}]}
+
+2017-07-04 16:02:46.4478|INFO|api.Helpers.NLogger|JSON
+Method: GET
+URL: http://192.168.1.121:8989/api/v1/employee/GetClientDefaultAddress?ClientId=1098&EmployeeId=1012
+Controller : api.Controllers.EmployeeController
+Action : GetClientDefaultAddress
+Action Parameters : {"messageFormat":"JSON","messageArguments":[{"ClientId":1098,"EmployeeId":1012}]}
+
+2017-07-04 16:02:47.0509|INFO|api.Helpers.NLogger|JSON
+Method: POST
+URL: http://192.168.1.121:8989/api/v1/employee/ValidateClientAddress
+Controller : api.Controllers.NewEmployeeController
+Action : ValidateClientAddress
+Action Parameters : {"messageFormat":"JSON","messageArguments":[{"ModelData":{"Id":0,"ClientId":1098,"Address":"4809 kenwood palace","State":1,"StateName":null,"City":182,"CityName":null,"ZipCode":"94103","Latitude":null,"Longitude":null,"IsDefaultAddress":null,"AllowDelete":false,"ShowAddressInApp":false,"PhoneNumber":null,"MobileNumber":null,"OfficeNumber":null,"HomeNumber":null,"Email":null,"PDFUrl":null,"PendingInactive":false}}]}
+
+2017-07-04 16:02:48.1314|INFO|api.Helpers.NLogger|JSON
+Method: POST
+URL: http://192.168.1.121:8989/api/v1/employee/SubmitUnitPayment
+Controller : api.Controllers.NewEmployeeController
+Action : SubmitUnitPayment
+Action Parameters : {"messageFormat":"JSON","messageArguments":[{}]}
+
+2017-07-04 16:02:50.8521|INFO|api.Helpers.NLogger|JSON
+Method: POST
+URL: http://192.168.1.121:8989/api/v1/employee/NotificationList
+Controller : api.Controllers.NewEmployeeController
+Action : NotificationList
+Action Parameters : {"messageFormat":"JSON","messageArguments":[{"request":{"NotificationId":0,"EmployeeId":1012,"SalesVisitRequestId":0,"Month":0,"Year":0,"Day":0,"ServiceId":0,"ReportId":0,"UnitId":0,"Latitude":null,"Longitude":null,"SearchTerm":null,"PageId":0,"LastCallDateTime":null,"PageNumber":1,"pageSize":0,"OrderId":0,"StatDate":null,"EndDate":null,"DeviceType":null,"DeviceToken":null,"ClientEmails":null,"CCEmail":null}}]}
+
+2017-07-04 16:04:02.1052|INFO|api.Helpers.NLogger|JSON
+Method: GET
+URL: http://192.168.1.121:8989/api/v1/empcommon/getallplantype?EmployeeId=1012
+Controller : api.Controllers.EmpCommonController
+Action : GetAllPlanType
+Action Parameters : {"messageFormat":"JSON","messageArguments":[{"EmployeeId":1012}]}
+
+2017-07-04 16:04:06.4846|INFO|api.Helpers.NLogger|JSON
+Method: GET
+URL: http://192.168.1.121:8989/api/v1/employee/GetAllClients?EmployeeId=1012&ShowOnlyWorkAreaClient=false
+Controller : api.Controllers.EmployeeController
+Action : GetAllClients
+Action Parameters : {"messageFormat":"JSON","messageArguments":[{"EmployeeId":1012,"ShowOnlyWorkAreaClient":false}]}
+
+2017-07-04 16:04:12.3895|INFO|api.Helpers.NLogger|JSON
+Method: GET
+URL: http://192.168.1.121:8989/api/v1/employee/GetClientAddress?ClientId=1098&EmployeeId=1012
+Controller : api.Controllers.EmployeeController
+Action : GetClientAddress
+Action Parameters : {"messageFormat":"JSON","messageArguments":[{"ClientId":1098,"EmployeeId":1012}]}
+
+2017-07-04 16:04:14.2373|INFO|api.Helpers.NLogger|JSON
+Method: POST
+URL: http://192.168.1.121:8989/api/v1/empcommon/GetSpecialRateByPlanType
+Controller : api.Controllers.EmpCommonController
+Action : GetSpecialRateByPlanType
+Action Parameters : {"messageFormat":"JSON","messageArguments":[{"request":{"Email":null,"ClientId":0,"PlanTypeId":1,"PlanId":0,"PartId":0,"Month":0,"Year":0,"AddressId":null,"UnitId":0,"ServiceId":null,"RequestedServiceId":null,"PartType":null,"PartTypeId":null,"PageId":0,"ShowDeleted":false,"ServiceCaseNumber":null,"LastCallDateTime":null,"PageNumber":null,"pageSize":0,"DeviceType":null,"DeviceToken":null,"NotificationId":null,"EmployeeId":1012,"BillingId":null}}]}
+
+2017-07-04 16:04:15.4328|INFO|api.Helpers.NLogger|JSON
+Method: POST
+URL: http://192.168.1.121:8989/api/v1/employee/AddClientUnitSalesPerson
+Controller : api.Controllers.SalesPersonController
+Action : AddClientUnitSalesPerson
+Action Parameters : {"messageFormat":"JSON","messageArguments":[{"request":{"ClientId":1098,"UnitId":0,"Qty":1,"UnitName":"","ManufactureDate":null,"PlanTypeId":1,"UnitTon":null,"AddressId":1070,"UnitTypeId":null,"AutoRenewal":false,"SpecialOffer":false,"Status":null,"OptionalInformation":[{"SplitType":"Packaged","ModelNumber":"","SerialNumber":"","UnitTon":null,"QuantityOfFilter":0,"ManufactureDate":null,"Filters":null,"QuantityOfFuses":0,"FuseTypes":null,"ThermostatTypes":null}],"DeleteOldData":false,"EmployeeId":1012,"CurrentPaymentMethod":"Check"}}]}
+
+2017-07-04 16:04:17.8298|INFO|api.Helpers.NLogger|JSON
+Method: GET
+URL: http://192.168.1.121:8989/api/v1/employee/GetClientDefaultAddress?ClientId=1098&EmployeeId=1012
+Controller : api.Controllers.EmployeeController
+Action : GetClientDefaultAddress
+Action Parameters : {"messageFormat":"JSON","messageArguments":[{"ClientId":1098,"EmployeeId":1012}]}
+
+2017-07-04 16:04:19.0358|INFO|api.Helpers.NLogger|JSON
+Method: POST
+URL: http://192.168.1.121:8989/api/v1/employee/ValidateClientAddress
+Controller : api.Controllers.NewEmployeeController
+Action : ValidateClientAddress
+Action Parameters : {"messageFormat":"JSON","messageArguments":[{"ModelData":{"Id":0,"ClientId":1098,"Address":"4809 kenwood palace","State":1,"StateName":null,"City":182,"CityName":null,"ZipCode":"94103","Latitude":null,"Longitude":null,"IsDefaultAddress":null,"AllowDelete":false,"ShowAddressInApp":false,"PhoneNumber":null,"MobileNumber":null,"OfficeNumber":null,"HomeNumber":null,"Email":null,"PDFUrl":null,"PendingInactive":false}}]}
+
+2017-07-04 16:04:20.8873|INFO|api.Helpers.NLogger|JSON
+Method: POST
+URL: http://192.168.1.121:8989/api/v1/employee/SubmitUnitPayment
+Controller : api.Controllers.NewEmployeeController
+Action : SubmitUnitPayment
+Action Parameters : {"messageFormat":"JSON","messageArguments":[{}]}
+
+2017-07-04 16:04:24.7520|INFO|api.Helpers.NLogger|JSON
+Method: POST
+URL: http://192.168.1.121:8989/api/v1/employee/NotificationList
+Controller : api.Controllers.NewEmployeeController
+Action : NotificationList
+Action Parameters : {"messageFormat":"JSON","messageArguments":[{"request":{"NotificationId":0,"EmployeeId":1012,"SalesVisitRequestId":0,"Month":0,"Year":0,"Day":0,"ServiceId":0,"ReportId":0,"UnitId":0,"Latitude":null,"Longitude":null,"SearchTerm":null,"PageId":0,"LastCallDateTime":null,"PageNumber":1,"pageSize":0,"OrderId":0,"StatDate":null,"EndDate":null,"DeviceType":null,"DeviceToken":null,"ClientEmails":null,"CCEmail":null}}]}
+
+2017-07-04 16:05:42.5507|INFO|api.Helpers.NLogger|JSON
+Method: POST
+URL: http://192.168.1.121:8989/api/v1/employee/UpdateEmployeeLocation
+Controller : api.Controllers.EmployeeController
+Action : UpdateEmployeeLocation
+Action Parameters : {"messageFormat":"JSON","messageArguments":[{"request":{"NotificationId":0,"EmployeeId":1012,"SalesVisitRequestId":0,"Month":0,"Year":0,"Day":0,"ServiceId":0,"ReportId":0,"UnitId":0,"Latitude":23.02588911,"Longitude":72.52282132,"SearchTerm":null,"PageId":0,"LastCallDateTime":null,"PageNumber":null,"pageSize":0,"OrderId":0,"StatDate":null,"EndDate":null,"DeviceType":null,"DeviceToken":null,"ClientEmails":null,"CCEmail":null}}]}
+

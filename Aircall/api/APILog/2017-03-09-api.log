@@ -1,0 +1,203 @@
+2017-03-09 12:29:18.6990|INFO|api.Helpers.NLogger|JSON
+Method: GET
+URL: http://192.168.1.119:9999/api/v1/employee/ResendOrder1?OrderId=1274&CCEmail=
+Controller : api.Controllers.EmployeeController
+Action : ResendOrder1
+Action Parameters : {"messageFormat":"JSON","messageArguments":[{"OrderId":1274,"CCEmail":null}]}
+
+2017-03-09 15:38:43.1778|INFO|api.Helpers.NLogger|JSON
+Method: GET
+URL: http://192.168.1.119:9999/api/v1/common/SendSalesAgreement?ClientId=2053
+Controller : api.Controllers.CommonController
+Action : SendSalesAgreement
+Action Parameters : {"messageFormat":"JSON","messageArguments":[{"ClientId":2053}]}
+
+2017-03-09 16:59:05.2547|INFO|api.Helpers.NLogger|JSON
+Method: POST
+URL: http://192.168.1.119:9999/api/v1/employee/login
+Controller : api.Controllers.EmployeeController
+Action : Login
+Action Parameters : {"messageFormat":"JSON","messageArguments":[{"model":{"Email":"bani.test1221@gmail.com","Password":"7f2765757d527eaeeb14fb706039bac7","DeviceType":"iPhone","DeviceToken":"d9202078c880f90795c4509be2ff46fd10ce9d65e7f672b9bbd64a5db7baca47","Latitude":23.02619230,"Longitude":72.52361328}}]}
+
+2017-03-09 16:59:13.3735|INFO|api.Helpers.NLogger|JSON
+Method: POST
+URL: http://192.168.1.119:9999/api/v1/employee/login
+Controller : api.Controllers.EmployeeController
+Action : Login
+Action Parameters : {"messageFormat":"JSON","messageArguments":[{"model":{"Email":"bani.test1221@gmail.com","Password":"e10adc3949ba59abbe56e057f20f883e","DeviceType":"iPhone","DeviceToken":"d9202078c880f90795c4509be2ff46fd10ce9d65e7f672b9bbd64a5db7baca47","Latitude":23.02619230,"Longitude":72.52361328}}]}
+
+2017-03-09 16:59:26.0917|INFO|api.Helpers.NLogger|JSON
+Method: POST
+URL: http://192.168.1.119:9999/api/v1/employee/login
+Controller : api.Controllers.EmployeeController
+Action : Login
+Action Parameters : {"messageFormat":"JSON","messageArguments":[{"model":{"Email":"bani.test1221@gmail.com","Password":"eb3d3039c29481075263578b19d52df0","DeviceType":"iPhone","DeviceToken":"d9202078c880f90795c4509be2ff46fd10ce9d65e7f672b9bbd64a5db7baca47","Latitude":23.02619230,"Longitude":72.52361328}}]}
+
+2017-03-09 16:59:31.9561|INFO|api.Helpers.NLogger|JSON
+Method: POST
+URL: http://192.168.1.119:9999/api/v1/employee/login
+Controller : api.Controllers.EmployeeController
+Action : Login
+Action Parameters : {"messageFormat":"JSON","messageArguments":[{"model":{"Email":"bani.test1221@gmail.com","Password":"e10adc3949ba59abbe56e057f20f883e","DeviceType":"iPhone","DeviceToken":"d9202078c880f90795c4509be2ff46fd10ce9d65e7f672b9bbd64a5db7baca47","Latitude":23.02619230,"Longitude":72.52361328}}]}
+
+2017-03-09 17:00:13.8420|INFO|api.Helpers.NLogger|JSON
+Method: POST
+URL: http://192.168.1.119:9999/api/v1/employee/login
+Controller : api.Controllers.EmployeeController
+Action : Login
+Action Parameters : {"messageFormat":"JSON","messageArguments":[{"model":{"Email":"bani.test1221@gmail.com","Password":"eb3d3039c29481075263578b19d52df0","DeviceType":"iPhone","DeviceToken":"d9202078c880f90795c4509be2ff46fd10ce9d65e7f672b9bbd64a5db7baca47","Latitude":23.02619230,"Longitude":72.52361328}}]}
+
+2017-03-09 17:00:43.4723|INFO|api.Helpers.NLogger|JSON
+Method: POST
+URL: http://192.168.1.119:9999/api/v1/employee/login
+Controller : api.Controllers.EmployeeController
+Action : Login
+Action Parameters : {"messageFormat":"JSON","messageArguments":[{"model":{"Email":"bani.test1221@gmail.com","Password":"7f2765757d527eaeeb14fb706039bac7","DeviceType":"iPhone","DeviceToken":"d9202078c880f90795c4509be2ff46fd10ce9d65e7f672b9bbd64a5db7baca47","Latitude":23.02619230,"Longitude":72.52361328}}]}
+
+2017-03-09 17:05:22.5410|INFO|api.Helpers.NLogger|JSON
+Method: POST
+URL: http://192.168.1.119:9999/api/v1/profile/ClientDashboard
+Controller : api.Controllers.ProfileController
+Action : ClientDashboard
+Action Parameters : {"messageFormat":"JSON","messageArguments":[{"request":{"Email":null,"ClientId":1,"PlanTypeId":0,"PlanId":0,"PartId":0,"Month":0,"Year":0,"AddressId":null,"UnitId":0,"ServiceId":null,"RequestedServiceId":null,"PartType":null,"PartTypeId":null,"PageId":0,"ShowDeleted":false,"ServiceCaseNumber":null,"LastCallDateTime":null,"PageNumber":null,"pageSize":0,"DeviceType":null,"DeviceToken":null,"NotificationId":null,"EmployeeId":0,"BillingId":null}}]}
+
+2017-03-09 17:05:40.1291|INFO|api.Helpers.NLogger|JSON
+Method: POST
+URL: http://192.168.1.119:9999/api/v1/profile/clientlogout
+Controller : api.Controllers.ProfileController
+Action : clientlogout
+Action Parameters : {"messageFormat":"JSON","messageArguments":[{"request":{"Email":null,"ClientId":1,"PlanTypeId":0,"PlanId":0,"PartId":0,"Month":0,"Year":0,"AddressId":null,"UnitId":0,"ServiceId":null,"RequestedServiceId":null,"PartType":null,"PartTypeId":null,"PageId":0,"ShowDeleted":false,"ServiceCaseNumber":null,"LastCallDateTime":null,"PageNumber":null,"pageSize":0,"DeviceType":null,"DeviceToken":null,"NotificationId":null,"EmployeeId":0,"BillingId":null}}]}
+
+2017-03-09 17:05:50.7740|INFO|api.Helpers.NLogger|JSON
+Method: POST
+URL: http://192.168.1.119:9999/api/v1/profile/clientlogin
+Controller : api.Controllers.ProfileController
+Action : Login
+Action Parameters : {"messageFormat":"JSON","messageArguments":[{"model":{"Email":"office.testing@yahoo.com","Password":"7f2765757d527eaeeb14fb706039bac7","DeviceType":"iPhone","DeviceToken":"","Latitude":null,"Longitude":null}}]}
+
+2017-03-09 17:05:51.2363|INFO|api.Helpers.NLogger|JSON
+Method: POST
+URL: http://192.168.1.119:9999/api/v1/profile/ClientDashboard
+Controller : api.Controllers.ProfileController
+Action : ClientDashboard
+Action Parameters : {"messageFormat":"JSON","messageArguments":[{"request":{"Email":null,"ClientId":2030,"PlanTypeId":0,"PlanId":0,"PartId":0,"Month":0,"Year":0,"AddressId":null,"UnitId":0,"ServiceId":null,"RequestedServiceId":null,"PartType":null,"PartTypeId":null,"PageId":0,"ShowDeleted":false,"ServiceCaseNumber":null,"LastCallDateTime":null,"PageNumber":null,"pageSize":0,"DeviceType":null,"DeviceToken":null,"NotificationId":null,"EmployeeId":0,"BillingId":null}}]}
+
+2017-03-09 17:05:54.1388|INFO|api.Helpers.NLogger|JSON
+Method: POST
+URL: http://192.168.1.119:9999/api/v1/profile/NotificationList
+Controller : api.Controllers.NewProfileController
+Action : NotificationList
+Action Parameters : {"messageFormat":"JSON","messageArguments":[{"request":{"Email":null,"ClientId":2030,"PlanTypeId":0,"PlanId":0,"PartId":0,"Month":0,"Year":0,"AddressId":null,"UnitId":0,"ServiceId":null,"RequestedServiceId":null,"PartType":null,"PartTypeId":null,"PageId":0,"ShowDeleted":false,"ServiceCaseNumber":null,"LastCallDateTime":null,"PageNumber":1,"pageSize":0,"DeviceType":null,"DeviceToken":null,"NotificationId":null,"EmployeeId":0,"BillingId":null}}]}
+
+2017-03-09 17:06:02.1870|INFO|api.Helpers.NLogger|JSON
+Method: POST
+URL: http://192.168.1.119:9999/api/v1/profile/ClientDashboard
+Controller : api.Controllers.ProfileController
+Action : ClientDashboard
+Action Parameters : {"messageFormat":"JSON","messageArguments":[{"request":{"Email":null,"ClientId":2030,"PlanTypeId":0,"PlanId":0,"PartId":0,"Month":0,"Year":0,"AddressId":null,"UnitId":0,"ServiceId":null,"RequestedServiceId":null,"PartType":null,"PartTypeId":null,"PageId":0,"ShowDeleted":false,"ServiceCaseNumber":null,"LastCallDateTime":null,"PageNumber":null,"pageSize":0,"DeviceType":null,"DeviceToken":null,"NotificationId":null,"EmployeeId":0,"BillingId":null}}]}
+
+2017-03-09 17:08:39.9180|INFO|api.Helpers.NLogger|JSON
+Method: GET
+URL: http://192.168.1.119:9999/api/v1/employee/ResendOrder1?OrderId=1277&CCEmail=
+Controller : api.Controllers.EmployeeController
+Action : ResendOrder1
+Action Parameters : {"messageFormat":"JSON","messageArguments":[{"OrderId":1277,"CCEmail":null}]}
+
+2017-03-09 17:08:47.3406|INFO|api.Helpers.NLogger|JSON
+Method: POST
+URL: http://192.168.1.119:9999/api/v1/profile/ClientDashboard
+Controller : api.Controllers.ProfileController
+Action : ClientDashboard
+Action Parameters : {"messageFormat":"JSON","messageArguments":[{"request":{"Email":null,"ClientId":2030,"PlanTypeId":0,"PlanId":0,"PartId":0,"Month":0,"Year":0,"AddressId":null,"UnitId":0,"ServiceId":null,"RequestedServiceId":null,"PartType":null,"PartTypeId":null,"PageId":0,"ShowDeleted":false,"ServiceCaseNumber":null,"LastCallDateTime":null,"PageNumber":null,"pageSize":0,"DeviceType":null,"DeviceToken":null,"NotificationId":null,"EmployeeId":0,"BillingId":null}}]}
+
+2017-03-09 17:08:48.7922|INFO|api.Helpers.NLogger|JSON
+Method: POST
+URL: http://192.168.1.119:9999/api/v1/profile/NotificationList
+Controller : api.Controllers.NewProfileController
+Action : NotificationList
+Action Parameters : {"messageFormat":"JSON","messageArguments":[{"request":{"Email":null,"ClientId":2030,"PlanTypeId":0,"PlanId":0,"PartId":0,"Month":0,"Year":0,"AddressId":null,"UnitId":0,"ServiceId":null,"RequestedServiceId":null,"PartType":null,"PartTypeId":null,"PageId":0,"ShowDeleted":false,"ServiceCaseNumber":null,"LastCallDateTime":null,"PageNumber":1,"pageSize":0,"DeviceType":null,"DeviceToken":null,"NotificationId":null,"EmployeeId":0,"BillingId":null}}]}
+
+2017-03-09 17:08:49.7687|INFO|api.Helpers.NLogger|JSON
+Method: POST
+URL: http://192.168.1.119:9999/api/v1/profile/GetBillingHistoryDetail
+Controller : api.Controllers.ProfileController
+Action : GetBillingHistoryDetail
+Action Parameters : {"messageFormat":"JSON","messageArguments":[{"request":{"Email":null,"ClientId":2030,"PlanTypeId":0,"PlanId":0,"PartId":0,"Month":0,"Year":0,"AddressId":null,"UnitId":0,"ServiceId":null,"RequestedServiceId":null,"PartType":null,"PartTypeId":null,"PageId":0,"ShowDeleted":false,"ServiceCaseNumber":null,"LastCallDateTime":null,"PageNumber":null,"pageSize":0,"DeviceType":null,"DeviceToken":null,"NotificationId":null,"EmployeeId":0,"BillingId":2024}}]}
+
+2017-03-09 17:08:55.8155|INFO|api.Helpers.NLogger|JSON
+Method: POST
+URL: http://192.168.1.119:9999/api/v1/profile/NotificationList
+Controller : api.Controllers.NewProfileController
+Action : NotificationList
+Action Parameters : {"messageFormat":"JSON","messageArguments":[{"request":{"Email":null,"ClientId":2030,"PlanTypeId":0,"PlanId":0,"PartId":0,"Month":0,"Year":0,"AddressId":null,"UnitId":0,"ServiceId":null,"RequestedServiceId":null,"PartType":null,"PartTypeId":null,"PageId":0,"ShowDeleted":false,"ServiceCaseNumber":null,"LastCallDateTime":null,"PageNumber":1,"pageSize":0,"DeviceType":null,"DeviceToken":null,"NotificationId":null,"EmployeeId":0,"BillingId":null}}]}
+
+2017-03-09 17:08:57.9934|INFO|api.Helpers.NLogger|JSON
+Method: POST
+URL: http://192.168.1.119:9999/api/v1/profile/ClientDashboard
+Controller : api.Controllers.ProfileController
+Action : ClientDashboard
+Action Parameters : {"messageFormat":"JSON","messageArguments":[{"request":{"Email":null,"ClientId":2030,"PlanTypeId":0,"PlanId":0,"PartId":0,"Month":0,"Year":0,"AddressId":null,"UnitId":0,"ServiceId":null,"RequestedServiceId":null,"PartType":null,"PartTypeId":null,"PageId":0,"ShowDeleted":false,"ServiceCaseNumber":null,"LastCallDateTime":null,"PageNumber":null,"pageSize":0,"DeviceType":null,"DeviceToken":null,"NotificationId":null,"EmployeeId":0,"BillingId":null}}]}
+
+2017-03-09 17:08:59.7039|INFO|api.Helpers.NLogger|JSON
+Method: GET
+URL: http://192.168.1.119:9999/api/v1/profile/GetClientProfile?ClientId=2030
+Controller : api.Controllers.ProfileController
+Action : GetClientProfile
+Action Parameters : {"messageFormat":"JSON","messageArguments":[{"ClientId":2030}]}
+
+2017-03-09 17:09:01.5541|INFO|api.Helpers.NLogger|JSON
+Method: POST
+URL: http://192.168.1.119:9999/api/v1/profile/GetCreditCard
+Controller : api.Controllers.ProfileController
+Action : GetCreditCard
+Action Parameters : {"messageFormat":"JSON","messageArguments":[{"request":{"Id":0,"ClientId":2030,"CardType":null,"NameOnCard":null,"CardNumber":null,"ExpiryMonth":null,"CVV":0,"ExpiryYear":0,"IsDefaultPayment":null,"StripeCardId":null}}]}
+
+2017-03-09 17:09:50.6058|INFO|api.Helpers.NLogger|JSON
+Method: POST
+URL: http://192.168.1.119:9999/api/v1/profile/AddCreditCard
+Controller : api.Controllers.ProfileController
+Action : AddCreditCard
+Action Parameters : {"messageFormat":"JSON","messageArguments":[{"request":{"Id":0,"ClientId":2030,"CardType":"Visa","NameOnCard":"Hello","CardNumber":"4111111111111111","ExpiryMonth":"5","CVV":123,"ExpiryYear":2019,"IsDefaultPayment":null,"StripeCardId":null}}]}
+
+2017-03-09 17:12:06.4091|INFO|api.Helpers.NLogger|JSON
+Method: POST
+URL: http://192.168.1.119:9999/api/v1/profile/UpdateCreditCard
+Controller : api.Controllers.ProfileController
+Action : UpdateCreditCard
+Action Parameters : {"messageFormat":"JSON","messageArguments":[{"request":{"Id":2046,"ClientId":2030,"CardType":null,"NameOnCard":null,"CardNumber":null,"ExpiryMonth":null,"CVV":0,"ExpiryYear":0,"IsDefaultPayment":true,"StripeCardId":null}}]}
+
+2017-03-09 17:12:10.5505|INFO|api.Helpers.NLogger|JSON
+Method: POST
+URL: http://192.168.1.119:9999/api/v1/profile/UpdateCreditCard
+Controller : api.Controllers.ProfileController
+Action : UpdateCreditCard
+Action Parameters : {"messageFormat":"JSON","messageArguments":[{"request":{"Id":2029,"ClientId":2030,"CardType":null,"NameOnCard":null,"CardNumber":null,"ExpiryMonth":null,"CVV":0,"ExpiryYear":0,"IsDefaultPayment":true,"StripeCardId":null}}]}
+
+2017-03-09 17:48:59.9021|INFO|api.Helpers.NLogger|JSON
+Method: POST
+URL: http://192.168.1.119:9999/api/v1/profile/clientlogin
+Controller : api.Controllers.ProfileController
+Action : Login
+Action Parameters : {"messageFormat":"JSON","messageArguments":[{"model":{"Email":"office.testing@yahoo.com","Password":"7f2765757d527eaeeb14fb706039bac7","DeviceType":"iPhone","DeviceToken":"","Latitude":null,"Longitude":null}}]}
+
+2017-03-09 17:49:02.6130|INFO|api.Helpers.NLogger|JSON
+Method: POST
+URL: http://192.168.1.119:9999/api/v1/profile/ClientDashboard
+Controller : api.Controllers.ProfileController
+Action : ClientDashboard
+Action Parameters : {"messageFormat":"JSON","messageArguments":[{"request":{"Email":null,"ClientId":2030,"PlanTypeId":0,"PlanId":0,"PartId":0,"Month":0,"Year":0,"AddressId":null,"UnitId":0,"ServiceId":null,"RequestedServiceId":null,"PartType":null,"PartTypeId":null,"PageId":0,"ShowDeleted":false,"ServiceCaseNumber":null,"LastCallDateTime":null,"PageNumber":null,"pageSize":0,"DeviceType":null,"DeviceToken":null,"NotificationId":null,"EmployeeId":0,"BillingId":null}}]}
+
+2017-03-09 17:49:10.2065|INFO|api.Helpers.NLogger|JSON
+Method: GET
+URL: http://192.168.1.119:9999/api/v1/profile/GetClientProfile?ClientId=2030
+Controller : api.Controllers.ProfileController
+Action : GetClientProfile
+Action Parameters : {"messageFormat":"JSON","messageArguments":[{"ClientId":2030}]}
+
+2017-03-09 17:49:12.3040|INFO|api.Helpers.NLogger|JSON
+Method: POST
+URL: http://192.168.1.119:9999/api/v1/profile/GetCreditCard
+Controller : api.Controllers.ProfileController
+Action : GetCreditCard
+Action Parameters : {"messageFormat":"JSON","messageArguments":[{"request":{"Id":0,"ClientId":2030,"CardType":null,"NameOnCard":null,"CardNumber":null,"ExpiryMonth":null,"CVV":0,"ExpiryYear":0,"IsDefaultPayment":null,"StripeCardId":null}}]}
+

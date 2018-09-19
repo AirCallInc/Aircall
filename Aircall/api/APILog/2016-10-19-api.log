@@ -1,0 +1,21 @@
+2016-10-19 18:24:48.8450|INFO|api.Helpers.NLogger|JSON
+Method: POST
+URL: http://192.168.1.119:6987/v1/profile/addclientunit
+Controller : api.Controllers.ProfileController
+Action : AddClientUnit
+Action Parameters : {"messageFormat":"JSON","messageArguments":[{"request":{"ClientId":1034,"UnitName":"","ManufactureDate":null,"PlanTypeId":4,"UnitTon":"","AddressId":1038,"UnitTypeId":2,"AutoRenewal":false,"SpecialOffer":false,"Status":null,"OptionalInformation":[{"SplitType":"Split-Heating","ModelNumber":"ACM1000","SerialNumber":"ACS1000","QuantityOfFilter":1,"Filters":[{"size":32,"LocationOfPart":false}],"QuantityOfFuses":1,"FuseTypes":[{"FuseType":2}],"BoosterTypes":3},{"SplitType":"Split-Cooling","ModelNumber":"ACM200","SerialNumber":"ACM200","QuantityOfFilter":1,"Filters":[{"size":1,"LocationOfPart":false}],"QuantityOfFuses":1,"FuseTypes":[{"FuseType":2}],"BoosterTypes":3}],"DeleteOldData":false}}]}
+
+2016-10-19 18:26:44.4826|INFO|api.Helpers.NLogger|JSON
+Method: POST
+URL: http://192.168.1.119:6987/v1/profile/DeleteOldData
+Controller : api.Controllers.ProfileController
+Action : DeleteOldData
+Action Parameters : {"messageFormat":"JSON","messageArguments":[{"request":{"ClientId":1049,"UnitName":null,"ManufactureDate":null,"PlanTypeId":null,"UnitTon":null,"AddressId":null,"UnitTypeId":null,"AutoRenewal":null,"SpecialOffer":null,"Status":null,"OptionalInformation":null,"DeleteOldData":false}}]}
+
+2016-10-19 18:27:00.6377|INFO|api.Helpers.NLogger|JSON
+Method: POST
+URL: http://192.168.1.119:6987/v1/profile/addclientunit
+Controller : api.Controllers.ProfileController
+Action : AddClientUnit
+Action Parameters : {"messageFormat":"JSON","messageArguments":[{"request":{"ClientId":1034,"UnitName":"","ManufactureDate":null,"PlanTypeId":4,"UnitTon":"","AddressId":1038,"UnitTypeId":2,"AutoRenewal":false,"SpecialOffer":false,"Status":null,"OptionalInformation":[{"SplitType":"Split-Heating","ModelNumber":"ACM1000","SerialNumber":"ACS1000","QuantityOfFilter":1,"Filters":[{"size":32,"LocationOfPart":false}],"QuantityOfFuses":1,"FuseTypes":[{"FuseType":2}],"BoosterTypes":3},{"SplitType":"Split-Cooling","ModelNumber":"ACM200","SerialNumber":"ACM200","QuantityOfFilter":1,"Filters":[{"size":1,"LocationOfPart":false}],"QuantityOfFuses":1,"FuseTypes":[{"FuseType":2}],"BoosterTypes":3}],"DeleteOldData":false}}]}
+

@@ -1,0 +1,777 @@
+2017-06-07 17:40:04.3396|INFO|api.Helpers.NLogger|JSON
+Method: POST
+URL: http://192.168.1.124:8989/api/v1/employee/login
+Controller : api.Controllers.EmployeeController
+Action : Login
+Action Parameters : {"messageFormat":"JSON","messageArguments":[{"model":{"Email":"itesting.demo@gmail.com","Password":"7f2765757d527eaeeb14fb706039bac7","DeviceType":"iPhone","DeviceToken":"","Latitude":null,"Longitude":null}}]}
+
+2017-06-07 17:40:07.7747|INFO|api.Helpers.NLogger|JSON
+Method: POST
+URL: http://192.168.1.124:8989/api/v1/employee/GetDashBoardMonthWiseServiceCount
+Controller : api.Controllers.EmployeeController
+Action : GetDashBoardMonthWiseServiceCount
+Action Parameters : {"messageFormat":"JSON","messageArguments":[{"request":{"NotificationId":0,"EmployeeId":12,"SalesVisitRequestId":0,"Month":6,"Year":2017,"Day":0,"ServiceId":0,"ReportId":0,"UnitId":0,"Latitude":null,"Longitude":null,"SearchTerm":null,"PageId":0,"LastCallDateTime":null,"PageNumber":null,"pageSize":0,"OrderId":0,"StatDate":null,"EndDate":null,"DeviceType":null,"DeviceToken":null,"ClientEmails":null,"CCEmail":null}}]}
+
+2017-06-07 17:40:07.7747|INFO|api.Helpers.NLogger|JSON
+Method: POST
+URL: http://192.168.1.124:8989/api/v1/employee/GetDashBoardMonthDayWiseServiceList
+Controller : api.Controllers.EmployeeController
+Action : GetDashBoardMonthDayWiseServiceList
+Action Parameters : {"messageFormat":"JSON","messageArguments":[{"request":{"NotificationId":0,"EmployeeId":12,"SalesVisitRequestId":0,"Month":6,"Year":2017,"Day":7,"ServiceId":0,"ReportId":0,"UnitId":0,"Latitude":null,"Longitude":null,"SearchTerm":null,"PageId":0,"LastCallDateTime":null,"PageNumber":null,"pageSize":0,"OrderId":0,"StatDate":null,"EndDate":null,"DeviceType":null,"DeviceToken":null,"ClientEmails":null,"CCEmail":null}}]}
+
+2017-06-07 17:40:19.9730|INFO|api.Helpers.NLogger|JSON
+Method: POST
+URL: http://192.168.1.124:8989/api/v1/employee/GetServiceDetails
+Controller : api.Controllers.EmployeeController
+Action : GetServiceDetails
+Action Parameters : {"messageFormat":"JSON","messageArguments":[{"request":{"NotificationId":0,"EmployeeId":12,"SalesVisitRequestId":0,"Month":0,"Year":0,"Day":0,"ServiceId":10189,"ReportId":0,"UnitId":0,"Latitude":null,"Longitude":null,"SearchTerm":null,"PageId":0,"LastCallDateTime":null,"PageNumber":null,"pageSize":0,"OrderId":0,"StatDate":null,"EndDate":null,"DeviceType":null,"DeviceToken":null,"ClientEmails":null,"CCEmail":null}}]}
+
+2017-06-07 17:40:23.0977|INFO|api.Helpers.NLogger|JSON
+Method: POST
+URL: http://192.168.1.124:8989/api/v1/employee/GetDashBoardMonthWiseServiceCount
+Controller : api.Controllers.EmployeeController
+Action : GetDashBoardMonthWiseServiceCount
+Action Parameters : {"messageFormat":"JSON","messageArguments":[{"request":{"NotificationId":0,"EmployeeId":12,"SalesVisitRequestId":0,"Month":6,"Year":2017,"Day":0,"ServiceId":0,"ReportId":0,"UnitId":0,"Latitude":null,"Longitude":null,"SearchTerm":null,"PageId":0,"LastCallDateTime":null,"PageNumber":null,"pageSize":0,"OrderId":0,"StatDate":null,"EndDate":null,"DeviceType":null,"DeviceToken":null,"ClientEmails":null,"CCEmail":null}}]}
+
+2017-06-07 17:40:23.1027|INFO|api.Helpers.NLogger|JSON
+Method: POST
+URL: http://192.168.1.124:8989/api/v1/employee/GetDashBoardMonthDayWiseServiceList
+Controller : api.Controllers.EmployeeController
+Action : GetDashBoardMonthDayWiseServiceList
+Action Parameters : {"messageFormat":"JSON","messageArguments":[{"request":{"NotificationId":0,"EmployeeId":12,"SalesVisitRequestId":0,"Month":6,"Year":2017,"Day":7,"ServiceId":0,"ReportId":0,"UnitId":0,"Latitude":null,"Longitude":null,"SearchTerm":null,"PageId":0,"LastCallDateTime":null,"PageNumber":null,"pageSize":0,"OrderId":0,"StatDate":null,"EndDate":null,"DeviceType":null,"DeviceToken":null,"ClientEmails":null,"CCEmail":null}}]}
+
+2017-06-07 17:40:24.2000|INFO|api.Helpers.NLogger|JSON
+Method: POST
+URL: http://192.168.1.124:8989/api/v1/employee/GetServiceDetails
+Controller : api.Controllers.EmployeeController
+Action : GetServiceDetails
+Action Parameters : {"messageFormat":"JSON","messageArguments":[{"request":{"NotificationId":0,"EmployeeId":12,"SalesVisitRequestId":0,"Month":0,"Year":0,"Day":0,"ServiceId":10022,"ReportId":0,"UnitId":0,"Latitude":null,"Longitude":null,"SearchTerm":null,"PageId":0,"LastCallDateTime":null,"PageNumber":null,"pageSize":0,"OrderId":0,"StatDate":null,"EndDate":null,"DeviceType":null,"DeviceToken":null,"ClientEmails":null,"CCEmail":null}}]}
+
+2017-06-07 17:40:27.9113|INFO|api.Helpers.NLogger|JSON
+Method: POST
+URL: http://192.168.1.124:8989/api/v1/employee/GetDashBoardMonthWiseServiceCount
+Controller : api.Controllers.EmployeeController
+Action : GetDashBoardMonthWiseServiceCount
+Action Parameters : {"messageFormat":"JSON","messageArguments":[{"request":{"NotificationId":0,"EmployeeId":12,"SalesVisitRequestId":0,"Month":6,"Year":2017,"Day":0,"ServiceId":0,"ReportId":0,"UnitId":0,"Latitude":null,"Longitude":null,"SearchTerm":null,"PageId":0,"LastCallDateTime":null,"PageNumber":null,"pageSize":0,"OrderId":0,"StatDate":null,"EndDate":null,"DeviceType":null,"DeviceToken":null,"ClientEmails":null,"CCEmail":null}}]}
+
+2017-06-07 17:40:27.9113|INFO|api.Helpers.NLogger|JSON
+Method: POST
+URL: http://192.168.1.124:8989/api/v1/employee/GetDashBoardMonthDayWiseServiceList
+Controller : api.Controllers.EmployeeController
+Action : GetDashBoardMonthDayWiseServiceList
+Action Parameters : {"messageFormat":"JSON","messageArguments":[{"request":{"NotificationId":0,"EmployeeId":12,"SalesVisitRequestId":0,"Month":6,"Year":2017,"Day":7,"ServiceId":0,"ReportId":0,"UnitId":0,"Latitude":null,"Longitude":null,"SearchTerm":null,"PageId":0,"LastCallDateTime":null,"PageNumber":null,"pageSize":0,"OrderId":0,"StatDate":null,"EndDate":null,"DeviceType":null,"DeviceToken":null,"ClientEmails":null,"CCEmail":null}}]}
+
+2017-06-07 17:40:30.2850|INFO|api.Helpers.NLogger|JSON
+Method: POST
+URL: http://192.168.1.124:8989/api/v1/employee/GetServiceDetails
+Controller : api.Controllers.EmployeeController
+Action : GetServiceDetails
+Action Parameters : {"messageFormat":"JSON","messageArguments":[{"request":{"NotificationId":0,"EmployeeId":12,"SalesVisitRequestId":0,"Month":0,"Year":0,"Day":0,"ServiceId":10039,"ReportId":0,"UnitId":0,"Latitude":null,"Longitude":null,"SearchTerm":null,"PageId":0,"LastCallDateTime":null,"PageNumber":null,"pageSize":0,"OrderId":0,"StatDate":null,"EndDate":null,"DeviceType":null,"DeviceToken":null,"ClientEmails":null,"CCEmail":null}}]}
+
+2017-06-07 17:40:33.0520|INFO|api.Helpers.NLogger|JSON
+Method: POST
+URL: http://192.168.1.124:8989/api/v1/employee/GetDashBoardMonthWiseServiceCount
+Controller : api.Controllers.EmployeeController
+Action : GetDashBoardMonthWiseServiceCount
+Action Parameters : {"messageFormat":"JSON","messageArguments":[{"request":{"NotificationId":0,"EmployeeId":12,"SalesVisitRequestId":0,"Month":6,"Year":2017,"Day":0,"ServiceId":0,"ReportId":0,"UnitId":0,"Latitude":null,"Longitude":null,"SearchTerm":null,"PageId":0,"LastCallDateTime":null,"PageNumber":null,"pageSize":0,"OrderId":0,"StatDate":null,"EndDate":null,"DeviceType":null,"DeviceToken":null,"ClientEmails":null,"CCEmail":null}}]}
+
+2017-06-07 17:40:33.0570|INFO|api.Helpers.NLogger|JSON
+Method: POST
+URL: http://192.168.1.124:8989/api/v1/employee/GetDashBoardMonthDayWiseServiceList
+Controller : api.Controllers.EmployeeController
+Action : GetDashBoardMonthDayWiseServiceList
+Action Parameters : {"messageFormat":"JSON","messageArguments":[{"request":{"NotificationId":0,"EmployeeId":12,"SalesVisitRequestId":0,"Month":6,"Year":2017,"Day":7,"ServiceId":0,"ReportId":0,"UnitId":0,"Latitude":null,"Longitude":null,"SearchTerm":null,"PageId":0,"LastCallDateTime":null,"PageNumber":null,"pageSize":0,"OrderId":0,"StatDate":null,"EndDate":null,"DeviceType":null,"DeviceToken":null,"ClientEmails":null,"CCEmail":null}}]}
+
+2017-06-07 17:40:33.9961|INFO|api.Helpers.NLogger|JSON
+Method: POST
+URL: http://192.168.1.124:8989/api/v1/employee/GetDashBoardMonthDayWiseServiceList
+Controller : api.Controllers.EmployeeController
+Action : GetDashBoardMonthDayWiseServiceList
+Action Parameters : {"messageFormat":"JSON","messageArguments":[{"request":{"NotificationId":0,"EmployeeId":12,"SalesVisitRequestId":0,"Month":6,"Year":2017,"Day":8,"ServiceId":0,"ReportId":0,"UnitId":0,"Latitude":null,"Longitude":null,"SearchTerm":null,"PageId":0,"LastCallDateTime":null,"PageNumber":null,"pageSize":0,"OrderId":0,"StatDate":null,"EndDate":null,"DeviceType":null,"DeviceToken":null,"ClientEmails":null,"CCEmail":null}}]}
+
+2017-06-07 17:40:34.8175|INFO|api.Helpers.NLogger|JSON
+Method: POST
+URL: http://192.168.1.124:8989/api/v1/employee/GetDashBoardMonthDayWiseServiceList
+Controller : api.Controllers.EmployeeController
+Action : GetDashBoardMonthDayWiseServiceList
+Action Parameters : {"messageFormat":"JSON","messageArguments":[{"request":{"NotificationId":0,"EmployeeId":12,"SalesVisitRequestId":0,"Month":6,"Year":2017,"Day":7,"ServiceId":0,"ReportId":0,"UnitId":0,"Latitude":null,"Longitude":null,"SearchTerm":null,"PageId":0,"LastCallDateTime":null,"PageNumber":null,"pageSize":0,"OrderId":0,"StatDate":null,"EndDate":null,"DeviceType":null,"DeviceToken":null,"ClientEmails":null,"CCEmail":null}}]}
+
+2017-06-07 17:40:35.8624|INFO|api.Helpers.NLogger|JSON
+Method: POST
+URL: http://192.168.1.124:8989/api/v1/employee/GetServiceDetails
+Controller : api.Controllers.EmployeeController
+Action : GetServiceDetails
+Action Parameters : {"messageFormat":"JSON","messageArguments":[{"request":{"NotificationId":0,"EmployeeId":12,"SalesVisitRequestId":0,"Month":0,"Year":0,"Day":0,"ServiceId":10021,"ReportId":0,"UnitId":0,"Latitude":null,"Longitude":null,"SearchTerm":null,"PageId":0,"LastCallDateTime":null,"PageNumber":null,"pageSize":0,"OrderId":0,"StatDate":null,"EndDate":null,"DeviceType":null,"DeviceToken":null,"ClientEmails":null,"CCEmail":null}}]}
+
+2017-06-07 17:40:38.6445|INFO|api.Helpers.NLogger|JSON
+Method: POST
+URL: http://192.168.1.124:8989/api/v1/employee/GetDashBoardMonthWiseServiceCount
+Controller : api.Controllers.EmployeeController
+Action : GetDashBoardMonthWiseServiceCount
+Action Parameters : {"messageFormat":"JSON","messageArguments":[{"request":{"NotificationId":0,"EmployeeId":12,"SalesVisitRequestId":0,"Month":6,"Year":2017,"Day":0,"ServiceId":0,"ReportId":0,"UnitId":0,"Latitude":null,"Longitude":null,"SearchTerm":null,"PageId":0,"LastCallDateTime":null,"PageNumber":null,"pageSize":0,"OrderId":0,"StatDate":null,"EndDate":null,"DeviceType":null,"DeviceToken":null,"ClientEmails":null,"CCEmail":null}}]}
+
+2017-06-07 17:40:38.6445|INFO|api.Helpers.NLogger|JSON
+Method: POST
+URL: http://192.168.1.124:8989/api/v1/employee/GetDashBoardMonthDayWiseServiceList
+Controller : api.Controllers.EmployeeController
+Action : GetDashBoardMonthDayWiseServiceList
+Action Parameters : {"messageFormat":"JSON","messageArguments":[{"request":{"NotificationId":0,"EmployeeId":12,"SalesVisitRequestId":0,"Month":6,"Year":2017,"Day":7,"ServiceId":0,"ReportId":0,"UnitId":0,"Latitude":null,"Longitude":null,"SearchTerm":null,"PageId":0,"LastCallDateTime":null,"PageNumber":null,"pageSize":0,"OrderId":0,"StatDate":null,"EndDate":null,"DeviceType":null,"DeviceToken":null,"ClientEmails":null,"CCEmail":null}}]}
+
+2017-06-07 17:40:41.5337|INFO|api.Helpers.NLogger|JSON
+Method: POST
+URL: http://192.168.1.124:8989/api/v1/employee/GetDashBoardMonthDayWiseServiceList
+Controller : api.Controllers.EmployeeController
+Action : GetDashBoardMonthDayWiseServiceList
+Action Parameters : {"messageFormat":"JSON","messageArguments":[{"request":{"NotificationId":0,"EmployeeId":12,"SalesVisitRequestId":0,"Month":6,"Year":2017,"Day":8,"ServiceId":0,"ReportId":0,"UnitId":0,"Latitude":null,"Longitude":null,"SearchTerm":null,"PageId":0,"LastCallDateTime":null,"PageNumber":null,"pageSize":0,"OrderId":0,"StatDate":null,"EndDate":null,"DeviceType":null,"DeviceToken":null,"ClientEmails":null,"CCEmail":null}}]}
+
+2017-06-07 17:40:42.4212|INFO|api.Helpers.NLogger|JSON
+Method: POST
+URL: http://192.168.1.124:8989/api/v1/employee/GetDashBoardMonthWiseServiceCount
+Controller : api.Controllers.EmployeeController
+Action : GetDashBoardMonthWiseServiceCount
+Action Parameters : {"messageFormat":"JSON","messageArguments":[{"request":{"NotificationId":0,"EmployeeId":12,"SalesVisitRequestId":0,"Month":6,"Year":2017,"Day":0,"ServiceId":0,"ReportId":0,"UnitId":0,"Latitude":null,"Longitude":null,"SearchTerm":null,"PageId":0,"LastCallDateTime":null,"PageNumber":null,"pageSize":0,"OrderId":0,"StatDate":null,"EndDate":null,"DeviceType":null,"DeviceToken":null,"ClientEmails":null,"CCEmail":null}}]}
+
+2017-06-07 17:40:43.3332|INFO|api.Helpers.NLogger|JSON
+Method: POST
+URL: http://192.168.1.124:8989/api/v1/employee/GetDashBoardMonthDayWiseServiceList
+Controller : api.Controllers.EmployeeController
+Action : GetDashBoardMonthDayWiseServiceList
+Action Parameters : {"messageFormat":"JSON","messageArguments":[{"request":{"NotificationId":0,"EmployeeId":12,"SalesVisitRequestId":0,"Month":6,"Year":2017,"Day":12,"ServiceId":0,"ReportId":0,"UnitId":0,"Latitude":null,"Longitude":null,"SearchTerm":null,"PageId":0,"LastCallDateTime":null,"PageNumber":null,"pageSize":0,"OrderId":0,"StatDate":null,"EndDate":null,"DeviceType":null,"DeviceToken":null,"ClientEmails":null,"CCEmail":null}}]}
+
+2017-06-07 17:40:48.8343|INFO|api.Helpers.NLogger|JSON
+Method: POST
+URL: http://192.168.1.124:8989/api/v1/employee/GetDashBoardMonthWiseServiceCount
+Controller : api.Controllers.EmployeeController
+Action : GetDashBoardMonthWiseServiceCount
+Action Parameters : {"messageFormat":"JSON","messageArguments":[{"request":{"NotificationId":0,"EmployeeId":12,"SalesVisitRequestId":0,"Month":6,"Year":2017,"Day":0,"ServiceId":0,"ReportId":0,"UnitId":0,"Latitude":null,"Longitude":null,"SearchTerm":null,"PageId":0,"LastCallDateTime":null,"PageNumber":null,"pageSize":0,"OrderId":0,"StatDate":null,"EndDate":null,"DeviceType":null,"DeviceToken":null,"ClientEmails":null,"CCEmail":null}}]}
+
+2017-06-07 17:40:49.8470|INFO|api.Helpers.NLogger|JSON
+Method: POST
+URL: http://192.168.1.124:8989/api/v1/employee/GetDashBoardMonthDayWiseServiceList
+Controller : api.Controllers.EmployeeController
+Action : GetDashBoardMonthDayWiseServiceList
+Action Parameters : {"messageFormat":"JSON","messageArguments":[{"request":{"NotificationId":0,"EmployeeId":12,"SalesVisitRequestId":0,"Month":6,"Year":2017,"Day":8,"ServiceId":0,"ReportId":0,"UnitId":0,"Latitude":null,"Longitude":null,"SearchTerm":null,"PageId":0,"LastCallDateTime":null,"PageNumber":null,"pageSize":0,"OrderId":0,"StatDate":null,"EndDate":null,"DeviceType":null,"DeviceToken":null,"ClientEmails":null,"CCEmail":null}}]}
+
+2017-06-07 17:40:50.9727|INFO|api.Helpers.NLogger|JSON
+Method: POST
+URL: http://192.168.1.124:8989/api/v1/employee/GetDashBoardMonthDayWiseServiceList
+Controller : api.Controllers.EmployeeController
+Action : GetDashBoardMonthDayWiseServiceList
+Action Parameters : {"messageFormat":"JSON","messageArguments":[{"request":{"NotificationId":0,"EmployeeId":12,"SalesVisitRequestId":0,"Month":6,"Year":2017,"Day":7,"ServiceId":0,"ReportId":0,"UnitId":0,"Latitude":null,"Longitude":null,"SearchTerm":null,"PageId":0,"LastCallDateTime":null,"PageNumber":null,"pageSize":0,"OrderId":0,"StatDate":null,"EndDate":null,"DeviceType":null,"DeviceToken":null,"ClientEmails":null,"CCEmail":null}}]}
+
+2017-06-07 17:40:52.0635|INFO|api.Helpers.NLogger|JSON
+Method: POST
+URL: http://192.168.1.124:8989/api/v1/employee/GetDashBoardMonthDayWiseServiceList
+Controller : api.Controllers.EmployeeController
+Action : GetDashBoardMonthDayWiseServiceList
+Action Parameters : {"messageFormat":"JSON","messageArguments":[{"request":{"NotificationId":0,"EmployeeId":12,"SalesVisitRequestId":0,"Month":6,"Year":2017,"Day":6,"ServiceId":0,"ReportId":0,"UnitId":0,"Latitude":null,"Longitude":null,"SearchTerm":null,"PageId":0,"LastCallDateTime":null,"PageNumber":null,"pageSize":0,"OrderId":0,"StatDate":null,"EndDate":null,"DeviceType":null,"DeviceToken":null,"ClientEmails":null,"CCEmail":null}}]}
+
+2017-06-07 17:40:53.2560|INFO|api.Helpers.NLogger|JSON
+Method: POST
+URL: http://192.168.1.124:8989/api/v1/employee/GetDashBoardMonthDayWiseServiceList
+Controller : api.Controllers.EmployeeController
+Action : GetDashBoardMonthDayWiseServiceList
+Action Parameters : {"messageFormat":"JSON","messageArguments":[{"request":{"NotificationId":0,"EmployeeId":12,"SalesVisitRequestId":0,"Month":6,"Year":2017,"Day":7,"ServiceId":0,"ReportId":0,"UnitId":0,"Latitude":null,"Longitude":null,"SearchTerm":null,"PageId":0,"LastCallDateTime":null,"PageNumber":null,"pageSize":0,"OrderId":0,"StatDate":null,"EndDate":null,"DeviceType":null,"DeviceToken":null,"ClientEmails":null,"CCEmail":null}}]}
+
+2017-06-07 17:40:54.2212|INFO|api.Helpers.NLogger|JSON
+Method: POST
+URL: http://192.168.1.124:8989/api/v1/employee/GetDashBoardMonthDayWiseServiceList
+Controller : api.Controllers.EmployeeController
+Action : GetDashBoardMonthDayWiseServiceList
+Action Parameters : {"messageFormat":"JSON","messageArguments":[{"request":{"NotificationId":0,"EmployeeId":12,"SalesVisitRequestId":0,"Month":6,"Year":2017,"Day":8,"ServiceId":0,"ReportId":0,"UnitId":0,"Latitude":null,"Longitude":null,"SearchTerm":null,"PageId":0,"LastCallDateTime":null,"PageNumber":null,"pageSize":0,"OrderId":0,"StatDate":null,"EndDate":null,"DeviceType":null,"DeviceToken":null,"ClientEmails":null,"CCEmail":null}}]}
+
+2017-06-07 17:41:04.4291|INFO|api.Helpers.NLogger|JSON
+Method: POST
+URL: http://192.168.1.124:8989/api/v1/employee/GetServiceDetails
+Controller : api.Controllers.EmployeeController
+Action : GetServiceDetails
+Action Parameters : {"messageFormat":"JSON","messageArguments":[{"request":{"NotificationId":0,"EmployeeId":12,"SalesVisitRequestId":0,"Month":0,"Year":0,"Day":0,"ServiceId":10192,"ReportId":0,"UnitId":0,"Latitude":null,"Longitude":null,"SearchTerm":null,"PageId":0,"LastCallDateTime":null,"PageNumber":null,"pageSize":0,"OrderId":0,"StatDate":null,"EndDate":null,"DeviceType":null,"DeviceToken":null,"ClientEmails":null,"CCEmail":null}}]}
+
+2017-06-07 17:41:10.3691|INFO|api.Helpers.NLogger|JSON
+Method: POST
+URL: http://192.168.1.124:8989/api/v1/employee/GetDashBoardMonthWiseServiceCount
+Controller : api.Controllers.EmployeeController
+Action : GetDashBoardMonthWiseServiceCount
+Action Parameters : {"messageFormat":"JSON","messageArguments":[{"request":{"NotificationId":0,"EmployeeId":12,"SalesVisitRequestId":0,"Month":6,"Year":2017,"Day":0,"ServiceId":0,"ReportId":0,"UnitId":0,"Latitude":null,"Longitude":null,"SearchTerm":null,"PageId":0,"LastCallDateTime":null,"PageNumber":null,"pageSize":0,"OrderId":0,"StatDate":null,"EndDate":null,"DeviceType":null,"DeviceToken":null,"ClientEmails":null,"CCEmail":null}}]}
+
+2017-06-07 17:41:10.3691|INFO|api.Helpers.NLogger|JSON
+Method: POST
+URL: http://192.168.1.124:8989/api/v1/employee/GetDashBoardMonthDayWiseServiceList
+Controller : api.Controllers.EmployeeController
+Action : GetDashBoardMonthDayWiseServiceList
+Action Parameters : {"messageFormat":"JSON","messageArguments":[{"request":{"NotificationId":0,"EmployeeId":12,"SalesVisitRequestId":0,"Month":6,"Year":2017,"Day":7,"ServiceId":0,"ReportId":0,"UnitId":0,"Latitude":null,"Longitude":null,"SearchTerm":null,"PageId":0,"LastCallDateTime":null,"PageNumber":null,"pageSize":0,"OrderId":0,"StatDate":null,"EndDate":null,"DeviceType":null,"DeviceToken":null,"ClientEmails":null,"CCEmail":null}}]}
+
+2017-06-07 17:41:11.5147|INFO|api.Helpers.NLogger|JSON
+Method: POST
+URL: http://192.168.1.124:8989/api/v1/employee/GetDashBoardMonthDayWiseServiceList
+Controller : api.Controllers.EmployeeController
+Action : GetDashBoardMonthDayWiseServiceList
+Action Parameters : {"messageFormat":"JSON","messageArguments":[{"request":{"NotificationId":0,"EmployeeId":12,"SalesVisitRequestId":0,"Month":6,"Year":2017,"Day":8,"ServiceId":0,"ReportId":0,"UnitId":0,"Latitude":null,"Longitude":null,"SearchTerm":null,"PageId":0,"LastCallDateTime":null,"PageNumber":null,"pageSize":0,"OrderId":0,"StatDate":null,"EndDate":null,"DeviceType":null,"DeviceToken":null,"ClientEmails":null,"CCEmail":null}}]}
+
+2017-06-07 17:41:12.3915|INFO|api.Helpers.NLogger|JSON
+Method: POST
+URL: http://192.168.1.124:8989/api/v1/employee/GetDashBoardMonthDayWiseServiceList
+Controller : api.Controllers.EmployeeController
+Action : GetDashBoardMonthDayWiseServiceList
+Action Parameters : {"messageFormat":"JSON","messageArguments":[{"request":{"NotificationId":0,"EmployeeId":12,"SalesVisitRequestId":0,"Month":6,"Year":2017,"Day":7,"ServiceId":0,"ReportId":0,"UnitId":0,"Latitude":null,"Longitude":null,"SearchTerm":null,"PageId":0,"LastCallDateTime":null,"PageNumber":null,"pageSize":0,"OrderId":0,"StatDate":null,"EndDate":null,"DeviceType":null,"DeviceToken":null,"ClientEmails":null,"CCEmail":null}}]}
+
+2017-06-07 17:41:13.2926|INFO|api.Helpers.NLogger|JSON
+Method: POST
+URL: http://192.168.1.124:8989/api/v1/employee/GetDashBoardMonthDayWiseServiceList
+Controller : api.Controllers.EmployeeController
+Action : GetDashBoardMonthDayWiseServiceList
+Action Parameters : {"messageFormat":"JSON","messageArguments":[{"request":{"NotificationId":0,"EmployeeId":12,"SalesVisitRequestId":0,"Month":6,"Year":2017,"Day":6,"ServiceId":0,"ReportId":0,"UnitId":0,"Latitude":null,"Longitude":null,"SearchTerm":null,"PageId":0,"LastCallDateTime":null,"PageNumber":null,"pageSize":0,"OrderId":0,"StatDate":null,"EndDate":null,"DeviceType":null,"DeviceToken":null,"ClientEmails":null,"CCEmail":null}}]}
+
+2017-06-07 17:41:14.1359|INFO|api.Helpers.NLogger|JSON
+Method: POST
+URL: http://192.168.1.124:8989/api/v1/employee/GetDashBoardMonthDayWiseServiceList
+Controller : api.Controllers.EmployeeController
+Action : GetDashBoardMonthDayWiseServiceList
+Action Parameters : {"messageFormat":"JSON","messageArguments":[{"request":{"NotificationId":0,"EmployeeId":12,"SalesVisitRequestId":0,"Month":6,"Year":2017,"Day":7,"ServiceId":0,"ReportId":0,"UnitId":0,"Latitude":null,"Longitude":null,"SearchTerm":null,"PageId":0,"LastCallDateTime":null,"PageNumber":null,"pageSize":0,"OrderId":0,"StatDate":null,"EndDate":null,"DeviceType":null,"DeviceToken":null,"ClientEmails":null,"CCEmail":null}}]}
+
+2017-06-07 17:41:15.2833|INFO|api.Helpers.NLogger|JSON
+Method: POST
+URL: http://192.168.1.124:8989/api/v1/employee/GetServiceDetails
+Controller : api.Controllers.EmployeeController
+Action : GetServiceDetails
+Action Parameters : {"messageFormat":"JSON","messageArguments":[{"request":{"NotificationId":0,"EmployeeId":12,"SalesVisitRequestId":0,"Month":0,"Year":0,"Day":0,"ServiceId":10021,"ReportId":0,"UnitId":0,"Latitude":null,"Longitude":null,"SearchTerm":null,"PageId":0,"LastCallDateTime":null,"PageNumber":null,"pageSize":0,"OrderId":0,"StatDate":null,"EndDate":null,"DeviceType":null,"DeviceToken":null,"ClientEmails":null,"CCEmail":null}}]}
+
+2017-06-07 17:41:18.0299|INFO|api.Helpers.NLogger|JSON
+Method: POST
+URL: http://192.168.1.124:8989/api/v1/employee/GetDashBoardMonthWiseServiceCount
+Controller : api.Controllers.EmployeeController
+Action : GetDashBoardMonthWiseServiceCount
+Action Parameters : {"messageFormat":"JSON","messageArguments":[{"request":{"NotificationId":0,"EmployeeId":12,"SalesVisitRequestId":0,"Month":6,"Year":2017,"Day":0,"ServiceId":0,"ReportId":0,"UnitId":0,"Latitude":null,"Longitude":null,"SearchTerm":null,"PageId":0,"LastCallDateTime":null,"PageNumber":null,"pageSize":0,"OrderId":0,"StatDate":null,"EndDate":null,"DeviceType":null,"DeviceToken":null,"ClientEmails":null,"CCEmail":null}}]}
+
+2017-06-07 17:41:18.0299|INFO|api.Helpers.NLogger|JSON
+Method: POST
+URL: http://192.168.1.124:8989/api/v1/employee/GetDashBoardMonthDayWiseServiceList
+Controller : api.Controllers.EmployeeController
+Action : GetDashBoardMonthDayWiseServiceList
+Action Parameters : {"messageFormat":"JSON","messageArguments":[{"request":{"NotificationId":0,"EmployeeId":12,"SalesVisitRequestId":0,"Month":6,"Year":2017,"Day":7,"ServiceId":0,"ReportId":0,"UnitId":0,"Latitude":null,"Longitude":null,"SearchTerm":null,"PageId":0,"LastCallDateTime":null,"PageNumber":null,"pageSize":0,"OrderId":0,"StatDate":null,"EndDate":null,"DeviceType":null,"DeviceToken":null,"ClientEmails":null,"CCEmail":null}}]}
+
+2017-06-07 17:41:21.8294|INFO|api.Helpers.NLogger|JSON
+Method: POST
+URL: http://192.168.1.124:8989/api/v1/employee/GetAllCompletedReports
+Controller : api.Controllers.EmployeeController
+Action : GetAllCompletedReports
+Action Parameters : {"messageFormat":"JSON","messageArguments":[{"request":{"NotificationId":0,"EmployeeId":12,"SalesVisitRequestId":0,"Month":0,"Year":0,"Day":0,"ServiceId":0,"ReportId":0,"UnitId":0,"Latitude":null,"Longitude":null,"SearchTerm":"","PageId":0,"LastCallDateTime":null,"PageNumber":1,"pageSize":0,"OrderId":0,"StatDate":null,"EndDate":null,"DeviceType":null,"DeviceToken":null,"ClientEmails":null,"CCEmail":null}}]}
+
+2017-06-07 17:41:25.7105|INFO|api.Helpers.NLogger|JSON
+Method: POST
+URL: http://192.168.1.124:8989/api/v1/employee/GetAllCompletedReports
+Controller : api.Controllers.EmployeeController
+Action : GetAllCompletedReports
+Action Parameters : {"messageFormat":"JSON","messageArguments":[{"request":{"NotificationId":0,"EmployeeId":12,"SalesVisitRequestId":0,"Month":0,"Year":0,"Day":0,"ServiceId":0,"ReportId":0,"UnitId":0,"Latitude":null,"Longitude":null,"SearchTerm":"","PageId":0,"LastCallDateTime":null,"PageNumber":2,"pageSize":0,"OrderId":0,"StatDate":null,"EndDate":null,"DeviceType":null,"DeviceToken":null,"ClientEmails":null,"CCEmail":null}}]}
+
+2017-06-07 17:41:28.7295|INFO|api.Helpers.NLogger|JSON
+Method: POST
+URL: http://192.168.1.124:8989/api/v1/employee/CompletedReportsDetail
+Controller : api.Controllers.EmployeeController
+Action : CompletedReportsDetail
+Action Parameters : {"messageFormat":"JSON","messageArguments":[{"request":{"NotificationId":0,"EmployeeId":12,"SalesVisitRequestId":0,"Month":0,"Year":0,"Day":0,"ServiceId":0,"ReportId":32,"UnitId":0,"Latitude":null,"Longitude":null,"SearchTerm":null,"PageId":0,"LastCallDateTime":null,"PageNumber":null,"pageSize":0,"OrderId":0,"StatDate":null,"EndDate":null,"DeviceType":null,"DeviceToken":null,"ClientEmails":null,"CCEmail":null}}]}
+
+2017-06-07 17:41:49.6936|INFO|api.Helpers.NLogger|JSON
+Method: POST
+URL: http://192.168.1.124:8989/api/v1/employee/CompletedReportsDetail
+Controller : api.Controllers.EmployeeController
+Action : CompletedReportsDetail
+Action Parameters : {"messageFormat":"JSON","messageArguments":[{"request":{"NotificationId":0,"EmployeeId":12,"SalesVisitRequestId":0,"Month":0,"Year":0,"Day":0,"ServiceId":0,"ReportId":47,"UnitId":0,"Latitude":null,"Longitude":null,"SearchTerm":null,"PageId":0,"LastCallDateTime":null,"PageNumber":null,"pageSize":0,"OrderId":0,"StatDate":null,"EndDate":null,"DeviceType":null,"DeviceToken":null,"ClientEmails":null,"CCEmail":null}}]}
+
+2017-06-07 17:42:01.1093|INFO|api.Helpers.NLogger|JSON
+Method: POST
+URL: http://192.168.1.124:8989/api/v1/employee/GetAllCompletedReports
+Controller : api.Controllers.EmployeeController
+Action : GetAllCompletedReports
+Action Parameters : {"messageFormat":"JSON","messageArguments":[{"request":{"NotificationId":0,"EmployeeId":12,"SalesVisitRequestId":0,"Month":0,"Year":0,"Day":0,"ServiceId":0,"ReportId":0,"UnitId":0,"Latitude":null,"Longitude":null,"SearchTerm":"","PageId":0,"LastCallDateTime":null,"PageNumber":1,"pageSize":0,"OrderId":0,"StatDate":null,"EndDate":null,"DeviceType":null,"DeviceToken":null,"ClientEmails":null,"CCEmail":null}}]}
+
+2017-06-07 17:42:03.3583|INFO|api.Helpers.NLogger|JSON
+Method: POST
+URL: http://192.168.1.124:8989/api/v1/employee/CompletedReportsDetail
+Controller : api.Controllers.EmployeeController
+Action : CompletedReportsDetail
+Action Parameters : {"messageFormat":"JSON","messageArguments":[{"request":{"NotificationId":0,"EmployeeId":12,"SalesVisitRequestId":0,"Month":0,"Year":0,"Day":0,"ServiceId":0,"ReportId":77,"UnitId":0,"Latitude":null,"Longitude":null,"SearchTerm":null,"PageId":0,"LastCallDateTime":null,"PageNumber":null,"pageSize":0,"OrderId":0,"StatDate":null,"EndDate":null,"DeviceType":null,"DeviceToken":null,"ClientEmails":null,"CCEmail":null}}]}
+
+2017-06-07 17:42:09.0606|INFO|api.Helpers.NLogger|JSON
+Method: POST
+URL: http://192.168.1.124:8989/api/v1/employee/GetDashBoardMonthWiseServiceCount
+Controller : api.Controllers.EmployeeController
+Action : GetDashBoardMonthWiseServiceCount
+Action Parameters : {"messageFormat":"JSON","messageArguments":[{"request":{"NotificationId":0,"EmployeeId":12,"SalesVisitRequestId":0,"Month":6,"Year":2017,"Day":0,"ServiceId":0,"ReportId":0,"UnitId":0,"Latitude":null,"Longitude":null,"SearchTerm":null,"PageId":0,"LastCallDateTime":null,"PageNumber":null,"pageSize":0,"OrderId":0,"StatDate":null,"EndDate":null,"DeviceType":null,"DeviceToken":null,"ClientEmails":null,"CCEmail":null}}]}
+
+2017-06-07 17:42:09.0716|INFO|api.Helpers.NLogger|JSON
+Method: POST
+URL: http://192.168.1.124:8989/api/v1/employee/GetDashBoardMonthDayWiseServiceList
+Controller : api.Controllers.EmployeeController
+Action : GetDashBoardMonthDayWiseServiceList
+Action Parameters : {"messageFormat":"JSON","messageArguments":[{"request":{"NotificationId":0,"EmployeeId":12,"SalesVisitRequestId":0,"Month":6,"Year":2017,"Day":7,"ServiceId":0,"ReportId":0,"UnitId":0,"Latitude":null,"Longitude":null,"SearchTerm":null,"PageId":0,"LastCallDateTime":null,"PageNumber":null,"pageSize":0,"OrderId":0,"StatDate":null,"EndDate":null,"DeviceType":null,"DeviceToken":null,"ClientEmails":null,"CCEmail":null}}]}
+
+2017-06-07 17:42:12.0681|INFO|api.Helpers.NLogger|JSON
+Method: GET
+URL: http://192.168.1.124:8989/api/v1/employee/GetAllClients?EmployeeId=12&ShowOnlyWorkAreaClient=false
+Controller : api.Controllers.EmployeeController
+Action : GetAllClients
+Action Parameters : {"messageFormat":"JSON","messageArguments":[{"EmployeeId":12,"ShowOnlyWorkAreaClient":false}]}
+
+2017-06-07 17:42:15.9125|INFO|api.Helpers.NLogger|JSON
+Method: GET
+URL: http://192.168.1.124:8989/api/v1/employee/GetClientAddress?ClientId=1019&EmployeeId=12
+Controller : api.Controllers.EmployeeController
+Action : GetClientAddress
+Action Parameters : {"messageFormat":"JSON","messageArguments":[{"ClientId":1019,"EmployeeId":12}]}
+
+2017-06-07 17:42:16.2259|INFO|api.Helpers.NLogger|JSON
+Method: GET
+URL: http://192.168.1.124:8989/api/v1/empcommon/GetAllPlanTypeFromAddressID?AddressID=1008&EmployeeId=12
+Controller : api.Controllers.EmpCommonController
+Action : GetAllPlanTypeFromAddressID
+Action Parameters : {"messageFormat":"JSON","messageArguments":[{"AddressId":1008,"EmployeeId":12}]}
+
+2017-06-07 17:42:16.4761|INFO|api.Helpers.NLogger|JSON
+Method: POST
+URL: http://192.168.1.124:8989/api/v1/employee/GetClientUnitByAddressIdPlanType
+Controller : api.Controllers.NewEmployeeController
+Action : GetClientUnit
+Action Parameters : {"messageFormat":"JSON","messageArguments":[{"request":{"Email":null,"ClientId":1019,"PlanTypeId":1,"PlanId":0,"PartId":0,"Month":0,"Year":0,"AddressId":1008,"UnitId":0,"ServiceId":null,"RequestedServiceId":null,"PartType":null,"PartTypeId":null,"PageId":0,"ShowDeleted":false,"ServiceCaseNumber":null,"LastCallDateTime":null,"PageNumber":null,"pageSize":0,"DeviceType":null,"DeviceToken":null,"NotificationId":null,"EmployeeId":12,"BillingId":null}}]}
+
+2017-06-07 17:42:16.5021|INFO|api.Helpers.NLogger|JSON
+Method: POST
+URL: http://192.168.1.124:8989/api/v1/empcommon/GetScheduleTimeByServiceId
+Controller : api.Controllers.EmpCommonController
+Action : GetScheduleTimeByPlanTypeServiceId
+Action Parameters : {"messageFormat":"JSON","messageArguments":[{"request":{"Email":null,"ClientId":0,"PlanTypeId":1,"PlanId":0,"PartId":0,"Month":0,"Year":0,"AddressId":null,"UnitId":0,"ServiceId":null,"RequestedServiceId":null,"PartType":null,"PartTypeId":null,"PageId":0,"ShowDeleted":false,"ServiceCaseNumber":null,"LastCallDateTime":null,"PageNumber":null,"pageSize":0,"DeviceType":null,"DeviceToken":null,"NotificationId":null,"EmployeeId":12,"BillingId":null}}]}
+
+2017-06-07 17:42:17.5187|INFO|api.Helpers.NLogger|JSON
+Method: GET
+URL: http://192.168.1.124:8989/api/v1/empcommon/GetAllPlanTypeFromAddressID?AddressID=1016&EmployeeId=12
+Controller : api.Controllers.EmpCommonController
+Action : GetAllPlanTypeFromAddressID
+Action Parameters : {"messageFormat":"JSON","messageArguments":[{"AddressId":1016,"EmployeeId":12}]}
+
+2017-06-07 17:42:17.5697|INFO|api.Helpers.NLogger|JSON
+Method: POST
+URL: http://192.168.1.124:8989/api/v1/employee/GetClientUnitByAddressIdPlanType
+Controller : api.Controllers.NewEmployeeController
+Action : GetClientUnit
+Action Parameters : {"messageFormat":"JSON","messageArguments":[{"request":{"Email":null,"ClientId":1019,"PlanTypeId":1,"PlanId":0,"PartId":0,"Month":0,"Year":0,"AddressId":1016,"UnitId":0,"ServiceId":null,"RequestedServiceId":null,"PartType":null,"PartTypeId":null,"PageId":0,"ShowDeleted":false,"ServiceCaseNumber":null,"LastCallDateTime":null,"PageNumber":null,"pageSize":0,"DeviceType":null,"DeviceToken":null,"NotificationId":null,"EmployeeId":12,"BillingId":null}}]}
+
+2017-06-07 17:42:17.6056|INFO|api.Helpers.NLogger|JSON
+Method: POST
+URL: http://192.168.1.124:8989/api/v1/empcommon/GetScheduleTimeByServiceId
+Controller : api.Controllers.EmpCommonController
+Action : GetScheduleTimeByPlanTypeServiceId
+Action Parameters : {"messageFormat":"JSON","messageArguments":[{"request":{"Email":null,"ClientId":0,"PlanTypeId":1,"PlanId":0,"PartId":0,"Month":0,"Year":0,"AddressId":null,"UnitId":0,"ServiceId":null,"RequestedServiceId":null,"PartType":null,"PartTypeId":null,"PageId":0,"ShowDeleted":false,"ServiceCaseNumber":null,"LastCallDateTime":null,"PageNumber":null,"pageSize":0,"DeviceType":null,"DeviceToken":null,"NotificationId":null,"EmployeeId":12,"BillingId":null}}]}
+
+2017-06-07 17:42:22.1761|INFO|api.Helpers.NLogger|JSON
+Method: GET
+URL: http://192.168.1.124:8989/api/v1/empcommon/GetAllPlanTypeFromAddressID?AddressID=1018&EmployeeId=12
+Controller : api.Controllers.EmpCommonController
+Action : GetAllPlanTypeFromAddressID
+Action Parameters : {"messageFormat":"JSON","messageArguments":[{"AddressId":1018,"EmployeeId":12}]}
+
+2017-06-07 17:42:22.2311|INFO|api.Helpers.NLogger|JSON
+Method: POST
+URL: http://192.168.1.124:8989/api/v1/employee/GetClientUnitByAddressIdPlanType
+Controller : api.Controllers.NewEmployeeController
+Action : GetClientUnit
+Action Parameters : {"messageFormat":"JSON","messageArguments":[{"request":{"Email":null,"ClientId":1019,"PlanTypeId":1,"PlanId":0,"PartId":0,"Month":0,"Year":0,"AddressId":1018,"UnitId":0,"ServiceId":null,"RequestedServiceId":null,"PartType":null,"PartTypeId":null,"PageId":0,"ShowDeleted":false,"ServiceCaseNumber":null,"LastCallDateTime":null,"PageNumber":null,"pageSize":0,"DeviceType":null,"DeviceToken":null,"NotificationId":null,"EmployeeId":12,"BillingId":null}}]}
+
+2017-06-07 17:42:22.2600|INFO|api.Helpers.NLogger|JSON
+Method: POST
+URL: http://192.168.1.124:8989/api/v1/empcommon/GetScheduleTimeByServiceId
+Controller : api.Controllers.EmpCommonController
+Action : GetScheduleTimeByPlanTypeServiceId
+Action Parameters : {"messageFormat":"JSON","messageArguments":[{"request":{"Email":null,"ClientId":0,"PlanTypeId":1,"PlanId":0,"PartId":0,"Month":0,"Year":0,"AddressId":null,"UnitId":0,"ServiceId":null,"RequestedServiceId":null,"PartType":null,"PartTypeId":null,"PageId":0,"ShowDeleted":false,"ServiceCaseNumber":null,"LastCallDateTime":null,"PageNumber":null,"pageSize":0,"DeviceType":null,"DeviceToken":null,"NotificationId":null,"EmployeeId":12,"BillingId":null}}]}
+
+2017-06-07 17:42:49.5344|INFO|api.Helpers.NLogger|JSON
+Method: POST
+URL: http://192.168.1.124:8989/api/v1/employee/SubmitRequestServiceForClient
+Controller : api.Controllers.EmployeeController
+Action : SubmitRequestServiceForClient
+Action Parameters : {"messageFormat":"JSON","messageArguments":[{"request":{"EmployeeId":12,"ClientId":1019,"AddressId":1018,"UnitIds":[1053],"TimeSlot":"12:00 PM  - 06:00 PM","ServiceDate":"\/Date(1496860200000)\/","PurposeOfVisit":"1","Notes":"I f idjo"}}]}
+
+2017-06-07 17:42:50.7599|INFO|api.Helpers.NLogger|JSON
+Method: POST
+URL: http://192.168.1.124:8989/api/v1/employee/GetDashBoardMonthWiseServiceCount
+Controller : api.Controllers.EmployeeController
+Action : GetDashBoardMonthWiseServiceCount
+Action Parameters : {"messageFormat":"JSON","messageArguments":[{"request":{"NotificationId":0,"EmployeeId":12,"SalesVisitRequestId":0,"Month":6,"Year":2017,"Day":0,"ServiceId":0,"ReportId":0,"UnitId":0,"Latitude":null,"Longitude":null,"SearchTerm":null,"PageId":0,"LastCallDateTime":null,"PageNumber":null,"pageSize":0,"OrderId":0,"StatDate":null,"EndDate":null,"DeviceType":null,"DeviceToken":null,"ClientEmails":null,"CCEmail":null}}]}
+
+2017-06-07 17:42:50.7599|INFO|api.Helpers.NLogger|JSON
+Method: POST
+URL: http://192.168.1.124:8989/api/v1/employee/GetDashBoardMonthDayWiseServiceList
+Controller : api.Controllers.EmployeeController
+Action : GetDashBoardMonthDayWiseServiceList
+Action Parameters : {"messageFormat":"JSON","messageArguments":[{"request":{"NotificationId":0,"EmployeeId":12,"SalesVisitRequestId":0,"Month":6,"Year":2017,"Day":7,"ServiceId":0,"ReportId":0,"UnitId":0,"Latitude":null,"Longitude":null,"SearchTerm":null,"PageId":0,"LastCallDateTime":null,"PageNumber":null,"pageSize":0,"OrderId":0,"StatDate":null,"EndDate":null,"DeviceType":null,"DeviceToken":null,"ClientEmails":null,"CCEmail":null}}]}
+
+2017-06-07 17:42:52.6735|INFO|api.Helpers.NLogger|JSON
+Method: POST
+URL: http://192.168.1.124:8989/api/v1/employee/GetDashBoardMonthDayWiseServiceList
+Controller : api.Controllers.EmployeeController
+Action : GetDashBoardMonthDayWiseServiceList
+Action Parameters : {"messageFormat":"JSON","messageArguments":[{"request":{"NotificationId":0,"EmployeeId":12,"SalesVisitRequestId":0,"Month":6,"Year":2017,"Day":8,"ServiceId":0,"ReportId":0,"UnitId":0,"Latitude":null,"Longitude":null,"SearchTerm":null,"PageId":0,"LastCallDateTime":null,"PageNumber":null,"pageSize":0,"OrderId":0,"StatDate":null,"EndDate":null,"DeviceType":null,"DeviceToken":null,"ClientEmails":null,"CCEmail":null}}]}
+
+2017-06-07 17:42:58.1323|INFO|api.Helpers.NLogger|JSON
+Method: POST
+URL: http://192.168.1.124:8989/api/v1/employee/GetServiceDetails
+Controller : api.Controllers.EmployeeController
+Action : GetServiceDetails
+Action Parameters : {"messageFormat":"JSON","messageArguments":[{"request":{"NotificationId":0,"EmployeeId":12,"SalesVisitRequestId":0,"Month":0,"Year":0,"Day":0,"ServiceId":10242,"ReportId":0,"UnitId":0,"Latitude":null,"Longitude":null,"SearchTerm":null,"PageId":0,"LastCallDateTime":null,"PageNumber":null,"pageSize":0,"OrderId":0,"StatDate":null,"EndDate":null,"DeviceType":null,"DeviceToken":null,"ClientEmails":null,"CCEmail":null}}]}
+
+2017-06-07 17:43:11.8124|INFO|api.Helpers.NLogger|JSON
+Method: POST
+URL: http://192.168.1.124:8989/api/v1/employee/CompletedReportsDetail
+Controller : api.Controllers.EmployeeController
+Action : CompletedReportsDetail
+Action Parameters : {"messageFormat":"JSON","messageArguments":[{"request":{"NotificationId":0,"EmployeeId":12,"SalesVisitRequestId":0,"Month":0,"Year":0,"Day":0,"ServiceId":0,"ReportId":9,"UnitId":0,"Latitude":null,"Longitude":null,"SearchTerm":null,"PageId":0,"LastCallDateTime":null,"PageNumber":null,"pageSize":0,"OrderId":0,"StatDate":null,"EndDate":null,"DeviceType":null,"DeviceToken":null,"ClientEmails":null,"CCEmail":null}}]}
+
+2017-06-07 17:43:21.3689|INFO|api.Helpers.NLogger|JSON
+Method: POST
+URL: http://192.168.1.124:8989/api/v1/employee/CompletedReportsDetail
+Controller : api.Controllers.EmployeeController
+Action : CompletedReportsDetail
+Action Parameters : {"messageFormat":"JSON","messageArguments":[{"request":{"NotificationId":0,"EmployeeId":12,"SalesVisitRequestId":0,"Month":0,"Year":0,"Day":0,"ServiceId":0,"ReportId":70,"UnitId":0,"Latitude":null,"Longitude":null,"SearchTerm":null,"PageId":0,"LastCallDateTime":null,"PageNumber":null,"pageSize":0,"OrderId":0,"StatDate":null,"EndDate":null,"DeviceType":null,"DeviceToken":null,"ClientEmails":null,"CCEmail":null}}]}
+
+2017-06-07 17:43:27.8134|INFO|api.Helpers.NLogger|JSON
+Method: POST
+URL: http://192.168.1.124:8989/api/v1/employee/CompletedReportsDetail
+Controller : api.Controllers.EmployeeController
+Action : CompletedReportsDetail
+Action Parameters : {"messageFormat":"JSON","messageArguments":[{"request":{"NotificationId":0,"EmployeeId":12,"SalesVisitRequestId":0,"Month":0,"Year":0,"Day":0,"ServiceId":0,"ReportId":9,"UnitId":0,"Latitude":null,"Longitude":null,"SearchTerm":null,"PageId":0,"LastCallDateTime":null,"PageNumber":null,"pageSize":0,"OrderId":0,"StatDate":null,"EndDate":null,"DeviceType":null,"DeviceToken":null,"ClientEmails":null,"CCEmail":null}}]}
+
+2017-06-07 17:43:34.6314|INFO|api.Helpers.NLogger|JSON
+Method: POST
+URL: http://192.168.1.124:8989/api/v1/employee/CompletedReportsDetail
+Controller : api.Controllers.EmployeeController
+Action : CompletedReportsDetail
+Action Parameters : {"messageFormat":"JSON","messageArguments":[{"request":{"NotificationId":0,"EmployeeId":12,"SalesVisitRequestId":0,"Month":0,"Year":0,"Day":0,"ServiceId":0,"ReportId":39,"UnitId":0,"Latitude":null,"Longitude":null,"SearchTerm":null,"PageId":0,"LastCallDateTime":null,"PageNumber":null,"pageSize":0,"OrderId":0,"StatDate":null,"EndDate":null,"DeviceType":null,"DeviceToken":null,"ClientEmails":null,"CCEmail":null}}]}
+
+2017-06-07 17:43:38.4431|INFO|api.Helpers.NLogger|JSON
+Method: POST
+URL: http://192.168.1.124:8989/api/v1/employee/CompletedReportsDetail
+Controller : api.Controllers.EmployeeController
+Action : CompletedReportsDetail
+Action Parameters : {"messageFormat":"JSON","messageArguments":[{"request":{"NotificationId":0,"EmployeeId":12,"SalesVisitRequestId":0,"Month":0,"Year":0,"Day":0,"ServiceId":0,"ReportId":26,"UnitId":0,"Latitude":null,"Longitude":null,"SearchTerm":null,"PageId":0,"LastCallDateTime":null,"PageNumber":null,"pageSize":0,"OrderId":0,"StatDate":null,"EndDate":null,"DeviceType":null,"DeviceToken":null,"ClientEmails":null,"CCEmail":null}}]}
+
+2017-06-07 17:43:42.8560|INFO|api.Helpers.NLogger|JSON
+Method: POST
+URL: http://192.168.1.124:8989/api/v1/employee/CompletedReportsDetail
+Controller : api.Controllers.EmployeeController
+Action : CompletedReportsDetail
+Action Parameters : {"messageFormat":"JSON","messageArguments":[{"request":{"NotificationId":0,"EmployeeId":12,"SalesVisitRequestId":0,"Month":0,"Year":0,"Day":0,"ServiceId":0,"ReportId":39,"UnitId":0,"Latitude":null,"Longitude":null,"SearchTerm":null,"PageId":0,"LastCallDateTime":null,"PageNumber":null,"pageSize":0,"OrderId":0,"StatDate":null,"EndDate":null,"DeviceType":null,"DeviceToken":null,"ClientEmails":null,"CCEmail":null}}]}
+
+2017-06-07 17:43:46.8823|INFO|api.Helpers.NLogger|JSON
+Method: POST
+URL: http://192.168.1.124:8989/api/v1/employee/CompletedReportsDetail
+Controller : api.Controllers.EmployeeController
+Action : CompletedReportsDetail
+Action Parameters : {"messageFormat":"JSON","messageArguments":[{"request":{"NotificationId":0,"EmployeeId":12,"SalesVisitRequestId":0,"Month":0,"Year":0,"Day":0,"ServiceId":0,"ReportId":55,"UnitId":0,"Latitude":null,"Longitude":null,"SearchTerm":null,"PageId":0,"LastCallDateTime":null,"PageNumber":null,"pageSize":0,"OrderId":0,"StatDate":null,"EndDate":null,"DeviceType":null,"DeviceToken":null,"ClientEmails":null,"CCEmail":null}}]}
+
+2017-06-07 17:43:49.1361|INFO|api.Helpers.NLogger|JSON
+Method: POST
+URL: http://192.168.1.124:8989/api/v1/employee/CompletedReportsDetail
+Controller : api.Controllers.EmployeeController
+Action : CompletedReportsDetail
+Action Parameters : {"messageFormat":"JSON","messageArguments":[{"request":{"NotificationId":0,"EmployeeId":12,"SalesVisitRequestId":0,"Month":0,"Year":0,"Day":0,"ServiceId":0,"ReportId":55,"UnitId":0,"Latitude":null,"Longitude":null,"SearchTerm":null,"PageId":0,"LastCallDateTime":null,"PageNumber":null,"pageSize":0,"OrderId":0,"StatDate":null,"EndDate":null,"DeviceType":null,"DeviceToken":null,"ClientEmails":null,"CCEmail":null}}]}
+
+2017-06-07 17:43:51.1912|INFO|api.Helpers.NLogger|JSON
+Method: POST
+URL: http://192.168.1.124:8989/api/v1/employee/CompletedReportsDetail
+Controller : api.Controllers.EmployeeController
+Action : CompletedReportsDetail
+Action Parameters : {"messageFormat":"JSON","messageArguments":[{"request":{"NotificationId":0,"EmployeeId":12,"SalesVisitRequestId":0,"Month":0,"Year":0,"Day":0,"ServiceId":0,"ReportId":39,"UnitId":0,"Latitude":null,"Longitude":null,"SearchTerm":null,"PageId":0,"LastCallDateTime":null,"PageNumber":null,"pageSize":0,"OrderId":0,"StatDate":null,"EndDate":null,"DeviceType":null,"DeviceToken":null,"ClientEmails":null,"CCEmail":null}}]}
+
+2017-06-07 17:43:53.9825|INFO|api.Helpers.NLogger|JSON
+Method: POST
+URL: http://192.168.1.124:8989/api/v1/employee/CompletedReportsDetail
+Controller : api.Controllers.EmployeeController
+Action : CompletedReportsDetail
+Action Parameters : {"messageFormat":"JSON","messageArguments":[{"request":{"NotificationId":0,"EmployeeId":12,"SalesVisitRequestId":0,"Month":0,"Year":0,"Day":0,"ServiceId":0,"ReportId":39,"UnitId":0,"Latitude":null,"Longitude":null,"SearchTerm":null,"PageId":0,"LastCallDateTime":null,"PageNumber":null,"pageSize":0,"OrderId":0,"StatDate":null,"EndDate":null,"DeviceType":null,"DeviceToken":null,"ClientEmails":null,"CCEmail":null}}]}
+
+2017-06-07 17:43:57.0638|INFO|api.Helpers.NLogger|JSON
+Method: POST
+URL: http://192.168.1.124:8989/api/v1/employee/CompletedReportsDetail
+Controller : api.Controllers.EmployeeController
+Action : CompletedReportsDetail
+Action Parameters : {"messageFormat":"JSON","messageArguments":[{"request":{"NotificationId":0,"EmployeeId":12,"SalesVisitRequestId":0,"Month":0,"Year":0,"Day":0,"ServiceId":0,"ReportId":39,"UnitId":0,"Latitude":null,"Longitude":null,"SearchTerm":null,"PageId":0,"LastCallDateTime":null,"PageNumber":null,"pageSize":0,"OrderId":0,"StatDate":null,"EndDate":null,"DeviceType":null,"DeviceToken":null,"ClientEmails":null,"CCEmail":null}}]}
+
+2017-06-07 17:44:24.2953|INFO|api.Helpers.NLogger|JSON
+Method: POST
+URL: http://192.168.1.124:8989/api/v1/employee/GetDashBoardMonthWiseServiceCount
+Controller : api.Controllers.EmployeeController
+Action : GetDashBoardMonthWiseServiceCount
+Action Parameters : {"messageFormat":"JSON","messageArguments":[{"request":{"NotificationId":0,"EmployeeId":12,"SalesVisitRequestId":0,"Month":6,"Year":2017,"Day":0,"ServiceId":0,"ReportId":0,"UnitId":0,"Latitude":null,"Longitude":null,"SearchTerm":null,"PageId":0,"LastCallDateTime":null,"PageNumber":null,"pageSize":0,"OrderId":0,"StatDate":null,"EndDate":null,"DeviceType":null,"DeviceToken":null,"ClientEmails":null,"CCEmail":null}}]}
+
+2017-06-07 17:44:24.2953|INFO|api.Helpers.NLogger|JSON
+Method: POST
+URL: http://192.168.1.124:8989/api/v1/employee/GetDashBoardMonthDayWiseServiceList
+Controller : api.Controllers.EmployeeController
+Action : GetDashBoardMonthDayWiseServiceList
+Action Parameters : {"messageFormat":"JSON","messageArguments":[{"request":{"NotificationId":0,"EmployeeId":12,"SalesVisitRequestId":0,"Month":6,"Year":2017,"Day":7,"ServiceId":0,"ReportId":0,"UnitId":0,"Latitude":null,"Longitude":null,"SearchTerm":null,"PageId":0,"LastCallDateTime":null,"PageNumber":null,"pageSize":0,"OrderId":0,"StatDate":null,"EndDate":null,"DeviceType":null,"DeviceToken":null,"ClientEmails":null,"CCEmail":null}}]}
+
+2017-06-07 17:44:31.6738|INFO|api.Helpers.NLogger|JSON
+Method: POST
+URL: http://192.168.1.124:8989/api/v1/employee/GetDashBoardMonthDayWiseServiceList
+Controller : api.Controllers.EmployeeController
+Action : GetDashBoardMonthDayWiseServiceList
+Action Parameters : {"messageFormat":"JSON","messageArguments":[{"request":{"NotificationId":0,"EmployeeId":12,"SalesVisitRequestId":0,"Month":6,"Year":2017,"Day":8,"ServiceId":0,"ReportId":0,"UnitId":0,"Latitude":null,"Longitude":null,"SearchTerm":null,"PageId":0,"LastCallDateTime":null,"PageNumber":null,"pageSize":0,"OrderId":0,"StatDate":null,"EndDate":null,"DeviceType":null,"DeviceToken":null,"ClientEmails":null,"CCEmail":null}}]}
+
+2017-06-07 17:44:38.6367|INFO|api.Helpers.NLogger|JSON
+Method: POST
+URL: http://192.168.1.124:8989/api/v1/employee/GetServiceDetails
+Controller : api.Controllers.EmployeeController
+Action : GetServiceDetails
+Action Parameters : {"messageFormat":"JSON","messageArguments":[{"request":{"NotificationId":0,"EmployeeId":12,"SalesVisitRequestId":0,"Month":0,"Year":0,"Day":0,"ServiceId":10242,"ReportId":0,"UnitId":0,"Latitude":null,"Longitude":null,"SearchTerm":null,"PageId":0,"LastCallDateTime":null,"PageNumber":null,"pageSize":0,"OrderId":0,"StatDate":null,"EndDate":null,"DeviceType":null,"DeviceToken":null,"ClientEmails":null,"CCEmail":null}}]}
+
+2017-06-07 17:44:41.2504|INFO|api.Helpers.NLogger|JSON
+Method: POST
+URL: http://192.168.1.124:8989/api/v1/employee/GetDashBoardMonthWiseServiceCount
+Controller : api.Controllers.EmployeeController
+Action : GetDashBoardMonthWiseServiceCount
+Action Parameters : {"messageFormat":"JSON","messageArguments":[{"request":{"NotificationId":0,"EmployeeId":12,"SalesVisitRequestId":0,"Month":6,"Year":2017,"Day":0,"ServiceId":0,"ReportId":0,"UnitId":0,"Latitude":null,"Longitude":null,"SearchTerm":null,"PageId":0,"LastCallDateTime":null,"PageNumber":null,"pageSize":0,"OrderId":0,"StatDate":null,"EndDate":null,"DeviceType":null,"DeviceToken":null,"ClientEmails":null,"CCEmail":null}}]}
+
+2017-06-07 17:44:41.2504|INFO|api.Helpers.NLogger|JSON
+Method: POST
+URL: http://192.168.1.124:8989/api/v1/employee/GetDashBoardMonthDayWiseServiceList
+Controller : api.Controllers.EmployeeController
+Action : GetDashBoardMonthDayWiseServiceList
+Action Parameters : {"messageFormat":"JSON","messageArguments":[{"request":{"NotificationId":0,"EmployeeId":12,"SalesVisitRequestId":0,"Month":6,"Year":2017,"Day":7,"ServiceId":0,"ReportId":0,"UnitId":0,"Latitude":null,"Longitude":null,"SearchTerm":null,"PageId":0,"LastCallDateTime":null,"PageNumber":null,"pageSize":0,"OrderId":0,"StatDate":null,"EndDate":null,"DeviceType":null,"DeviceToken":null,"ClientEmails":null,"CCEmail":null}}]}
+
+2017-06-07 17:44:43.0812|INFO|api.Helpers.NLogger|JSON
+Method: POST
+URL: http://192.168.1.124:8989/api/v1/employee/GetDashBoardMonthDayWiseServiceList
+Controller : api.Controllers.EmployeeController
+Action : GetDashBoardMonthDayWiseServiceList
+Action Parameters : {"messageFormat":"JSON","messageArguments":[{"request":{"NotificationId":0,"EmployeeId":12,"SalesVisitRequestId":0,"Month":6,"Year":2017,"Day":8,"ServiceId":0,"ReportId":0,"UnitId":0,"Latitude":null,"Longitude":null,"SearchTerm":null,"PageId":0,"LastCallDateTime":null,"PageNumber":null,"pageSize":0,"OrderId":0,"StatDate":null,"EndDate":null,"DeviceType":null,"DeviceToken":null,"ClientEmails":null,"CCEmail":null}}]}
+
+2017-06-07 17:44:44.5423|INFO|api.Helpers.NLogger|JSON
+Method: POST
+URL: http://192.168.1.124:8989/api/v1/employee/GetDashBoardMonthDayWiseServiceList
+Controller : api.Controllers.EmployeeController
+Action : GetDashBoardMonthDayWiseServiceList
+Action Parameters : {"messageFormat":"JSON","messageArguments":[{"request":{"NotificationId":0,"EmployeeId":12,"SalesVisitRequestId":0,"Month":6,"Year":2017,"Day":7,"ServiceId":0,"ReportId":0,"UnitId":0,"Latitude":null,"Longitude":null,"SearchTerm":null,"PageId":0,"LastCallDateTime":null,"PageNumber":null,"pageSize":0,"OrderId":0,"StatDate":null,"EndDate":null,"DeviceType":null,"DeviceToken":null,"ClientEmails":null,"CCEmail":null}}]}
+
+2017-06-07 17:44:45.8234|INFO|api.Helpers.NLogger|JSON
+Method: POST
+URL: http://192.168.1.124:8989/api/v1/employee/GetDashBoardMonthDayWiseServiceList
+Controller : api.Controllers.EmployeeController
+Action : GetDashBoardMonthDayWiseServiceList
+Action Parameters : {"messageFormat":"JSON","messageArguments":[{"request":{"NotificationId":0,"EmployeeId":12,"SalesVisitRequestId":0,"Month":6,"Year":2017,"Day":7,"ServiceId":0,"ReportId":0,"UnitId":0,"Latitude":null,"Longitude":null,"SearchTerm":null,"PageId":0,"LastCallDateTime":null,"PageNumber":null,"pageSize":0,"OrderId":0,"StatDate":null,"EndDate":null,"DeviceType":null,"DeviceToken":null,"ClientEmails":null,"CCEmail":null}}]}
+
+2017-06-07 17:44:46.5324|INFO|api.Helpers.NLogger|JSON
+Method: POST
+URL: http://192.168.1.124:8989/api/v1/employee/GetDashBoardMonthDayWiseServiceList
+Controller : api.Controllers.EmployeeController
+Action : GetDashBoardMonthDayWiseServiceList
+Action Parameters : {"messageFormat":"JSON","messageArguments":[{"request":{"NotificationId":0,"EmployeeId":12,"SalesVisitRequestId":0,"Month":6,"Year":2017,"Day":7,"ServiceId":0,"ReportId":0,"UnitId":0,"Latitude":null,"Longitude":null,"SearchTerm":null,"PageId":0,"LastCallDateTime":null,"PageNumber":null,"pageSize":0,"OrderId":0,"StatDate":null,"EndDate":null,"DeviceType":null,"DeviceToken":null,"ClientEmails":null,"CCEmail":null}}]}
+
+2017-06-07 17:44:53.2061|INFO|api.Helpers.NLogger|JSON
+Method: POST
+URL: http://192.168.1.124:8989/api/v1/employee/GetDashBoardMonthDayWiseServiceList
+Controller : api.Controllers.EmployeeController
+Action : GetDashBoardMonthDayWiseServiceList
+Action Parameters : {"messageFormat":"JSON","messageArguments":[{"request":{"NotificationId":0,"EmployeeId":12,"SalesVisitRequestId":0,"Month":6,"Year":2017,"Day":8,"ServiceId":0,"ReportId":0,"UnitId":0,"Latitude":null,"Longitude":null,"SearchTerm":null,"PageId":0,"LastCallDateTime":null,"PageNumber":null,"pageSize":0,"OrderId":0,"StatDate":null,"EndDate":null,"DeviceType":null,"DeviceToken":null,"ClientEmails":null,"CCEmail":null}}]}
+
+2017-06-07 17:44:56.7114|INFO|api.Helpers.NLogger|JSON
+Method: POST
+URL: http://192.168.1.124:8989/api/v1/employee/GetServiceDetails
+Controller : api.Controllers.EmployeeController
+Action : GetServiceDetails
+Action Parameters : {"messageFormat":"JSON","messageArguments":[{"request":{"NotificationId":0,"EmployeeId":12,"SalesVisitRequestId":0,"Month":0,"Year":0,"Day":0,"ServiceId":10242,"ReportId":0,"UnitId":0,"Latitude":null,"Longitude":null,"SearchTerm":null,"PageId":0,"LastCallDateTime":null,"PageNumber":null,"pageSize":0,"OrderId":0,"StatDate":null,"EndDate":null,"DeviceType":null,"DeviceToken":null,"ClientEmails":null,"CCEmail":null}}]}
+
+2017-06-07 17:44:58.3156|INFO|api.Helpers.NLogger|JSON
+Method: POST
+URL: http://192.168.1.124:8989/api/v1/employee/GetDashBoardMonthWiseServiceCount
+Controller : api.Controllers.EmployeeController
+Action : GetDashBoardMonthWiseServiceCount
+Action Parameters : {"messageFormat":"JSON","messageArguments":[{"request":{"NotificationId":0,"EmployeeId":12,"SalesVisitRequestId":0,"Month":6,"Year":2017,"Day":0,"ServiceId":0,"ReportId":0,"UnitId":0,"Latitude":null,"Longitude":null,"SearchTerm":null,"PageId":0,"LastCallDateTime":null,"PageNumber":null,"pageSize":0,"OrderId":0,"StatDate":null,"EndDate":null,"DeviceType":null,"DeviceToken":null,"ClientEmails":null,"CCEmail":null}}]}
+
+2017-06-07 17:44:58.3156|INFO|api.Helpers.NLogger|JSON
+Method: POST
+URL: http://192.168.1.124:8989/api/v1/employee/GetDashBoardMonthDayWiseServiceList
+Controller : api.Controllers.EmployeeController
+Action : GetDashBoardMonthDayWiseServiceList
+Action Parameters : {"messageFormat":"JSON","messageArguments":[{"request":{"NotificationId":0,"EmployeeId":12,"SalesVisitRequestId":0,"Month":6,"Year":2017,"Day":7,"ServiceId":0,"ReportId":0,"UnitId":0,"Latitude":null,"Longitude":null,"SearchTerm":null,"PageId":0,"LastCallDateTime":null,"PageNumber":null,"pageSize":0,"OrderId":0,"StatDate":null,"EndDate":null,"DeviceType":null,"DeviceToken":null,"ClientEmails":null,"CCEmail":null}}]}
+
+2017-06-07 17:44:59.6526|INFO|api.Helpers.NLogger|JSON
+Method: POST
+URL: http://192.168.1.124:8989/api/v1/employee/GetDashBoardMonthDayWiseServiceList
+Controller : api.Controllers.EmployeeController
+Action : GetDashBoardMonthDayWiseServiceList
+Action Parameters : {"messageFormat":"JSON","messageArguments":[{"request":{"NotificationId":0,"EmployeeId":12,"SalesVisitRequestId":0,"Month":6,"Year":2017,"Day":8,"ServiceId":0,"ReportId":0,"UnitId":0,"Latitude":null,"Longitude":null,"SearchTerm":null,"PageId":0,"LastCallDateTime":null,"PageNumber":null,"pageSize":0,"OrderId":0,"StatDate":null,"EndDate":null,"DeviceType":null,"DeviceToken":null,"ClientEmails":null,"CCEmail":null}}]}
+
+2017-06-07 17:45:08.8304|INFO|api.Helpers.NLogger|JSON
+Method: POST
+URL: http://192.168.1.124:8989/api/v1/employee/GetServiceDetails
+Controller : api.Controllers.EmployeeController
+Action : GetServiceDetails
+Action Parameters : {"messageFormat":"JSON","messageArguments":[{"request":{"NotificationId":0,"EmployeeId":12,"SalesVisitRequestId":0,"Month":0,"Year":0,"Day":0,"ServiceId":10242,"ReportId":0,"UnitId":0,"Latitude":null,"Longitude":null,"SearchTerm":null,"PageId":0,"LastCallDateTime":null,"PageNumber":null,"pageSize":0,"OrderId":0,"StatDate":null,"EndDate":null,"DeviceType":null,"DeviceToken":null,"ClientEmails":null,"CCEmail":null}}]}
+
+2017-06-07 17:45:10.2760|INFO|api.Helpers.NLogger|JSON
+Method: POST
+URL: http://192.168.1.124:8989/api/v1/empcommon/GetScheduleTimeByServiceId
+Controller : api.Controllers.EmpCommonController
+Action : GetScheduleTimeByPlanTypeServiceId
+Action Parameters : {"messageFormat":"JSON","messageArguments":[{"request":{"Email":null,"ClientId":0,"PlanTypeId":0,"PlanId":0,"PartId":0,"Month":0,"Year":0,"AddressId":null,"UnitId":0,"ServiceId":10242,"RequestedServiceId":null,"PartType":null,"PartTypeId":null,"PageId":0,"ShowDeleted":false,"ServiceCaseNumber":null,"LastCallDateTime":null,"PageNumber":null,"pageSize":0,"DeviceType":null,"DeviceToken":null,"NotificationId":null,"EmployeeId":12,"BillingId":null}}]}
+
+2017-06-07 17:45:15.1573|INFO|api.Helpers.NLogger|JSON
+Method: POST
+URL: http://192.168.1.124:8989/api/v1/employee/GetDashBoardMonthWiseServiceCount
+Controller : api.Controllers.EmployeeController
+Action : GetDashBoardMonthWiseServiceCount
+Action Parameters : {"messageFormat":"JSON","messageArguments":[{"request":{"NotificationId":0,"EmployeeId":12,"SalesVisitRequestId":0,"Month":6,"Year":2017,"Day":0,"ServiceId":0,"ReportId":0,"UnitId":0,"Latitude":null,"Longitude":null,"SearchTerm":null,"PageId":0,"LastCallDateTime":null,"PageNumber":null,"pageSize":0,"OrderId":0,"StatDate":null,"EndDate":null,"DeviceType":null,"DeviceToken":null,"ClientEmails":null,"CCEmail":null}}]}
+
+2017-06-07 17:45:15.1573|INFO|api.Helpers.NLogger|JSON
+Method: POST
+URL: http://192.168.1.124:8989/api/v1/employee/GetDashBoardMonthDayWiseServiceList
+Controller : api.Controllers.EmployeeController
+Action : GetDashBoardMonthDayWiseServiceList
+Action Parameters : {"messageFormat":"JSON","messageArguments":[{"request":{"NotificationId":0,"EmployeeId":12,"SalesVisitRequestId":0,"Month":6,"Year":2017,"Day":7,"ServiceId":0,"ReportId":0,"UnitId":0,"Latitude":null,"Longitude":null,"SearchTerm":null,"PageId":0,"LastCallDateTime":null,"PageNumber":null,"pageSize":0,"OrderId":0,"StatDate":null,"EndDate":null,"DeviceType":null,"DeviceToken":null,"ClientEmails":null,"CCEmail":null}}]}
+
+2017-06-07 17:45:17.6219|INFO|api.Helpers.NLogger|JSON
+Method: GET
+URL: http://192.168.1.124:8989/api/v1/employee/GetProfile?EmployeeId=12
+Controller : api.Controllers.EmployeeController
+Action : GetClientProfile
+Action Parameters : {"messageFormat":"JSON","messageArguments":[{"EmployeeId":12}]}
+
+2017-06-07 17:45:19.4901|INFO|api.Helpers.NLogger|JSON
+Method: GET
+URL: http://192.168.1.124:8989/api/v1/employee/GetProfile?EmployeeId=12
+Controller : api.Controllers.EmployeeController
+Action : GetClientProfile
+Action Parameters : {"messageFormat":"JSON","messageArguments":[{"EmployeeId":12}]}
+
+2017-06-07 17:45:22.2623|INFO|api.Helpers.NLogger|JSON
+Method: POST
+URL: http://192.168.1.124:8989/api/v1/employee/GetDashBoardMonthWiseServiceCount
+Controller : api.Controllers.EmployeeController
+Action : GetDashBoardMonthWiseServiceCount
+Action Parameters : {"messageFormat":"JSON","messageArguments":[{"request":{"NotificationId":0,"EmployeeId":12,"SalesVisitRequestId":0,"Month":6,"Year":2017,"Day":0,"ServiceId":0,"ReportId":0,"UnitId":0,"Latitude":null,"Longitude":null,"SearchTerm":null,"PageId":0,"LastCallDateTime":null,"PageNumber":null,"pageSize":0,"OrderId":0,"StatDate":null,"EndDate":null,"DeviceType":null,"DeviceToken":null,"ClientEmails":null,"CCEmail":null}}]}
+
+2017-06-07 17:45:22.2623|INFO|api.Helpers.NLogger|JSON
+Method: POST
+URL: http://192.168.1.124:8989/api/v1/employee/GetDashBoardMonthDayWiseServiceList
+Controller : api.Controllers.EmployeeController
+Action : GetDashBoardMonthDayWiseServiceList
+Action Parameters : {"messageFormat":"JSON","messageArguments":[{"request":{"NotificationId":0,"EmployeeId":12,"SalesVisitRequestId":0,"Month":6,"Year":2017,"Day":7,"ServiceId":0,"ReportId":0,"UnitId":0,"Latitude":null,"Longitude":null,"SearchTerm":null,"PageId":0,"LastCallDateTime":null,"PageNumber":null,"pageSize":0,"OrderId":0,"StatDate":null,"EndDate":null,"DeviceType":null,"DeviceToken":null,"ClientEmails":null,"CCEmail":null}}]}
+
+2017-06-07 17:45:32.3569|INFO|api.Helpers.NLogger|JSON
+Method: POST
+URL: http://192.168.1.124:8989/api/v1/employee/GetDashBoardMonthDayWiseServiceList
+Controller : api.Controllers.EmployeeController
+Action : GetDashBoardMonthDayWiseServiceList
+Action Parameters : {"messageFormat":"JSON","messageArguments":[{"request":{"NotificationId":0,"EmployeeId":12,"SalesVisitRequestId":0,"Month":6,"Year":2017,"Day":8,"ServiceId":0,"ReportId":0,"UnitId":0,"Latitude":null,"Longitude":null,"SearchTerm":null,"PageId":0,"LastCallDateTime":null,"PageNumber":null,"pageSize":0,"OrderId":0,"StatDate":null,"EndDate":null,"DeviceType":null,"DeviceToken":null,"ClientEmails":null,"CCEmail":null}}]}
+
+2017-06-07 19:41:12.2172|INFO|api.Helpers.NLogger|JSON
+Method: POST
+URL: http://192.168.1.124:8989/api/v1/employee/GetDashBoardMonthWiseServiceCount
+Controller : api.Controllers.EmployeeController
+Action : GetDashBoardMonthWiseServiceCount
+Action Parameters : {"messageFormat":"JSON","messageArguments":[{"request":{"NotificationId":0,"EmployeeId":12,"SalesVisitRequestId":0,"Month":6,"Year":2017,"Day":0,"ServiceId":0,"ReportId":0,"UnitId":0,"Latitude":null,"Longitude":null,"SearchTerm":null,"PageId":0,"LastCallDateTime":null,"PageNumber":null,"pageSize":0,"OrderId":0,"StatDate":null,"EndDate":null,"DeviceType":null,"DeviceToken":null,"ClientEmails":null,"CCEmail":null}}]}
+
+2017-06-07 19:41:13.6100|INFO|api.Helpers.NLogger|JSON
+Method: POST
+URL: http://192.168.1.124:8989/api/v1/employee/GetDashBoardMonthDayWiseServiceList
+Controller : api.Controllers.EmployeeController
+Action : GetDashBoardMonthDayWiseServiceList
+Action Parameters : {"messageFormat":"JSON","messageArguments":[{"request":{"NotificationId":0,"EmployeeId":12,"SalesVisitRequestId":0,"Month":6,"Year":2017,"Day":7,"ServiceId":0,"ReportId":0,"UnitId":0,"Latitude":null,"Longitude":null,"SearchTerm":null,"PageId":0,"LastCallDateTime":null,"PageNumber":null,"pageSize":0,"OrderId":0,"StatDate":null,"EndDate":null,"DeviceType":null,"DeviceToken":null,"ClientEmails":null,"CCEmail":null}}]}
+
+2017-06-07 19:41:17.9862|INFO|api.Helpers.NLogger|JSON
+Method: POST
+URL: http://192.168.1.124:8989/api/v1/employee/logout
+Controller : api.Controllers.EmployeeController
+Action : logout
+Action Parameters : {"messageFormat":"JSON","messageArguments":[{"request":{"NotificationId":0,"EmployeeId":12,"SalesVisitRequestId":0,"Month":0,"Year":0,"Day":0,"ServiceId":0,"ReportId":0,"UnitId":0,"Latitude":null,"Longitude":null,"SearchTerm":null,"PageId":0,"LastCallDateTime":null,"PageNumber":null,"pageSize":0,"OrderId":0,"StatDate":null,"EndDate":null,"DeviceType":null,"DeviceToken":null,"ClientEmails":null,"CCEmail":null}}]}
+
+2017-06-07 19:41:30.6741|INFO|api.Helpers.NLogger|JSON
+Method: POST
+URL: http://192.168.1.124:8989/api/v1/employee/login
+Controller : api.Controllers.EmployeeController
+Action : Login
+Action Parameters : {"messageFormat":"JSON","messageArguments":[{"model":{"Email":"testing.demo@gmail.com","Password":"7f2765757d527eaeeb14fb706039bac7","DeviceType":"iPhone","DeviceToken":"","Latitude":null,"Longitude":null}}]}
+
+2017-06-07 19:41:31.1081|INFO|api.Helpers.NLogger|JSON
+Method: POST
+URL: http://192.168.1.124:8989/api/v1/employee/NotificationList
+Controller : api.Controllers.NewEmployeeController
+Action : NotificationList
+Action Parameters : {"messageFormat":"JSON","messageArguments":[{"request":{"NotificationId":0,"EmployeeId":1012,"SalesVisitRequestId":0,"Month":0,"Year":0,"Day":0,"ServiceId":0,"ReportId":0,"UnitId":0,"Latitude":null,"Longitude":null,"SearchTerm":null,"PageId":0,"LastCallDateTime":null,"PageNumber":1,"pageSize":0,"OrderId":0,"StatDate":null,"EndDate":null,"DeviceType":null,"DeviceToken":null,"ClientEmails":null,"CCEmail":null}}]}
+
+2017-06-07 19:41:34.7437|INFO|api.Helpers.NLogger|JSON
+Method: GET
+URL: http://192.168.1.124:8989/api/v1/empcommon/getallplantype?EmployeeId=1012
+Controller : api.Controllers.EmpCommonController
+Action : GetAllPlanType
+Action Parameters : {"messageFormat":"JSON","messageArguments":[{"EmployeeId":1012}]}
+
+2017-06-07 19:41:35.7718|INFO|api.Helpers.NLogger|JSON
+Method: GET
+URL: http://192.168.1.124:8989/api/v1/employee/GetAllClients?EmployeeId=1012&ShowOnlyWorkAreaClient=false
+Controller : api.Controllers.EmployeeController
+Action : GetAllClients
+Action Parameters : {"messageFormat":"JSON","messageArguments":[{"EmployeeId":1012,"ShowOnlyWorkAreaClient":false}]}
+
+2017-06-07 19:41:39.4250|INFO|api.Helpers.NLogger|JSON
+Method: GET
+URL: http://192.168.1.124:8989/api/v1/employee/GetClientAddress?ClientId=1019&EmployeeId=1012
+Controller : api.Controllers.EmployeeController
+Action : GetClientAddress
+Action Parameters : {"messageFormat":"JSON","messageArguments":[{"ClientId":1019,"EmployeeId":1012}]}
+
+2017-06-07 19:41:42.4399|INFO|api.Helpers.NLogger|JSON
+Method: POST
+URL: http://192.168.1.124:8989/api/v1/empcommon/GetSpecialRateByPlanType
+Controller : api.Controllers.EmpCommonController
+Action : GetSpecialRateByPlanType
+Action Parameters : {"messageFormat":"JSON","messageArguments":[{"request":{"Email":null,"ClientId":0,"PlanTypeId":1,"PlanId":0,"PartId":0,"Month":0,"Year":0,"AddressId":null,"UnitId":0,"ServiceId":null,"RequestedServiceId":null,"PartType":null,"PartTypeId":null,"PageId":0,"ShowDeleted":false,"ServiceCaseNumber":null,"LastCallDateTime":null,"PageNumber":null,"pageSize":0,"DeviceType":null,"DeviceToken":null,"NotificationId":null,"EmployeeId":1012,"BillingId":null}}]}
+
+2017-06-07 19:41:46.8716|INFO|api.Helpers.NLogger|JSON
+Method: POST
+URL: http://192.168.1.124:8989/api/v1/employee/AddClientUnitSalesPerson
+Controller : api.Controllers.SalesPersonController
+Action : AddClientUnitSalesPerson
+Action Parameters : {"messageFormat":"JSON","messageArguments":[{"request":{"ClientId":1019,"UnitId":0,"Qty":1,"UnitName":"","ManufactureDate":null,"PlanTypeId":1,"UnitTon":null,"AddressId":1008,"UnitTypeId":null,"AutoRenewal":false,"SpecialOffer":false,"Status":null,"OptionalInformation":[{"SplitType":"Packaged","ModelNumber":"","SerialNumber":"","UnitTon":null,"QuantityOfFilter":0,"ManufactureDate":null,"Filters":null,"QuantityOfFuses":0,"FuseTypes":null,"ThermostatTypes":null}],"DeleteOldData":false,"EmployeeId":1012,"CurrentPaymentMethod":"Check"}}]}
+
+2017-06-07 19:41:48.5942|INFO|api.Helpers.NLogger|JSON
+Method: GET
+URL: http://192.168.1.124:8989/api/v1/employee/GetClientDefaultAddress?ClientId=1019&EmployeeId=1012
+Controller : api.Controllers.EmployeeController
+Action : GetClientDefaultAddress
+Action Parameters : {"messageFormat":"JSON","messageArguments":[{"ClientId":1019,"EmployeeId":1012}]}
+
+2017-06-07 19:41:49.5436|INFO|api.Helpers.NLogger|JSON
+Method: POST
+URL: http://192.168.1.124:8989/api/v1/employee/ValidateClientAddress
+Controller : api.Controllers.NewEmployeeController
+Action : ValidateClientAddress
+Action Parameters : {"messageFormat":"JSON","messageArguments":[{"ModelData":{"Id":0,"ClientId":1019,"Address":"4809 kenwood palace","State":1,"StateName":null,"City":182,"CityName":null,"ZipCode":"94103","Latitude":null,"Longitude":null,"IsDefaultAddress":null,"AllowDelete":false,"ShowAddressInApp":false,"PhoneNumber":null,"MobileNumber":null,"OfficeNumber":null,"HomeNumber":null,"Email":null,"PDFUrl":null,"PendingInactive":false}}]}
+
+2017-06-07 19:41:50.8006|INFO|api.Helpers.NLogger|JSON
+Method: POST
+URL: http://192.168.1.124:8989/api/v1/employee/SubmitUnitPayment
+Controller : api.Controllers.NewEmployeeController
+Action : SubmitUnitPayment
+Action Parameters : {"messageFormat":"JSON","messageArguments":[{}]}
+
+2017-06-07 19:42:22.1049|INFO|api.Helpers.NLogger|JSON
+Method: POST
+URL: http://192.168.1.124:8989/api/v1/employee/NotificationList
+Controller : api.Controllers.NewEmployeeController
+Action : NotificationList
+Action Parameters : {"messageFormat":"JSON","messageArguments":[{"request":{"NotificationId":0,"EmployeeId":1012,"SalesVisitRequestId":0,"Month":0,"Year":0,"Day":0,"ServiceId":0,"ReportId":0,"UnitId":0,"Latitude":null,"Longitude":null,"SearchTerm":null,"PageId":0,"LastCallDateTime":null,"PageNumber":1,"pageSize":0,"OrderId":0,"StatDate":null,"EndDate":null,"DeviceType":null,"DeviceToken":null,"ClientEmails":null,"CCEmail":null}}]}
+
+2017-06-07 19:42:34.5028|INFO|api.Helpers.NLogger|JSON
+Method: POST
+URL: http://192.168.1.124:8989/api/v1/employee/logout
+Controller : api.Controllers.EmployeeController
+Action : logout
+Action Parameters : {"messageFormat":"JSON","messageArguments":[{"request":{"NotificationId":0,"EmployeeId":1012,"SalesVisitRequestId":0,"Month":0,"Year":0,"Day":0,"ServiceId":0,"ReportId":0,"UnitId":0,"Latitude":null,"Longitude":null,"SearchTerm":null,"PageId":0,"LastCallDateTime":null,"PageNumber":null,"pageSize":0,"OrderId":0,"StatDate":null,"EndDate":null,"DeviceType":null,"DeviceToken":null,"ClientEmails":null,"CCEmail":null}}]}
+
+2017-06-07 19:43:18.3432|INFO|api.Helpers.NLogger|JSON
+Method: POST
+URL: http://192.168.1.124:8989/api/v1/employee/login
+Controller : api.Controllers.EmployeeController
+Action : Login
+Action Parameters : {"messageFormat":"JSON","messageArguments":[{"model":{"Email":"itesting.demo@gmail.com","Password":"7f2765757d527eaeeb14fb706039bac7","DeviceType":"iPhone","DeviceToken":"","Latitude":null,"Longitude":null}}]}
+

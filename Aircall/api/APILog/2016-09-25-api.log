@@ -1,0 +1,91 @@
+2016-09-25 01:39:41.0742|INFO|api.Helpers.NLogger|JSON
+Method: POST
+URL: http://ads.siteproofs.net/api/v1/profile/clientlogin
+Controller : api.Controllers.ProfileController
+Action : Login
+Action Parameters : {"messageFormat":"JSON","messageArguments":[{"model":{"Email":"andrew@gmail.com","Password":"e10adc3949ba59abbe56e057f20f883e","DeviceType":"Android","DeviceToken":"dxRCGW8uxBE:APA91bFhAvejoArRfgbu3gtnhjo9Sb-qYfvbdyeSsOpjcTbIWKpY_qDpSsWHK001ywDj17ZR3vPqDQUf-hkprspkjYGxwU5751XBQa62LEtLqOkK12OKp_7x2oV6n7xhFkjRhYX1c9A0"}}]}
+
+2016-09-25 01:39:59.2959|INFO|api.Helpers.NLogger|JSON
+Method: POST
+URL: http://ads.siteproofs.net/api/v1/profile/ClientDashboard
+Controller : api.Controllers.ProfileController
+Action : ClientDashboard
+Action Parameters : {"messageFormat":"JSON","messageArguments":[{"request":{"Email":null,"ClientId":7,"PlanTypeId":0,"PlanId":0,"PartId":0,"Month":0,"Year":0,"AddressId":null,"UnitId":0,"ServiceId":null,"RequestedServiceId":null,"PartType":null,"PartTypeId":null,"PageId":0,"ShowDeleted":false,"ServiceCaseNumber":null,"LastCallDateTime":null,"PageNumber":null,"pageSize":0,"DeviceType":null,"DeviceToken":null,"NotificationId":null,"EmployeeId":0,"BillingId":null}}]}
+
+2016-09-25 01:40:02.2668|INFO|api.Helpers.NLogger|JSON
+Method: GET
+URL: http://ads.siteproofs.net/api/v1/profile/GetClientAddress?ClientId=7
+Controller : api.Controllers.ProfileController
+Action : GetClientAddress
+Action Parameters : {"messageFormat":"JSON","messageArguments":[{"ClientId":7}]}
+
+2016-09-25 01:40:04.9090|INFO|api.Helpers.NLogger|JSON
+Method: GET
+URL: http://ads.siteproofs.net/api/v1/Location/GetAllState
+Controller : api.Controllers.LocationController
+Action : GetAllState
+Action Parameters : {"messageFormat":"JSON","messageArguments":[{}]}
+
+2016-09-25 01:40:11.8977|INFO|api.Helpers.NLogger|JSON
+Method: GET
+URL: http://ads.siteproofs.net/api/v1/Location/GetAllCityByStateId?StateId=1
+Controller : api.Controllers.LocationController
+Action : GetAllCityByStateId
+Action Parameters : {"messageFormat":"JSON","messageArguments":[{"StateId":1}]}
+
+2016-09-25 01:40:17.5363|INFO|api.Helpers.NLogger|JSON
+Method: GET
+URL: http://ads.siteproofs.net/api/v1/profile/GetClientAddress?ClientId=7
+Controller : api.Controllers.ProfileController
+Action : GetClientAddress
+Action Parameters : {"messageFormat":"JSON","messageArguments":[{"ClientId":7}]}
+
+2016-09-25 01:40:20.3210|INFO|api.Helpers.NLogger|JSON
+Method: POST
+URL: http://ads.siteproofs.net/api/v1/profile/ClientDashboard
+Controller : api.Controllers.ProfileController
+Action : ClientDashboard
+Action Parameters : {"messageFormat":"JSON","messageArguments":[{"request":{"Email":null,"ClientId":7,"PlanTypeId":0,"PlanId":0,"PartId":0,"Month":0,"Year":0,"AddressId":null,"UnitId":0,"ServiceId":null,"RequestedServiceId":null,"PartType":null,"PartTypeId":null,"PageId":0,"ShowDeleted":false,"ServiceCaseNumber":null,"LastCallDateTime":null,"PageNumber":null,"pageSize":0,"DeviceType":null,"DeviceToken":null,"NotificationId":null,"EmployeeId":0,"BillingId":null}}]}
+
+2016-09-25 01:40:22.7658|INFO|api.Helpers.NLogger|JSON
+Method: GET
+URL: http://ads.siteproofs.net/api/v1/common/getallplantype
+Controller : api.Controllers.CommonController
+Action : GetAllPlanType
+Action Parameters : {"messageFormat":"JSON","messageArguments":[{}]}
+
+2016-09-25 01:40:23.3528|INFO|api.Helpers.NLogger|JSON
+Method: GET
+URL: http://ads.siteproofs.net/api/v1/profile/GetClientAddress?ClientId=7
+Controller : api.Controllers.ProfileController
+Action : GetClientAddress
+Action Parameters : {"messageFormat":"JSON","messageArguments":[{"ClientId":7}]}
+
+2016-09-25 01:40:23.6030|INFO|api.Helpers.NLogger|JSON
+Method: POST
+URL: http://ads.siteproofs.net/api/v1/common/GetSpecialRateByPlanType
+Controller : api.Controllers.CommonController
+Action : GetSpecialRateByPlanType
+Action Parameters : {"messageFormat":"JSON","messageArguments":[{"request":{"Email":null,"ClientId":7,"PlanTypeId":1,"PlanId":0,"PartId":0,"Month":0,"Year":0,"AddressId":null,"UnitId":0,"ServiceId":null,"RequestedServiceId":null,"PartType":null,"PartTypeId":null,"PageId":0,"ShowDeleted":false,"ServiceCaseNumber":null,"LastCallDateTime":null,"PageNumber":null,"pageSize":0,"DeviceType":null,"DeviceToken":null,"NotificationId":null,"EmployeeId":0,"BillingId":null}}]}
+
+2016-09-25 01:40:26.8431|INFO|api.Helpers.NLogger|JSON
+Method: POST
+URL: http://ads.siteproofs.net/api/v1/common/GetPartsByTypeForUnit
+Controller : api.Controllers.CommonController
+Action : GetPartsByTypeForUnit
+Action Parameters : {"messageFormat":"JSON","messageArguments":[{"request":{"Email":null,"ClientId":0,"PlanTypeId":0,"PlanId":0,"PartId":0,"Month":0,"Year":0,"AddressId":null,"UnitId":0,"ServiceId":null,"RequestedServiceId":null,"PartType":"Filter","PartTypeId":null,"PageId":0,"ShowDeleted":false,"ServiceCaseNumber":null,"LastCallDateTime":null,"PageNumber":null,"pageSize":0,"DeviceType":null,"DeviceToken":null,"NotificationId":null,"EmployeeId":0,"BillingId":null}}]}
+
+2016-09-25 01:40:27.5566|INFO|api.Helpers.NLogger|JSON
+Method: POST
+URL: http://ads.siteproofs.net/api/v1/common/GetPartsByTypeForUnit
+Controller : api.Controllers.CommonController
+Action : GetPartsByTypeForUnit
+Action Parameters : {"messageFormat":"JSON","messageArguments":[{"request":{"Email":null,"ClientId":0,"PlanTypeId":0,"PlanId":0,"PartId":0,"Month":0,"Year":0,"AddressId":null,"UnitId":0,"ServiceId":null,"RequestedServiceId":null,"PartType":"Fuse","PartTypeId":null,"PageId":0,"ShowDeleted":false,"ServiceCaseNumber":null,"LastCallDateTime":null,"PageNumber":null,"pageSize":0,"DeviceType":null,"DeviceToken":null,"NotificationId":null,"EmployeeId":0,"BillingId":null}}]}
+
+2016-09-25 01:40:27.7937|INFO|api.Helpers.NLogger|JSON
+Method: POST
+URL: http://ads.siteproofs.net/api/v1/common/GetPartsByTypeForUnit
+Controller : api.Controllers.CommonController
+Action : GetPartsByTypeForUnit
+Action Parameters : {"messageFormat":"JSON","messageArguments":[{"request":{"Email":null,"ClientId":0,"PlanTypeId":0,"PlanId":0,"PartId":0,"Month":0,"Year":0,"AddressId":null,"UnitId":0,"ServiceId":null,"RequestedServiceId":null,"PartType":"Booster","PartTypeId":null,"PageId":0,"ShowDeleted":false,"ServiceCaseNumber":null,"LastCallDateTime":null,"PageNumber":null,"pageSize":0,"DeviceType":null,"DeviceToken":null,"NotificationId":null,"EmployeeId":0,"BillingId":null}}]}
+

@@ -1,0 +1,178 @@
+USE [Aircall2017]
+GO
+
+/****** Object:  StoredProcedure [dbo].[uspa_Services_GetPendingAndRequestedService]    Script Date: 8/15/2018 10:42:21 PM ******/
+SET ANSI_NULLS ON
+GO
+
+SET QUOTED_IDENTIFIER ON
+GO
+
+
+CREATE PROCEDURE [dbo].[uspa_Services_GetPendingAndRequestedService]
+(
+	@ServiceCaseNo NVARCHAR(100),
+	@ClientName NVARCHAR(50),
+	@StartDate NVARCHAR(20),
+	@EndDate NVARCHAR(20),
+	@SortField nvarchar(200),
+	@SortDirection nvarchar(200)
+)
+AS
+BEGIN
+if @SortDirection = 'Ascending'
+	begin
+		SELECT * FROM(
+			SELECT Services.Id
+				,('S-' + CAST(Services.Id AS NVARCHAR(50))) AS SId
+				,Services.ServiceCaseNumber
+				,Services.ClientId
+				,(Client.FirstName + ' ' + Client.LastName)AS [ClientName]
+				,Services.AddedDate
+				,Services.PurposeOfVisit
+				,Services.Status
+				,ISNULL((SELECT COUNT(1) FROM ServiceAttemptCount WHERE ServiceId=Services.Id),0) AS [AttemptCount]
+				,Services.EmployeeId
+				,(SELECT (ISNULL(FirstName,'') + ' ' + ISNULL(LastName,'')) FROM Employee 
+						WHERE Employee.Id=Services.EmployeeId 
+						AND Employee.IsActive=1 AND Employee.IsDeleted=0) AS [EmployeeName]
+				,(SELECT TOP 1 AreaMaster.Name FROM ClientAddress
+				INNER JOIN ZipCode ON ZipCode.ZipCode=ClientAddress.ZipCode
+				INNER JOIN WorkArea ON WorkArea.ZipCodeId=ZipCode.Id
+				INNER JOIN AreaMaster ON AreaMaster.Id=WorkArea.AreaId
+				WHERE ClientAddress.Id=Services.AddressId AND ClientAddress.State=ZipCode.StateId AND ClientAddress.City=ZipCode.CitiesId AND ClientAddress.IsDeleted=0
+				GROUP BY AreaMaster.Id,AreaMaster.Name) AS [AreaName]
+				,'none' AS [IsRequestedService]
+				,'PendingService_Schedule' AS [RedirectPage]
+				,CAST(CASE WHEN (SELECT COUNT(1) Id FROM RequestedServiceBridge WHERE ServiceId=Services.Id)>0 THEN 'true' ELSE 'false' END AS NVARCHAR(100)) AS [RequestedService]
+				,Services.ExpectedStartDate
+				,Services.ExpectedEndDate
+			FROM Services
+			INNER JOIN Client ON Client.Id=Services.ClientId
+			WHERE Client.IsActive=1 AND Client.IsDeleted=0
+			AND Services.ServiceCaseNumber LIKE CASE WHEN @ServiceCaseNo='' THEN Services.ServiceCaseNumber ELSE '%'+ @ServiceCaseNo + '%' END
+			AND Services.Status in ('Pending','Rescheduled')
+			UNION ALL
+			SELECT RequestedServices.Id
+				,('R-' + CAST(RequestedServices.Id AS NVARCHAR(50))) AS SId
+				,RequestedServices.ServiceCaseNumber
+				,RequestedServices.ClientId
+				,(Client.FirstName + ' ' + Client.LastName)AS [ClientName]
+				,RequestedServices.AddedDate
+				,RequestedServices.PurposeOfVisit
+				,'' AS [Status]
+				,ISNULL((SELECT COUNT(1) FROM ServiceAttemptCount WHERE ServiceId=RequestedServices.ServiceId),0) AS [AttemptCount]
+				,'' AS [EmployeeId]
+				,'' AS [EmployeeName]
+				,(SELECT TOP 1 AreaMaster.Name FROM ClientAddress
+				INNER JOIN ZipCode ON ZipCode.ZipCode=ClientAddress.ZipCode
+				INNER JOIN WorkArea ON WorkArea.ZipCodeId=ZipCode.Id
+				INNER JOIN AreaMaster ON AreaMaster.Id=WorkArea.AreaId
+				WHERE ClientAddress.Id=RequestedServices.AddressId AND ClientAddress.State=ZipCode.StateId AND ClientAddress.City=ZipCode.CitiesId AND ClientAddress.IsDeleted=0
+				GROUP BY AreaMaster.Id,AreaMaster.Name) AS [AreaName]
+				,'inline-block' AS [IsRequestedService]
+				,'ScheduleRequestService' AS [RedirectPage]
+				,'true' AS [RequestedService]
+				,'' as ExpectedStartDate
+				,'' as ExpectedEndDate
+			FROM RequestedServices
+			INNER JOIN Client ON Client.Id=RequestedServices.ClientId
+			WHERE Client.IsActive=1 AND Client.IsDeleted=0
+			AND RequestedServices.IsDeleted=0
+			AND RequestedServices.ServiceCaseNumber LIKE CASE WHEN @ServiceCaseNo='' THEN RequestedServices.ServiceCaseNumber ELSE '%'+ @ServiceCaseNo + '%' END
+			AND RequestedServices.Id NOT IN (SELECT RequestedServiceId FROM RequestedServiceBridge WHERE RequestedServiceId=RequestedServices.Id)
+		) AS a
+		WHERE ISNULL(ClientName ,'') LIKE CASE WHEN @ClientName='' THEN ISNULL(ClientName ,'') ELSE '%' + @ClientName + '%' END
+		AND CAST(AddedDate AS DATE)>= CASE WHEN @StartDate='' THEN CAST(AddedDate AS DATE) ELSE CAST(@StartDate AS DATE) END
+		AND CAST(AddedDate AS DATE)<= CASE WHEN @EndDate='' THEN CAST(AddedDate AS DATE) ELSE CAST(@EndDate AS DATE) END
+		 order by	
+			CASE WHEN @SortField = 'ServiceCase' THEN a.ServiceCaseNumber ELSE '' END ASC,
+			CASE WHEN @SortField = 'ClientName' THEN a.ClientName ELSE '' END ASC, 
+			CASE WHEN @SortField = 'ScheduledDate' THEN a.AddedDate ELSE '' END ASC, 
+			CASE WHEN @SortField = 'ScheduleAttempt' THEN a.AttemptCount ELSE '' END ASC, 
+			CASE WHEN @SortField = 'RequestFor' THEN a.PurposeOfVisit ELSE '' END ASC, 
+			CASE WHEN @SortField = 'Technician' THEN a.[EmployeeName] ELSE '' END ASC,			
+			CASE WHEN @SortField = 'AreaName' THEN a.AreaName ELSE '' END ASC,
+			CASE WHEN @SortField = '' THEN a.ClientName ELSE '' END ASC
+	end
+else
+	begin
+		SELECT * FROM(
+			SELECT Services.Id
+				,('S-' + CAST(Services.Id AS NVARCHAR(50))) AS SId
+				,Services.ServiceCaseNumber
+				,Services.ClientId
+				,(Client.FirstName + ' ' + Client.LastName)AS [ClientName]
+				,Services.AddedDate
+				,Services.PurposeOfVisit
+				,Services.Status
+				,ISNULL((SELECT COUNT(1) FROM ServiceAttemptCount WHERE ServiceId=Services.Id),0) AS [AttemptCount]
+				,Services.EmployeeId
+				,(SELECT (ISNULL(FirstName,'') + ' ' + ISNULL(LastName,'')) FROM Employee 
+						WHERE Employee.Id=Services.EmployeeId 
+						AND Employee.IsActive=1 AND Employee.IsDeleted=0) AS [EmployeeName]
+				,(SELECT TOP 1 AreaMaster.Name FROM ClientAddress
+				INNER JOIN ZipCode ON ZipCode.ZipCode=ClientAddress.ZipCode
+				INNER JOIN WorkArea ON WorkArea.ZipCodeId=ZipCode.Id
+				INNER JOIN AreaMaster ON AreaMaster.Id=WorkArea.AreaId
+				WHERE ClientAddress.Id=Services.AddressId AND ClientAddress.State=ZipCode.StateId AND ClientAddress.City=ZipCode.CitiesId AND ClientAddress.IsDeleted=0
+				GROUP BY AreaMaster.Id,AreaMaster.Name) AS [AreaName]
+				,'none' AS [IsRequestedService]
+				,'PendingService_Schedule' AS [RedirectPage]
+				,CAST(CASE WHEN (SELECT COUNT(1) Id FROM RequestedServiceBridge WHERE ServiceId=Services.Id)>0 THEN 'true' ELSE 'false' END AS NVARCHAR(100)) AS [RequestedService]
+				,Services.ExpectedStartDate
+				,Services.ExpectedEndDate
+			FROM Services
+			INNER JOIN Client ON Client.Id=Services.ClientId
+			WHERE Client.IsActive=1 AND Client.IsDeleted=0
+			AND Services.ServiceCaseNumber LIKE CASE WHEN @ServiceCaseNo='' THEN Services.ServiceCaseNumber ELSE '%'+ @ServiceCaseNo + '%' END
+			AND Services.Status in ('Pending','Rescheduled')
+			UNION ALL
+			SELECT RequestedServices.Id
+				,('R-' + CAST(RequestedServices.Id AS NVARCHAR(50))) AS SId
+				,RequestedServices.ServiceCaseNumber
+				,RequestedServices.ClientId
+				,(Client.FirstName + ' ' + Client.LastName)AS [ClientName]
+				,RequestedServices.AddedDate
+				,RequestedServices.PurposeOfVisit
+				,'' AS [Status]
+				,ISNULL((SELECT COUNT(1) FROM ServiceAttemptCount WHERE ServiceId=RequestedServices.ServiceId),0) AS [AttemptCount]
+				,'' AS [EmployeeId]
+				,'' AS [EmployeeName]
+				,(SELECT TOP 1 AreaMaster.Name FROM ClientAddress
+				INNER JOIN ZipCode ON ZipCode.ZipCode=ClientAddress.ZipCode
+				INNER JOIN WorkArea ON WorkArea.ZipCodeId=ZipCode.Id
+				INNER JOIN AreaMaster ON AreaMaster.Id=WorkArea.AreaId
+				WHERE ClientAddress.Id=RequestedServices.AddressId AND ClientAddress.State=ZipCode.StateId AND ClientAddress.City=ZipCode.CitiesId AND ClientAddress.IsDeleted=0
+				GROUP BY AreaMaster.Id,AreaMaster.Name) AS [AreaName]
+				,'inline-block' AS [IsRequestedService]
+				,'ScheduleRequestService' AS [RedirectPage]
+				,'true' AS [RequestedService]
+				,'' as ExpectedStartDate
+				,'' as ExpectedEndDate
+			FROM RequestedServices
+			INNER JOIN Client ON Client.Id=RequestedServices.ClientId
+			WHERE Client.IsActive=1 AND Client.IsDeleted=0
+			AND RequestedServices.IsDeleted=0
+			AND RequestedServices.ServiceCaseNumber LIKE CASE WHEN @ServiceCaseNo='' THEN RequestedServices.ServiceCaseNumber ELSE '%'+ @ServiceCaseNo + '%' END
+			AND RequestedServices.Id NOT IN (SELECT RequestedServiceId FROM RequestedServiceBridge WHERE RequestedServiceId=RequestedServices.Id)
+		) AS a
+		WHERE ISNULL(ClientName ,'') LIKE CASE WHEN @ClientName='' THEN ISNULL(ClientName ,'') ELSE '%' + @ClientName + '%' END
+		AND CAST(AddedDate AS DATE)>= CASE WHEN @StartDate='' THEN CAST(AddedDate AS DATE) ELSE CAST(@StartDate AS DATE) END
+		AND CAST(AddedDate AS DATE)<= CASE WHEN @EndDate='' THEN CAST(AddedDate AS DATE) ELSE CAST(@EndDate AS DATE) END
+		 order by	
+			CASE WHEN @SortField = 'ServiceCase' THEN a.ServiceCaseNumber ELSE '' END DESC,
+			CASE WHEN @SortField = 'ClientName' THEN a.ClientName ELSE '' END DESC, 
+			CASE WHEN @SortField = 'ScheduledDate' THEN a.AddedDate ELSE '' END DESC, 
+			CASE WHEN @SortField = 'ScheduleAttempt' THEN a.AttemptCount ELSE '' END DESC, 
+			CASE WHEN @SortField = 'RequestFor' THEN a.PurposeOfVisit ELSE '' END DESC, 
+			CASE WHEN @SortField = 'Technician' THEN a.[EmployeeName] ELSE '' END DESC,
+			CASE WHEN @SortField = 'AreaName' THEN a.AreaName ELSE '' END DESC,			
+			CASE WHEN @SortField = '' THEN a.ClientName ELSE '' END DESC
+	end
+END
+
+
+GO
+
+

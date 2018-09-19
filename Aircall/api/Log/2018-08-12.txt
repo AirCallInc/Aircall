@@ -1,0 +1,1 @@
+2018-08-12 09:39:07 Add address to authorizenet failed. Error Code: E00039 Err Text: A duplicate customer shipping address already exists.

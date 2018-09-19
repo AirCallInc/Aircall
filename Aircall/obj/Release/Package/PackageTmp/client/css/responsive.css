@@ -1,0 +1,478 @@
+﻿@charset "utf-8";
+/* CSS Document */
+
+/* Table of Contents
+-----------------------------------------------------------------------------
+	1. Mobile
+	2. Large Mobile
+	3. iPad
+	4. large desktop
+	5. Other
+*/
+
+/* 1. Mobile responsive css 640px
+------------------------------------------------------------------------------*/
+@media (max-width:640px) {
+    h1 { font-size:24px; } 
+    h2 { font-size:22px; } 
+    h5 { font-size:18px; } 
+    body {font-size: 12px;}
+    p {font-size: 12px; margin: 15px 0;}
+    label { font-size: 12px; }
+    ul,
+    ol{ margin: 20px 0 20px 15px; }
+    ul li,
+    ol li{ font-size: 12px; padding: 0 0 8px; }
+    input[type="text"], input[type="password"], input[type="email"], input[type="tel"], input[type="search"], textarea {font-size: 12px;}
+    
+    .main-btn {max-width: 130px; font-size: 14px; line-height: 34px; height: 34px;}
+    .main-btn.transparent {line-height: 32px; border: 1px solid #08c3d3;}
+    
+    header.main-header .logo{width: 100px;}
+    .notification-icon,
+    .home-icon {width: 30px; height: 30px; background-size: 100%; margin-left: 10px; margin-top: 4px;}
+    .notification-number {font-size: 12px; line-height: 22px; min-width: 26px;}
+    .responsive-icon {margin-left: 16px;}
+    .responsive-icon a {margin: 0;}
+    .header-top {padding: 10px 0;}
+    .banner-dashboard {padding: 20px 0; min-height: 10px;}
+    .banner-dashboard .login-name {font-size: 22px; padding-bottom: 10px;}
+    header.unit-head {padding: 10px 0;}
+    header.unit-head h4 {margin: 0; font-size: 20px;}
+    .schedule-section {padding: 20px 0;}
+    .unit-section .all-unit-blocks a.single-unit-inner figure img {width: 80px; margin-right: -24px; margin-bottom: -10px;}
+    .unit-section .all-unit-blocks a.single-unit-inner .name {font-size: 30px;}
+    .unit-section .all-unit-blocks a.single-unit-inner .status {font-size: 16px;}
+    .schedule-section .title {font-size: 20px;}
+    .schedule-row.dis-table,
+    .schedule-row.dis-table .dis-table-cell,
+    .schedule-row-history.dis-table,
+    .schedule-row-history.dis-table .dis-table-cell{display: block; height: auto; width: 100%; text-align: center;}
+    .schedule-row .date-block { padding: 8px;}
+    .schedule-row .date-block .date {font-size: 30px;}
+    .schedule-row .date-block .month {font-size: 14px;}
+    .schedule-row .date-block .year {font-size: 16px;}
+    .schedule-row .time {width: 140px; font-size: 14px; padding: 12px;}
+    .schedule-row .message {font-size: 14px;padding: 12px 12px 12px 12px;}
+    .schedule-row .selection-btns { width: 100%; padding: 8px;}
+    .history-scheduled .schedule-row-history .message { font-size: 14px; padding: 12px;}
+    .history-scheduled .schedule-row-history .blue-notification{padding: 8px 8px 0;}
+    .history-scheduled .schedule-row .person-img, 
+    .history-scheduled .schedule-row-history .person-img{ width: 100%; padding: 8px;}
+    footer.main-footer .footer-top {padding-top: 30px;}
+    footer.main-footer .single-block { padding: 3px 20px 20px;  width: 50%; text-align: center;}
+    footer.main-footer .single-block .social-icons a { background-size: 93px auto; height: 28px; width: 28px; }
+    footer.main-footer .single-block.for-border {border-left: none;}
+    footer.main-footer .single-block .title {font-size: 16px;}
+    footer.main-footer .single-block ul li a {font-size: 12px;}
+    footer.main-footer .footer-bottom p {width: 100%; text-align: center;}
+    footer.main-footer .footer-bottom ul{width: 100%; text-align: center;}
+    footer.main-footer .footer-bottom {padding-bottom: 16px; padding-top: 20px;}
+    
+    /*table block*/
+    .table-outer{overflow-x: auto;}
+    table.history-service-table{width: 800px;}
+    .common-section { padding: 20px 0; }
+    .common-section .title span {width: 30px; line-height: 50px;}
+    table.common-table th{font-size: 12px; padding: 4px 4px;}
+    table.common-table th:first-child {padding: 4px 4px 4px 0;}
+    table.common-table th:last-child {padding: 4px 0 4px 4px;}
+    table.common-table td{font-size: 12px; padding: 4px 4px; height:auto;}
+    table.common-table td:first-child {padding: 4px 4px 4px 0;}
+    table.common-table td:last-child {padding: 4px 0 4px 4px;}
+    table.common-table td.ratings {width: 100px;}
+    table.common-table td.technician img {width: 40px;margin-left: 5px;height: auto;}
+        
+    /*--------- request services page ------------*/
+    .border-block { border: 2px solid #d8d8d8; margin: 15px 0 0; padding: 15px; }
+    .main-from .single-row .left-side { width: 100%;}
+    .main-from .single-row .right-side {width: 100%;}
+    .single-row.button-bar { padding: 15px 0 0; }
+    
+    /*--------- account setting page ------------*/
+    .single-row.additional-setting .main-btn { margin: 5px 4px; max-width: 170px; }
+    .single-row.additional-setting { padding: 18px 0 16px; }
+    .single-row.button-bar .main-btn {margin: 5px 6px 5px 0; padding: 0 20px;}
+    .single-row .profile-image{margin: 4px 0;}
+    .single-row .profile-image input[type=file] { width: 195px;}
+    .single-row .profile-image figure{margin-right: 5px;width: 50px;}
+    
+    /*------------- service detail page ----------*/
+    .technician-block .profile-image figure { margin-right: 10px; }
+    .technician-block .profile-image span {font-size: 12px;}
+    .technician-block .profile-image span strong {font-size: 14px;}
+    .single-row.button-bar .notes { font-size: 12px; }
+    
+    /*--------- sign in page ------------*/
+    .border-block.signin-block::before {display: none;}
+    .border-block.signin-block .login-block { width: 100%; padding: 0 0 20px; min-height: 10px; border-bottom: 1px solid #d5d7db; }
+    .border-block.signin-block .forgot-block { width: 100%; padding: 18px 0 0; min-height: 10px; }
+    .border-block.signin-block .signin-row .left-side { width: 100%;}
+    .border-block.signin-block .signin-row .right-side {  width: 100%; }
+    .border-block.signin-block .signin-row .main-btn {margin: 2px 4px 2px 0;}
+    
+    /*------------- summary page -------------*/
+    .border-block.summary-block .price h2 {margin: 3px 0 10px;}
+    .border-block.summary-block .description p{margin: 8px 0;}
+    .border-block.summary-block .single-row.button-bar{margin: 10px 0 0;}
+    
+    /*------------- term & condition page page -------------*/
+    .content-description p{font-size: 12px;}
+    
+    /*------------- change password page -------------*/
+    .border-block.change-password-block .password-row.button-bar{margin: 20px 0 0 0;}
+    .border-block.change-password-block .password-row .left-side {width: 100%;}
+    .border-block.change-password-block .password-row .right-side { width: 100%; }
+    .border-block.change-password-block .password-row .main-btn { margin: 2px 4px 2px 0; padding: 0 12px; }
+    
+    /*------------- my units page -------------*/
+    table.common-table td .unit-bg{width: 100px;}
+    table.common-table td .unit-bg img {width: 26px;}
+    
+    /*------------- notifications page -------------*/
+    table.notifications-table{width: 650px;}
+    
+    /*------------- receipt page -------------*/
+    table.common-table td.total-amount big {font-size: 20px;}
+    .receipt-name .name{font-size: 24px;}
+    .receipt-name span{font-size: 12px;}
+    .receipt-name { padding: 20px 0; }
+    .table-outer { margin-bottom: 20px; }
+    table.common-table td.total-amount { width: 32%; }
+
+    /*------------- Request Service List page -------------*/
+    .new-request { padding: 10px 150px 10px 0;}
+    table.request-service-table{width: 650px;}
+    table.common-table td.edit-remove-btn { width: 14%; }
+    table.common-table td.edit-remove-btn .main-btn{width: 84px;}
+    
+    /*------------- upcoming-service page -------------*/
+    table.upcoming-service{width: 800px;}
+    table.common-table td.view-btn-cell a.schedule-btn { width: 100px; }
+    
+    /*------------- plan-coverage page -------------*/
+    .plan-coverage-block {margin: 30px 0;}
+    .plan-coverage-block .plan-coverage-single a.plan-coverage-inner{padding: 24px 8px;}
+    .plan-coverage-block .plan-coverage-single {padding: 6px;width: 50%;min-height: 200px;}
+    .plan-coverage-block .plan-coverage-single figure {margin: 0 0 15px;}
+    .plan-coverage-block .plan-coverage-single .plan-title{font-size: 16px;min-height: 38px;}
+    .plan-coverage-inner img { max-width: 80px; }
+    
+    /*------------- plan-coverage detail page -------------*/
+    .pricing-coverage-block {margin: 20px 0;}
+    .pricing-coverage-block .pricing-table-block {padding: 10px; width: 100%;}
+    .pricing-coverage-block .pricing-table-block .pricing-table-title {font-size: 24px; padding: 10px 15px; }
+    .pricing-coverage-block .pricing-table-block .pricing-table-price small {font-size: 13px;}
+    .pricing-coverage-block .pricing-table-block .pricing-table-price { padding: 18px 15px 20px;}
+    .pricing-coverage-block .pricing-table-block .pricing-table-price big {font-size: 46px; }
+    .pricing-coverage-block .pricing-table-block .pricing-table-price big sup {font-size: 26px;}
+    .pricing-coverage-block .pricing-table-block .pricing-table-features {padding: 20px 15px;}
+    .pricing-coverage-block .pricing-table-block .service-provided {padding: 20px 15px;}
+    .pricing-coverage-block .pricing-table-block h6 {font-size: 14px; margin: 16px 0 10px; }
+    .pricing-coverage-block .pricing-table-block p,
+    .pricing-coverage-block .pricing-table-block ul li{font-size: 12px;}
+    
+    /*------------- schedule page -------------*/
+    .schedule-calender .ui-datepicker td span, 
+    .schedule-calender .ui-datepicker td a { height: 35px; line-height: 35px; width: 35px; }
+    .schedule-calender .ui-datepicker table { font-size: 0.7em; }
+    .schedule-calender .ui-datepicker {padding: 0;}
+    .schedule-calender .ui-datepicker th {font-size: 14px;}
+    .schedule-calender .ui-widget-header {font-size: 16px;}
+    .schedule-row-visits .date-block {text-align: center; width: 130px}
+    .schedule-row-visits .date-block .date {display: block; float: none; margin: 0; font-size: 30px; }
+    .schedule-row-visits .date-block .month,
+    .schedule-row-visits .date-block .year {font-size: 14px;}
+    .schedule-row-visits .date-block {padding: 14px;}
+    .schedule-row-visits .time {padding: 14px; width: 140px; text-align: center; font-size: 16px; }
+    .schedule-row-visits .message{padding: 12px; padding: 16px; font-size: 14px;}
+    .schedule-row-visits .edit-icon, 
+    .schedule-row-visits .delete-icon { width: 70px; }
+    .schedule-row-visits .edit-icon a, 
+    .schedule-row-visits .delete-icon a{background-size: 30px auto;}
+    .scheduled-bar { margin-bottom: 20px; }
+    .schedule-row-visits.dis-table, 
+    .schedule-row-visits.dis-table .dis-table-cell { display: block; height: auto; text-align: center; width: 100%; overflow: hidden;}
+    .schedule-row-visits .edit-icon.dis-table-cell , 
+    .schedule-row-visits .delete-icon.dis-table-cell  { width: 50%; float: left; border-top: 1px solid #b3bbc9; }
+    .schedule-row-visits .edit-icon.dis-table-cell { border-left: none; }
+    .schedule-row-visits .edit-icon a, 
+    .schedule-row-visits .delete-icon a {height: 50px;width: 100%;}
+    
+    /*------------- billing history list page -------------*/
+    table.billing-history-table {width: 780px;}
+    
+    /*------------- payment mathod page -------------*/
+    .old-payment-detail > div span {font-size: 12px;} 
+    .old-payment-detail > div p  { font-size: 14px; }
+    .new-card-detail .single-row.select-method .radio-outer-dot label { margin-right: 14px; }
+    .new-card-detail .main-from .single-row .left-side > label {font-size: 14px;}
+    .old-payment-detail {display: block; height: auto; border: none; padding: 10px 0;}
+    .old-payment-detail > div {display: block; width: 50%; float: left;  padding: 8px 0; } 
+    .new-card-detail .new-card-detail-inner {padding-top: 15px;}
+
+    /*--------- about page ------------*/
+    .banner {height: 120px;}
+    .banner h1 { bottom: 30px; }
+    .our-services { padding-bottom: 30px; }
+    .our-services .container > h3 { margin: 0 0 10px; font-size:24px; }
+    .our-services .single-service > h3 { font-size:24px; }
+    .our-services .single-service .single-service-inner h3 { font-size: 16px; margin: 10px 0 0; }
+    .common-content { padding: 20px 0; }
+    .our-services .single-service { width: 50%; margin: 5px 0; }
+    .our-services .single-service:nth-child(3) { border-left: 1px solid #c2c2c2;}
+    
+    /*--------- contact page ------------*/
+    .contactus-row .contact-left{width: 100%; padding-right: 0;}
+    .contactus-row .contact-right{ width: 100%; }
+    .contactus-row .contact-left address{margin-bottom: 20px;}
+    .contactus-row .contact-left address p {margin-bottom: 18px; }
+}
+
+/* 2. Large Mobile responsive css 640px
+------------------------------------------------------------------------------*/
+@media (min-width:641px) and (max-width:767px) {
+    h1 { font-size:26px; } 
+    .main-btn {max-width: 130px; font-size: 14px; line-height: 34px; height: 34px;}
+    .main-btn.transparent {line-height: 30px;}
+    header.main-header .logo { width: 140px; }
+    .notification-icon,
+    .home-icon {width: 40px; height: 40px; background-size: 100%; margin-left: 10px;}
+    .responsive-icon {margin-left: 16px;}
+    
+    .header-top {padding: 16px 0;}
+    .banner-dashboard .login-name {font-size: 24px; padding-bottom: 16px;}
+    header.unit-head h4 {font-size: 20px;}
+    .unit-section .all-unit-blocks a.single-unit-inner .name {font-size: 30px;}
+    .unit-section .all-unit-blocks a.single-unit-inner .status {font-size: 16px;}
+    .schedule-section .title {font-size: 20px;}
+    .schedule-row .date-block { padding: 8px;}
+    .schedule-row .date-block .date {font-size: 30px;}
+    .schedule-row .date-block .month {font-size: 14px;}
+    .schedule-row .date-block .year {font-size: 16px;}
+    .schedule-row .time {width: 140px; font-size: 14px; padding: 12px;}
+    .schedule-row .message { font-size: 14px; padding: 12px;}
+    .history-scheduled .schedule-row-history .message { font-size: 14px; padding: 12px;}
+    .schedule-row .selection-btns { width: 170px; padding: 8px;}
+    .history-scheduled .schedule-row .person-img, 
+    .history-scheduled .schedule-row-history .person-img{ width: 170px; padding: 8px;}
+    footer.main-footer .single-block { padding: 3px 20px 20px; }
+    footer.main-footer .single-block .social-icons a { background-size: 93px auto; height: 28px; width: 28px; }
+    
+    /*table block*/
+    .table-outer{overflow-x: auto;}
+    table.history-service-table{width: 900px;}
+    table.common-table th{font-size: 12px; padding: 6px 6px;}
+    table.common-table th:first-child {padding: 6px 6px 0;}
+    table.common-table th:last-child {padding: 6px 0 6px 6px;}
+    table.common-table td{font-size: 14px; padding: 10px 6px;}
+    table.common-table td:first-child {padding: 10px 6px 10px 0;}
+    table.common-table td:last-child {padding: 10px 0 10px 6px;}
+    
+    .common-section { padding: 20px 0; }
+    
+    /*--------- request services page ------------*/
+    .border-block { border: 3px solid #d8d8d8; margin: 15px 0 0; padding: 20px; }
+    .main-from .single-row .left-side { width: 30%;}
+    .main-from .single-row .right-side {width: 70%;}
+    
+    /*--------- account setting page ------------*/
+    .single-row.additional-setting .main-btn { margin: 5px 4px; max-width: 170px; }
+    
+    /*--------- sign in page ------------*/
+    .border-block.signin-block::before {display: none;}
+    .border-block.signin-block .login-block { width: 100%; padding: 0 0 20px; min-height: 10px; border-bottom: 1px solid #d5d7db; }
+    .border-block.signin-block .forgot-block { width: 100%; padding: 20px 0 0; min-height: 10px; }
+    
+    /*------------- Request Service List page -------------*/
+    .new-request { padding: 16px 150px 16px 0;}
+    table.common-table td.edit-remove-btn { width: 14%; }
+    table.common-table td.edit-remove-btn .main-btn{width: 84px;}
+    
+    /*------------- upcoming-service page -------------*/
+    table.upcoming-service{width: 900px;}
+    
+    /*------------- plan-coverage page -------------*/
+    .plan-coverage-block {margin: 30px 0;}
+    .plan-coverage-block .plan-coverage-single a.plan-coverage-inner{padding: 24px 8px;}
+    .plan-coverage-block .plan-coverage-single {padding: 6px;}
+    .plan-coverage-block .plan-coverage-single figure {margin: 0 0 14px;}
+    .plan-coverage-block .plan-coverage-single .plan-title{font-size: 20px;min-height: 48px;}
+    .plan-coverage-inner img { max-width: 80px; }
+    
+    /*------------- plan-coverage detail page -------------*/
+    .pricing-coverage-block {margin: 20px 0;}
+    .pricing-coverage-block .pricing-table-block {padding: 10px;}
+    .pricing-coverage-block .pricing-table-block .pricing-table-title {font-size: 24px; padding: 10px 15px; }
+    .pricing-coverage-block .pricing-table-block .pricing-table-price { padding: 18px 15px 20px;}
+    .pricing-coverage-block .pricing-table-block .pricing-table-price big {font-size: 46px; }
+    .pricing-coverage-block .pricing-table-block .pricing-table-price big sup {font-size: 26px;}
+    .pricing-coverage-block .pricing-table-block .pricing-table-features {padding: 20px 15px;}
+    .pricing-coverage-block .pricing-table-block .service-provided {padding: 20px 15px;}
+    .pricing-coverage-block .pricing-table-block h6 {font-size: 16px; margin: 16px 0 10px; }
+    .pricing-coverage-block .pricing-table-block p,
+    .pricing-coverage-block .pricing-table-block ul li{font-size: 13px;}
+    
+    /*------------- schedule page -------------*/
+    .schedule-calender .ui-datepicker td span, 
+    .schedule-calender .ui-datepicker td a { height: 40px; line-height: 40px; width: 40px; }
+    .schedule-calender .ui-datepicker table { font-size: 0.7em; }
+    .schedule-row-visits .date-block {text-align: center; width: 130px}
+    .schedule-row-visits .date-block .date {display: block; float: none; margin: 0; font-size: 40px; }
+    .schedule-row-visits .date-block {padding: 14px;}
+    .schedule-row-visits .time {padding: 14px; width: 140px; text-align: center; font-size: 16px; }
+    .schedule-row-visits .message{padding: 12px; padding: 16px; font-size: 14px;}
+    .schedule-row-visits .edit-icon, 
+    .schedule-row-visits .delete-icon { width: 70px; }
+    .schedule-row-visits .edit-icon a, 
+    .schedule-row-visits .delete-icon a{ background-size: 26px auto; }
+    
+    /*------------- payment mathod page -------------*/
+    .old-payment-detail > div p  { font-size: 14px; }
+    .new-card-detail .single-row.select-method .radio-outer-dot label { margin-right: 4px; }
+    .new-card-detail .main-from .single-row .left-side > label {font-size: 14px;}
+
+    /*--------- about page ------------*/
+    .banner h1 { bottom: 40px; }
+    .our-services { padding-bottom: 30px; }
+    .our-services .container > h3 { margin: 0 0 15px; font-size:24px; }
+    .our-services .single-service > h3 { font-size:24px; }
+    .our-services .single-service .single-service-inner h3 { font-size: 18px; margin: 10px 0 0; }
+    .common-content { padding: 30px 0 20px; }
+
+    /*--------- contact page ------------*/
+    .contactus-row .contact-left{width: 100%; padding-right: 0;}
+    .contactus-row .contact-right{ width: 100%; }
+    .contactus-row .contact-left address{margin-bottom: 20px;}
+    .contactus-row .contact-left address p {margin-bottom: 18px; }
+}
+
+/* 3. iPad responsive css 768px to 1023px
+------------------------------------------------------------------------------*/
+@media (min-width:768px) and (max-width:1023px) {
+    h1 { font-size:30px; } 
+    
+    header.main-header .logo { width: 140px;}
+    .responsive-icon { margin: 0 0 0 20px; }
+    .header-top {padding: 16px 0;}
+    .schedule-row .message { font-size: 16px; padding: 12px 20px;}
+    .schedule-row .selection-btns { width: 200px;}
+    .schedule-row .time {width: 176px; font-size: 16px;}
+    .history-scheduled .schedule-row-history .message {font-size: 16px;}
+    .history-scheduled .schedule-row .person-img, 
+    .history-scheduled .schedule-row-history .person-img{ width: 200px;}
+    footer.main-footer .single-block { padding: 3px 20px 20px; }
+    
+    /*table block*/
+    .table-outer{overflow-x: auto;}
+    table.history-service-table{width: 1000px;}
+    
+    
+    .common-section { padding: 20px 0; }
+    
+    /*--------- request services page ------------*/
+    .main-from .single-row .left-side { width: 25%;}
+    .main-from .single-row .right-side {width: 75%;}
+    
+    /*--------- account setting page ------------*/
+    .single-row.additional-setting .main-btn { margin: 5px 4px; max-width: 180px; }
+    
+    /*--------- sign in page ------------*/
+    .border-block { margin: 32px 0 0; padding: 22px 24px;}
+    .border-block.signin-block::before {display: none;}
+    .border-block.signin-block .login-block { width: 100%; padding: 0 0 20px; min-height: 10px; border-bottom: 1px solid #d5d7db; }
+    .border-block.signin-block .forgot-block { width: 100%; padding: 20px 0 0; min-height: 10px; }
+    
+    /*------------- Request Service List page -------------*/
+    table.common-table td.edit-remove-btn { width: 14%; }
+    
+    /*------------- upcoming-service page -------------*/
+    table.upcoming-service{width: 1000px;}
+    
+    /*------------- plan-coverage page -------------*/
+    .plan-coverage-block {margin: 32px 0;}
+    .plan-coverage-block .plan-coverage-single a.plan-coverage-inner{padding: 30px 10px;}
+    .plan-coverage-block .plan-coverage-single {padding: 6px;}
+    .plan-coverage-block .plan-coverage-single figure {margin: 0 0 16px;}
+    .plan-coverage-block .plan-coverage-single .plan-title{font-size: 24px;min-height: 56px;}
+    
+    
+    /*------------- plan-coverage detail page -------------*/
+    .pricing-coverage-block {margin: 28px 0;}
+    .pricing-coverage-block .pricing-table-block {padding: 15px;}
+    .pricing-coverage-block .pricing-table-block .pricing-table-title {font-size: 34px; padding: 10px 30px; }
+    .pricing-coverage-block .pricing-table-block .pricing-table-price { padding: 20px 30px 30px;}
+    .pricing-coverage-block .pricing-table-block .pricing-table-price big {font-size: 60px; }
+    .pricing-coverage-block .pricing-table-block .pricing-table-price big sup {font-size: 30px;}
+    .pricing-coverage-block .pricing-table-block .pricing-table-features {padding: 32px 30px;}
+    .pricing-coverage-block .pricing-table-block .service-provided {padding: 32px 30px;}
+
+    /*------------- schedule page -------------*/
+    .schedule-calender .ui-datepicker td span, 
+    .schedule-calender .ui-datepicker td a { height: 50px; line-height: 50px; width: 50px; }
+    .schedule-row-visits .date-block {padding: 14px;}
+    .schedule-row-visits .time {padding: 14px; width: 150px;}
+    .schedule-row-visits .message{padding: 12px; padding: 16px;}
+    .schedule-row-visits .edit-icon, 
+    .schedule-row-visits .delete-icon {width: 70px !important;}
+
+    /*--------- about page ------------*/
+    .our-services .single-service .single-service-inner h3 { font-size: 20px; margin: 10px 0 0; }
+    .our-services .single-service > h3 { font-size:20px; }
+    .common-content { padding: 50px 0 30px; }
+}
+
+/* 4. large desktop responsive css 1024px to 1199px
+------------------------------------------------------------------------------*/
+@media (min-width:1024px) and (max-width:1300px) {
+    header.main-header .logo { margin-left: 0;}
+    header.main-header .account-right {padding-right: 0;}	
+    nav.main-menu ul {padding: 18px 0;}
+    nav.main-menu ul li a {font-size: 11px;}
+    .schedule-row .message {padding: 12px 20px;}
+    
+    /*------------- Request Service List page -------------*/
+    table.common-table td.edit-remove-btn { width: 28%; }
+    
+    /*------------- plan-coverage page -------------*/
+    .plan-coverage-block {margin: 32px 0;}
+    .plan-coverage-block .plan-coverage-single a.plan-coverage-inner{padding: 30px 10px;}
+    .plan-coverage-block .plan-coverage-single {padding: 10px;}
+    .plan-coverage-block .plan-coverage-single figure {margin: 0 0 16px;}
+    .plan-coverage-block .plan-coverage-single .plan-title{font-size: 26px;  }
+
+    /*--------- about page ------------*/
+    .our-services .single-service .single-service-inner h3 { font-size: 24px; }
+    .our-services .single-service > h3 { font-size:24px; }
+    .common-content { padding: 50px 0 30px; }
+
+}
+
+/* 5. Other media-query
+------------------------------------------------------------------------------*/
+@media (max-width:1023px){
+    header.main-header .logo { margin-left: 0;}
+    header.main-header .account-right {padding-right: 0;}
+    .header-bottom{display: none;}
+    .account-toggle{display: none;}
+    .responsive-icon { display:block; }
+    .mobile-nav-block { display:block; }
+    #wrapper { 
+        box-shadow: 5px 0px 5px rgba(0,0,0,0.6); 
+        -moz-box-shadow: 5px 0px 5px rgba(0,0,0,0.6); 
+        -webkit-box-shadow: 5px 0px 5px rgba(0,0,0,0.6); 
+        -o-box-shadow: 5px 0px 5px rgba(0,0,0,0.6); 
+    }
+    footer.main-footer {
+        box-shadow: 5px 0px 5px rgba(0,0,0,1); 
+        -moz-box-shadow: 5px 0px 5px rgba(0,0,0,1); 
+        -webkit-box-shadow: 5px 0px 5px rgba(0,0,0,1); 
+        -o-box-shadow: 5px 0px 5px rgba(0,0,0,1); 
+    } 
+}
+
+
+@media (min-width:1024px){
+    #wrapper,
+    footer.main-footer {left: 0 !important;}
+}

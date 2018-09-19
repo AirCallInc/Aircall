@@ -1,0 +1,40 @@
+﻿https://developer.authorize.net/hello_world/
+
+https://developer.authorize.net/hello_world/testing_guide/
+
+
+after all, they went to authorize.net
+
+
+here's what you need
+
+Current API Login ID:
+
+3d878BQCgA7
+
+Current Transaction Key:
+
+   8ur76S86UQSnJd3y
+
+
+
+Let me know if you need the authorize.net logins, right now it's set to test mode
+
+https://sandbox.authorize.net
+thedainc8
+Whatever123
+
+https://developer.authorize.net/api/reference/index.html#customer-profiles-create-customer-shipping-address
+
+
+Test Card Brand	Number
+American Express 	370000000000002
+Discover	6011000000000012
+JCB	3088000000000017
+Diners Club/ Carte Blanche	38000000000006
+Visa	4007000000027
+ 	4012888818888
+ 	4111111111111111
+Mastercard	5424000000000015
+ 	2223000010309703
+ 	2223000010309711

@@ -1,0 +1,8 @@
+2016-07-20 17:52:51.7620|ERROR|api.Helpers.NLogger|Method: POST
+URL: http://192.168.1.119:6987/employee/ServicePartList
+Controller : api.Controllers.EmployeeController
+Action : ServicePartList
+Action Parameters : 
+Error: Processing of the HTTP request resulted in an exception. Please see the HTTP response returned by the 'Response' property of this exception for details.
+
+

@@ -1,0 +1,1516 @@
+
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+  <meta charset="utf-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="generator" content="HelpNDoc Personal Edition 5.2.0.265">
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <link rel="icon" href="favicon.ico"/>
+
+  <title>Service Management(Automatic Rules)</title>
+  <meta name="description" content="" /> 
+  <meta name="keywords" content="">
+
+
+
+  <!-- Twitter Card data -->
+  <meta name="twitter:card" content="summary">
+  <meta name="twitter:title" content="Service Management(Automatic Rules)">
+  <meta name="twitter:description" content="">
+
+  <!-- Open Graph data -->
+  <meta property="og:title" content="Service Management(Automatic Rules)" />
+  <meta property="og:type" content="article" />
+  <meta property="og:description" content="" />
+  <meta property="og:site_name" content="AirCall Documentation" /> 
+
+  <!-- Bootstrap core CSS -->
+  <link href="vendors/bootstrap-3.3.6/css/bootstrap.min.css" rel="stylesheet"/>
+
+  <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
+  <link href="vendors/bootstrap-3.3.6/css/ie10-viewport-bug-workaround.css" rel="stylesheet"/>
+
+  <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+  <!--[if lt IE 9]>
+      <script src="vendors/html5shiv-3.7.2/html5shiv.min.js"></script>
+      <script src="vendors/respond-1.4.2/respond.min.js"></script>
+    <![endif]-->
+
+  <!-- JsTree styles -->
+  <link href="vendors/jstree-3.3.2/themes/default/style.min.css" rel="stylesheet"/>
+
+  <!-- Hnd styles -->
+  <link href="css/layout.min.css" rel="stylesheet" />
+  <link href="css/effects.min.css" rel="stylesheet" />
+  <link href="css/theme-light-blue.min.css" rel="stylesheet" />
+  <link href="css/print.min.css" rel="stylesheet" media="print" />
+  <style type="text/css">nav { width: 350px} @media screen and (min-width:769px) { body.md-nav-expanded #main { margin-left: 350px} body.md-nav-expanded header { padding-left: 364px} }</style>
+
+  <!-- Content style -->
+  <link href="css/hnd.content.css" rel="stylesheet" />
+
+  
+
+
+
+</head>
+
+<body class="md-nav-expanded">
+
+
+
+  <div id="skip-link">
+    <a href="#main-content" class="element-invisible">Skip to main content</a>
+  </div>
+
+  <header class="headroom">
+    <button class="hnd-toggle btn btn-default">
+      <span class="sr-only">Toggle navigation</span>
+      <span class="icon-bar"></span><span class="icon-bar"></span><span class="icon-bar"></span>        
+    </button>
+    <h1>AirCall Documentation</h1>
+    
+  </header>
+
+  <nav class="md-nav-expanded">
+    <!-- Nav tabs -->
+    <ul class="tab-tabs nav nav-tabs" role="tablist">
+      <li id="nav-close"> 
+        <button class="hnd-toggle btn btn-default">
+          <span class="glyphicon glyphicon-remove" aria-hidden="true"></span>
+        </button>
+      </li>
+      
+	  
+        <li role="presentation" class="tab active">
+            <a href="#contents" aria-controls="contents" role="tab" data-toggle="tab">
+                <i class="glyphicon glyphicon-list"></i>
+                Contents
+            </a>
+        </li>
+      
+        <li role="presentation" class="tab">
+            <a href="#index" aria-controls="index" role="tab" data-toggle="tab">
+                <i class="glyphicon glyphicon-asterisk"></i>
+                Index
+            </a>
+        </li>
+      
+        <li role="presentation" class="tab">
+            <a href="#search" aria-controls="search" role="tab" data-toggle="tab">
+                <i class="glyphicon glyphicon-search"></i>
+                Search
+            </a>
+        </li>
+      
+    </ul>  <!-- /Nav tabs -->
+
+    <!-- Tab panes -->
+    <div class="tab-content">
+	  
+      <div role="tabpanel" class="tab-pane active" id="contents">
+        <div id="toc" class="tree-container unselectable"
+            data-url="_toc.json"
+            data-openlvl="1"
+        >
+            
+        </div>
+      </div>  <!-- /contents-->
+      
+      <div role="tabpanel" class="tab-pane" id="index">
+        <div id="keywords" class="tree-container unselectable"
+            data-url="_keywords.json"
+            data-openlvl="1"
+        >
+            
+        </div>
+      </div>  <!-- /index-->
+      
+      <div role="tabpanel" class="tab-pane" id="search">
+        <div class="search-content">
+          <div class="search-input">
+            <form id="search-form">
+              <div class="form-group">
+                <div class="input-group">
+                  <input type="text" class="form-control" id="input-search" name="input-search" placeholder="Search..." />
+                  <span class="input-group-btn">
+                    <button class="btn btn-default" type="submit">
+                      <span class="glyphicon glyphicon-search" aria-hidden="true"></span>
+                    </button>
+                  </span>
+                </div>
+              </div>
+            </form>
+          </div>  <!-- /search-input -->
+          <div class="search-result">
+            <div id="search-info"></div>
+            <div class="tree-container unselectable" id="search-tree"></div>
+          </div>  <!-- /search-result -->
+        </div>  <!-- /search-content -->
+      </div>  <!-- /search-->
+      
+    </div>  <!-- /Tab panes -->
+
+  </nav>
+
+  <div id="main">
+
+    <article>
+        <div id="topic-content" class="container-fluid" 
+		  data-hnd-id="ServiceManagementAutomaticRules"
+		  data-hnd-context="25"
+		  data-hnd-title="Service Management(Automatic Rules)"
+		>
+            
+                <div class="navigation">
+                    <ol class="breadcrumb">
+                        
+                    </ol>
+                    <div class="nav-arrows">
+                        <div class="btn-group btn-group-xs" role="group"><a class="btn btn-default" href="PartnerManagement.html" title="Partner Management" role="button"><span class="glyphicon glyphicon-menu-left" aria-hidden="true"></span></a><a class="btn btn-default" href="Services.html" title="Services" role="button"><span class="glyphicon glyphicon-menu-right" aria-hidden="true"></span></a></div>
+                    </div>
+                </div> 
+            
+
+            <a id="main-content"></a>
+
+            
+
+            <div class="main-content">
+                
+<p></p>
+<p class="rvps2"><img width="1575" height="103" alt="" style="padding : 1px;" src="lib/Header.png"></p>
+<p class="rvps3"><span class="rvts12">Automatic Rules</span></p>
+<p class="rvps3"><span class="rvts12"><br/></span></p>
+<p class="rvps7"><span class="rvts11">• When any unit or any number of units will be added in the system from Client Application / Employee Application / Admin Panel, the services will be added to the database of the system for the unit when the Automatic scheduler will run.</span></p>
+<p class="rvps2"><span class="rvts11"><br/></span></p>
+<p class="rvps7"><span class="rvts11">• How many mandatory services will be added into the system for a single unit will be handled dynamically from the Admin.</span></p>
+<p class="rvps2"><span class="rvts11"><br/></span></p>
+<p class="rvps7"><span class="rvts11">• In Plan Management section, one variable is there named as “Mandatory Services”.</span></p>
+<p class="rvps2"><span class="rvts11"><br/></span></p>
+<p class="rvps7"><span class="rvts11">• “Mandatory Services” will be handled according to the PlanType for the unit.</span></p>
+<p class="rvps2"><span class="rvts11"><br/></span></p>
+<p class="rvps7"><span class="rvts11">• Total number of services for single unit = Value of “Mandatory Services”</span></p>
+<p class="rvps2"><span class="rvts11"><br/></span></p>
+<p class="rvps7"><span class="rvts11">• i.e. if Mandatory Services = 6 then 6 services will be added into the system for a single unit.</span></p>
+<p class="rvps2"><span class="rvts11"><br/></span></p>
+<p class="rvps7"><span class="rvts11">• The services are added into the database with Service Case Number.</span></p>
+<p class="rvps2"><span class="rvts11"><br/></span></p>
+<p class="rvps7"><span class="rvts11">Format Of Service Case Number :</span></p>
+<p class="rvps11"><span class="rvts17">C1-90038-S1-01 = {Client ID} - {Client’s Zip Code} - {Service Number} - {Number of service after split}</span></p>
+<p class="rvps2"><span class="rvts11"><br/></span></p>
+<p class="rvps11"><span class="rvts11">i.e. Suppose the client C1 has added unit AC1 on the address which has the zip code “90038”. So for the first service of AC1 unit is indicated as S1 and so on for another five services. 01 is indicate the number service after split for first S1 service.</span></p>
+<p class="rvps2"><span class="rvts17"><br/></span></p>
+<p class="rvps7"><span class="rvts17">How total number of Services will be added into the database :</span></p>
+<p class="rvps2"><span class="rvts11"><br/></span></p>
+<p class="rvps11"><span class="rvts11">Below are the variables which are used to add the services into the database :</span></p>
+<p class="rvps2"><span class="rvts11"><br/></span></p>
+<p class="rvps11"><span class="rvts11">(i)Mandatory Services :</span></p>
+<p class="rvps2"><span class="rvts11"><br/></span></p>
+<p class="rvps29"><span class="rvts11">• Available in Plan Management</span></p>
+<p class="rvps2"><span class="rvts11"><br/></span></p>
+<p class="rvps29"><span class="rvts11">• Indicates the total number of services will be provided to the client when any client will purchase plan.</span></p>
+<p class="rvps2"><span class="rvts11"><br/></span></p>
+<p class="rvps11"><span class="rvts11">(ii) Schedule First Service In Days :</span></p>
+<p class="rvps2"><span class="rvts11"><br/></span></p>
+<p class="rvps29"><span class="rvts11">• Available in Plan Management</span></p>
+<p class="rvps2"><span class="rvts11"><br/></span></p>
+<p class="rvps29"><span class="rvts11">• Indicates when the client will receive their first schedule service within specified days</span></p>
+<p class="rvps2"><span class="rvts11"><br/></span></p>
+<p class="rvps11"><span class="rvts11">(iii) Duration Of Plan</span></p>
+<p class="rvps2"><span class="rvts11"><br/></span></p>
+<p class="rvps29"><span class="rvts11">• Available in Plan Management</span></p>
+<p class="rvps2"><span class="rvts11"><br/></span></p>
+<p class="rvps29"><span class="rvts11">• Indicates the duration of plan in months</span></p>
+<p class="rvps2"><span class="rvts11"><br/></span></p>
+<p class="rvps11"><span class="rvts11">(iv) Time Between Two Services</span></p>
+<p class="rvps11"><span class="rvts11"><br/></span></p>
+<p class="rvps29"><span class="rvts11">• Available in Site Settings named as “Time Between Two Services”</span></p>
+<p class="rvps2"><span class="rvts11"><br/></span></p>
+<p class="rvps29"><span class="rvts11">• Indicates the time gap between two services in minutes</span></p>
+<p class="rvps29"><span class="rvts11"><br/></span></p>
+<p class="rvps40"><span class="rvts59"> &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; </span><span class="rvts59"> &nbsp; &nbsp; &nbsp; &nbsp;</span><span class="rvts59">(v) PendingServiceScheduleBeforeDays</span></p>
+<p class="rvps40"><span class="rvts59"><br/></span></p>
+<p class="rvps40"><span class="rvts59"> &nbsp; &nbsp; &nbsp; &nbsp;</span><span class="rvts59"> &nbsp; &nbsp; &nbsp; &nbsp;</span><span class="rvts59"> &nbsp; &nbsp; &nbsp; &nbsp;</span><span class="rvts59">• Available in Site Settings</span></p>
+<p class="rvps2"><span class="rvts11"><br/></span></p>
+<p class="rvps29"><span class="rvts11">• Indicates before how many days of expected date range, service will be scheduled.</span></p>
+<p class="rvps40"><span class="rvts59"><br/></span></p>
+<p class="rvps7"><span class="rvts11">• Using above variables, total services for purchased units will be added to the database.</span></p>
+<p class="rvps2"><span class="rvts11"><br/></span></p>
+<p class="rvps7"><span class="rvts11">• First service will be scheduled in between the specified days given in “Schedule First Service In” from the date when the scheduler will run. The status of first service will be “Waiting For Approval”.</span></p>
+<p class="rvps2"><span class="rvts11"><br/></span></p>
+<p class="rvps7"><span class="rvts11">• For only first service, the employee will be assigned to the service.</span></p>
+<p class="rvps2"><span class="rvts11"><br/></span></p>
+<p class="rvps7"><span class="rvts11">• Other services for the purchased unit will be added to the database with date range.The date range is called as Expected Date in the system.</span></p>
+<p class="rvps2"><span class="rvts11"><br/></span></p>
+<p class="rvps7"><span class="rvts11">• The employee is not assigned to the other services till the status of the service is as “Pending”.</span></p>
+<p class="rvps7"><span class="rvts11"><br/></span></p>
+<p class="rvps7"><span class="rvts11">The time gap between two services of purchased unit will be calculated as below :</span></p>
+<p class="rvps2"><span class="rvts17"><br/></span></p>
+<p class="rvps11"><span class="rvts17">Next Service = (Duration - Schedule First Service) / (Mandatory Service - 1)</span></p>
+<p class="rvps2"><span class="rvts11"><br/></span></p>
+<p class="rvps11"><span class="rvts11">Consider below example :</span></p>
+<p class="rvps2"><span class="rvts11"><br/></span></p>
+<p class="rvps29"><span class="rvts11">Duration of Plan = 36 months</span></p>
+<p class="rvps29"><span class="rvts11">Mandatory Services = 6</span></p>
+<p class="rvps29"><span class="rvts11">Schedule First Service In = 30 Days</span></p>
+<p class="rvps29"><span class="rvts11">Other Service Schedule gap = 20 Days</span></p>
+<p class="rvps29"><span class="rvts11"><br/></span></p>
+<p class="rvps29"><span class="rvts11"><br/></span></p>
+<p class="rvps11"><span class="rvts17">Next Service Time Interval = (Duration - Schedule First Service) / (Mandatory Service - 1)</span></p>
+<p class="rvps11"><span class="rvts17">= (36 month - 30 days) / (6 - 1)</span></p>
+<p class="rvps11"><span class="rvts11">= 7 months = 210 Days</span></p>
+<p class="rvps11"><span class="rvts11"><br/></span></p>
+<p class="rvps11"><span class="rvts11">So other services will be scheduled after 7 months of time interval.</span></p>
+<p class="rvps2"><span class="rvts11"><br/></span></p>
+<p class="rvps11"><span class="rvts11">Next service will take into automatic scheduler are = today + Next service time interval - Other Service Schedule Gap</span></p>
+<p class="rvps2"><span class="rvts17"><br/></span></p>
+<p class="rvps7"><span class="rvts17">Note : The specified date format is taken as MM/DD/YYYY</span></p>
+<p class="rvps11"><span class="rvts11"><br/></span></p>
+<p class="rvps11"><span class="rvts11">Suppose the client has purchased unit AC1 on date : 01/01/2016 Now 1st Service will scheduled between 01/01/2016 and 02/01/2016 (Because here Schedule First Service In : 30 days)</span></p>
+<p class="rvps11"><span class="rvts11"><br/></span></p>
+<p class="rvps11"><span class="rvts11">2nd service &nbsp;= (Duration - Schedule First Service) / (Mandatory Service - 1)</span></p>
+<p class="rvps11"><span class="rvts11"> &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; = (36 month - 30 days) / (6-1)</span></p>
+<p class="rvps30"><span class="rvts11">= 35/5</span></p>
+<p class="rvps30"><span class="rvts11">= 7 month</span></p>
+<p class="rvps11"><span class="rvts11"><br/></span></p>
+<p class="rvps11"><span class="rvts11">2nd service’s Expected Date : 09/01/2016 - 10/01/2016</span></p>
+<p class="rvps11"><span class="rvts11"><br/></span></p>
+<p class="rvps11"><span class="rvts11">and service will take into scheduler date = 7 month - PendingServiceScheduleBeforeDays</span></p>
+<p class="rvps11"><span class="rvts11"> &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;= 210 days - 30 days</span></p>
+<p class="rvps11"><span class="rvts11"> &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;= 180 days</span></p>
+<p class="rvps11"><span class="rvts11"> &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;= 08/01/2016</span></p>
+<p class="rvps11"><span class="rvts11"><br/></span></p>
+<p class="rvps11"><span class="rvts11">2nd service will scheduled after 09/01/2016</span></p>
+<p class="rvps11"><span class="rvts11"><br/></span></p>
+<p class="rvps11"><span class="rvts11">3rd service’s Expected Date: 04/01/2017 - 05/01/2017</span></p>
+<p class="rvps11"><span class="rvts11"><br/></span></p>
+<p class="rvps11"><span class="rvts11">and service will take into scheduler date = 7 month - PendingServiceScheduleBeforeDays</span></p>
+<p class="rvps11"><span class="rvts11"> &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;</span><span class="rvts11"> &nbsp; &nbsp; &nbsp; &nbsp;</span><span class="rvts11"> &nbsp; &nbsp; &nbsp; &nbsp;</span><span class="rvts11"> &nbsp; &nbsp; &nbsp; &nbsp;</span><span class="rvts11"> &nbsp; &nbsp; &nbsp; &nbsp;</span><span class="rvts11"> &nbsp;</span><span class="rvts11"> &nbsp; &nbsp; &nbsp; &nbsp;</span><span class="rvts11"> &nbsp;= 210 days - 30 days</span></p>
+<p class="rvps11"><span class="rvts11"> &nbsp;</span><span class="rvts11"> &nbsp; &nbsp; &nbsp; &nbsp;</span><span class="rvts11"> &nbsp; &nbsp; &nbsp; &nbsp;</span><span class="rvts11"> &nbsp; &nbsp; &nbsp; &nbsp;</span><span class="rvts11"> &nbsp; &nbsp; &nbsp; &nbsp;</span><span class="rvts11"> &nbsp; &nbsp; &nbsp; &nbsp;</span><span class="rvts11"> &nbsp; &nbsp; &nbsp; &nbsp;</span><span class="rvts11"> &nbsp;= 180 days</span></p>
+<p class="rvps11"><span class="rvts11"> </span><span class="rvts11"> &nbsp; &nbsp; &nbsp; &nbsp;</span><span class="rvts11"> &nbsp; &nbsp; &nbsp; &nbsp;</span><span class="rvts11"> &nbsp; &nbsp; &nbsp; &nbsp;</span><span class="rvts11"> &nbsp; &nbsp; &nbsp; &nbsp;</span><span class="rvts11"> &nbsp; &nbsp; &nbsp; &nbsp;</span><span class="rvts11"> &nbsp; &nbsp; &nbsp; &nbsp;</span><span class="rvts11"> &nbsp;= 03/01/2017</span></p>
+<p class="rvps11"><span class="rvts11"><br/></span></p>
+<p class="rvps11"><span class="rvts11">3rd service will scheduled after 04/01/2017</span></p>
+<p class="rvps11"><span class="rvts11"><br/></span></p>
+<p class="rvps11"><span class="rvts11">4th service’s Expected Date : 11/01/2017 - 12/01/2017</span></p>
+<p class="rvps11"><span class="rvts11"><br/></span></p>
+<p class="rvps11"><span class="rvts11">and service will take into scheduler date = 7 month - PendingServiceScheduleBeforeDays</span></p>
+<p class="rvps11"><span class="rvts11"> </span><span class="rvts11"> &nbsp; &nbsp; &nbsp; &nbsp;</span><span class="rvts11"> &nbsp; &nbsp; &nbsp; &nbsp;</span><span class="rvts11"> &nbsp; &nbsp; &nbsp; &nbsp;</span><span class="rvts11"> &nbsp; &nbsp; &nbsp; &nbsp;</span><span class="rvts11"> &nbsp; &nbsp; &nbsp; &nbsp;</span><span class="rvts11"> &nbsp; &nbsp; &nbsp; &nbsp;</span><span class="rvts11"> &nbsp;= 210 days - 30 days</span></p>
+<p class="rvps11"><span class="rvts11"> </span><span class="rvts11"> &nbsp; &nbsp; &nbsp; &nbsp;</span><span class="rvts11"> &nbsp; &nbsp; &nbsp; &nbsp;</span><span class="rvts11"> &nbsp; &nbsp; &nbsp; &nbsp;</span><span class="rvts11"> &nbsp; &nbsp; &nbsp; &nbsp;</span><span class="rvts11"> &nbsp; &nbsp; &nbsp; &nbsp;</span><span class="rvts11"> &nbsp; &nbsp; &nbsp; &nbsp;</span><span class="rvts11"> &nbsp;= 180 days</span></p>
+<p class="rvps11"><span class="rvts11"> </span><span class="rvts11"> &nbsp; &nbsp; &nbsp; &nbsp;</span><span class="rvts11"> &nbsp; &nbsp; &nbsp; &nbsp;</span><span class="rvts11"> &nbsp; &nbsp; &nbsp; &nbsp;</span><span class="rvts11"> &nbsp; &nbsp; &nbsp; &nbsp;</span><span class="rvts11"> &nbsp; &nbsp; &nbsp; &nbsp;</span><span class="rvts11"> &nbsp; &nbsp; &nbsp; &nbsp;</span><span class="rvts11"> &nbsp;= 10/01/2017</span></p>
+<p class="rvps11"><span class="rvts11"><br/></span></p>
+<p class="rvps11"><span class="rvts11">4th service will scheduled after 11/01/2017</span></p>
+<p class="rvps11"><span class="rvts11"><br/></span></p>
+<p class="rvps11"><span class="rvts11">5th service’s Expected Date : 06/01/2018 - 07/01/2018</span></p>
+<p class="rvps11"><span class="rvts11"><br/></span></p>
+<p class="rvps11"><span class="rvts11">and service will take into scheduler date = 7 month - PendingServiceScheduleBeforeDays</span></p>
+<p class="rvps11"><span class="rvts11"> &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;= 210 days - 30 days</span></p>
+<p class="rvps11"><span class="rvts11"> &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;= 180 days</span></p>
+<p class="rvps13"><span class="rvts11"> &nbsp; = 05/01/2018</span></p>
+<p class="rvps11"><span class="rvts11"><br/></span></p>
+<p class="rvps11"><span class="rvts11">5th service will be scheduled after 06/01/2018</span></p>
+<p class="rvps11"><span class="rvts11"><br/></span></p>
+<p class="rvps11"><span class="rvts11">6th service’s Expected Date : 01/01/2019 - 02/01/2019</span></p>
+<p class="rvps11"><span class="rvts11"><br/></span></p>
+<p class="rvps11"><span class="rvts11">and service will take into scheduler date = 7 month - PendingServiceScheduleBeforeDays</span></p>
+<p class="rvps11"><span class="rvts11"> &nbsp;</span><span class="rvts11"> &nbsp; &nbsp; &nbsp; &nbsp;</span><span class="rvts11"> &nbsp; &nbsp; &nbsp; &nbsp;</span><span class="rvts11"> &nbsp; &nbsp; &nbsp; &nbsp;</span><span class="rvts11"> &nbsp; &nbsp; &nbsp; &nbsp;</span><span class="rvts11"> &nbsp; &nbsp; &nbsp; &nbsp;</span><span class="rvts11"> &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;= 210 days - 30 days</span></p>
+<p class="rvps11"><span class="rvts11"> &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; </span><span class="rvts11"> &nbsp; &nbsp; &nbsp; &nbsp;</span><span class="rvts11"> &nbsp; &nbsp; &nbsp; &nbsp;</span><span class="rvts11"> &nbsp; &nbsp; &nbsp; &nbsp;</span><span class="rvts11"> &nbsp; &nbsp; &nbsp; &nbsp;</span><span class="rvts11"> &nbsp; &nbsp; &nbsp; &nbsp;</span><span class="rvts11"> &nbsp;= 180 days</span></p>
+<p class="rvps11"><span class="rvts11"> &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;</span><span class="rvts11"> &nbsp; &nbsp; &nbsp; &nbsp;</span><span class="rvts11"> &nbsp; &nbsp; &nbsp; &nbsp;</span><span class="rvts11"> &nbsp; &nbsp; &nbsp; &nbsp;</span><span class="rvts11"> &nbsp; &nbsp; &nbsp; &nbsp;</span><span class="rvts11"> &nbsp; &nbsp; &nbsp; &nbsp;</span><span class="rvts11"> &nbsp;= 12/01/2018</span></p>
+<p class="rvps11"><span class="rvts11"><br/></span></p>
+<p class="rvps11"><span class="rvts11">6th service will scheduled after 01/01/2019</span></p>
+<p class="rvps2"><span class="rvts11"><br/></span></p>
+<p class="rvps7"><span class="rvts11">Thus, total services will be added to the database of the system for purchased unit with date ranges as explained above.</span></p>
+<p class="rvps2"><span class="rvts11"><br/></span></p>
+<p class="rvps7"><span class="rvts11">The first service of purchased unit will directly scheduled so for the first service, the employee will be assigned for that service and service time will also be assigned for the first service. But the status for first service is “Waiting For Approval”</span></p>
+<p class="rvps7"><span class="rvts11"><br/></span></p>
+<p class="rvps7"><span class="rvts11">Thus, inserted services will be as below :</span></p>
+<p class="rvps7"><span class="rvts11"><br/></span></p>
+<p class="rvps7"><span class="rvts11"><br/></span></p>
+<div class="rvps10"><table border="1" cellpadding="4" cellspacing="-1" style="border-width: 0px; border-collapse: collapse;">
+<tr valign="top">
+<td width="146" height="39" valign="top" style="border-width : 1px; border-color: #000000; border-style: solid; padding: 0px 7px; background-color: #ffffff;"><h1 class="rvps32"><span class="rvts0"><span class="rvts60">Service Case #</span></span></h1>
+</td>
+<td width="146" height="39" valign="top" style="border-width : 1px; border-color: #000000; border-style: solid; padding: 0px 7px; background-color: #ffffff;"><h1 class="rvps32"><span class="rvts0"><span class="rvts60">Service Status</span></span></h1>
+</td>
+<td width="146" height="39" valign="top" style="border-width : 1px; border-color: #000000; border-style: solid; padding: 0px 7px; background-color: #ffffff;"><h1 class="rvps32"><span class="rvts0"><span class="rvts60">Expected Start Date</span></span></h1>
+</td>
+<td width="146" height="39" valign="top" style="border-width : 1px; border-color: #000000; border-style: solid; padding: 0px 7px; background-color: #ffffff;"><h1 class="rvps32"><span class="rvts0"><span class="rvts60">Expected End Date</span></span></h1>
+</td>
+</tr>
+<tr valign="top">
+<td width="146" height="21" valign="top" style="border-width : 1px; border-color: #000000; border-style: solid; padding: 0px 7px; background-color: #ffffff;"><p class="rvps33"><span class="rvts62">C1-90038-S1-01</span></p>
+</td>
+<td width="146" height="21" valign="top" style="border-width : 1px; border-color: #000000; border-style: solid; padding: 0px 7px; background-color: #ffffff;"><h1 class="rvps32"><span class="rvts0"><span class="rvts15">Waiting For Approval</span></span></h1>
+</td>
+<td width="146" height="21" valign="top" style="border-width : 1px; border-color: #000000; border-style: solid; padding: 0px 7px; background-color: #ffffff;"><h1 class="rvps32"><span class="rvts0"><span class="rvts15">01/01/2016</span></span></h1>
+</td>
+<td width="146" height="21" valign="top" style="border-width : 1px; border-color: #000000; border-style: solid; padding: 0px 7px; background-color: #ffffff;"><h1 class="rvps32"><span class="rvts0"><span class="rvts15">02/01/2016</span></span></h1>
+</td>
+</tr>
+<tr valign="top">
+<td width="146" height="20" valign="top" style="border-width : 1px; border-color: #000000; border-style: solid; padding: 0px 7px; background-color: #ffffff;"><p class="rvps33"><span class="rvts62">C1-90038-S2-01</span></p>
+</td>
+<td width="146" height="20" valign="top" style="border-width : 1px; border-color: #000000; border-style: solid; padding: 0px 7px; background-color: #ffffff;"><h1 class="rvps32"><span class="rvts0"><span class="rvts15">Pending</span></span></h1>
+</td>
+<td width="146" height="20" valign="top" style="border-width : 1px; border-color: #000000; border-style: solid; padding: 0px 7px; background-color: #ffffff;"><h1 class="rvps32"><span class="rvts0"><span class="rvts15">09/01/2016</span></span></h1>
+</td>
+<td width="146" height="20" valign="top" style="border-width : 1px; border-color: #000000; border-style: solid; padding: 0px 7px; background-color: #ffffff;"><h1 class="rvps32"><span class="rvts0"><span class="rvts15">10/01/2016</span></span></h1>
+</td>
+</tr>
+<tr valign="top">
+<td width="146" height="20" valign="top" style="border-width : 1px; border-color: #000000; border-style: solid; padding: 0px 7px; background-color: #ffffff;"><p class="rvps33"><span class="rvts62">C1-90038-S3-01</span></p>
+</td>
+<td width="146" height="20" valign="top" style="border-width : 1px; border-color: #000000; border-style: solid; padding: 0px 7px; background-color: #ffffff;"><h1 class="rvps32"><span class="rvts0"><span class="rvts15">Pending</span></span></h1>
+</td>
+<td width="146" height="20" valign="top" style="border-width : 1px; border-color: #000000; border-style: solid; padding: 0px 7px; background-color: #ffffff;"><h1 class="rvps32"><span class="rvts0"><span class="rvts15">04/01/2017</span></span></h1>
+</td>
+<td width="146" height="20" valign="top" style="border-width : 1px; border-color: #000000; border-style: solid; padding: 0px 7px; background-color: #ffffff;"><h1 class="rvps32"><span class="rvts0"><span class="rvts15">05/01/2017</span></span></h1>
+</td>
+</tr>
+<tr valign="top">
+<td width="146" height="20" valign="top" style="border-width : 1px; border-color: #000000; border-style: solid; padding: 0px 7px; background-color: #ffffff;"><p class="rvps33"><span class="rvts62">C1-90038-S4-01</span></p>
+</td>
+<td width="146" height="20" valign="top" style="border-width : 1px; border-color: #000000; border-style: solid; padding: 0px 7px; background-color: #ffffff;"><h1 class="rvps32"><span class="rvts0"><span class="rvts15">Pending</span></span></h1>
+</td>
+<td width="146" height="20" valign="top" style="border-width : 1px; border-color: #000000; border-style: solid; padding: 0px 7px; background-color: #ffffff;"><h1 class="rvps32"><span class="rvts0"><span class="rvts15">11/01/2017</span></span></h1>
+</td>
+<td width="146" height="20" valign="top" style="border-width : 1px; border-color: #000000; border-style: solid; padding: 0px 7px; background-color: #ffffff;"><h1 class="rvps32"><span class="rvts0"><span class="rvts15">12/01/2017</span></span></h1>
+</td>
+</tr>
+<tr valign="top">
+<td width="146" height="20" valign="top" style="border-width : 1px; border-color: #000000; border-style: solid; padding: 0px 7px; background-color: #ffffff;"><p class="rvps33"><span class="rvts62">C1-90038-S5-01</span></p>
+</td>
+<td width="146" height="20" valign="top" style="border-width : 1px; border-color: #000000; border-style: solid; padding: 0px 7px; background-color: #ffffff;"><h1 class="rvps32"><span class="rvts0"><span class="rvts15">Pending</span></span></h1>
+</td>
+<td width="146" height="20" valign="top" style="border-width : 1px; border-color: #000000; border-style: solid; padding: 0px 7px; background-color: #ffffff;"><h1 class="rvps32"><span class="rvts0"><span class="rvts15">06/01/2018</span></span></h1>
+</td>
+<td width="146" height="20" valign="top" style="border-width : 1px; border-color: #000000; border-style: solid; padding: 0px 7px; background-color: #ffffff;"><h1 class="rvps32"><span class="rvts0"><span class="rvts15">07/01/2018</span></span></h1>
+</td>
+</tr>
+<tr valign="top">
+<td width="146" height="20" valign="top" style="border-width : 1px; border-color: #000000; border-style: solid; padding: 0px 7px; background-color: #ffffff;"><p class="rvps33"><span class="rvts62">C1-90038-S6-01</span></p>
+</td>
+<td width="146" height="20" valign="top" style="border-width : 1px; border-color: #000000; border-style: solid; padding: 0px 7px; background-color: #ffffff;"><h1 class="rvps32"><span class="rvts0"><span class="rvts15">Pending</span></span></h1>
+</td>
+<td width="146" height="20" valign="top" style="border-width : 1px; border-color: #000000; border-style: solid; padding: 0px 7px; background-color: #ffffff;"><h1 class="rvps32"><span class="rvts0"><span class="rvts15">01/01/2019</span></span></h1>
+</td>
+<td width="146" height="20" valign="top" style="border-width : 1px; border-color: #000000; border-style: solid; padding: 0px 7px; background-color: #ffffff;"><h1 class="rvps32"><span class="rvts0"><span class="rvts15">02/01/2019</span></span></h1>
+</td>
+</tr>
+</table>
+</div>
+<p class="rvps10"><span class="rvts31"><br/></span></p>
+<p class="rvps10"><span class="rvts31"><br/></span></p>
+<p class="rvps7"><span class="rvts56">Service Scheduling :</span></p>
+<p class="rvps2"><span class="rvts46"><br/></span></p>
+<p class="rvps11"><span class="rvts46">• As described above, the services inserted into the system.</span></p>
+<p class="rvps2"><span class="rvts46"><br/></span></p>
+<p class="rvps11"><span class="rvts46">• Below is the process how the service will be scheduled and how the employee and service time will be assigned for the service.</span></p>
+<p class="rvps2"><span class="rvts46"><br/></span></p>
+<p class="rvps11"><span class="rvts46">Please consider below example :</span></p>
+<p class="rvps2"><span class="rvts46"><br/></span></p>
+<p class="rvps29"><span class="rvts46">Plan : Residential Plan</span></p>
+<p class="rvps29"><span class="rvts46">Duration : 36 Month</span></p>
+<p class="rvps29"><span class="rvts46">Mandatory Services : 6</span></p>
+<p class="rvps29"><span class="rvts46">First Service Time Within : 30 Days</span></p>
+<p class="rvps29"><span class="rvts46">Driving Time : 20 Minutes</span></p>
+<p class="rvps29"><span class="rvts46">Service Time for First Unit : 40 Minutes</span></p>
+<p class="rvps29"><span class="rvts46">Service Time for additional Unit : 10 Minutes</span></p>
+<p class="rvps2"><span class="rvts46"><br/></span></p>
+<p class="rvps29"><span class="rvts46">1. Client Jack purchased 10 Units on 01/01/2016 using a Residential Plan</span></p>
+<p class="rvps29"><span class="rvts46"><br/></span></p>
+<p class="rvps30"><span class="rvts11">a) All units added using the same address (714 N. La Brea Ave, Los Angeles, CA 90038)</span></p>
+<p class="rvps2"><span class="rvts11"><br/></span></p>
+<p class="rvps29"><span class="rvts11">2. At the end of the day, the system scheduler will run, and system services will schedule for the new 10 units.</span></p>
+<p class="rvps29"><span class="rvts11"><br/></span></p>
+<p class="rvps29"><span class="rvts11">3. During system scheduling the following will be checked (How the Employee will be assigned to the Service) :</span></p>
+<p class="rvps2"><span class="rvts11"><br/></span></p>
+<p class="rvps30"><span class="rvts11">a) Calculate time needed to perform the service (i.e. 2-1/2hr)</span></p>
+<p class="rvps30"><span class="rvts11">b) Find the employees that are in this work area</span></p>
+<p class="rvps30"><span class="rvts11">c) According to Employee ID (sequential) choose the first</span></p>
+<p class="rvps30"><span class="rvts11">d) Verify that Employee ID 1 work schedule is open</span></p>
+<p class="rvps30"><span class="rvts11">e) If open for 2-1/2hr, schedule employee ID 1</span></p>
+<p class="rvps30"><span class="rvts11">f) If not open, check the next employee availability (ID 2), if not, check the next (ID 3) and next (ID 4) sequentially…</span></p>
+<p class="rvps30"><span class="rvts11">g) If no one is available for the same date, next, try the next day with employee ID 1 and do the same procedure</span></p>
+<p class="rvps30"><span class="rvts11">h) Highest Rated Employee, does he get any priority or not will be decided as follows :</span></p>
+<p class="rvps31"><span class="rvts11">Rating of the Employee is considered in the Automatic Rules while assigning the Employee or not is decided dynamically from the Site Settings of Admin Panel.</span></p>
+<p class="rvps31"><span class="rvts11"><br/></span></p>
+<p class="rvps31"><span class="rvts11">In the Site Settings section, “EmployeeRatingConsiderOnService” field is there.</span></p>
+<p class="rvps2"><span class="rvts11"><br/></span></p>
+<p class="rvps31"><span class="rvts11">If value is yes, an employee who has highest rating will be considered first. And if No, the rating of the employee will not be considered while assigning the employee.</span></p>
+<p class="rvps31"><span class="rvts11"><br/></span></p>
+<p class="rvps30"><span class="rvts11">i) System will check for the available parts in the inventory. If parts which are needed to do service is available then only service will be scheduled.</span></p>
+<p class="rvps2"><span class="rvts11"><br/></span></p>
+<p class="rvps31"><span class="rvts11"><br/></span></p>
+<p class="rvps29"><span class="rvts11">4. Total 6 Services will be added into the database. Only first service will be scheduled when the system scheduler will run. Employee, Parts and service time assigned for 1st Service only. For other 5 services, only Expected service date range will be assigned (No Employee + No Parts + No Service Scheduling Time)</span></p>
+<p class="rvps2"><span class="rvts11"><br/></span></p>
+<p class="rvps29"><span class="rvts11">5. Inserted Services will be as below:</span></p>
+<p class="rvps29"><span class="rvts11"><br/></span></p>
+<p class="rvps29"><span class="rvts11"><br/></span></p>
+<div class="rvps38"><table border="1" cellpadding="4" cellspacing="-1" style="border-width: 0px; border-collapse: collapse;">
+<tr valign="top">
+<td width="53" height="64" valign="top" style="border-width : 1px; border-color: #000000; border-style: solid; padding: 0px 7px; background-color: #ffffff;"><p class="rvps34"><span class="rvts60">Case #</span></p>
+</td>
+<td width="44" height="64" valign="top" style="border-width : 1px; border-color: #000000; border-style: solid; padding: 0px 7px; background-color: #ffffff;"><p class="rvps35"><span class="rvts60">Client</span></p>
+</td>
+<td width="73" height="64" valign="top" style="border-width : 1px; border-color: #000000; border-style: solid; padding: 0px 7px; background-color: #ffffff;"><p class="rvps36"><span class="rvts60">Service Date</span></p>
+</td>
+<td width="82" height="64" valign="top" style="border-width : 1px; border-color: #000000; border-style: solid; padding: 0px 7px; background-color: #ffffff;"><p class="rvps35"><span class="rvts60">Employee</span></p>
+</td>
+<td width="77" height="64" valign="top" style="border-width : 1px; border-color: #000000; border-style: solid; padding: 0px 7px; background-color: #ffffff;"><p class="rvps36"><span class="rvts60">Service Time</span></p>
+</td>
+<td width="77" height="64" valign="top" style="border-width : 1px; border-color: #000000; border-style: solid; padding: 0px 7px; background-color: #ffffff;"><p class="rvps35"><span class="rvts60">Service Status</span></p>
+</td>
+<td width="82" height="64" valign="top" style="border-width : 1px; border-color: #000000; border-style: solid; padding: 0px 7px; background-color: #ffffff;"><p class="rvps36"><span class="rvts60">Expected Start Date</span></p>
+</td>
+<td width="94" height="64" valign="top" style="border-width : 1px; border-color: #000000; border-style: solid; padding: 0px 7px; background-color: #ffffff;"><p class="rvps36"><span class="rvts60">Expected End Date</span></p>
+</td>
+</tr>
+<tr valign="top">
+<td width="53" height="57" valign="top" style="border-width : 1px; border-color: #000000; border-style: solid; padding: 0px 7px; background-color: #ffffff;"><p class="rvps34"><span class="rvts15">S1</span></p>
+</td>
+<td width="44" height="57" valign="top" style="border-width : 1px; border-color: #000000; border-style: solid; padding: 0px 7px; background-color: #ffffff;"><p class="rvps35"><span class="rvts15">Jack</span></p>
+</td>
+<td width="73" height="57" valign="top" style="border-width : 1px; border-color: #000000; border-style: solid; padding: 0px 7px; background-color: #ffffff;"><p class="rvps36"><span class="rvts15">01/06/2016</span></p>
+</td>
+<td width="82" height="57" valign="top" style="border-width : 1px; border-color: #000000; border-style: solid; padding: 0px 7px; background-color: #ffffff;"><p class="rvps35"><span class="rvts15">Scott</span></p>
+</td>
+<td width="77" height="57" valign="top" style="border-width : 1px; border-color: #000000; border-style: solid; padding: 0px 7px; background-color: #ffffff;"><p class="rvps36"><span class="rvts15">08:00AM - 10:30AM</span></p>
+</td>
+<td width="77" height="57" valign="top" style="border-width : 1px; border-color: #000000; border-style: solid; padding: 0px 7px; background-color: #ffffff;"><p class="rvps35"><span class="rvts15">Waiting For Approval</span></p>
+</td>
+<td width="82" height="57" valign="top" style="border-width : 1px; border-color: #000000; border-style: solid; padding: 0px 7px; background-color: #ffffff;"><p class="rvps36"><span class="rvts15">01/01/2016</span></p>
+</td>
+<td width="94" height="57" valign="top" style="border-width : 1px; border-color: #000000; border-style: solid; padding: 0px 7px; background-color: #ffffff;"><p class="rvps36"><span class="rvts15">02/01/2016</span></p>
+</td>
+</tr>
+<tr valign="top">
+<td width="53" height="26" valign="top" style="border-width : 1px; border-color: #000000; border-style: solid; padding: 0px 7px; background-color: #ffffff;"><p class="rvps34"><span class="rvts15">S2</span></p>
+</td>
+<td width="44" height="26" valign="top" style="border-width : 1px; border-color: #000000; border-style: solid; padding: 0px 7px; background-color: #ffffff;"><p class="rvps35"><span class="rvts15">Jack </span></p>
+</td>
+<td width="73" height="26" valign="top" style="border-width : 1px; border-color: #000000; border-style: solid; padding: 0px 7px; background-color: #ffffff;"><p class="rvps2"><span class="rvts31"><br/></span></p>
+</td>
+<td width="82" height="26" valign="top" style="border-width : 1px; border-color: #000000; border-style: solid; padding: 0px 7px; background-color: #ffffff;"><p class="rvps2"><span class="rvts31"><br/></span></p>
+</td>
+<td width="77" height="26" valign="top" style="border-width : 1px; border-color: #000000; border-style: solid; padding: 0px 7px; background-color: #ffffff;"><p class="rvps2"><span class="rvts31"><br/></span></p>
+</td>
+<td width="77" height="26" valign="top" style="border-width : 1px; border-color: #000000; border-style: solid; padding: 0px 7px; background-color: #ffffff;"><p class="rvps35"><span class="rvts15">Pending</span></p>
+</td>
+<td width="82" height="26" valign="top" style="border-width : 1px; border-color: #000000; border-style: solid; padding: 0px 7px; background-color: #ffffff;"><p class="rvps36"><span class="rvts15">09/01/2016</span></p>
+</td>
+<td width="94" height="26" valign="top" style="border-width : 1px; border-color: #000000; border-style: solid; padding: 0px 7px; background-color: #ffffff;"><p class="rvps36"><span class="rvts15">10/01/2016</span></p>
+</td>
+</tr>
+<tr valign="top">
+<td width="53" height="26" valign="top" style="border-width : 1px; border-color: #000000; border-style: solid; padding: 0px 7px; background-color: #ffffff;"><p class="rvps34"><span class="rvts15">S3</span></p>
+</td>
+<td width="44" height="26" valign="top" style="border-width : 1px; border-color: #000000; border-style: solid; padding: 0px 7px; background-color: #ffffff;"><p class="rvps35"><span class="rvts15">Jack</span></p>
+</td>
+<td width="73" height="26" valign="top" style="border-width : 1px; border-color: #000000; border-style: solid; padding: 0px 7px; background-color: #ffffff;"><p class="rvps2"><span class="rvts31"><br/></span></p>
+</td>
+<td width="82" height="26" valign="top" style="border-width : 1px; border-color: #000000; border-style: solid; padding: 0px 7px; background-color: #ffffff;"><p class="rvps2"><span class="rvts31"><br/></span></p>
+</td>
+<td width="77" height="26" valign="top" style="border-width : 1px; border-color: #000000; border-style: solid; padding: 0px 7px; background-color: #ffffff;"><p class="rvps2"><span class="rvts31"><br/></span></p>
+</td>
+<td width="77" height="26" valign="top" style="border-width : 1px; border-color: #000000; border-style: solid; padding: 0px 7px; background-color: #ffffff;"><p class="rvps35"><span class="rvts15">Pending</span></p>
+</td>
+<td width="82" height="26" valign="top" style="border-width : 1px; border-color: #000000; border-style: solid; padding: 0px 7px; background-color: #ffffff;"><p class="rvps36"><span class="rvts15">04/01/2017</span></p>
+</td>
+<td width="94" height="26" valign="top" style="border-width : 1px; border-color: #000000; border-style: solid; padding: 0px 7px; background-color: #ffffff;"><p class="rvps36"><span class="rvts15">05/01/2017</span></p>
+</td>
+</tr>
+<tr valign="top">
+<td width="53" height="26" valign="top" style="border-width : 1px; border-color: #000000; border-style: solid; padding: 0px 7px; background-color: #ffffff;"><p class="rvps34"><span class="rvts15">S4</span></p>
+</td>
+<td width="44" height="26" valign="top" style="border-width : 1px; border-color: #000000; border-style: solid; padding: 0px 7px; background-color: #ffffff;"><p class="rvps35"><span class="rvts15">Jack</span></p>
+</td>
+<td width="73" height="26" valign="top" style="border-width : 1px; border-color: #000000; border-style: solid; padding: 0px 7px; background-color: #ffffff;"><p class="rvps2"><span class="rvts31"><br/></span></p>
+</td>
+<td width="82" height="26" valign="top" style="border-width : 1px; border-color: #000000; border-style: solid; padding: 0px 7px; background-color: #ffffff;"><p class="rvps2"><span class="rvts31"><br/></span></p>
+</td>
+<td width="77" height="26" valign="top" style="border-width : 1px; border-color: #000000; border-style: solid; padding: 0px 7px; background-color: #ffffff;"><p class="rvps2"><span class="rvts31"><br/></span></p>
+</td>
+<td width="77" height="26" valign="top" style="border-width : 1px; border-color: #000000; border-style: solid; padding: 0px 7px; background-color: #ffffff;"><p class="rvps35"><span class="rvts15">Pending</span></p>
+</td>
+<td width="82" height="26" valign="top" style="border-width : 1px; border-color: #000000; border-style: solid; padding: 0px 7px; background-color: #ffffff;"><p class="rvps36"><span class="rvts15">11/01/2017</span></p>
+</td>
+<td width="94" height="26" valign="top" style="border-width : 1px; border-color: #000000; border-style: solid; padding: 0px 7px; background-color: #ffffff;"><p class="rvps36"><span class="rvts15">12/01/2017</span></p>
+</td>
+</tr>
+<tr valign="top">
+<td width="53" height="26" valign="top" style="border-width : 1px; border-color: #000000; border-style: solid; padding: 0px 7px; background-color: #ffffff;"><p class="rvps34"><span class="rvts15">S5</span></p>
+</td>
+<td width="44" height="26" valign="top" style="border-width : 1px; border-color: #000000; border-style: solid; padding: 0px 7px; background-color: #ffffff;"><p class="rvps35"><span class="rvts15">Jack</span></p>
+</td>
+<td width="73" height="26" valign="top" style="border-width : 1px; border-color: #000000; border-style: solid; padding: 0px 7px; background-color: #ffffff;"><p class="rvps2"><span class="rvts31"><br/></span></p>
+</td>
+<td width="82" height="26" valign="top" style="border-width : 1px; border-color: #000000; border-style: solid; padding: 0px 7px; background-color: #ffffff;"><p class="rvps2"><span class="rvts31"><br/></span></p>
+</td>
+<td width="77" height="26" valign="top" style="border-width : 1px; border-color: #000000; border-style: solid; padding: 0px 7px; background-color: #ffffff;"><p class="rvps2"><span class="rvts31"><br/></span></p>
+</td>
+<td width="77" height="26" valign="top" style="border-width : 1px; border-color: #000000; border-style: solid; padding: 0px 7px; background-color: #ffffff;"><p class="rvps35"><span class="rvts15">Pending</span></p>
+</td>
+<td width="82" height="26" valign="top" style="border-width : 1px; border-color: #000000; border-style: solid; padding: 0px 7px; background-color: #ffffff;"><p class="rvps36"><span class="rvts15">06/01/2018</span></p>
+</td>
+<td width="94" height="26" valign="top" style="border-width : 1px; border-color: #000000; border-style: solid; padding: 0px 7px; background-color: #ffffff;"><p class="rvps36"><span class="rvts15">07/01/2018</span></p>
+</td>
+</tr>
+<tr valign="top">
+<td width="53" height="27" valign="top" style="border-width : 1px; border-color: #000000; border-style: solid; padding: 0px 7px; background-color: #ffffff;"><p class="rvps34"><span class="rvts15">S6</span></p>
+</td>
+<td width="44" height="27" valign="top" style="border-width : 1px; border-color: #000000; border-style: solid; padding: 0px 7px; background-color: #ffffff;"><p class="rvps35"><span class="rvts15">Jack</span></p>
+</td>
+<td width="73" height="27" valign="top" style="border-width : 1px; border-color: #000000; border-style: solid; padding: 0px 7px; background-color: #ffffff;"><p class="rvps2"><span class="rvts31"><br/></span></p>
+</td>
+<td width="82" height="27" valign="top" style="border-width : 1px; border-color: #000000; border-style: solid; padding: 0px 7px; background-color: #ffffff;"><p class="rvps2"><span class="rvts31"><br/></span></p>
+</td>
+<td width="77" height="27" valign="top" style="border-width : 1px; border-color: #000000; border-style: solid; padding: 0px 7px; background-color: #ffffff;"><p class="rvps2"><span class="rvts31"><br/></span></p>
+</td>
+<td width="77" height="27" valign="top" style="border-width : 1px; border-color: #000000; border-style: solid; padding: 0px 7px; background-color: #ffffff;"><p class="rvps35"><span class="rvts15">Pending</span></p>
+</td>
+<td width="82" height="27" valign="top" style="border-width : 1px; border-color: #000000; border-style: solid; padding: 0px 7px; background-color: #ffffff;"><p class="rvps36"><span class="rvts15">01/01/2019</span></p>
+</td>
+<td width="94" height="27" valign="top" style="border-width : 1px; border-color: #000000; border-style: solid; padding: 0px 7px; background-color: #ffffff;"><p class="rvps36"><span class="rvts15">02/01/2019</span></p>
+</td>
+</tr>
+</table>
+</div>
+<p class="rvps38"><span class="rvts11"><br/></span></p>
+<p class="rvps38"><span class="rvts11"><br/></span></p>
+<p class="rvps7"><span class="rvts11">Calculations for Scheduling Service :</span></p>
+<p class="rvps11"><span class="rvts11">• System calculates that the service requires 2-1/2 hr.</span></p>
+<p class="rvps2"><span class="rvts11"><br/></span></p>
+<p class="rvps11"><span class="rvts11">• Service Time Calculation :</span></p>
+<p class="rvps2"><span class="rvts11"><br/></span></p>
+<p class="rvps29"><span class="rvts11">S1= Driving Time + Time to Service first unit + (Time to service additional units X quantity of additional units).</span></p>
+<p class="rvps11"><span class="rvts11"> &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;= 20 + 40 + (9 * 10)</span></p>
+<p class="rvps2"><span class="rvts11"> &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; = 20 + 40 + 90</span></p>
+<p class="rvps2"><span class="rvts11"> &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; = 150 Minutes = 2-1/2hr.</span></p>
+<p class="rvps2"><span class="rvts11"><br/></span></p>
+<p class="rvps11"><span class="rvts11">• On Client Unit address, the system found that there are 2 employees (Scott and William) Work Area matching with client address.</span></p>
+<p class="rvps2"><span class="rvts11"><br/></span></p>
+<p class="rvps11"><span class="rvts11">• Scott has Employee ID 1, thereby system will check his schedule first.</span></p>
+<p class="rvps2"><span class="rvts11"><br/></span></p>
+<p class="rvps11"><span class="rvts11">• Scott is free on 01/06/2016 between 8:00 AM to 12:00 PM and thereby the system will insert for him the new service job schedule.</span></p>
+<p class="rvps11"><span class="rvts11"><br/></span></p>
+<p class="rvps11"><span class="rvts11">• Now the service is scheduled, the system will send the client an Approval of Service notification.</span></p>
+<p class="rvps2"><span class="rvts11"><br/></span></p>
+<p class="rvps11"><span class="rvts11">• If client approves that service, then Employee Scott will go to Jack unit address on 01/06/2016 and service the 10 units.</span></p>
+<p class="rvps2"><span class="rvts11"><br/></span></p>
+<p class="rvps11"><span class="rvts11">• The status of the service will change to “Scheduled” from “Waiting For Approval” once the client has accepted the service from the Approval notification of service.</span></p>
+<p class="rvps2"><span class="rvts11"><br/></span></p>
+<p class="rvps11"><span class="rvts11">• If the employee is free yet required parts are unavailable, the service will move to pending state. System will insert attempt log with the reasons. (i.e Parts Filter-20X10X10 is out of stock, service cannot be commenced.)</span></p>
+<p class="rvps2"><span class="rvts11"><br/></span></p>
+<p class="rvps11"><span class="rvts11">• If none of the employees are available between 01/01/2016 to 02/01/2016, the service will move to “Pending" state with detailed attempt log.</span></p>
+<p class="rvps2"><span class="rvts11"><br/></span></p>
+<p class="rvps11"><span class="rvts11">For other services (S2 to S6) schedule calculation are as below:</span></p>
+<p class="rvps29"><span class="rvts11"><br/></span></p>
+<p class="rvps29"><span class="rvts11">S2 Service Expected Start Date : 09/01/2016</span></p>
+<p class="rvps29"><span class="rvts11">S2 Service Expected End Date : 10/01/2016</span></p>
+<p class="rvps2"><span class="rvts11"><br/></span></p>
+<p class="rvps11"><span class="rvts11">• Means 2</span><span class="rvts57">nd </span><span class="rvts11">service will be scheduled between above two dates with sequential priority.</span></p>
+<p class="rvps2"><span class="rvts11"><br/></span></p>
+<p class="rvps11"><span class="rvts11">• On 08/01/2016 Scheduler will run and schedule the service S2 between 09/01/2016 and 10/01/2016.</span></p>
+<p class="rvps2"><span class="rvts11"><br/></span></p>
+<p class="rvps11"><span class="rvts11">• Before how many days of Expected Start Date the scheduler will run will be handled dynamically from Site Settings.</span></p>
+<p class="rvps2"><span class="rvts11"><br/></span></p>
+<p class="rvps11"><span class="rvts11">• If the employee Jack schedule is open for 2-1/2hr. on 09/01/2016 and also parts are in stock, then S2 will be added to his schedule on 09/01/2016.</span></p>
+<p class="rvps2"><span class="rvts11"><br/></span></p>
+<p class="rvps11"><span class="rvts11">• Process for assigning the employee to other services (S2 to S6) are the same as we have assigned employee on S1.</span></p>
+<p class="rvps2"><span class="rvts11"><br/></span></p>
+<p class="rvps11"><span class="rvts11">• Thus the scheduling of the services will be done.</span></p>
+<p class="rvps2"><span class="rvts11"><br/></span></p>
+<p class="rvps7"><span class="rvts11">Now if the client will add another unit on the another date on the same address and also for the same Plan Type, then the system will merge units in the services of already added units.</span></p>
+<p class="rvps2"><span class="rvts11"><br/></span></p>
+<p class="rvps7"><span class="rvts11">The process of merging the units is as follows :</span></p>
+<p class="rvps7"><span class="rvts11"><br/></span></p>
+<p class="rvps7"><span class="rvts56">Merging Of Units :</span></p>
+<p class="rvps2"><span class="rvts46"><br/></span></p>
+<p class="rvps11"><span class="rvts46">Consider the following example :</span></p>
+<p class="rvps2"><span class="rvts46"><br/></span></p>
+<p class="rvps29"><span class="rvts46">• Client purchased 4 units on the 1st of January, 2016</span></p>
+<p class="rvps29"><span class="rvts46">• When the scheduler will run, 6 services will be added into the system as follow:</span></p>
+<p class="rvps29"><span class="rvts46">• To Service 4 Unit = 20 + 40 + 3*(10) = 90 minutes</span></p>
+<p class="rvps2"><span class="rvts58"><br/></span></p>
+<p class="rvps29"><span class="rvts58">For First 4 Units :</span></p>
+<p class="rvps29"><span class="rvts58"><br/></span></p>
+<div class="rvps10"><table border="1" cellpadding="4" cellspacing="-1" style="border-width: 0px; border-collapse: collapse;">
+<tr valign="top">
+<td width="68" height="68" valign="top" style="border-width : 1px; border-color: #000000; border-style: solid; padding: 0px 7px; background-color: #ffffff;"><p class="rvps33"><span class="rvts60">Case #</span></p>
+</td>
+<td width="110" height="68" valign="top" style="border-width : 1px; border-color: #000000; border-style: solid; padding: 0px 7px; background-color: #ffffff;"><p class="rvps33"><span class="rvts60">Schedule Date</span></p>
+</td>
+<td width="67" height="68" valign="top" style="border-width : 1px; border-color: #000000; border-style: solid; padding: 0px 7px; background-color: #ffffff;"><p class="rvps33"><span class="rvts60">Service Time</span></p>
+</td>
+<td width="82" height="68" valign="top" style="border-width : 1px; border-color: #000000; border-style: solid; padding: 0px 7px; background-color: #ffffff;"><p class="rvps33"><span class="rvts60">Service Status</span></p>
+</td>
+<td width="88" height="68" valign="top" style="border-width : 1px; border-color: #000000; border-style: solid; padding: 0px 7px; background-color: #ffffff;"><p class="rvps33"><span class="rvts60">Expected Start Date</span></p>
+</td>
+<td width="88" height="68" valign="top" style="border-width : 1px; border-color: #000000; border-style: solid; padding: 0px 7px; background-color: #ffffff;"><p class="rvps33"><span class="rvts60">Expected End Date</span></p>
+</td>
+<td width="69" height="68" valign="top" style="border-width : 1px; border-color: #000000; border-style: solid; padding: 0px 7px; background-color: #ffffff;"><p class="rvps33"><span class="rvts60">Service Units</span></p>
+</td>
+</tr>
+<tr valign="top">
+<td width="68" height="57" valign="top" style="border-width : 1px; border-color: #000000; border-style: solid; padding: 0px 7px; background-color: #ffffff;"><p class="rvps33"><span class="rvts15">S1</span></p>
+</td>
+<td width="110" height="57" valign="top" style="border-width : 1px; border-color: #000000; border-style: solid; padding: 0px 7px; background-color: #ffffff;"><p class="rvps33"><span class="rvts15">01/04/2016</span></p>
+</td>
+<td width="67" height="57" valign="top" style="border-width : 1px; border-color: #000000; border-style: solid; padding: 0px 7px; background-color: #ffffff;"><p class="rvps33"><span class="rvts15">8:00 AM - 9:30 AM</span></p>
+</td>
+<td width="82" height="57" valign="top" style="border-width : 1px; border-color: #000000; border-style: solid; padding: 0px 7px; background-color: #ffffff;"><p class="rvps33"><span class="rvts15">Scheduled</span></p>
+</td>
+<td width="88" height="57" valign="top" style="border-width : 1px; border-color: #000000; border-style: solid; padding: 0px 7px; background-color: #ffffff;"><p class="rvps33"><span class="rvts15">01/01/2016</span></p>
+</td>
+<td width="88" height="57" valign="top" style="border-width : 1px; border-color: #000000; border-style: solid; padding: 0px 7px; background-color: #ffffff;"><p class="rvps33"><span class="rvts15">02/01/2016</span></p>
+</td>
+<td width="69" height="57" valign="top" style="border-width : 1px; border-color: #000000; border-style: solid; padding: 0px 7px; background-color: #ffffff;"><p class="rvps33"><span class="rvts15">4</span></p>
+</td>
+</tr>
+<tr valign="top">
+<td width="68" height="20" valign="top" style="border-width : 1px; border-color: #000000; border-style: solid; padding: 0px 7px; background-color: #ffffff;"><p class="rvps33"><span class="rvts15">S2</span></p>
+</td>
+<td width="110" height="20" valign="top" style="border-width : 1px; border-color: #000000; border-style: solid; padding: 0px 7px; background-color: #ffffff;"><p class="rvps2"><span class="rvts31"><br/></span></p>
+</td>
+<td width="67" height="20" valign="top" style="border-width : 1px; border-color: #000000; border-style: solid; padding: 0px 7px; background-color: #ffffff;"><p class="rvps2"><span class="rvts31"><br/></span></p>
+</td>
+<td width="82" height="20" valign="top" style="border-width : 1px; border-color: #000000; border-style: solid; padding: 0px 7px; background-color: #ffffff;"><p class="rvps33"><span class="rvts15">Pending</span></p>
+</td>
+<td width="88" height="20" valign="top" style="border-width : 1px; border-color: #000000; border-style: solid; padding: 0px 7px; background-color: #ffffff;"><p class="rvps39"><span class="rvts15">09/01/2016</span></p>
+</td>
+<td width="88" height="20" valign="top" style="border-width : 1px; border-color: #000000; border-style: solid; padding: 0px 7px; background-color: #ffffff;"><p class="rvps39"><span class="rvts15">10/01/2016</span></p>
+</td>
+<td width="69" height="20" valign="top" style="border-width : 1px; border-color: #000000; border-style: solid; padding: 0px 7px; background-color: #ffffff;"><p class="rvps33"><span class="rvts15">4</span></p>
+</td>
+</tr>
+<tr valign="top">
+<td width="68" height="20" valign="top" style="border-width : 1px; border-color: #000000; border-style: solid; padding: 0px 7px; background-color: #ffffff;"><p class="rvps33"><span class="rvts15">S3</span></p>
+</td>
+<td width="110" height="20" valign="top" style="border-width : 1px; border-color: #000000; border-style: solid; padding: 0px 7px; background-color: #ffffff;"><p class="rvps2"><span class="rvts31"><br/></span></p>
+</td>
+<td width="67" height="20" valign="top" style="border-width : 1px; border-color: #000000; border-style: solid; padding: 0px 7px; background-color: #ffffff;"><p class="rvps2"><span class="rvts31"><br/></span></p>
+</td>
+<td width="82" height="20" valign="top" style="border-width : 1px; border-color: #000000; border-style: solid; padding: 0px 7px; background-color: #ffffff;"><p class="rvps33"><span class="rvts15">Pending</span></p>
+</td>
+<td width="88" height="20" valign="top" style="border-width : 1px; border-color: #000000; border-style: solid; padding: 0px 7px; background-color: #ffffff;"><p class="rvps39"><span class="rvts15">04/01/2017</span></p>
+</td>
+<td width="88" height="20" valign="top" style="border-width : 1px; border-color: #000000; border-style: solid; padding: 0px 7px; background-color: #ffffff;"><p class="rvps39"><span class="rvts15">05/01/2017</span></p>
+</td>
+<td width="69" height="20" valign="top" style="border-width : 1px; border-color: #000000; border-style: solid; padding: 0px 7px; background-color: #ffffff;"><p class="rvps33"><span class="rvts15">4</span></p>
+</td>
+</tr>
+<tr valign="top">
+<td width="68" height="20" valign="top" style="border-width : 1px; border-color: #000000; border-style: solid; padding: 0px 7px; background-color: #ffffff;"><p class="rvps33"><span class="rvts15">S4</span></p>
+</td>
+<td width="110" height="20" valign="top" style="border-width : 1px; border-color: #000000; border-style: solid; padding: 0px 7px; background-color: #ffffff;"><p class="rvps2"><span class="rvts31"><br/></span></p>
+</td>
+<td width="67" height="20" valign="top" style="border-width : 1px; border-color: #000000; border-style: solid; padding: 0px 7px; background-color: #ffffff;"><p class="rvps2"><span class="rvts31"><br/></span></p>
+</td>
+<td width="82" height="20" valign="top" style="border-width : 1px; border-color: #000000; border-style: solid; padding: 0px 7px; background-color: #ffffff;"><p class="rvps33"><span class="rvts15">Pending</span></p>
+</td>
+<td width="88" height="20" valign="top" style="border-width : 1px; border-color: #000000; border-style: solid; padding: 0px 7px; background-color: #ffffff;"><p class="rvps39"><span class="rvts15">11/01/2017</span></p>
+</td>
+<td width="88" height="20" valign="top" style="border-width : 1px; border-color: #000000; border-style: solid; padding: 0px 7px; background-color: #ffffff;"><p class="rvps39"><span class="rvts15">12/01/2017</span></p>
+</td>
+<td width="69" height="20" valign="top" style="border-width : 1px; border-color: #000000; border-style: solid; padding: 0px 7px; background-color: #ffffff;"><p class="rvps33"><span class="rvts15">4</span></p>
+</td>
+</tr>
+<tr valign="top">
+<td width="68" height="20" valign="top" style="border-width : 1px; border-color: #000000; border-style: solid; padding: 0px 7px; background-color: #ffffff;"><p class="rvps33"><span class="rvts15">S5</span></p>
+</td>
+<td width="110" height="20" valign="top" style="border-width : 1px; border-color: #000000; border-style: solid; padding: 0px 7px; background-color: #ffffff;"><p class="rvps2"><span class="rvts31"><br/></span></p>
+</td>
+<td width="67" height="20" valign="top" style="border-width : 1px; border-color: #000000; border-style: solid; padding: 0px 7px; background-color: #ffffff;"><p class="rvps2"><span class="rvts31"><br/></span></p>
+</td>
+<td width="82" height="20" valign="top" style="border-width : 1px; border-color: #000000; border-style: solid; padding: 0px 7px; background-color: #ffffff;"><p class="rvps33"><span class="rvts15">Pending</span></p>
+</td>
+<td width="88" height="20" valign="top" style="border-width : 1px; border-color: #000000; border-style: solid; padding: 0px 7px; background-color: #ffffff;"><p class="rvps39"><span class="rvts15">06/01/2018</span></p>
+</td>
+<td width="88" height="20" valign="top" style="border-width : 1px; border-color: #000000; border-style: solid; padding: 0px 7px; background-color: #ffffff;"><p class="rvps39"><span class="rvts15">07/01/2018</span></p>
+</td>
+<td width="69" height="20" valign="top" style="border-width : 1px; border-color: #000000; border-style: solid; padding: 0px 7px; background-color: #ffffff;"><p class="rvps33"><span class="rvts15">4</span></p>
+</td>
+</tr>
+<tr valign="top">
+<td width="68" height="20" valign="top" style="border-width : 1px; border-color: #000000; border-style: solid; padding: 0px 7px; background-color: #ffffff;"><p class="rvps33"><span class="rvts15">S6</span></p>
+</td>
+<td width="110" height="20" valign="top" style="border-width : 1px; border-color: #000000; border-style: solid; padding: 0px 7px; background-color: #ffffff;"><p class="rvps2"><span class="rvts31"><br/></span></p>
+</td>
+<td width="67" height="20" valign="top" style="border-width : 1px; border-color: #000000; border-style: solid; padding: 0px 7px; background-color: #ffffff;"><p class="rvps2"><span class="rvts31"><br/></span></p>
+</td>
+<td width="82" height="20" valign="top" style="border-width : 1px; border-color: #000000; border-style: solid; padding: 0px 7px; background-color: #ffffff;"><p class="rvps33"><span class="rvts15">Pending</span></p>
+</td>
+<td width="88" height="20" valign="top" style="border-width : 1px; border-color: #000000; border-style: solid; padding: 0px 7px; background-color: #ffffff;"><p class="rvps39"><span class="rvts15">01/01/2019</span></p>
+</td>
+<td width="88" height="20" valign="top" style="border-width : 1px; border-color: #000000; border-style: solid; padding: 0px 7px; background-color: #ffffff;"><p class="rvps39"><span class="rvts15">02/01/2019</span></p>
+</td>
+<td width="69" height="20" valign="top" style="border-width : 1px; border-color: #000000; border-style: solid; padding: 0px 7px; background-color: #ffffff;"><p class="rvps33"><span class="rvts15">4</span></p>
+</td>
+</tr>
+</table>
+</div>
+<p class="rvps10"><span class="rvts58"><br/></span></p>
+<p class="rvps7"><span class="rvts11">Here are possible different scenarios for combining all units to single Service :</span></p>
+<p class="rvps7"><span class="rvts17"><br/></span></p>
+<p class="rvps7"><span class="rvts17">Scenario 1:</span></p>
+<p class="rvps11"><span class="rvts11"><br/></span></p>
+<p class="rvps11"><span class="rvts11">1) We have the scheduled service for that client as shown as above:</span></p>
+<p class="rvps29"><span class="rvts11">Total Time to Service : 90 Minutes</span></p>
+<p class="rvps29"><span class="rvts11">S1: January, 4</span><span class="rvts57">th </span><span class="rvts11">2016 (Scheduled) - 4 Units - Time: 8 AM To 9:30 AM</span></p>
+<p class="rvps2"><span class="rvts11"><br/></span></p>
+<p class="rvps11"><span class="rvts11">2) Next, client adds another 4 units on January 3</span><span class="rvts57">rd </span><span class="rvts11">2016 When the scheduler will run, these 4 units will be merged to the above units’ services as follow:</span></p>
+<p class="rvps2"><span class="rvts11"><br/></span></p>
+<p class="rvps29"><span class="rvts11">Total Units = 4 + 4 = 8 Units</span></p>
+<p class="rvps29"><span class="rvts11">Total Service Time: 20 + 40 + (10 * 7) = 130 Minutes = 2hr &amp; 10min.</span></p>
+<p class="rvps29"><span class="rvts11">Time for S1: 8 AM To 10:10 AM</span></p>
+<p class="rvps29"><span class="rvts11"><br/></span></p>
+<p class="rvps29"><span class="rvts11">Case 1: If the employee is free between 9:30 to 10:10, then all the 8 units will be combined for Service S1.</span></p>
+<p class="rvps29"><span class="rvts11"><br/></span></p>
+<div class="rvps38"><table border="1" cellpadding="4" cellspacing="-1" style="border-width: 0px; border-collapse: collapse;">
+<tr valign="top">
+<td width="68" height="68" valign="top" style="border-width : 1px; border-color: #000000; border-style: solid; padding: 0px 7px; background-color: #ffffff;"><p class="rvps33"><span class="rvts60">Case #</span></p>
+</td>
+<td width="110" height="68" valign="top" style="border-width : 1px; border-color: #000000; border-style: solid; padding: 0px 7px; background-color: #ffffff;"><p class="rvps33"><span class="rvts60">Schedule Date</span></p>
+</td>
+<td width="67" height="68" valign="top" style="border-width : 1px; border-color: #000000; border-style: solid; padding: 0px 7px; background-color: #ffffff;"><p class="rvps33"><span class="rvts60">Service Time</span></p>
+</td>
+<td width="82" height="68" valign="top" style="border-width : 1px; border-color: #000000; border-style: solid; padding: 0px 7px; background-color: #ffffff;"><p class="rvps33"><span class="rvts60">Service Status</span></p>
+</td>
+<td width="88" height="68" valign="top" style="border-width : 1px; border-color: #000000; border-style: solid; padding: 0px 7px; background-color: #ffffff;"><p class="rvps33"><span class="rvts60">Expected Start Date</span></p>
+</td>
+<td width="88" height="68" valign="top" style="border-width : 1px; border-color: #000000; border-style: solid; padding: 0px 7px; background-color: #ffffff;"><p class="rvps33"><span class="rvts60">Expected End Date</span></p>
+</td>
+<td width="69" height="68" valign="top" style="border-width : 1px; border-color: #000000; border-style: solid; padding: 0px 7px; background-color: #ffffff;"><p class="rvps33"><span class="rvts60">Service Units</span></p>
+</td>
+</tr>
+<tr valign="top">
+<td width="68" height="57" valign="top" style="border-width : 1px; border-color: #000000; border-style: solid; padding: 0px 7px; background-color: #ffffff;"><p class="rvps33"><span class="rvts15">S1</span></p>
+</td>
+<td width="110" height="57" valign="top" style="border-width : 1px; border-color: #000000; border-style: solid; padding: 0px 7px; background-color: #ffffff;"><p class="rvps33"><span class="rvts15">01/04/2016</span></p>
+</td>
+<td width="67" height="57" valign="top" style="border-width : 1px; border-color: #000000; border-style: solid; padding: 0px 7px; background-color: #ffffff;"><p class="rvps33"><span class="rvts15">8:00 AM - 10:10 AM</span></p>
+</td>
+<td width="82" height="57" valign="top" style="border-width : 1px; border-color: #000000; border-style: solid; padding: 0px 7px; background-color: #ffffff;"><p class="rvps33"><span class="rvts15">Waiting For Approval</span></p>
+</td>
+<td width="88" height="57" valign="top" style="border-width : 1px; border-color: #000000; border-style: solid; padding: 0px 7px; background-color: #ffffff;"><p class="rvps33"><span class="rvts15">01/01/2016</span></p>
+</td>
+<td width="88" height="57" valign="top" style="border-width : 1px; border-color: #000000; border-style: solid; padding: 0px 7px; background-color: #ffffff;"><p class="rvps33"><span class="rvts15">02/01/2016</span></p>
+</td>
+<td width="69" height="57" valign="top" style="border-width : 1px; border-color: #000000; border-style: solid; padding: 0px 7px; background-color: #ffffff;"><p class="rvps33"><span class="rvts15">8</span></p>
+</td>
+</tr>
+<tr valign="top">
+<td width="68" height="20" valign="top" style="border-width : 1px; border-color: #000000; border-style: solid; padding: 0px 7px; background-color: #ffffff;"><p class="rvps33"><span class="rvts15">S2</span></p>
+</td>
+<td width="110" height="20" valign="top" style="border-width : 1px; border-color: #000000; border-style: solid; padding: 0px 7px; background-color: #ffffff;"><p class="rvps2"><span class="rvts31"><br/></span></p>
+</td>
+<td width="67" height="20" valign="top" style="border-width : 1px; border-color: #000000; border-style: solid; padding: 0px 7px; background-color: #ffffff;"><p class="rvps2"><span class="rvts31"><br/></span></p>
+</td>
+<td width="82" height="20" valign="top" style="border-width : 1px; border-color: #000000; border-style: solid; padding: 0px 7px; background-color: #ffffff;"><p class="rvps33"><span class="rvts15">Pending</span></p>
+</td>
+<td width="88" height="20" valign="top" style="border-width : 1px; border-color: #000000; border-style: solid; padding: 0px 7px; background-color: #ffffff;"><p class="rvps39"><span class="rvts15">09/01/2016</span></p>
+</td>
+<td width="88" height="20" valign="top" style="border-width : 1px; border-color: #000000; border-style: solid; padding: 0px 7px; background-color: #ffffff;"><p class="rvps39"><span class="rvts15">10/01/2016</span></p>
+</td>
+<td width="69" height="20" valign="top" style="border-width : 1px; border-color: #000000; border-style: solid; padding: 0px 7px; background-color: #ffffff;"><p class="rvps33"><span class="rvts15">8</span></p>
+</td>
+</tr>
+<tr valign="top">
+<td width="68" height="20" valign="top" style="border-width : 1px; border-color: #000000; border-style: solid; padding: 0px 7px; background-color: #ffffff;"><p class="rvps33"><span class="rvts15">S3</span></p>
+</td>
+<td width="110" height="20" valign="top" style="border-width : 1px; border-color: #000000; border-style: solid; padding: 0px 7px; background-color: #ffffff;"><p class="rvps2"><span class="rvts31"><br/></span></p>
+</td>
+<td width="67" height="20" valign="top" style="border-width : 1px; border-color: #000000; border-style: solid; padding: 0px 7px; background-color: #ffffff;"><p class="rvps2"><span class="rvts31"><br/></span></p>
+</td>
+<td width="82" height="20" valign="top" style="border-width : 1px; border-color: #000000; border-style: solid; padding: 0px 7px; background-color: #ffffff;"><p class="rvps33"><span class="rvts15">Pending</span></p>
+</td>
+<td width="88" height="20" valign="top" style="border-width : 1px; border-color: #000000; border-style: solid; padding: 0px 7px; background-color: #ffffff;"><p class="rvps39"><span class="rvts15">04/01/2017</span></p>
+</td>
+<td width="88" height="20" valign="top" style="border-width : 1px; border-color: #000000; border-style: solid; padding: 0px 7px; background-color: #ffffff;"><p class="rvps39"><span class="rvts15">05/01/2017</span></p>
+</td>
+<td width="69" height="20" valign="top" style="border-width : 1px; border-color: #000000; border-style: solid; padding: 0px 7px; background-color: #ffffff;"><p class="rvps33"><span class="rvts15">8</span></p>
+</td>
+</tr>
+<tr valign="top">
+<td width="68" height="20" valign="top" style="border-width : 1px; border-color: #000000; border-style: solid; padding: 0px 7px; background-color: #ffffff;"><p class="rvps33"><span class="rvts15">S4</span></p>
+</td>
+<td width="110" height="20" valign="top" style="border-width : 1px; border-color: #000000; border-style: solid; padding: 0px 7px; background-color: #ffffff;"><p class="rvps2"><span class="rvts31"><br/></span></p>
+</td>
+<td width="67" height="20" valign="top" style="border-width : 1px; border-color: #000000; border-style: solid; padding: 0px 7px; background-color: #ffffff;"><p class="rvps2"><span class="rvts31"><br/></span></p>
+</td>
+<td width="82" height="20" valign="top" style="border-width : 1px; border-color: #000000; border-style: solid; padding: 0px 7px; background-color: #ffffff;"><p class="rvps33"><span class="rvts15">Pending</span></p>
+</td>
+<td width="88" height="20" valign="top" style="border-width : 1px; border-color: #000000; border-style: solid; padding: 0px 7px; background-color: #ffffff;"><p class="rvps39"><span class="rvts15">11/01/2017</span></p>
+</td>
+<td width="88" height="20" valign="top" style="border-width : 1px; border-color: #000000; border-style: solid; padding: 0px 7px; background-color: #ffffff;"><p class="rvps39"><span class="rvts15">12/01/2017</span></p>
+</td>
+<td width="69" height="20" valign="top" style="border-width : 1px; border-color: #000000; border-style: solid; padding: 0px 7px; background-color: #ffffff;"><p class="rvps33"><span class="rvts15">8</span></p>
+</td>
+</tr>
+<tr valign="top">
+<td width="68" height="20" valign="top" style="border-width : 1px; border-color: #000000; border-style: solid; padding: 0px 7px; background-color: #ffffff;"><p class="rvps33"><span class="rvts15">S5</span></p>
+</td>
+<td width="110" height="20" valign="top" style="border-width : 1px; border-color: #000000; border-style: solid; padding: 0px 7px; background-color: #ffffff;"><p class="rvps2"><span class="rvts31"><br/></span></p>
+</td>
+<td width="67" height="20" valign="top" style="border-width : 1px; border-color: #000000; border-style: solid; padding: 0px 7px; background-color: #ffffff;"><p class="rvps2"><span class="rvts31"><br/></span></p>
+</td>
+<td width="82" height="20" valign="top" style="border-width : 1px; border-color: #000000; border-style: solid; padding: 0px 7px; background-color: #ffffff;"><p class="rvps33"><span class="rvts15">Pending</span></p>
+</td>
+<td width="88" height="20" valign="top" style="border-width : 1px; border-color: #000000; border-style: solid; padding: 0px 7px; background-color: #ffffff;"><p class="rvps39"><span class="rvts15">06/01/2018</span></p>
+</td>
+<td width="88" height="20" valign="top" style="border-width : 1px; border-color: #000000; border-style: solid; padding: 0px 7px; background-color: #ffffff;"><p class="rvps39"><span class="rvts15">07/01/2018</span></p>
+</td>
+<td width="69" height="20" valign="top" style="border-width : 1px; border-color: #000000; border-style: solid; padding: 0px 7px; background-color: #ffffff;"><p class="rvps33"><span class="rvts15">8</span></p>
+</td>
+</tr>
+<tr valign="top">
+<td width="68" height="20" valign="top" style="border-width : 1px; border-color: #000000; border-style: solid; padding: 0px 7px; background-color: #ffffff;"><p class="rvps33"><span class="rvts15">S6</span></p>
+</td>
+<td width="110" height="20" valign="top" style="border-width : 1px; border-color: #000000; border-style: solid; padding: 0px 7px; background-color: #ffffff;"><p class="rvps2"><span class="rvts31"><br/></span></p>
+</td>
+<td width="67" height="20" valign="top" style="border-width : 1px; border-color: #000000; border-style: solid; padding: 0px 7px; background-color: #ffffff;"><p class="rvps2"><span class="rvts31"><br/></span></p>
+</td>
+<td width="82" height="20" valign="top" style="border-width : 1px; border-color: #000000; border-style: solid; padding: 0px 7px; background-color: #ffffff;"><p class="rvps33"><span class="rvts15">Pending</span></p>
+</td>
+<td width="88" height="20" valign="top" style="border-width : 1px; border-color: #000000; border-style: solid; padding: 0px 7px; background-color: #ffffff;"><p class="rvps39"><span class="rvts15">01/01/2019</span></p>
+</td>
+<td width="88" height="20" valign="top" style="border-width : 1px; border-color: #000000; border-style: solid; padding: 0px 7px; background-color: #ffffff;"><p class="rvps39"><span class="rvts15">02/01/2019</span></p>
+</td>
+<td width="69" height="20" valign="top" style="border-width : 1px; border-color: #000000; border-style: solid; padding: 0px 7px; background-color: #ffffff;"><p class="rvps33"><span class="rvts15">8</span></p>
+</td>
+</tr>
+</table>
+</div>
+<p class="rvps38"><span class="rvts31"><br/></span></p>
+<p class="rvps38"><span class="rvts31"><br/></span></p>
+<p class="rvps29"><span class="rvts11">Case 2: If the employee is not free between 9:30 to 10:10, then for S1 the scheduled date will be changed. S1 service will be scheduled on a new date on which the employee will be available for 130min. </span></p>
+<p class="rvps29"><span class="rvts11"><br/></span></p>
+<p class="rvps29"><span class="rvts11">The other appointments for the 8 Units will be as below:</span></p>
+<p class="rvps7"><span class="rvts11"><br/></span></p>
+<div class="rvps38"><table border="1" cellpadding="4" cellspacing="-1" style="border-width: 0px; border-collapse: collapse;">
+<tr valign="top">
+<td width="68" height="68" valign="top" style="border-width : 1px; border-color: #000000; border-style: solid; padding: 0px 7px; background-color: #ffffff;"><p class="rvps33"><span class="rvts60">Case #</span></p>
+</td>
+<td width="110" height="68" valign="top" style="border-width : 1px; border-color: #000000; border-style: solid; padding: 0px 7px; background-color: #ffffff;"><p class="rvps33"><span class="rvts60">Schedule Date</span></p>
+</td>
+<td width="67" height="68" valign="top" style="border-width : 1px; border-color: #000000; border-style: solid; padding: 0px 7px; background-color: #ffffff;"><p class="rvps33"><span class="rvts60">Service Time</span></p>
+</td>
+<td width="82" height="68" valign="top" style="border-width : 1px; border-color: #000000; border-style: solid; padding: 0px 7px; background-color: #ffffff;"><p class="rvps33"><span class="rvts60">Service Status</span></p>
+</td>
+<td width="88" height="68" valign="top" style="border-width : 1px; border-color: #000000; border-style: solid; padding: 0px 7px; background-color: #ffffff;"><p class="rvps33"><span class="rvts60">Expected Start Date</span></p>
+</td>
+<td width="88" height="68" valign="top" style="border-width : 1px; border-color: #000000; border-style: solid; padding: 0px 7px; background-color: #ffffff;"><p class="rvps33"><span class="rvts60">Expected End Date</span></p>
+</td>
+<td width="69" height="68" valign="top" style="border-width : 1px; border-color: #000000; border-style: solid; padding: 0px 7px; background-color: #ffffff;"><p class="rvps33"><span class="rvts60">Service Units</span></p>
+</td>
+</tr>
+<tr valign="top">
+<td width="68" height="57" valign="top" style="border-width : 1px; border-color: #000000; border-style: solid; padding: 0px 7px; background-color: #ffffff;"><p class="rvps33"><span class="rvts15">S1</span></p>
+</td>
+<td width="110" height="57" valign="top" style="border-width : 1px; border-color: #000000; border-style: solid; padding: 0px 7px; background-color: #ffffff;"><p class="rvps33"><span class="rvts61">01/05/2016</span></p>
+</td>
+<td width="67" height="57" valign="top" style="border-width : 1px; border-color: #000000; border-style: solid; padding: 0px 7px; background-color: #ffffff;"><p class="rvps33"><span class="rvts15">8:00 AM - 10:10 AM</span></p>
+</td>
+<td width="82" height="57" valign="top" style="border-width : 1px; border-color: #000000; border-style: solid; padding: 0px 7px; background-color: #ffffff;"><p class="rvps33"><span class="rvts15">Waiting For Approval</span></p>
+</td>
+<td width="88" height="57" valign="top" style="border-width : 1px; border-color: #000000; border-style: solid; padding: 0px 7px; background-color: #ffffff;"><p class="rvps33"><span class="rvts15">01/01/2016</span></p>
+</td>
+<td width="88" height="57" valign="top" style="border-width : 1px; border-color: #000000; border-style: solid; padding: 0px 7px; background-color: #ffffff;"><p class="rvps33"><span class="rvts15">02/01/2016</span></p>
+</td>
+<td width="69" height="57" valign="top" style="border-width : 1px; border-color: #000000; border-style: solid; padding: 0px 7px; background-color: #ffffff;"><p class="rvps33"><span class="rvts15">8</span></p>
+</td>
+</tr>
+<tr valign="top">
+<td width="68" height="20" valign="top" style="border-width : 1px; border-color: #000000; border-style: solid; padding: 0px 7px; background-color: #ffffff;"><p class="rvps33"><span class="rvts15">S2</span></p>
+</td>
+<td width="110" height="20" valign="top" style="border-width : 1px; border-color: #000000; border-style: solid; padding: 0px 7px; background-color: #ffffff;"><p class="rvps2"><span class="rvts31"><br/></span></p>
+</td>
+<td width="67" height="20" valign="top" style="border-width : 1px; border-color: #000000; border-style: solid; padding: 0px 7px; background-color: #ffffff;"><p class="rvps2"><span class="rvts31"><br/></span></p>
+</td>
+<td width="82" height="20" valign="top" style="border-width : 1px; border-color: #000000; border-style: solid; padding: 0px 7px; background-color: #ffffff;"><p class="rvps33"><span class="rvts15">Pending</span></p>
+</td>
+<td width="88" height="20" valign="top" style="border-width : 1px; border-color: #000000; border-style: solid; padding: 0px 7px; background-color: #ffffff;"><p class="rvps39"><span class="rvts15">09/01/2016</span></p>
+</td>
+<td width="88" height="20" valign="top" style="border-width : 1px; border-color: #000000; border-style: solid; padding: 0px 7px; background-color: #ffffff;"><p class="rvps39"><span class="rvts15">10/01/2016</span></p>
+</td>
+<td width="69" height="20" valign="top" style="border-width : 1px; border-color: #000000; border-style: solid; padding: 0px 7px; background-color: #ffffff;"><p class="rvps33"><span class="rvts15">8</span></p>
+</td>
+</tr>
+<tr valign="top">
+<td width="68" height="20" valign="top" style="border-width : 1px; border-color: #000000; border-style: solid; padding: 0px 7px; background-color: #ffffff;"><p class="rvps33"><span class="rvts15">S3</span></p>
+</td>
+<td width="110" height="20" valign="top" style="border-width : 1px; border-color: #000000; border-style: solid; padding: 0px 7px; background-color: #ffffff;"><p class="rvps2"><span class="rvts31"><br/></span></p>
+</td>
+<td width="67" height="20" valign="top" style="border-width : 1px; border-color: #000000; border-style: solid; padding: 0px 7px; background-color: #ffffff;"><p class="rvps2"><span class="rvts31"><br/></span></p>
+</td>
+<td width="82" height="20" valign="top" style="border-width : 1px; border-color: #000000; border-style: solid; padding: 0px 7px; background-color: #ffffff;"><p class="rvps33"><span class="rvts15">Pending</span></p>
+</td>
+<td width="88" height="20" valign="top" style="border-width : 1px; border-color: #000000; border-style: solid; padding: 0px 7px; background-color: #ffffff;"><p class="rvps39"><span class="rvts15">04/01/2017</span></p>
+</td>
+<td width="88" height="20" valign="top" style="border-width : 1px; border-color: #000000; border-style: solid; padding: 0px 7px; background-color: #ffffff;"><p class="rvps39"><span class="rvts15">05/01/2017</span></p>
+</td>
+<td width="69" height="20" valign="top" style="border-width : 1px; border-color: #000000; border-style: solid; padding: 0px 7px; background-color: #ffffff;"><p class="rvps33"><span class="rvts15">8</span></p>
+</td>
+</tr>
+<tr valign="top">
+<td width="68" height="20" valign="top" style="border-width : 1px; border-color: #000000; border-style: solid; padding: 0px 7px; background-color: #ffffff;"><p class="rvps33"><span class="rvts15">S4</span></p>
+</td>
+<td width="110" height="20" valign="top" style="border-width : 1px; border-color: #000000; border-style: solid; padding: 0px 7px; background-color: #ffffff;"><p class="rvps2"><span class="rvts31"><br/></span></p>
+</td>
+<td width="67" height="20" valign="top" style="border-width : 1px; border-color: #000000; border-style: solid; padding: 0px 7px; background-color: #ffffff;"><p class="rvps2"><span class="rvts31"><br/></span></p>
+</td>
+<td width="82" height="20" valign="top" style="border-width : 1px; border-color: #000000; border-style: solid; padding: 0px 7px; background-color: #ffffff;"><p class="rvps33"><span class="rvts15">Pending</span></p>
+</td>
+<td width="88" height="20" valign="top" style="border-width : 1px; border-color: #000000; border-style: solid; padding: 0px 7px; background-color: #ffffff;"><p class="rvps39"><span class="rvts15">11/01/2017</span></p>
+</td>
+<td width="88" height="20" valign="top" style="border-width : 1px; border-color: #000000; border-style: solid; padding: 0px 7px; background-color: #ffffff;"><p class="rvps39"><span class="rvts15">12/01/2017</span></p>
+</td>
+<td width="69" height="20" valign="top" style="border-width : 1px; border-color: #000000; border-style: solid; padding: 0px 7px; background-color: #ffffff;"><p class="rvps33"><span class="rvts15">8</span></p>
+</td>
+</tr>
+<tr valign="top">
+<td width="68" height="20" valign="top" style="border-width : 1px; border-color: #000000; border-style: solid; padding: 0px 7px; background-color: #ffffff;"><p class="rvps33"><span class="rvts15">S5</span></p>
+</td>
+<td width="110" height="20" valign="top" style="border-width : 1px; border-color: #000000; border-style: solid; padding: 0px 7px; background-color: #ffffff;"><p class="rvps2"><span class="rvts31"><br/></span></p>
+</td>
+<td width="67" height="20" valign="top" style="border-width : 1px; border-color: #000000; border-style: solid; padding: 0px 7px; background-color: #ffffff;"><p class="rvps2"><span class="rvts31"><br/></span></p>
+</td>
+<td width="82" height="20" valign="top" style="border-width : 1px; border-color: #000000; border-style: solid; padding: 0px 7px; background-color: #ffffff;"><p class="rvps33"><span class="rvts15">Pending</span></p>
+</td>
+<td width="88" height="20" valign="top" style="border-width : 1px; border-color: #000000; border-style: solid; padding: 0px 7px; background-color: #ffffff;"><p class="rvps39"><span class="rvts15">06/01/2018</span></p>
+</td>
+<td width="88" height="20" valign="top" style="border-width : 1px; border-color: #000000; border-style: solid; padding: 0px 7px; background-color: #ffffff;"><p class="rvps39"><span class="rvts15">07/01/2018</span></p>
+</td>
+<td width="69" height="20" valign="top" style="border-width : 1px; border-color: #000000; border-style: solid; padding: 0px 7px; background-color: #ffffff;"><p class="rvps33"><span class="rvts15">8</span></p>
+</td>
+</tr>
+<tr valign="top">
+<td width="68" height="20" valign="top" style="border-width : 1px; border-color: #000000; border-style: solid; padding: 0px 7px; background-color: #ffffff;"><p class="rvps33"><span class="rvts15">S6</span></p>
+</td>
+<td width="110" height="20" valign="top" style="border-width : 1px; border-color: #000000; border-style: solid; padding: 0px 7px; background-color: #ffffff;"><p class="rvps2"><span class="rvts31"><br/></span></p>
+</td>
+<td width="67" height="20" valign="top" style="border-width : 1px; border-color: #000000; border-style: solid; padding: 0px 7px; background-color: #ffffff;"><p class="rvps2"><span class="rvts31"><br/></span></p>
+</td>
+<td width="82" height="20" valign="top" style="border-width : 1px; border-color: #000000; border-style: solid; padding: 0px 7px; background-color: #ffffff;"><p class="rvps33"><span class="rvts15">Pending</span></p>
+</td>
+<td width="88" height="20" valign="top" style="border-width : 1px; border-color: #000000; border-style: solid; padding: 0px 7px; background-color: #ffffff;"><p class="rvps39"><span class="rvts15">01/01/2019</span></p>
+</td>
+<td width="88" height="20" valign="top" style="border-width : 1px; border-color: #000000; border-style: solid; padding: 0px 7px; background-color: #ffffff;"><p class="rvps39"><span class="rvts15">02/01/2019</span></p>
+</td>
+<td width="69" height="20" valign="top" style="border-width : 1px; border-color: #000000; border-style: solid; padding: 0px 7px; background-color: #ffffff;"><p class="rvps33"><span class="rvts15">8</span></p>
+</td>
+</tr>
+</table>
+</div>
+<p class="rvps38"><span class="rvts11"><br/></span></p>
+<p class="rvps29"><span class="rvts11">• Employee 1 will be assigned for 1st Service.</span></p>
+<p class="rvps2"><span class="rvts11"><br/></span></p>
+<p class="rvps29"><span class="rvts11">• For all other 5 services, if employee 1 will be free on the first date of Expected Start Date, then only Employee 1 will be assigned. If employee 1 is unavailable that date, try the next day till you find a date where he is available. If he is not available till Expected End Date, then try the same with employee 2 starting with the first sequential date from Expected Start Date.</span></p>
+<p class="rvps29"><span class="rvts11"><br/></span></p>
+<p class="rvps29"><span class="rvts11">• Notification will be sent to the customer: “Your service appointment C1-90038-S1 was rescheduled to accommodate the newly added units.”</span></p>
+<p class="rvps7"><span class="rvts17"><br/></span></p>
+<p class="rvps7"><span class="rvts17">Scenario 2:</span></p>
+<p class="rvps7"><span class="rvts17"><br/></span></p>
+<p class="rvps11"><span class="rvts11">• We have the scheduled service for that client as shown as above:</span></p>
+<p class="rvps29"><span class="rvts11"><br/></span></p>
+<p class="rvps29"><span class="rvts11">Total Time to Service : 90 Minutes</span></p>
+<p class="rvps29"><span class="rvts11">S1 : 4th January, 2016 (Scheduled) - 4 Units - Time : 8 AM To 9:30 AM</span></p>
+<p class="rvps2"><span class="rvts11"><br/></span></p>
+<p class="rvps11"><span class="rvts11">• Now the client will add another 4 units on the date : 02/01/2016 (After a Month)</span></p>
+<p class="rvps2"><span class="rvts11"><br/></span></p>
+<p class="rvps11"><span class="rvts11">• When the scheduler will run, these 4 units will be merged to the above unit’s services as like below :</span></p>
+<p class="rvps11"><span class="rvts11"><br/></span></p>
+<div class="rvps37"><table border="1" cellpadding="4" cellspacing="-1" style="border-width: 0px; border-collapse: collapse;">
+<tr valign="top">
+<td width="68" height="68" valign="top" style="border-width : 1px; border-color: #000000; border-style: solid; padding: 0px 7px; background-color: #ffffff;"><p class="rvps33"><span class="rvts60">Case #</span></p>
+</td>
+<td width="110" height="68" valign="top" style="border-width : 1px; border-color: #000000; border-style: solid; padding: 0px 7px; background-color: #ffffff;"><p class="rvps33"><span class="rvts60">Schedule Date</span></p>
+</td>
+<td width="67" height="68" valign="top" style="border-width : 1px; border-color: #000000; border-style: solid; padding: 0px 7px; background-color: #ffffff;"><p class="rvps33"><span class="rvts60">Service Time</span></p>
+</td>
+<td width="82" height="68" valign="top" style="border-width : 1px; border-color: #000000; border-style: solid; padding: 0px 7px; background-color: #ffffff;"><p class="rvps33"><span class="rvts60">Service Status</span></p>
+</td>
+<td width="88" height="68" valign="top" style="border-width : 1px; border-color: #000000; border-style: solid; padding: 0px 7px; background-color: #ffffff;"><p class="rvps33"><span class="rvts60">Expected Start Date</span></p>
+</td>
+<td width="88" height="68" valign="top" style="border-width : 1px; border-color: #000000; border-style: solid; padding: 0px 7px; background-color: #ffffff;"><p class="rvps33"><span class="rvts60">Expected End Date</span></p>
+</td>
+<td width="69" height="68" valign="top" style="border-width : 1px; border-color: #000000; border-style: solid; padding: 0px 7px; background-color: #ffffff;"><p class="rvps33"><span class="rvts60">Service Units</span></p>
+</td>
+</tr>
+<tr valign="top">
+<td width="68" height="57" valign="top" style="border-width : 1px; border-color: #000000; border-style: solid; padding: 0px 7px; background-color: #ffffff;"><p class="rvps33"><span class="rvts15">S1</span></p>
+</td>
+<td width="110" height="57" valign="top" style="border-width : 1px; border-color: #000000; border-style: solid; padding: 0px 7px; background-color: #ffffff;"><p class="rvps33"><span class="rvts15">01/04/2016</span></p>
+</td>
+<td width="67" height="57" valign="top" style="border-width : 1px; border-color: #000000; border-style: solid; padding: 0px 7px; background-color: #ffffff;"><p class="rvps33"><span class="rvts15">8:00 AM - 09:30 AM</span></p>
+</td>
+<td width="82" height="57" valign="top" style="border-width : 1px; border-color: #000000; border-style: solid; padding: 0px 7px; background-color: #ffffff;"><p class="rvps33"><span class="rvts15">Scheduled</span></p>
+</td>
+<td width="88" height="57" valign="top" style="border-width : 1px; border-color: #000000; border-style: solid; padding: 0px 7px; background-color: #ffffff;"><p class="rvps33"><span class="rvts15">01/01/2016</span></p>
+</td>
+<td width="88" height="57" valign="top" style="border-width : 1px; border-color: #000000; border-style: solid; padding: 0px 7px; background-color: #ffffff;"><p class="rvps33"><span class="rvts15">02/01/2016</span></p>
+</td>
+<td width="69" height="57" valign="top" style="border-width : 1px; border-color: #000000; border-style: solid; padding: 0px 7px; background-color: #ffffff;"><p class="rvps33"><span class="rvts15">4</span></p>
+</td>
+</tr>
+<tr valign="top">
+<td width="68" height="20" valign="top" style="border-width : 1px; border-color: #000000; border-style: solid; padding: 0px 7px; background-color: #ffffff;"><p class="rvps33"><span class="rvts15">S2</span></p>
+</td>
+<td width="110" height="20" valign="top" style="border-width : 1px; border-color: #000000; border-style: solid; padding: 0px 7px; background-color: #ffffff;"><p class="rvps2"><span class="rvts31"><br/></span></p>
+</td>
+<td width="67" height="20" valign="top" style="border-width : 1px; border-color: #000000; border-style: solid; padding: 0px 7px; background-color: #ffffff;"><p class="rvps2"><span class="rvts31"><br/></span></p>
+</td>
+<td width="82" height="20" valign="top" style="border-width : 1px; border-color: #000000; border-style: solid; padding: 0px 7px; background-color: #ffffff;"><p class="rvps33"><span class="rvts15">Pending</span></p>
+</td>
+<td width="88" height="20" valign="top" style="border-width : 1px; border-color: #000000; border-style: solid; padding: 0px 7px; background-color: #ffffff;"><p class="rvps39"><span class="rvts15">09/01/2016</span></p>
+</td>
+<td width="88" height="20" valign="top" style="border-width : 1px; border-color: #000000; border-style: solid; padding: 0px 7px; background-color: #ffffff;"><p class="rvps39"><span class="rvts15">10/01/2016</span></p>
+</td>
+<td width="69" height="20" valign="top" style="border-width : 1px; border-color: #000000; border-style: solid; padding: 0px 7px; background-color: #ffffff;"><p class="rvps33"><span class="rvts15">8</span></p>
+</td>
+</tr>
+<tr valign="top">
+<td width="68" height="20" valign="top" style="border-width : 1px; border-color: #000000; border-style: solid; padding: 0px 7px; background-color: #ffffff;"><p class="rvps33"><span class="rvts15">S3</span></p>
+</td>
+<td width="110" height="20" valign="top" style="border-width : 1px; border-color: #000000; border-style: solid; padding: 0px 7px; background-color: #ffffff;"><p class="rvps2"><span class="rvts31"><br/></span></p>
+</td>
+<td width="67" height="20" valign="top" style="border-width : 1px; border-color: #000000; border-style: solid; padding: 0px 7px; background-color: #ffffff;"><p class="rvps2"><span class="rvts31"><br/></span></p>
+</td>
+<td width="82" height="20" valign="top" style="border-width : 1px; border-color: #000000; border-style: solid; padding: 0px 7px; background-color: #ffffff;"><p class="rvps33"><span class="rvts15">Pending</span></p>
+</td>
+<td width="88" height="20" valign="top" style="border-width : 1px; border-color: #000000; border-style: solid; padding: 0px 7px; background-color: #ffffff;"><p class="rvps39"><span class="rvts15">04/01/2017</span></p>
+</td>
+<td width="88" height="20" valign="top" style="border-width : 1px; border-color: #000000; border-style: solid; padding: 0px 7px; background-color: #ffffff;"><p class="rvps39"><span class="rvts15">05/01/2017</span></p>
+</td>
+<td width="69" height="20" valign="top" style="border-width : 1px; border-color: #000000; border-style: solid; padding: 0px 7px; background-color: #ffffff;"><p class="rvps33"><span class="rvts15">8</span></p>
+</td>
+</tr>
+<tr valign="top">
+<td width="68" height="20" valign="top" style="border-width : 1px; border-color: #000000; border-style: solid; padding: 0px 7px; background-color: #ffffff;"><p class="rvps33"><span class="rvts15">S4</span></p>
+</td>
+<td width="110" height="20" valign="top" style="border-width : 1px; border-color: #000000; border-style: solid; padding: 0px 7px; background-color: #ffffff;"><p class="rvps2"><span class="rvts31"><br/></span></p>
+</td>
+<td width="67" height="20" valign="top" style="border-width : 1px; border-color: #000000; border-style: solid; padding: 0px 7px; background-color: #ffffff;"><p class="rvps2"><span class="rvts31"><br/></span></p>
+</td>
+<td width="82" height="20" valign="top" style="border-width : 1px; border-color: #000000; border-style: solid; padding: 0px 7px; background-color: #ffffff;"><p class="rvps33"><span class="rvts15">Pending</span></p>
+</td>
+<td width="88" height="20" valign="top" style="border-width : 1px; border-color: #000000; border-style: solid; padding: 0px 7px; background-color: #ffffff;"><p class="rvps39"><span class="rvts15">11/01/2017</span></p>
+</td>
+<td width="88" height="20" valign="top" style="border-width : 1px; border-color: #000000; border-style: solid; padding: 0px 7px; background-color: #ffffff;"><p class="rvps39"><span class="rvts15">12/01/2017</span></p>
+</td>
+<td width="69" height="20" valign="top" style="border-width : 1px; border-color: #000000; border-style: solid; padding: 0px 7px; background-color: #ffffff;"><p class="rvps33"><span class="rvts15">8</span></p>
+</td>
+</tr>
+<tr valign="top">
+<td width="68" height="20" valign="top" style="border-width : 1px; border-color: #000000; border-style: solid; padding: 0px 7px; background-color: #ffffff;"><p class="rvps33"><span class="rvts15">S5</span></p>
+</td>
+<td width="110" height="20" valign="top" style="border-width : 1px; border-color: #000000; border-style: solid; padding: 0px 7px; background-color: #ffffff;"><p class="rvps2"><span class="rvts31"><br/></span></p>
+</td>
+<td width="67" height="20" valign="top" style="border-width : 1px; border-color: #000000; border-style: solid; padding: 0px 7px; background-color: #ffffff;"><p class="rvps2"><span class="rvts31"><br/></span></p>
+</td>
+<td width="82" height="20" valign="top" style="border-width : 1px; border-color: #000000; border-style: solid; padding: 0px 7px; background-color: #ffffff;"><p class="rvps33"><span class="rvts15">Pending</span></p>
+</td>
+<td width="88" height="20" valign="top" style="border-width : 1px; border-color: #000000; border-style: solid; padding: 0px 7px; background-color: #ffffff;"><p class="rvps39"><span class="rvts15">06/01/2018</span></p>
+</td>
+<td width="88" height="20" valign="top" style="border-width : 1px; border-color: #000000; border-style: solid; padding: 0px 7px; background-color: #ffffff;"><p class="rvps39"><span class="rvts15">07/01/2018</span></p>
+</td>
+<td width="69" height="20" valign="top" style="border-width : 1px; border-color: #000000; border-style: solid; padding: 0px 7px; background-color: #ffffff;"><p class="rvps33"><span class="rvts15">8</span></p>
+</td>
+</tr>
+<tr valign="top">
+<td width="68" height="20" valign="top" style="border-width : 1px; border-color: #000000; border-style: solid; padding: 0px 7px; background-color: #ffffff;"><p class="rvps33"><span class="rvts15">S6</span></p>
+</td>
+<td width="110" height="20" valign="top" style="border-width : 1px; border-color: #000000; border-style: solid; padding: 0px 7px; background-color: #ffffff;"><p class="rvps2"><span class="rvts31"><br/></span></p>
+</td>
+<td width="67" height="20" valign="top" style="border-width : 1px; border-color: #000000; border-style: solid; padding: 0px 7px; background-color: #ffffff;"><p class="rvps2"><span class="rvts31"><br/></span></p>
+</td>
+<td width="82" height="20" valign="top" style="border-width : 1px; border-color: #000000; border-style: solid; padding: 0px 7px; background-color: #ffffff;"><p class="rvps33"><span class="rvts15">Pending</span></p>
+</td>
+<td width="88" height="20" valign="top" style="border-width : 1px; border-color: #000000; border-style: solid; padding: 0px 7px; background-color: #ffffff;"><p class="rvps39"><span class="rvts15">01/01/2019</span></p>
+</td>
+<td width="88" height="20" valign="top" style="border-width : 1px; border-color: #000000; border-style: solid; padding: 0px 7px; background-color: #ffffff;"><p class="rvps39"><span class="rvts15">02/01/2019</span></p>
+</td>
+<td width="69" height="20" valign="top" style="border-width : 1px; border-color: #000000; border-style: solid; padding: 0px 7px; background-color: #ffffff;"><p class="rvps33"><span class="rvts15">8</span></p>
+</td>
+</tr>
+<tr valign="top">
+<td width="68" height="57" valign="top" style="border-width : 1px; border-color: #000000; border-style: solid; padding: 0px 7px; background-color: #ffffff;"><p class="rvps33"><span class="rvts15">S7</span></p>
+</td>
+<td width="110" height="57" valign="top" style="border-width : 1px; border-color: #000000; border-style: solid; padding: 0px 7px; background-color: #ffffff;"><p class="rvps33"><span class="rvts15">02/04/2016</span></p>
+</td>
+<td width="67" height="57" valign="top" style="border-width : 1px; border-color: #000000; border-style: solid; padding: 0px 7px; background-color: #ffffff;"><p class="rvps33"><span class="rvts15">8:00 AM - 09:30 AM</span></p>
+</td>
+<td width="82" height="57" valign="top" style="border-width : 1px; border-color: #000000; border-style: solid; padding: 0px 7px; background-color: #ffffff;"><p class="rvps33"><span class="rvts15">Scheduled</span></p>
+</td>
+<td width="88" height="57" valign="top" style="border-width : 1px; border-color: #000000; border-style: solid; padding: 0px 7px; background-color: #ffffff;"><p class="rvps39"><span class="rvts15">02/01/2016</span></p>
+</td>
+<td width="88" height="57" valign="top" style="border-width : 1px; border-color: #000000; border-style: solid; padding: 0px 7px; background-color: #ffffff;"><p class="rvps39"><span class="rvts15">03/01/2016</span></p>
+</td>
+<td width="69" height="57" valign="top" style="border-width : 1px; border-color: #000000; border-style: solid; padding: 0px 7px; background-color: #ffffff;"><p class="rvps33"><span class="rvts15">4</span></p>
+</td>
+</tr>
+</table>
+</div>
+<p class="rvps37"><span class="rvts31"><br/></span></p>
+<p class="rvps37"><span class="rvts31"><br/></span></p>
+<p class="rvps11"><span class="rvts11">• So in this scenario, the 1st service for the newly added 4 units will be added.</span></p>
+<p class="rvps11"><span class="rvts11"><br/></span></p>
+<p class="rvps11"><span class="rvts11">• Means one separate service S7 will be added as the first service of newly added 4 units.</span></p>
+<p class="rvps2"><span class="rvts11"><br/></span></p>
+<p class="rvps11"><span class="rvts11">• And the another 5 appointments will be combined to the existing 5 appointments as described above.</span></p>
+<p class="rvps2"><span class="rvts11"><br/></span></p>
+<p class="rvps11"><span class="rvts11">• For S1 (First Service of Existing Unit) - Employee 1 will be assigned</span></p>
+<p class="rvps11"><span class="rvts11"><br/></span></p>
+<p class="rvps11"><span class="rvts11">• For S7 (First Service of Newly added Unit) - Employee 2 will be assigned. (As theEmployee 1 is not free for the date range)</span></p>
+<p class="rvps2"><span class="rvts11"><br/></span></p>
+<p class="rvps11"><span class="rvts11">• So for the other services like S2, S3, S4, S5 and S6 which employee 1 will be assigned.</span></p>
+<p class="rvps11"><span class="rvts11"><br/></span></p>
+<p class="rvps7"><span class="rvts17">Scenario : 3</span></p>
+<p class="rvps11"><span class="rvts11">• We have the scheduled service for that client as shown as above:</span></p>
+<p class="rvps29"><span class="rvts11"><br/></span></p>
+<p class="rvps29"><span class="rvts11">Total Time to Service : 90 Minutes</span></p>
+<p class="rvps29"><span class="rvts11">S1 : 4th January, 2016 (Scheduled) - 4 Units - Time : 8 AM To 9:30 AM</span></p>
+<p class="rvps2"><span class="rvts11"><br/></span></p>
+<p class="rvps11"><span class="rvts11">• Now the client will add another 4 units on the date : 5/Aug/2016 (Which is near to the S2 - 2nd existing service)</span></p>
+<p class="rvps2"><span class="rvts11"><br/></span></p>
+<p class="rvps11"><span class="rvts11">• When the scheduler will run, these 4 units will be merged to the above units services as like below :</span></p>
+<p class="rvps11"><span class="rvts11"><br/></span></p>
+<div class="rvps37"><table border="1" cellpadding="4" cellspacing="-1" style="border-width: 0px; border-collapse: collapse;">
+<tr valign="top">
+<td width="68" height="68" valign="top" style="border-width : 1px; border-color: #000000; border-style: solid; padding: 0px 7px; background-color: #ffffff;"><p class="rvps33"><span class="rvts60">Case #</span></p>
+</td>
+<td width="110" height="68" valign="top" style="border-width : 1px; border-color: #000000; border-style: solid; padding: 0px 7px; background-color: #ffffff;"><p class="rvps33"><span class="rvts60">Schedule Date</span></p>
+</td>
+<td width="67" height="68" valign="top" style="border-width : 1px; border-color: #000000; border-style: solid; padding: 0px 7px; background-color: #ffffff;"><p class="rvps33"><span class="rvts60">Service Time</span></p>
+</td>
+<td width="82" height="68" valign="top" style="border-width : 1px; border-color: #000000; border-style: solid; padding: 0px 7px; background-color: #ffffff;"><p class="rvps33"><span class="rvts60">Service Status</span></p>
+</td>
+<td width="88" height="68" valign="top" style="border-width : 1px; border-color: #000000; border-style: solid; padding: 0px 7px; background-color: #ffffff;"><p class="rvps33"><span class="rvts60">Expected Start Date</span></p>
+</td>
+<td width="88" height="68" valign="top" style="border-width : 1px; border-color: #000000; border-style: solid; padding: 0px 7px; background-color: #ffffff;"><p class="rvps33"><span class="rvts60">Expected End Date</span></p>
+</td>
+<td width="69" height="68" valign="top" style="border-width : 1px; border-color: #000000; border-style: solid; padding: 0px 7px; background-color: #ffffff;"><p class="rvps33"><span class="rvts60">Service Units</span></p>
+</td>
+</tr>
+<tr valign="top">
+<td width="68" height="57" valign="top" style="border-width : 1px; border-color: #000000; border-style: solid; padding: 0px 7px; background-color: #ffffff;"><p class="rvps33"><span class="rvts15">S1</span></p>
+</td>
+<td width="110" height="57" valign="top" style="border-width : 1px; border-color: #000000; border-style: solid; padding: 0px 7px; background-color: #ffffff;"><p class="rvps33"><span class="rvts15">04/01/2016</span></p>
+</td>
+<td width="67" height="57" valign="top" style="border-width : 1px; border-color: #000000; border-style: solid; padding: 0px 7px; background-color: #ffffff;"><p class="rvps33"><span class="rvts15">8:00 AM - 09:30 AM</span></p>
+</td>
+<td width="82" height="57" valign="top" style="border-width : 1px; border-color: #000000; border-style: solid; padding: 0px 7px; background-color: #ffffff;"><p class="rvps33"><span class="rvts15">Scheduled</span></p>
+</td>
+<td width="88" height="57" valign="top" style="border-width : 1px; border-color: #000000; border-style: solid; padding: 0px 7px; background-color: #ffffff;"><p class="rvps33"><span class="rvts15">01/01/2016</span></p>
+</td>
+<td width="88" height="57" valign="top" style="border-width : 1px; border-color: #000000; border-style: solid; padding: 0px 7px; background-color: #ffffff;"><p class="rvps33"><span class="rvts15">02/01/2016</span></p>
+</td>
+<td width="69" height="57" valign="top" style="border-width : 1px; border-color: #000000; border-style: solid; padding: 0px 7px; background-color: #ffffff;"><p class="rvps33"><span class="rvts15">4</span></p>
+</td>
+</tr>
+<tr valign="top">
+<td width="68" height="39" valign="top" style="border-width : 1px; border-color: #000000; border-style: solid; padding: 0px 7px; background-color: #ffffff;"><p class="rvps33"><span class="rvts15">S2</span></p>
+</td>
+<td width="110" height="39" valign="top" style="border-width : 1px; border-color: #000000; border-style: solid; padding: 0px 7px; background-color: #ffffff;"><p class="rvps2"><span class="rvts31"><br/></span></p>
+</td>
+<td width="67" height="39" valign="top" style="border-width : 1px; border-color: #000000; border-style: solid; padding: 0px 7px; background-color: #ffffff;"><p class="rvps2"><span class="rvts31"><br/></span></p>
+</td>
+<td width="82" height="39" valign="top" style="border-width : 1px; border-color: #000000; border-style: solid; padding: 0px 7px; background-color: #ffffff;"><p class="rvps33"><span class="rvts15">Pending</span></p>
+</td>
+<td width="88" height="39" valign="top" style="border-width : 1px; border-color: #000000; border-style: solid; padding: 0px 7px; background-color: #ffffff;"><p class="rvps39"><span class="rvts15">09/01/2016</span></p>
+</td>
+<td width="88" height="39" valign="top" style="border-width : 1px; border-color: #000000; border-style: solid; padding: 0px 7px; background-color: #ffffff;"><p class="rvps39"><span class="rvts15">10/01/2016</span></p>
+</td>
+<td width="69" height="39" valign="top" style="border-width : 1px; border-color: #000000; border-style: solid; padding: 0px 7px; background-color: #ffffff;"><p class="rvps33"><span class="rvts15">8</span></p>
+</td>
+</tr>
+<tr valign="top">
+<td width="68" height="39" valign="top" style="border-width : 1px; border-color: #000000; border-style: solid; padding: 0px 7px; background-color: #ffffff;"><p class="rvps33"><span class="rvts15">S3</span></p>
+</td>
+<td width="110" height="39" valign="top" style="border-width : 1px; border-color: #000000; border-style: solid; padding: 0px 7px; background-color: #ffffff;"><p class="rvps2"><span class="rvts31"><br/></span></p>
+</td>
+<td width="67" height="39" valign="top" style="border-width : 1px; border-color: #000000; border-style: solid; padding: 0px 7px; background-color: #ffffff;"><p class="rvps2"><span class="rvts31"><br/></span></p>
+</td>
+<td width="82" height="39" valign="top" style="border-width : 1px; border-color: #000000; border-style: solid; padding: 0px 7px; background-color: #ffffff;"><p class="rvps33"><span class="rvts15">Pending</span></p>
+</td>
+<td width="88" height="39" valign="top" style="border-width : 1px; border-color: #000000; border-style: solid; padding: 0px 7px; background-color: #ffffff;"><p class="rvps39"><span class="rvts15">04/01/2017</span></p>
+</td>
+<td width="88" height="39" valign="top" style="border-width : 1px; border-color: #000000; border-style: solid; padding: 0px 7px; background-color: #ffffff;"><p class="rvps39"><span class="rvts15">05/01/2017</span></p>
+</td>
+<td width="69" height="39" valign="top" style="border-width : 1px; border-color: #000000; border-style: solid; padding: 0px 7px; background-color: #ffffff;"><p class="rvps33"><span class="rvts15">8</span></p>
+</td>
+</tr>
+<tr valign="top">
+<td width="68" height="39" valign="top" style="border-width : 1px; border-color: #000000; border-style: solid; padding: 0px 7px; background-color: #ffffff;"><p class="rvps33"><span class="rvts15">S4</span></p>
+</td>
+<td width="110" height="39" valign="top" style="border-width : 1px; border-color: #000000; border-style: solid; padding: 0px 7px; background-color: #ffffff;"><p class="rvps2"><span class="rvts31"><br/></span></p>
+</td>
+<td width="67" height="39" valign="top" style="border-width : 1px; border-color: #000000; border-style: solid; padding: 0px 7px; background-color: #ffffff;"><p class="rvps2"><span class="rvts31"><br/></span></p>
+</td>
+<td width="82" height="39" valign="top" style="border-width : 1px; border-color: #000000; border-style: solid; padding: 0px 7px; background-color: #ffffff;"><p class="rvps33"><span class="rvts15">Pending</span></p>
+</td>
+<td width="88" height="39" valign="top" style="border-width : 1px; border-color: #000000; border-style: solid; padding: 0px 7px; background-color: #ffffff;"><p class="rvps39"><span class="rvts15">11/01/2017</span></p>
+</td>
+<td width="88" height="39" valign="top" style="border-width : 1px; border-color: #000000; border-style: solid; padding: 0px 7px; background-color: #ffffff;"><p class="rvps39"><span class="rvts15">12/01/2017</span></p>
+</td>
+<td width="69" height="39" valign="top" style="border-width : 1px; border-color: #000000; border-style: solid; padding: 0px 7px; background-color: #ffffff;"><p class="rvps33"><span class="rvts15">8</span></p>
+</td>
+</tr>
+<tr valign="top">
+<td width="68" height="39" valign="top" style="border-width : 1px; border-color: #000000; border-style: solid; padding: 0px 7px; background-color: #ffffff;"><p class="rvps33"><span class="rvts15">S5</span></p>
+</td>
+<td width="110" height="39" valign="top" style="border-width : 1px; border-color: #000000; border-style: solid; padding: 0px 7px; background-color: #ffffff;"><p class="rvps2"><span class="rvts31"><br/></span></p>
+</td>
+<td width="67" height="39" valign="top" style="border-width : 1px; border-color: #000000; border-style: solid; padding: 0px 7px; background-color: #ffffff;"><p class="rvps2"><span class="rvts31"><br/></span></p>
+</td>
+<td width="82" height="39" valign="top" style="border-width : 1px; border-color: #000000; border-style: solid; padding: 0px 7px; background-color: #ffffff;"><p class="rvps33"><span class="rvts15">Pending</span></p>
+</td>
+<td width="88" height="39" valign="top" style="border-width : 1px; border-color: #000000; border-style: solid; padding: 0px 7px; background-color: #ffffff;"><p class="rvps39"><span class="rvts15">06/01/2018</span></p>
+</td>
+<td width="88" height="39" valign="top" style="border-width : 1px; border-color: #000000; border-style: solid; padding: 0px 7px; background-color: #ffffff;"><p class="rvps39"><span class="rvts15">07/01/2018</span></p>
+</td>
+<td width="69" height="39" valign="top" style="border-width : 1px; border-color: #000000; border-style: solid; padding: 0px 7px; background-color: #ffffff;"><p class="rvps33"><span class="rvts15">8</span></p>
+</td>
+</tr>
+<tr valign="top">
+<td width="68" height="39" valign="top" style="border-width : 1px; border-color: #000000; border-style: solid; padding: 0px 7px; background-color: #ffffff;"><p class="rvps33"><span class="rvts15">S6</span></p>
+</td>
+<td width="110" height="39" valign="top" style="border-width : 1px; border-color: #000000; border-style: solid; padding: 0px 7px; background-color: #ffffff;"><p class="rvps2"><span class="rvts31"><br/></span></p>
+</td>
+<td width="67" height="39" valign="top" style="border-width : 1px; border-color: #000000; border-style: solid; padding: 0px 7px; background-color: #ffffff;"><p class="rvps2"><span class="rvts31"><br/></span></p>
+</td>
+<td width="82" height="39" valign="top" style="border-width : 1px; border-color: #000000; border-style: solid; padding: 0px 7px; background-color: #ffffff;"><p class="rvps33"><span class="rvts15">Pending</span></p>
+</td>
+<td width="88" height="39" valign="top" style="border-width : 1px; border-color: #000000; border-style: solid; padding: 0px 7px; background-color: #ffffff;"><p class="rvps39"><span class="rvts15">01/01/2019</span></p>
+</td>
+<td width="88" height="39" valign="top" style="border-width : 1px; border-color: #000000; border-style: solid; padding: 0px 7px; background-color: #ffffff;"><p class="rvps39"><span class="rvts15">02/01/2019</span></p>
+</td>
+<td width="69" height="39" valign="top" style="border-width : 1px; border-color: #000000; border-style: solid; padding: 0px 7px; background-color: #ffffff;"><p class="rvps33"><span class="rvts15">8</span></p>
+</td>
+</tr>
+<tr valign="top">
+<td width="68" height="39" valign="top" style="border-width : 1px; border-color: #000000; border-style: solid; padding: 0px 7px; background-color: #ffffff;"><p class="rvps33"><span class="rvts15">S7</span></p>
+</td>
+<td width="110" height="39" valign="top" style="border-width : 1px; border-color: #000000; border-style: solid; padding: 0px 7px; background-color: #ffffff;"><p class="rvps2"><span class="rvts31"><br/></span></p>
+</td>
+<td width="67" height="39" valign="top" style="border-width : 1px; border-color: #000000; border-style: solid; padding: 0px 7px; background-color: #ffffff;"><p class="rvps2"><span class="rvts31"><br/></span></p>
+</td>
+<td width="82" height="39" valign="top" style="border-width : 1px; border-color: #000000; border-style: solid; padding: 0px 7px; background-color: #ffffff;"><p class="rvps33"><span class="rvts15">Pending</span></p>
+</td>
+<td width="88" height="39" valign="top" style="border-width : 1px; border-color: #000000; border-style: solid; padding: 0px 7px; background-color: #ffffff;"><p class="rvps39"><span class="rvts15">08/05/2019</span></p>
+</td>
+<td width="88" height="39" valign="top" style="border-width : 1px; border-color: #000000; border-style: solid; padding: 0px 7px; background-color: #ffffff;"><p class="rvps39"><span class="rvts15">09/05/2019</span></p>
+</td>
+<td width="69" height="39" valign="top" style="border-width : 1px; border-color: #000000; border-style: solid; padding: 0px 7px; background-color: #ffffff;"><p class="rvps33"><span class="rvts15">4</span></p>
+</td>
+</tr>
+</table>
+</div>
+<p class="rvps37"><span class="rvts31"><br/></span></p>
+<p class="rvps37"><span class="rvts31"><br/></span></p>
+<p class="rvps11"><span class="rvts11">• In this case, the date of newly added 4 units is very close to the date of S2 of existing units.</span></p>
+<p class="rvps2"><span class="rvts11"><br/></span></p>
+<p class="rvps11"><span class="rvts11">• So the First Service of newly added units and Second Service of existing units will be merged.</span></p>
+<p class="rvps2"><span class="rvts11"><br/></span></p>
+<p class="rvps11"><span class="rvts11">• Now S2 have 8 Units.</span></p>
+<p class="rvps2"><span class="rvts11"><br/></span></p>
+<p class="rvps11"><span class="rvts11">• Likewise, S3,S4,S5 and S6 will be merged for 8 units.</span></p>
+<p class="rvps2"><span class="rvts11"><br/></span></p>
+<p class="rvps11"><span class="rvts11">• And the remaining 1 service for newly added units will be added in the system.</span></p>
+<p class="rvps2"><span class="rvts11"><br/></span></p>
+<p class="rvps11"><span class="rvts11">• Means S7 will be added as the last / 6th Service for newly added for units.</span></p>
+<p class="rvps2"><span class="rvts11"><br/></span></p>
+<p class="rvps11"><span class="rvts11">• By considering all the different scenarios, the units will be merged to the existing services.</span></p>
+<p class="rvps2"><span class="rvts11"><br/></span></p>
+<p class="rvps11"><span class="rvts11">• And the remaining services for the units will be added into the system.</span></p>
+<p class="rvps2"><span class="rvts17"><br/></span></p>
+<p class="rvps11"><span class="rvts17">Reschedule &amp; Request For Service :</span></p>
+<p class="rvps2"><span class="rvts11"><br/></span></p>
+<p class="rvps11"><span class="rvts11">• The automatic rules of service scheduling while rescheduling of the service or request a new service are different than the other Plan services.</span></p>
+<p class="rvps11"><span class="rvts11"><br/></span></p>
+<p class="rvps11"><span class="rvts11">• We have two-time slots for rescheduling and requesting of the service.</span></p>
+<p class="rvps2"><span class="rvts11"><br/></span></p>
+<p class="rvps11"><span class="rvts11">• These two-time slots are coming from the Plan Management from the Admin Panel. These slots are different according to the plan types.</span></p>
+<p class="rvps11"><span class="rvts11"><br/></span></p>
+<p class="rvps11"><span class="rvts11">• </span><span class="rvts33">If the client has selected the first time slot and employee is not free that time slot but free for the second time slot then requested/ rescheduled/ canceled service will be schedule at the second time slot for the date selected by client.</span></p>
+<p class="rvps11"><span class="rvts31"><br/></span></p>
+<p class="rvps2"><span class="rvts11"><br/></span></p>
+<p class="rvps11"><span class="rvts11">Suppose,</span></p>
+<p class="rvps11"><span class="rvts17">First Time Slot : 8:00 AM to 12:00 PM = 4 Hours</span></p>
+<p class="rvps11"><span class="rvts17">Second Time Slot : 12:00 PM to 4:00 PM = 4 Hours</span></p>
+<p class="rvps2"><span class="rvts11"><br/></span></p>
+<p class="rvps11"><span class="rvts11">• The scheduled service / Requested service have 2 units with Industrial Plan.</span></p>
+<p class="rvps11"><span class="rvts11"><br/></span></p>
+<p class="rvps29"><span class="rvts11">Time to service single unit = 240 minutes = 4 hours</span></p>
+<p class="rvps29"><span class="rvts11">Time to service other units = 120 minutes = 2 hours</span></p>
+<p class="rvps29"><span class="rvts11">Driving Time = 20 minutes</span></p>
+<p class="rvps2"><span class="rvts17"><br/></span></p>
+<p class="rvps11"><span class="rvts17">So the total time to service 2 units = 240 + 120 + 20 = 380 minutes = 6.33 = 7 hours</span></p>
+<p class="rvps2"><span class="rvts11"><br/></span></p>
+<p class="rvps29"><span class="rvts11">Employee Working Time = 8:00 AM to 4:00 PM</span></p>
+<p class="rvps29"><span class="rvts11"><br/></span></p>
+<p class="rvps11"><span class="rvts11">• Employee working time will be taken from the Employee MGMT in Admin Panel.</span></p>
+<p class="rvps2"><span class="rvts17"><br/></span></p>
+<p class="rvps11"><span class="rvts17">For Time Slot 1 :</span></p>
+<p class="rvps29"><span class="rvts11">• If the request has no. of units for which the employee needs time more than 4 hours (more time than the total time of slot 1) OR if the scheduled request has the no. of units for which the employee needs time more than 4 Hours to do service and if the client has selected first time slot, then as per below process the service will be scheduled.</span></p>
+<p class="rvps2"><span class="rvts11"><br/></span></p>
+<p class="rvps29"><span class="rvts11">• As per the above timings, the employee needs 7 hours to complete the service and the client has selected 8 AM to </span><span class="rvts11"> &nbsp; &nbsp; &nbsp; &nbsp;</span><span class="rvts11">12 PM time for rescheduling.</span></p>
+<p class="rvps2"><span class="rvts11"><br/></span></p>
+<p class="rvps29"><span class="rvts11">• So we will assign two employees for this same service in between 8:00 AM to 12PM time slot.</span></p>
+<p class="rvps2"><span class="rvts17"><br/></span></p>
+<p class="rvps11"><span class="rvts17">For Time Slot 2 :</span></p>
+<p class="rvps29"><span class="rvts11"><br/></span></p>
+<p class="rvps29"><span class="rvts11">• As per the above timings, the employee needs 7 hours to complete the service, then we will not allow the client to select the second time slot from the Reschedule and Request for service.</span></p>
+<p class="rvps2"><span class="rvts31"><br/></span></p>
+<p class="rvps38"><span class="rvts11"><br/></span></p>
+<p class="rvps7"><span class="rvts63">Automatic Rules For Emergency Services:</span></p>
+<p class="rvps7"><span class="rvts63"><br/></span></p>
+<p class="rvps11"><span class="rvts11">•</span><span class="rvts33">For emergency services, a fee will be taken from the client. </span></p>
+<p class="rvps11"><span class="rvts11"><br/></span></p>
+<p class="rvps11"><span class="rvts11">•</span><span class="rvts33">Emergency Services can be scheduled in weekends also. </span></p>
+<p class="rvps11"><span class="rvts11"><br/></span></p>
+<p class="rvps11"><span class="rvts11">•</span><span class="rvts33">Time Slots for Emergency Services will be taken from the Site Settings.</span></p>
+<p class="rvps2"><span class="rvts33"><br/></span></p>
+<p class="rvps11"><span class="rvts33">Two variables are there in the Site Settings:</span></p>
+<p class="rvps2"><span class="rvts33"><br/></span></p>
+<p class="rvps29"><span class="rvts33">1) Service Time Slot 1 For Emergency Service</span></p>
+<p class="rvps29"><span class="rvts33">2) Service Time Slot 2 For Emergency Service</span></p>
+<p class="rvps2"><span class="rvts33"><br/></span></p>
+<p class="rvps11"><span class="rvts33">On weekdays, Monday- Friday, only for Emergency services, above time slots will be taken.</span></p>
+<p class="rvps2"><span class="rvts33"><br/></span></p>
+<p class="rvps11"><span class="rvts33">On Saturday &amp; Sunday, time slots are same as the other plan services and will be taken from the Plan Management.</span></p>
+<p class="rvps2"><span class="rvts33"><br/></span></p>
+<p class="rvps7"><span class="rvts63">Rules:</span></p>
+<p class="rvps2"><span class="rvts33"><br/></span></p>
+<p class="rvps7"><span class="rvts33">1) When scheduling an emergency service, system will schedule the appointment immediately (vs. wait for scheduler to run) based on closest availability of time and employee within the time slot defined in emergency services (i.e. 8am-6pm broken to two slots: 8-12 &amp; 12-6. On weekends 8-4 broken to two slots 8-12 &amp; 12-4). On weekdays, priority for scheduling will be from 8-4, if not available, proceed to schedule between 4pm-6pm. If not available between 4-6, then move to next day repeating same procedure until schedule is open.</span></p>
+<p class="rvps2"><span class="rvts33"><br/></span></p>
+<p class="rvps7"><span class="rvts33">2) When client schedule an emergency appointment, to be able to be scheduled in the same day, he needs to be within 1 hour before the cut off time. i.e. the cut off time for 4pm-6pm is 3pm. If scheduling before 3pm, 4pm should be ok. If scheduling after 3pm, same day is NOT ok, system will attempt to schedule him for the next day. </span></p>
+<p class="rvps2"><span class="rvts33"><br/></span></p>
+<p class="rvps2"><span class="rvts33">An optional buffer option to extend service in case number of hours for emergency are insufficient (set default to 0).</span></p>
+<p class="rvps2"><span class="rvts33"><br/></span></p>
+<p class="rvps2"><span class="rvts33">Cut off time &nbsp;can be set from the Site Settings: Emergency Service Cut off Time (In Minutes)</span></p>
+<p class="rvps2"><span class="rvts33"><br/></span></p>
+<p class="rvps7"><span class="rvts33">3) On emergency submittal, System will schedule the appointment immediately. (no need to run scheduler).</span></p>
+<p class="rvps2"><span class="rvts33"><br/></span></p>
+<p class="rvps7"><span class="rvts33">4) Block holidays: Emergency services are not blocked on holidays.&nbsp;From admin panel, admin must set all employees to be on leave on any holiday for the system not to schedule them for non-emergency services. However, emergency services will be exception and system will schedule employee for emergency services on holidays. </span></p>
+<p class="rvps2"><span class="rvts33"><br/></span></p>
+<p class="rvps2"><span class="rvts33">Admin has an option to mark the employee if he will book for emergency services on leave or not while adding leave.</span></p>
+<p class="rvps2"><span class="rvts33"><br/></span></p>
+<p class="rvps2"><span class="rvts33">While adding leave from the Leave Management, “Available on holiday for emergency services” option is there. If this option is selected as “Yes”, then that employee will be assigned for emergency services on the leave also. And if that option is selected as “No”, then that employee will not be assigned for emergency services on added leave date.</span></p>
+<p class="rvps2"><span class="rvts33"><br/></span></p>
+<p class="rvps7"><span class="rvts33">5) On successful scheduling, Push Notification and Email Notification will be sent to client with time and date for the </span><span class="rvts65">scheduled</span><span class="rvts64"> </span><span class="rvts33">appointment. No need for approval process as system books the appointment directly. If client wants to cancel/not accept/wants to reschedule, option to Reschedule or Cancel will be provided. Push notification and email message will state: “Your requested service is scheduled for [date]”.</span></p>
+<p class="rvps2"><span class="rvts33"><br/></span></p>
+<p class="rvps7"><span class="rvts63">Options:</span></p>
+<p class="rvps2"><span class="rvts33"><br/></span></p>
+<p class="rvps7"><span class="rvts33">(i) On successful scheduling – System will schedule and notify employee and client for the new schedule </span></p>
+<p class="rvps2"><span class="rvts33"><br/></span></p>
+<p class="rvps7"><span class="rvts33">Admin can see emergency service schedule under &gt;Services &gt; Scheduled.</span></p>
+<p class="rvps2"><span class="rvts33"><br/></span></p>
+<p class="rvps7"><span class="rvts33">(ii) On Cancel – Appointment will be removed from system; employee schedule is cleared. See options (6: a,b)</span></p>
+<p class="rvps2"><span class="rvts33"><br/></span></p>
+<p class="rvps7"><span class="rvts33">(iii) On Reschedule – Allow client to suggest a new date &amp; time to reschedule. New date offered will be within business &amp; emergency hours and will be considered as emergency.</span></p>
+<p class="rvps2"><span class="rvts33"><br/></span></p>
+<p class="rvps7"><span class="rvts33">6) User has the ability to either Reschedule or Cancel ANY requested service. That includes: repair, maintenance, continuing previous work, and emergency service request with the following rules:</span></p>
+<p class="rvps2"><span class="rvts33"><br/></span></p>
+<p class="rvps21"><span class="rvts33"> &nbsp; &nbsp; &nbsp; &nbsp;</span><span class="rvts33">a) If cancelled more than 24hr from scheduled appointment, no fee applies.</span></p>
+<p class="rvps21"><span class="rvts33"> &nbsp; &nbsp; &nbsp; &nbsp;</span><span class="rvts33">b) If cancelled less than 24hr from scheduled appointment, late fee procedure applies.</span></p>
+<p class="rvps2"><span class="rvts33">&nbsp;</span></p>
+<p class="rvps7"><span class="rvts11">• </span><span class="rvts33">On 6.b). if client cancelled less then 24hr from scheduled appointment, according to our late fee procedure, the following will happen:</span></p>
+<p class="rvps2"><span class="rvts33">&nbsp;</span></p>
+<p class="rvps7"><span class="rvts11">• </span><span class="rvts33">Once client clicked on Cancel, he will be promoted with: “Less than 24hr cancelation may incur a fee. Are you sure you want to cancel?”</span></p>
+<p class="rvps2"><span class="rvts33">&nbsp;</span></p>
+<p class="rvps7"><span class="rvts33">If No: Appointment will remain and popup will close.</span></p>
+<p class="rvps2"><span class="rvts33">&nbsp;</span></p>
+<p class="rvps7"><span class="rvts33">If Yes: appointment will be deleted from client’s application. In the backend, this appointment will be removed from schedule freeing up employee schedule and moved to no show service section. In this section, admin will be able to decide if this cancelation qualifies for incurring a fee.&nbsp;</span></p>
+<p class="rvps2"><span class="rvts33">&nbsp;</span></p>
+<p class="rvps7"><span class="rvts11">• </span><span class="rvts33">If no fee will be applied, a push notification will be sent with the following message:</span></p>
+<p class="rvps2"><span class="rvts33">“You have cancelled or rescheduled a service less than 24hr of appointment time. This qualifies for a penalty. As a one-time courtesy, we have waived your penalty fee. In the future, please refrain from changing your schedule less then 24hr of appointment to avoid charges.”</span></p>
+<p class="rvps2"><span class="rvts33">&nbsp;</span></p>
+<p class="rvps7"><span class="rvts11">• </span><span class="rvts33">If fee will be applied, a push notification will be sent with the following message:</span></p>
+<p class="rvps2"><span class="rvts33">“Please proceed to pay $44.99 for no show.”</span></p>
+<p class="rvps2"><span class="rvts33"><br/></span></p>
+<p class="rvps2"><span class="rvts33"><br/></span></p>
+<p class="rvps2"><span class="rvts33"><br/></span></p>
+<p class="rvps2"><span class="rvts33"><br/></span></p>
+<p class="rvps2"><span class="rvts33"><br/></span></p>
+<p></p>
+<p class="rvps6" style="clear: both;"><span class="rvts13">Created with the Personal Edition of HelpNDoc: </span><a class="rvts14" href="https://www.helpauthoringsoftware.com">Benefits of a Help Authoring Tool</a></p>
+
+            </div>
+            
+            
+        </div>  <!-- /#topic-content -->
+    </article>
+
+    <footer></footer>
+
+  </div>  <!-- /#main -->
+
+  <div class="mask" data-toggle="sm-nav-expanded"></div>
+  
+  <!-- Modal -->
+  <div class="modal fade" id="hndModal" tabindex="-1" role="dialog" aria-labelledby="hndModalLabel">
+    <div class="modal-dialog" role="document">
+      <div class="modal-content">
+        <div class="modal-header">
+          <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+          <h4 class="modal-title" id="hndModalLabel"></h4>
+        </div>
+        <div class="modal-body">
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-primary modal-btn-close" data-dismiss="modal">Close</button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Scripts -->
+  <script src="vendors/jquery-1.11.3/jquery.min.js"></script>
+  <script src="vendors/bootstrap-3.3.6/js/bootstrap.min.js"></script>
+  <script src="vendors/fastclick-1.0.6/fastclick.min.js"></script>
+  <script src="vendors/markjs-8.8.3/jquery.mark.min.js"></script>
+  <script src="vendors/uri-1.18.9/uri.min.js"></script>
+  <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
+  <script src="vendors/bootstrap-3.3.6/js/ie10-viewport-bug-workaround.js"></script>
+  
+  <!-- Headroom -->
+  <script src="vendors/headroom-0.9.3/headroom.min.js"></script>
+  <script src="vendors/headroom-0.9.3/jquery.headroom.min.js"></script>
+
+  <!-- JsTree -->
+  <script src="vendors/jstree-3.3.2/jstree.min.js"></script>
+
+  <!-- HelpNDoc scripts -->
+  <script src="_translations.js"></script>
+  <script src="js/hndsd.min.js"></script>
+  <script src="js/hndse.min.js"></script>
+  <script src="js/app.min.js"></script>
+
+  <!-- Scripts -->
+  <script>
+    $(function() {
+      // Instanciate FastClick
+      Origami.fastclick(document.body);
+      // Create the app
+      var app = new Hnd.App();
+      // Update translations
+      hnd_ut(app);
+	  // Custom JS
+	  
+      // Boot the app
+      app.Boot();
+    });
+  </script>
+
+
+
+</body>
+
+</html>
+

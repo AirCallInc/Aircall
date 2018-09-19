@@ -1,0 +1,69 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="Client.master.cs" Inherits="Aircall.client.Client" %>
+
+<%@ Register Src="~/client/controls/mobileheadernew.ascx" TagName="mobileheadernew" TagPrefix="uc1" %>
+<%@ Register Src="~/client/controls/header.ascx" TagName="header" TagPrefix="uc2" %>
+<%@ Register Src="~/client/controls/footer.ascx" TagName="footer" TagPrefix="uc3" %>
+
+<!DOCTYPE HTML>
+<html>
+<head runat="server">
+    <meta charset="UTF-8">
+    <title><%=Page.Title %></title>
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+    <!--<meta name="viewport" content="width=1024"/>-->
+    <meta name="description" content="" />
+    <meta name="keywords" content="">
+    <meta name="format-detection" content="telephone=no">
+    <meta name="SKYPE_TOOLBAR" content="SKYPE_TOOLBAR_PARSER_COMPATIBLE" />
+    <link rel="icon" type="image/png" href="images/favicon.png" />
+    <!--<link rel="icon" type="image/png" href="images/favicon.png" /> -->
+    <!-- jquery-ui css -->
+    <link href="css/jquery-ui.css" rel="stylesheet" />
+    <link href="css/owl.carousel.css" rel="stylesheet" />
+    <!-- main css -->
+    <link href="css/style.css" rel="stylesheet" />
+    <!-- responsive css -->
+    <link href="css/responsive.css" rel="stylesheet" />
+    <link href="css/chosen.css" rel="stylesheet" />
+    <!-- Font css -->
+    <link href="fonts/fonts.css" rel="stylesheet" />
+    <link href='http://fonts.googleapis.com/css?family=Lato:400,900italic,900,100italic,300italic,400italic,700italic,700,300,100' rel='stylesheet' type='text/css'>
+    <link href='https://fonts.googleapis.com/css?family=Open+Sans:400,300,300italic,400italic,600,600italic,700,700italic,800,800italic' rel='stylesheet' type='text/css'>
+    <!--[if IE]>
+     	<script src="js/html5shiv.js"></script>
+    <![endif]-->
+    <!-- main script -->
+    <script src="js/jquery-1.9.1.min.js"></script>
+    <!-- placeholder script -->
+    <script src="js/placeholder.js"></script>
+    <!-- star-rating script -->
+    <script src="js/jstarbox.js"></script>
+    <!-- jquery-ui script -->
+    <script src="js/jquery-ui.js"></script>
+    <%--<script src="js/jquery.dialogOptions.js"></script>--%>
+    
+    <script src="js/owl.carousel.js"></script>
+    <!-- general script -->
+    <script src="js/script.js"></script>
+    <script src="js/chosen.jquery.js"></script>
+    <asp:ContentPlaceHolder ID="head" runat="server">
+    </asp:ContentPlaceHolder>
+</head>
+<body>
+    <form runat="server">
+        <asp:ScriptManager ID="ScriptManager1" runat="server"></asp:ScriptManager>
+        <!-- resposive menu -->
+        <uc1:mobileheadernew ID="mobileheadernew" runat="server" />
+        <!-- start -->
+        <div id="wrapper">
+            <!-- header part -->
+            <uc2:header ID="header" runat="server" />
+            <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+            </asp:ContentPlaceHolder>
+            <div class="footer-push"></div>
+        </div>
+        <!-- footer part -->
+        <uc3:footer ID="footer" runat="server" />
+    </form>
+</body>
+</html>

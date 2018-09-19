@@ -1,0 +1,7 @@
+2017-03-10 12:09:46.3638|INFO|api.Helpers.NLogger|JSON
+Method: GET
+URL: http://192.168.1.119:9999/api/v1/common/SendSalesAgreement?ClientId=2053
+Controller : api.Controllers.CommonController
+Action : SendSalesAgreement
+Action Parameters : {"messageFormat":"JSON","messageArguments":[{"ClientId":2053}]}
+

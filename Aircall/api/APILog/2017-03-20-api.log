@@ -1,0 +1,105 @@
+2017-03-20 13:02:57.2677|INFO|api.Helpers.NLogger|JSON
+Method: POST
+URL: http://192.168.1.119:9999/api/v1/profile/checkClientExists
+Controller : api.Controllers.ProfileController
+Action : checkClientExists
+Action Parameters : {"messageFormat":"JSON","messageArguments":[{"request":{"FirstName":null,"LastName":null,"Email":"dffd@fdsfdf.com","Password":null,"Image":null,"MobileNumber":null,"Company":null,"AffiliateId":null,"DeviceType":null,"DeviceToken":null,"AddedDate":"\/Date(-62135596800000)\/","SendDisclosureEmail":false}}]}
+
+2017-03-20 15:07:55.3738|INFO|api.Helpers.NLogger|JSON
+Method: POST
+URL: http://192.168.1.119:9999/api/v1/profile/checkClientExists
+Controller : api.Controllers.ProfileController
+Action : checkClientExists
+Action Parameters : {"messageFormat":"JSON","messageArguments":[{"request":{"FirstName":null,"LastName":null,"Email":"testlocalcoding+1@gmail.com","Password":null,"Image":null,"MobileNumber":null,"Company":null,"AffiliateId":null,"DeviceType":null,"DeviceToken":null,"AddedDate":"\/Date(-62135596800000)\/","SendDisclosureEmail":false}}]}
+
+2017-03-20 15:19:06.5460|INFO|api.Helpers.NLogger|JSON
+Method: POST
+URL: http://192.168.1.119:9999/api/v1/profile/checkClientExists
+Controller : api.Controllers.ProfileController
+Action : checkClientExists
+Action Parameters : {"messageFormat":"JSON","messageArguments":[{"request":{"FirstName":null,"LastName":null,"Email":"testlocalcoding+1@gmail.com","Password":null,"Image":null,"MobileNumber":null,"Company":null,"AffiliateId":null,"DeviceType":null,"DeviceToken":null,"AddedDate":"\/Date(-62135596800000)\/","SendDisclosureEmail":false}}]}
+
+2017-03-20 15:27:59.1013|INFO|api.Helpers.NLogger|JSON
+Method: POST
+URL: http://192.168.1.119:9999/api/v1/profile/checkClientExists
+Controller : api.Controllers.ProfileController
+Action : checkClientExists
+Action Parameters : {"messageFormat":"JSON","messageArguments":[{"request":{"FirstName":null,"LastName":null,"Email":"testlocalcoding+1@gmail.com","Password":null,"Image":null,"MobileNumber":null,"Company":null,"AffiliateId":null,"DeviceType":null,"DeviceToken":null,"AddedDate":"\/Date(-62135596800000)\/","SendDisclosureEmail":false}}]}
+
+2017-03-20 15:41:54.8417|INFO|api.Helpers.NLogger|JSON
+Method: POST
+URL: http://192.168.1.119:9999/api/v1/profile/checkClientExists
+Controller : api.Controllers.ProfileController
+Action : checkClientExists
+Action Parameters : {"messageFormat":"JSON","messageArguments":[{"request":{"FirstName":null,"LastName":null,"Email":"testlocalcoding+1@gmail.com","Password":null,"Image":null,"MobileNumber":null,"Company":null,"AffiliateId":null,"DeviceType":null,"DeviceToken":null,"AddedDate":"\/Date(-62135596800000)\/","SendDisclosureEmail":false}}]}
+
+2017-03-20 15:42:07.5057|INFO|api.Helpers.NLogger|JSON
+Method: POST
+URL: http://192.168.1.119:9999/api/v1/profile/clientRegister
+Controller : api.Controllers.ProfileController
+Action : Register
+Action Parameters : {"messageFormat":"JSON","messageArguments":[{"request":{"FirstName":"test","LastName":"test","Email":"testlocalcoding+1@gmail.com","Password":"3373871e00b509b7a942323f3c42152e","Image":null,"MobileNumber":null,"Company":"tsets","AffiliateId":null,"DeviceType":null,"DeviceToken":null,"AddedDate":"\/Date(-62135596800000)\/","SendDisclosureEmail":false}}]}
+
+2017-03-20 15:42:43.5734|INFO|api.Helpers.NLogger|JSON
+Method: POST
+URL: http://192.168.1.119:9999/api/v1/profile/checkClientExists
+Controller : api.Controllers.ProfileController
+Action : checkClientExists
+Action Parameters : {"messageFormat":"JSON","messageArguments":[{"request":{"FirstName":null,"LastName":null,"Email":"testlocalcoding+1@gmail.com","Password":null,"Image":null,"MobileNumber":null,"Company":null,"AffiliateId":null,"DeviceType":null,"DeviceToken":null,"AddedDate":"\/Date(-62135596800000)\/","SendDisclosureEmail":false}}]}
+
+2017-03-20 15:42:56.0320|INFO|api.Helpers.NLogger|JSON
+Method: POST
+URL: http://192.168.1.119:9999/api/v1/profile/checkClientExists
+Controller : api.Controllers.ProfileController
+Action : checkClientExists
+Action Parameters : {"messageFormat":"JSON","messageArguments":[{"request":{"FirstName":null,"LastName":null,"Email":"testlocalcoding+2@gmail.com","Password":null,"Image":null,"MobileNumber":null,"Company":null,"AffiliateId":null,"DeviceType":null,"DeviceToken":null,"AddedDate":"\/Date(-62135596800000)\/","SendDisclosureEmail":false}}]}
+
+2017-03-20 15:43:42.1280|INFO|api.Helpers.NLogger|JSON
+Method: POST
+URL: http://192.168.1.119:9999/api/v1/profile/checkClientExists
+Controller : api.Controllers.ProfileController
+Action : checkClientExists
+Action Parameters : {"messageFormat":"JSON","messageArguments":[{"request":{"FirstName":null,"LastName":null,"Email":"testlocalcoding+1@gmail.com","Password":null,"Image":null,"MobileNumber":null,"Company":null,"AffiliateId":null,"DeviceType":null,"DeviceToken":null,"AddedDate":"\/Date(-62135596800000)\/","SendDisclosureEmail":false}}]}
+
+2017-03-20 15:43:49.7044|INFO|api.Helpers.NLogger|JSON
+Method: POST
+URL: http://192.168.1.119:9999/api/v1/profile/checkClientExists
+Controller : api.Controllers.ProfileController
+Action : checkClientExists
+Action Parameters : {"messageFormat":"JSON","messageArguments":[{"request":{"FirstName":null,"LastName":null,"Email":"testlocalcoding+2@gmail.com","Password":null,"Image":null,"MobileNumber":null,"Company":null,"AffiliateId":null,"DeviceType":null,"DeviceToken":null,"AddedDate":"\/Date(-62135596800000)\/","SendDisclosureEmail":false}}]}
+
+2017-03-20 15:46:04.2799|INFO|api.Helpers.NLogger|JSON
+Method: POST
+URL: http://192.168.1.119:9999/api/v1/profile/checkClientExists
+Controller : api.Controllers.ProfileController
+Action : checkClientExists
+Action Parameters : {"messageFormat":"JSON","messageArguments":[{"request":{"FirstName":null,"LastName":null,"Email":"testlocalcoding+1@gmail.com","Password":null,"Image":null,"MobileNumber":null,"Company":null,"AffiliateId":null,"DeviceType":null,"DeviceToken":null,"AddedDate":"\/Date(-62135596800000)\/","SendDisclosureEmail":false}}]}
+
+2017-03-20 15:46:07.9026|INFO|api.Helpers.NLogger|JSON
+Method: POST
+URL: http://192.168.1.119:9999/api/v1/profile/checkClientExists
+Controller : api.Controllers.ProfileController
+Action : checkClientExists
+Action Parameters : {"messageFormat":"JSON","messageArguments":[{"request":{"FirstName":null,"LastName":null,"Email":"testlocalcoding+1@gmail.com","Password":null,"Image":null,"MobileNumber":null,"Company":null,"AffiliateId":null,"DeviceType":null,"DeviceToken":null,"AddedDate":"\/Date(-62135596800000)\/","SendDisclosureEmail":false}}]}
+
+2017-03-20 15:46:12.9276|INFO|api.Helpers.NLogger|JSON
+Method: POST
+URL: http://192.168.1.119:9999/api/v1/profile/checkClientExists
+Controller : api.Controllers.ProfileController
+Action : checkClientExists
+Action Parameters : {"messageFormat":"JSON","messageArguments":[{"request":{"FirstName":null,"LastName":null,"Email":"testlocalcoding+3@gmail.com","Password":null,"Image":null,"MobileNumber":null,"Company":null,"AffiliateId":null,"DeviceType":null,"DeviceToken":null,"AddedDate":"\/Date(-62135596800000)\/","SendDisclosureEmail":false}}]}
+
+2017-03-20 16:13:06.3896|INFO|api.Helpers.NLogger|JSON
+Method: POST
+URL: http://192.168.1.119:9999/api/v1/profile/checkClientExists
+Controller : api.Controllers.ProfileController
+Action : checkClientExists
+Action Parameters : {"messageFormat":"JSON","messageArguments":[{"request":{"FirstName":null,"LastName":null,"Email":"testlocalcoding+2@gmail.com","Password":null,"Image":null,"MobileNumber":null,"Company":null,"AffiliateId":null,"DeviceType":null,"DeviceToken":null,"AddedDate":"\/Date(-62135596800000)\/","SendDisclosureEmail":false}}]}
+
+2017-03-20 16:15:58.6003|INFO|api.Helpers.NLogger|JSON
+Method: POST
+URL: http://192.168.1.119:9999/api/v1/profile/checkClientExists
+Controller : api.Controllers.ProfileController
+Action : checkClientExists
+Action Parameters : {"messageFormat":"JSON","messageArguments":[{"request":{"FirstName":null,"LastName":null,"Email":"testlocalcoding+2@gmail.com","Password":null,"Image":null,"MobileNumber":null,"Company":null,"AffiliateId":null,"DeviceType":null,"DeviceToken":null,"AddedDate":"\/Date(-62135596800000)\/","SendDisclosureEmail":false}}]}
+

@@ -1,0 +1,441 @@
+﻿@charset "utf-8";
+/* CSS Document */
+
+/* Table of Contents
+-----------------------------------------------------------------------------
+	1. Mobile
+	2. Large Mobile
+	3. iPad
+	4. large desktop
+	5. Other
+*/
+
+/* 1. Mobile responsive css 640px
+------------------------------------------------------------------------------*/
+@media (max-width:640px) {
+    h1 {font-size: 30px; }
+    h2 { font-size:28px; }
+    h3 { font-size:24px; }
+    h4 { font-size:22px; }
+    h5 { font-size:18px; }
+    h6 { font-size:16px; }
+    p {font-size: 12px; margin-bottom: 10px;}
+    ul, ol {margin: 10px 0 10px 10px;}
+    ul li,
+    ol li {font-size: 12px;}
+    .aligncenter {display: block; clear:both; margin:20px auto;}
+    .alignleft {float: none; display: block; clear:both; margin:20px auto;}
+    .alignright {float: none; display: block; clear:both; margin:20px auto;}
+    .main-btn {font-size: 14px; padding: 6px 18px;}
+    header.main-header .logo{width: 100px;}
+    nav.main-menu{display: none;}
+    header.main-header .signup-right nav.signup-menu{display: none;}
+    .responsive-icon { display:block; }
+    .mobile-nav-block { display:block; }
+    #wrapper { 
+        box-shadow: 5px 5px 5px rgba(0,0,0,0.6); 
+        -moz-box-shadow: 5px 5px 5px rgba(0,0,0,0.6); 
+        -webkit-box-shadow: 5px 5px 5px rgba(0,0,0,0.6); 
+        -o-box-shadow: 5px 5px 5px rgba(0,0,0,0.6); 
+    }
+    footer.main-footer {
+        box-shadow: 5px 4px 5px rgba(0,0,0,1); 
+        -moz-box-shadow: 5px 4px 5px rgba(0,0,0,1); 
+        -webkit-box-shadow: 5px 4px 5px rgba(0,0,0,1); 
+        -o-box-shadow: 5px 4px 5px rgba(0,0,0,1); 
+    }  
+    header.main-header .signup-right{margin: 0;}
+    header.main-header .signup-right .login-signup{margin: 2px 0 0;}
+    header.main-header .signup-right a.login-link {font-size: 12px; line-height: 30px; margin-right: 10px;}
+    header.main-header .signup-right a.signup-link {font-size: 12px; line-height: 30px; padding: 0 18px;}
+    .header-top { padding: 12px 0;}
+    p {font-size: 12px;}
+    label { font-size: 12px; }
+    input[type="text"], input[type="password"], input[type="email"], input[type="tel"], input[type="search"], textarea {font-size: 12px;}
+    input[type="submit"], input[type="button"], input[type="reset"], button.main-btn {font-size: 14px; line-height: 30px; max-width: 130px;}
+    
+    /*--------- signup page ------------*/
+    .signup-section h1{font-size: 28px; margin: 20px 0 10px; }
+    .main-from .left-side {width: 100%; margin: 0 0 6px;}
+    .main-from .right-side { width: 100%;}
+    .main-from .right-side input[type="radio"] {margin: 0 8px 0 0;}
+    .main-from .submit-row { margin: 20px 0 0;}
+    .border-block { margin: 20px 0 0; padding: 22px 14px; border: 2px solid #d8d8d8;}
+    .signup-section { padding-bottom: 50px;}
+    .border-block h3 {margin-bottom: 14px;}
+    footer.main-footer .footer-top {padding-top: 30px;}
+    footer.main-footer .single-block { padding: 3px 20px 20px;  width: 50%; text-align: center;}
+    footer.main-footer .single-block .social-icons a { background-size: 93px auto; height: 28px; width: 28px; }
+    footer.main-footer .single-block.for-border {border-left: none;}
+    footer.main-footer .single-block .title {font-size: 16px;}
+    footer.main-footer .single-block ul li a {font-size: 12px;}
+    footer.main-footer .footer-bottom p {width: 100%; text-align: center;}
+    footer.main-footer .footer-bottom ul{width: 100%; text-align: center;}
+    footer.main-footer .footer-bottom {padding-bottom: 16px; padding-top: 20px;}
+    
+    /*--------- product page ------------*/
+    .banner-product h1 {bottom: 30px;}
+    .banner-product {height: 200px;}
+    .home-bar { min-height: 10px; }
+    .home-bar .container {padding: 0;}
+    .home-bar figure {width: 70px; padding: 10px;}
+    .home-bar p { font-size: 14px; padding: 10px; }
+    .choose-plan { padding: 30px 0; }
+    .choose-plan .container > h2{font-size: 22px;}
+    .choose-plan .container > h3{font-size: 18px;}
+    .plan-tab h3 { font-size: 18px; }
+    .plan-tab h2 {font-size: 26px;}
+    .plan-tab p{font-size: 12px; margin: 16px 0;}
+    .choose-plan .plan-detail ul { margin: 30px 0; }
+    .choose-plan .plan-detail ul li .main-btn {font-size: 14px;}
+    .choose-plan .plan-detail ul li a:not(.main-btn){font-size: 14px;}
+    .choose-plan .plan-detail ul li {  padding: 0 6px; }
+    
+    /*--------- about page ------------*/
+    .banner {height: 120px;}
+    .banner h1 { bottom: 30px; }
+    .our-services { padding-bottom: 30px; }
+    .our-services .container > h3 { margin: 0 0 10px; }
+    .our-services .single-service .single-service-inner h3 { font-size: 16px; margin: 10px 0 0; }
+    .common-content { padding: 20px 0; }
+    .our-services .single-service { width: 50%; margin: 5px 0; }
+    .our-services .single-service:nth-child(3) { border-left: 1px solid #c2c2c2;}
+    
+    /*--------- blog page ------------*/
+    .blog-listing .single-blog-row {padding: 20px 0;}
+    .blog-listing .single-blog-row .blog-right {width: 100%; margin-bottom: 10px;}
+    .blog-listing .single-blog-row .blog-left {width: 100%;}
+    .blog-listing .single-blog-row .blog-left { padding-right: 0;}
+    .blog-listing .single-blog-row .blog-left .title {font-size: 20px; margin: 10px 0;}
+    .blog-listing .single-blog-row .blog-left .post-content {font-size: 14px;}
+    .blog-listing .single-blog-row .blog-left .postby-row {margin-bottom: 12px; font-size: 12px; }
+    
+    /*--------- blog page ------------*/
+    .news-listing .single-news-row {padding: 20px 0;}
+    .news-listing .single-news-row .news-left {padding-right: 10px; width: 28%;}
+    .news-listing .single-news-row .news-right { width: 72%;}
+    .news-listing .single-news-row .news-left .posted-date {max-width: 100px;}
+    .news-listing .single-news-row .news-right .title { font-size: 20px; }
+    .news-listing .single-news-row .news-left .posted-date .date {font-size: 20px; padding: 6px 3px;}
+    .news-listing .single-news-row .news-left .posted-date .year {font-size: 16px; padding: 6px 3px;}
+    .news-listing .single-news-row .news-right .post-content {font-size: 14px;}
+    
+    /*--------- contact page ------------*/
+    .contactus-row .contact-left{width: 100%; padding-right: 0;}
+    .contactus-row .contact-right{ width: 100%; }
+    .contactus-row .contact-left address{margin-bottom: 20px;}
+    .contactus-row .contact-left address p {margin-bottom: 18px; }
+    
+    /*--------- home page ------------*/
+    .banner-home .banner-caption .title,
+    .banner-home .banner-caption h1{font-size: 26px;line-height: 40px;}
+    .banner-home .banner-caption p {font-size: 14px;}
+    .banner-home .banner-caption a.yellow-btn {font-size: 14px;line-height: 32px;max-width: 59%;display: block;margin-bottom: 10px;}
+    .banner-home .banner-caption a.yellow-btn1 {font-size: 14px;line-height: 32px;max-width: 59%;display: block;margin-bottom: 10px;}
+    .banner-home .banner-caption {padding: 30px 15px 40px;}
+    .banner-home .owl-dots {bottom: 130px;}
+    .service-signup {padding-bottom: 40px; }
+    .service-signup .all-services {display: block; font-size: 0; margin: -120px 0 0; }
+    .service-signup .single-service {width: 100%; display: inline-block; vertical-align: top; border-bottom: 1px solid #d8dde4; border-left: none; }
+    .service-signup .single-service figure {padding: 5px; height: 100px;}
+    .service-signup .single-service figure img {max-width: 65px; left: 10%;}
+    .service-signup .single-service .content {padding: 16px 6px 10px;}
+    .service-signup .single-service .content h3 {font-size: 20px; margin: 0 0 10px;}
+    .service-signup .single-service .content ul li {margin-bottom: 6px;}
+    .service-signup .single-service .pricing { padding: 12px 10px 20px;}
+    .service-signup .single-service .pricing .price {font-size: 24px;}
+    .service-signup .single-service a {font-size: 15px; line-height: 30px; max-width: 120px;}
+    .testimonial .testimonial-left {width: 100%;  height: auto !important; min-height: 200px;}
+    .testimonial .testimonial-right {width: 100%; height: auto !important;  min-height: 60px; padding: 20px 0;}
+    .testimonial-slider h3 {font-size: 20px; line-height: 1.2; margin-bottom: 16px;}
+    .testimonial-slider p {font-size: 16px; line-height: 1.3; margin: 0 0 12px;}
+    .testimonial-slider .name {font-size: 12px;}
+    .testimonial-slider .owl-stage-outer {margin-bottom: 40px;}
+    .testimonial .testimonial-right .testimonial-slider .testimonial-slider-inner { display: block; max-width: none; padding: 15px;}
+    .benefits .benefits-right {width: 100%; height: auto !important;  min-height: 200px;}
+    .benefits .benefits-left {width: 100%;  height: auto !important; min-height: 60px;  padding: 20px 0;}
+    .benefits .benefit-caption h3 {font-size: 20px; line-height: 1.2; margin-bottom: 18px;}
+    .benefits .benefit-caption ul li {margin-bottom: 14px; font-size: 14px; padding-left: 30px;}
+    .benefits .benefit-caption ul li img {width: 20px; top: 0;}
+    .benefits .benefit-caption { display: block; max-width: none; padding: 15px;}
+    .affiliates {padding: 20px 0;}
+    .affiliates h4 {margin-bottom: 16px; font-size: 22px;}
+    .affiliates .affiliates-icons ul li {margin: 0; width: 25%; padding: 5px;}
+    .our-story { padding: 90px 0 40px; }
+    .our-story .our-story-block .content {padding: 20px 20px 30px;}
+    .our-story .our-story-block .content h5 {font-size: 22px; margin: 0 0 10px;}
+    .our-story .our-story-block header {height: 65px;}
+    .our-story .our-story-block header figure {top: -85px; margin-left: 25px;}
+    .our-story .our-story-block header figure img {max-width: 210px;}
+    
+    
+    /*--------- Login-Forget page ------------*/
+    .border-block.signin-block:before {display: none;}
+    .border-block.signin-block .login-block { width: 100%; padding: 0 0 20px; min-height: 10px; border-bottom: 1px solid #d5d7db; }
+    .border-block.signin-block .forgot-block { width: 100%; padding: 18px 0 0; min-height: 10px; }
+    .border-block.signin-block .single-row .left-side { width: 100%;}
+    .border-block.signin-block .single-row .right-side {  width: 100%; }
+    .border-block.signin-block .single-row .main-btn {margin: 2px 4px 2px 0;}
+    
+    .notification-icon, .home-icon {width: 30px; height: 30px; background-size: 100%; margin-left: 10px; margin-top: 4px;}
+    .notification-number {
+    font-size: 12px;
+    line-height: 22px;
+    min-width: 26px;
+}
+}
+
+/* 2. Large Mobile responsive css 640px
+------------------------------------------------------------------------------*/
+@media (min-width:641px) and (max-width:767px) {
+    h1 {font-size: 40px;}
+    h2 { font-size:34px; }
+    h3 { font-size:26px; }
+    h4 { font-size:24px; }
+    h5 { font-size:20px; }
+    h6 { font-size:16px; }
+    p {font-size: 14px; margin-bottom: 15px;}
+    ul, ol {margin: 20px 0 20px 20px;}
+    ul li,
+    ol li {font-size: 14px;}
+    .aligncenter {display: block; clear:both; margin:20px auto;}
+    .alignleft {float: none; display: block; clear:both; margin:20px auto;}
+    .alignright {float: none; display: block; clear:both; margin:20px auto;}
+    label { font-size: 14px; }
+    input[type="text"], input[type="password"], input[type="email"], input[type="tel"], input[type="search"], textarea {font-size: 14px;}
+    .header-top { padding: 18px 0; }
+    header.main-header .logo { width: 140px;  }
+    header.main-header .signup-right .login-signup { margin-bottom: 4px; }
+    nav.main-menu ul li { margin: 0 24px 0 0; }
+    nav.main-menu ul li a {font-size: 13px;}
+    .signup-section h1{font-size: 34px;}
+    .border-block { margin: 32px 0 0; padding: 22px 24px;}
+    .signup-section { padding-bottom: 30px;}
+    footer.main-footer .single-block { padding: 3px 20px 20px; }
+    footer.main-footer .single-block .social-icons a { background-size: 93px auto; height: 28px; width: 28px; }
+    
+    /*--------- product page ------------*/
+    .banner-product h1 {bottom: 50px;}
+    .banner-product {height: 300px;}
+    .home-bar { min-height: 10px; }
+    .home-bar .container {padding: 0;}
+    .home-bar figure {width: 80px; padding: 10px;}
+    .home-bar p { font-size: 16px; padding: 20px; }
+    .choose-plan { padding: 60px 0; }
+    .choose-plan .container > h2{font-size: 35px;}
+    .choose-plan .container > h3{font-size: 26px;}
+    .plan-tab h3 { font-size: 24px; }
+    .plan-tab h2 {font-size: 35px;}
+    .plan-tab p{font-size: 16px; margin: 16px 0;}
+    .choose-plan .plan-detail ul { margin: 30px 0; }
+    .choose-plan .plan-detail ul li .main-btn {font-size: 18px;}
+    
+    /*--------- about page ------------*/
+    .banner h1 { bottom: 40px; }
+    .our-services { padding-bottom: 30px; }
+    .our-services .container > h3 { margin: 0 0 15px; }
+    .our-services .single-service .single-service-inner h3 { font-size: 18px; margin: 10px 0 0; }
+    .common-content { padding: 30px 0 20px; }
+    
+    /*--------- blog page ------------*/
+    .blog-listing .single-blog-row {padding: 20px 0;}
+    .blog-listing .single-blog-row .blog-right {width: 100%; margin-bottom: 10px;}
+    .blog-listing .single-blog-row .blog-left {width: 100%;}
+    .blog-listing .single-blog-row .blog-left { padding-right: 0;}
+    .blog-listing .single-blog-row .blog-left .title {font-size: 24px; margin: 10px 0;}
+    .blog-listing .single-blog-row .blog-left .post-content {font-size: 14px;}
+    
+    /*--------- blog page ------------*/
+    .news-listing .single-news-row {padding: 20px 0;}
+    .news-listing .single-news-row .news-right .title { font-size: 22px; }
+    .news-listing .single-news-row .news-left .posted-date .date {font-size: 28px; padding: 10px 3px;}
+    .news-listing .single-news-row .news-left .posted-date .year {font-size: 20px; padding: 10px 3px;}
+    
+    
+    /*--------- contact page ------------*/
+    .contactus-row .contact-left{width: 100%; padding-right: 0;}
+    .contactus-row .contact-right{ width: 100%; }
+    .contactus-row .contact-left address{margin-bottom: 20px;}
+    .contactus-row .contact-left address p {margin-bottom: 18px; }
+
+    /*--------- home page ------------*/
+    .banner-home .banner-caption .title,
+    .banner-home .banner-caption h1{ font-size: 38px; }
+    .banner-home .banner-caption p {font-size: 20px;}
+    .banner-home .banner-caption a.yellow-btn {font-size: 16px; line-height: 35px; max-width: 136px;}
+    .banner-home .banner-caption a.yellow-btn1 {font-size: 16px; line-height: 35px; max-width: 136px;}
+    .banner-home .banner-caption {padding: 30px 30px 40px;}
+    .service-signup {padding-bottom: 40px; }
+    .service-signup .all-services {display: block; font-size: 0; }
+    .service-signup .single-service {width: 50%; display: inline-block; vertical-align: top; border-bottom: 1px solid #d8dde4; }
+    .service-signup .single-service figure {padding: 5px;}
+    .service-signup .single-service figure img {max-width: 30%; left: 10%;}
+    .service-signup .single-service .content {padding: 16px 6px 10px;}
+    .service-signup .single-service .content h3 {font-size: 20px;}
+    .service-signup .single-service .pricing { padding: 12px 10px 20px;}
+    .service-signup .single-service .pricing .price {font-size: 24px;}
+    .service-signup .single-service a {font-size: 15px; line-height: 30px; max-width: 120px;}
+    .testimonial-slider h3 {font-size: 20px; line-height: 1.2; margin-bottom: 16px;}
+    .testimonial-slider p {font-size: 18px; line-height: 1.3; margin: 0 0 12px;}
+    .testimonial-slider .name {font-size: 12px;}
+    .testimonial-slider .owl-stage-outer {margin-bottom: 40px;}
+    .testimonial .testimonial-right .testimonial-slider .testimonial-slider-inner { display: block; max-width: none; padding: 15px;}
+    .benefits .benefit-caption h3 {font-size: 20px; line-height: 1.2; margin-bottom: 18px;}
+    .benefits .benefit-caption ul li {margin-bottom: 14px;}
+    .benefits .benefit-caption { display: block; max-width: none; padding: 15px;}
+    .affiliates {padding: 30px 0;}
+    .affiliates h4 {margin-bottom: 16px;}
+    .affiliates .affiliates-icons ul li {margin: 0; width: 16.66%; padding: 0 5px;}
+    .our-story { padding: 160px 0 70px; }
+    .our-story .our-story-block header figure {top: -162px;}
+    .our-story .our-story-block header figure img { max-width: 370px;}
+    
+    
+    /*--------- Login-Forget page ------------*/
+    .border-block.signin-block::before {display: none;}
+    .border-block.signin-block .login-block { width: 100%; padding: 0 0 20px; min-height: 10px; border-bottom: 1px solid #d5d7db; }
+    .border-block.signin-block .forgot-block { width: 100%; padding: 20px 0 0; min-height: 10px; }
+    
+    
+}
+
+/* 3. iPad responsive css 768px to 1023px
+------------------------------------------------------------------------------*/
+@media (min-width:768px) and (max-width:1023px) {
+    h1 {font-size: 50px;}
+    p {font-size: 14px;}
+    ul li,
+    ol li {font-size: 14px;}
+    .aligncenter {display: block; clear:both; margin:20px auto;}
+    .alignleft {float: left; margin: 0 20px 20px 0; }
+    .alignright {float: none;/* margin: 0 0 20px 20px; */}
+    label { font-size: 14px; }
+    input[type="text"], input[type="password"], input[type="email"], input[type="tel"], input[type="search"], textarea {font-size: 14px;}
+    .header-top { padding: 18px 0; }
+    header.main-header .logo { width: 140px;}
+    header.main-header .signup-right .login-signup { margin-bottom: 4px; }
+    nav.main-menu ul li { margin: 0 40px 0 0; }
+    .signup-section h1{font-size: 34px;}
+    .border-block { margin: 32px 0 0; padding: 22px 24px;}
+    .signup-section { padding-bottom: 50px;}
+    footer.main-footer .single-block { padding: 3px 20px 20px; }
+    
+    /*--------- product page ------------*/
+    .home-bar { min-height: 10px; }
+    .home-bar .container {padding: 0;}
+    .home-bar figure {width: 100px;}
+    .home-bar p { font-size: 16px; padding: 20px; }
+    .choose-plan { padding: 60px 0; }
+    .choose-plan .container > h2{font-size: 40px;}
+    .choose-plan .container > h3{font-size: 30px;}
+    .plan-tab h3 { font-size: 26px; }
+    .plan-tab h2 {font-size: 40px;}
+    .plan-tab p{font-size: 16px; margin: 16px 0;}
+    .choose-plan .plan-detail ul { margin: 30px 0; }
+    .choose-plan .plan-detail ul li .main-btn {font-size: 22px;}
+    
+    /*--------- about page ------------*/
+    .our-services .single-service .single-service-inner h3 { font-size: 20px; margin: 10px 0 0; }
+    .common-content { padding: 50px 0 30px; }
+    
+    /*--------- blog page ------------*/
+    .blog-listing .single-blog-row .blog-left { padding-right: 30px;}
+    .blog-listing .single-blog-row .blog-left .title {font-size: 26px; margin: 10px 0;}
+    
+    /*--------- blog page ------------*/
+    .news-listing .single-news-row .news-right .title { font-size: 26px; }
+    .news-listing .single-news-row .news-left .posted-date .date {font-size: 34px;}
+    .news-listing .single-news-row .news-left .posted-date .year {font-size: 22px;}
+    
+    /*--------- home page ------------*/
+    .banner-home .banner-caption .title,
+    .banner-home .banner-caption h1{ font-size: 48px; }
+    .banner-home .banner-caption p {font-size: 22px;}
+    .service-signup {padding-bottom: 60px;}
+    .service-signup .single-service figure {padding: 5px;}
+    .service-signup .single-service figure img {max-width: 50%; left: 10%;}
+    .service-signup .single-service .content {padding: 16px 6px 10px;}
+    .service-signup .single-service .content h3 {font-size: 22px;}
+    .service-signup .single-service .pricing { padding: 12px 10px 20px;}
+    .service-signup .single-service .pricing .price {font-size: 24px;}
+    .service-signup .single-service a {font-size: 15px; line-height: 30px; max-width: 120px;}
+    .testimonial-slider h3 {font-size: 26px; line-height: 1.2; margin-bottom: 18px;}
+    .testimonial-slider p {font-size: 20px; line-height: 1.3; margin: 0 0 12px;}
+    .testimonial-slider .name {font-size: 14px;}
+    .testimonial-slider .owl-stage-outer {margin-bottom: 40px;}
+    .testimonial .testimonial-right .testimonial-slider .testimonial-slider-inner { display: block; max-width: none; padding: 15px;}
+    .benefits .benefit-caption h3 {font-size: 26px; line-height: 1.2; margin-bottom: 22px;}
+    .benefits .benefit-caption ul li {margin-bottom: 16px;}
+    .benefits .benefit-caption { display: block; max-width: none; padding: 15px;}
+    .affiliates {padding: 40px 0;}
+    .affiliates h4 {margin-bottom: 20px;}
+    .affiliates .affiliates-icons ul li {margin: 0; width: 16.66%; padding: 0 5px;}
+    
+    /*--------- Login-Forget page ------------*/
+    .border-block.signin-block::before {display: none;}
+    .border-block.signin-block .login-block { width: 100%; padding: 0 0 20px; min-height: 10px; border-bottom: 1px solid #d5d7db; }
+    .border-block.signin-block .forgot-block { width: 100%; padding: 20px 0 0; min-height: 10px; }
+    
+}
+
+/* 4. large desktop responsive css 1024px to 1199px
+------------------------------------------------------------------------------*/
+@media (min-width:1024px) and (max-width:1199px) {	
+
+    /*--------- product page ------------*/
+    .home-bar p {padding: 20px 50px;}
+    
+    /*--------- about page ------------*/
+    .our-services .single-service .single-service-inner h3 { font-size: 24px; }
+    .common-content { padding: 50px 0 30px; }
+    
+    /*--------- blog page ------------*/
+    .blog-listing .single-blog-row .blog-left { padding-right: 60px;}
+    
+    /*--------- home page ------------*/
+    .banner-home .banner-caption .title,
+    .banner-home .banner-caption h1{ font-size: 54px; }
+    .banner-home .banner-caption p {font-size: 26px;}
+    .service-signup .single-service .content {padding: 20px 9px 22px;}
+    .service-signup .single-service .content h3 {font-size: 26px;}
+    .service-signup .single-service .pricing { padding: 12px 10px 20px;}
+    .testimonial .testimonial-right .testimonial-slider .testimonial-slider-inner { display: block; max-width: none; padding: 15px;}
+    .benefits .benefit-caption { display: block; max-width: none; padding: 15px;}
+    .affiliates .affiliates-icons ul li {margin: 0; width: 16.66%; padding: 0 5px;}
+    
+}
+
+@media (min-width:1024px) and (max-width:1300px) {
+    header.main-header .logo {
+        margin-left: 0;
+    }
+    header.main-header .account-right {
+        padding-right: 0;
+    }
+    .account-toggle {
+    display: none;
+}
+}
+
+@media (max-width:1023px) {
+    header.main-header .logo {
+        margin-left: 0;
+    }
+    header.main-header .account-right {
+        padding-right: 0;
+    }
+    .account-toggle {
+    display: none;
+}
+}
+/* 5. Other media-query
+------------------------------------------------------------------------------*/
+
+@media (min-width:641px){
+    #wrapper,
+    footer.main-footer {left: 0 !important;}
+}
+@media (min-width:768px){
+    #wrapper,
+    footer.main-footer {left: 0 !important;}
+}

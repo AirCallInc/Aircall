@@ -1,0 +1,7 @@
+2016-07-23 22:33:12.3382|INFO|api.Helpers.NLogger|JSON
+Method: POST
+URL: http://ads.siteproofs.net/api/profile/ClientDashboard
+Controller : api.Controllers.ProfileController
+Action : ClientDashboard
+Action Parameters : {"messageFormat":"JSON","messageArguments":[{"request":{"Email":null,"ClientId":38,"PlanTypeId":0,"PlanId":0,"Month":0,"AddressId":null,"UnitId":0,"ServiceId":0,"PartType":null,"PageId":0,"ShowDeleted":false,"LastCallDateTime":null,"PageNumber":null,"pageSize":0}}]}
+

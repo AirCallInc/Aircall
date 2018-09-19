@@ -1,0 +1,21 @@
+2016-07-21 12:57:40.1521|INFO|api.Helpers.NLogger|JSON
+Method: POST
+URL: http://192.168.1.119:6987/employee/EmpPartRequeste
+Controller : api.Controllers.EmployeeController
+Action : EmpPartRequeste
+Action Parameters : {"messageFormat":"JSON","messageArguments":[{"emp":{"EmployeePartRequestId":null,"ClientID":11,"EmployeeId":1,"AddressId":1,"RequestedParts":[{"UnitId":340,"PartId":2,"Quantity":4,"PartName":"Trane","PartSize":"20” x 18” x 11”","Description":""},{"UnitId":339,"PartId":2,"Quantity":3,"PartName":"Trane","PartSize":"20” x 18” x 11”","Description":""}]}}]}
+
+2016-07-21 13:01:18.5229|INFO|api.Helpers.NLogger|JSON
+Method: POST
+URL: http://192.168.1.119:6987/employee/EmpPartRequeste
+Controller : api.Controllers.EmployeeController
+Action : EmpPartRequeste
+Action Parameters : {"messageFormat":"JSON","messageArguments":[{"emp":{"EmployeePartRequestId":null,"ClientID":11,"EmployeeId":1,"AddressId":1,"RequestedParts":[{"UnitId":340,"PartId":2,"Quantity":4,"PartName":"Trane","PartSize":"20” x 18” x 11”","Description":""},{"UnitId":339,"PartId":2,"Quantity":3,"PartName":"Trane","PartSize":"20” x 18” x 11”","Description":""}]}}]}
+
+2016-07-21 16:29:11.9559|INFO|api.Helpers.NLogger|JSON
+Method: POST
+URL: http://192.168.1.119:6987/employee/EmpPartRequeste
+Controller : api.Controllers.EmployeeController
+Action : EmpPartRequeste
+Action Parameters : {"messageFormat":"JSON","messageArguments":[{"emp":{"EmployeePartRequestId":4,"ClientID":33,"EmployeeId":1,"AddressId":91,"RequestedParts":[{"UnitId":392,"PartId":2,"Quantity":5,"PartName":"Trane","PartSize":"20” x 18” x 11”","Description":""},{"UnitId":393,"PartId":2,"Quantity":5,"PartName":"Trane","PartSize":"20” x 18” x 11”","Description":""}]}}]}
+

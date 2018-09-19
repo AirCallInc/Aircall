@@ -1,0 +1,1405 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+  <EntityContainerMapping StorageEntityContainer="Aircall_sepModelStoreContainer" CdmEntityContainer="Aircall_DBEntities1">
+    <EntitySetMapping Name="AppAccessTokens">
+      <EntityTypeMapping TypeName="Aircall_sepModel.AppAccessToken">
+        <MappingFragment StoreEntitySet="AppAccessToken">
+          <ScalarProperty Name="TokenId" ColumnName="TokenId" />
+          <ScalarProperty Name="UserId" ColumnName="UserId" />
+          <ScalarProperty Name="UserType" ColumnName="UserType" />
+          <ScalarProperty Name="AuthToken" ColumnName="AuthToken" />
+          <ScalarProperty Name="IssuedOn" ColumnName="IssuedOn" />
+          <ScalarProperty Name="ExpiresOn" ColumnName="ExpiresOn" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="AreaMasters">
+      <EntityTypeMapping TypeName="Aircall_sepModel.AreaMaster">
+        <MappingFragment StoreEntitySet="AreaMaster">
+          <ScalarProperty Name="Id" ColumnName="Id" />
+          <ScalarProperty Name="Name" ColumnName="Name" />
+          <ScalarProperty Name="StateId" ColumnName="StateId" />
+          <ScalarProperty Name="CitiesId" ColumnName="CitiesId" />
+          <ScalarProperty Name="Status" ColumnName="Status" />
+          <ScalarProperty Name="IsDeleted" ColumnName="IsDeleted" />
+          <ScalarProperty Name="AddedBy" ColumnName="AddedBy" />
+          <ScalarProperty Name="AddedByType" ColumnName="AddedByType" />
+          <ScalarProperty Name="AddedDate" ColumnName="AddedDate" />
+          <ScalarProperty Name="UpdatedBy" ColumnName="UpdatedBy" />
+          <ScalarProperty Name="UpdatedByType" ColumnName="UpdatedByType" />
+          <ScalarProperty Name="UpdatedDate" ColumnName="UpdatedDate" />
+          <ScalarProperty Name="DeletedBy" ColumnName="DeletedBy" />
+          <ScalarProperty Name="DeletedByType" ColumnName="DeletedByType" />
+          <ScalarProperty Name="DeletedDate" ColumnName="DeletedDate" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="BillingHistories">
+      <EntityTypeMapping TypeName="Aircall_sepModel.BillingHistory">
+        <MappingFragment StoreEntitySet="BillingHistory">
+          <ScalarProperty Name="Id" ColumnName="Id" />
+          <ScalarProperty Name="ClientId" ColumnName="ClientId" />
+          <ScalarProperty Name="UnitId" ColumnName="UnitId" />
+          <ScalarProperty Name="OrderId" ColumnName="OrderId" />
+          <ScalarProperty Name="ServiceCaseNumber" ColumnName="ServiceCaseNumber" />
+          <ScalarProperty Name="PackageName" ColumnName="PackageName" />
+          <ScalarProperty Name="BillingType" ColumnName="BillingType" />
+          <ScalarProperty Name="OriginalAmount" ColumnName="OriginalAmount" />
+          <ScalarProperty Name="PurchasedAmount" ColumnName="PurchasedAmount" />
+          <ScalarProperty Name="PartnerSalesCommisionAmount" ColumnName="PartnerSalesCommisionAmount" />
+          <ScalarProperty Name="BillingAddress" ColumnName="BillingAddress" />
+          <ScalarProperty Name="BillingCity" ColumnName="BillingCity" />
+          <ScalarProperty Name="BillingState" ColumnName="BillingState" />
+          <ScalarProperty Name="BillingZipcode" ColumnName="BillingZipcode" />
+          <ScalarProperty Name="BillingPhoneNumber" ColumnName="BillingPhoneNumber" />
+          <ScalarProperty Name="BillingMobileNumber" ColumnName="BillingMobileNumber" />
+          <ScalarProperty Name="IsSpecialOffer" ColumnName="IsSpecialOffer" />
+          <ScalarProperty Name="TransactionId" ColumnName="TransactionId" />
+          <ScalarProperty Name="TransactionDate" ColumnName="TransactionDate" />
+          <ScalarProperty Name="IsDeleted" ColumnName="IsDeleted" />
+          <ScalarProperty Name="AddedBy" ColumnName="AddedBy" />
+          <ScalarProperty Name="AddedDate" ColumnName="AddedDate" />
+          <ScalarProperty Name="DeletedBy" ColumnName="DeletedBy" />
+          <ScalarProperty Name="DeletedDate" ColumnName="DeletedDate" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Blocks">
+      <EntityTypeMapping TypeName="Aircall_sepModel.Block">
+        <MappingFragment StoreEntitySet="Blocks">
+          <ScalarProperty Name="Id" ColumnName="Id" />
+          <ScalarProperty Name="BlockTitle" ColumnName="BlockTitle" />
+          <ScalarProperty Name="Description" ColumnName="Description" />
+          <ScalarProperty Name="Position" ColumnName="Position" />
+          <ScalarProperty Name="Order" ColumnName="Order" />
+          <ScalarProperty Name="Status" ColumnName="Status" />
+          <ScalarProperty Name="IsDeleted" ColumnName="IsDeleted" />
+          <ScalarProperty Name="AddedBy" ColumnName="AddedBy" />
+          <ScalarProperty Name="AddedByType" ColumnName="AddedByType" />
+          <ScalarProperty Name="AddedDate" ColumnName="AddedDate" />
+          <ScalarProperty Name="UpdatedBy" ColumnName="UpdatedBy" />
+          <ScalarProperty Name="UpdatedByType" ColumnName="UpdatedByType" />
+          <ScalarProperty Name="UpdatedDate" ColumnName="UpdatedDate" />
+          <ScalarProperty Name="DeletedBy" ColumnName="DeletedBy" />
+          <ScalarProperty Name="DeletedByTypes" ColumnName="DeletedByTypes" />
+          <ScalarProperty Name="DeletedDate" ColumnName="DeletedDate" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Cities">
+      <EntityTypeMapping TypeName="Aircall_sepModel.City">
+        <MappingFragment StoreEntitySet="Cities">
+          <ScalarProperty Name="Id" ColumnName="Id" />
+          <ScalarProperty Name="StateId" ColumnName="StateId" />
+          <ScalarProperty Name="Name" ColumnName="Name" />
+          <ScalarProperty Name="ShowInClient" ColumnName="ShowInClient" />
+          <ScalarProperty Name="Status" ColumnName="Status" />
+          <ScalarProperty Name="IsDeleted" ColumnName="IsDeleted" />
+          <ScalarProperty Name="AddedBy" ColumnName="AddedBy" />
+          <ScalarProperty Name="AddedByType" ColumnName="AddedByType" />
+          <ScalarProperty Name="AddedDate" ColumnName="AddedDate" />
+          <ScalarProperty Name="UpdatedBy" ColumnName="UpdatedBy" />
+          <ScalarProperty Name="UpdatedByType" ColumnName="UpdatedByType" />
+          <ScalarProperty Name="UpdatedDate" ColumnName="UpdatedDate" />
+          <ScalarProperty Name="DeletedBy" ColumnName="DeletedBy" />
+          <ScalarProperty Name="DeletedByType" ColumnName="DeletedByType" />
+          <ScalarProperty Name="DeletedDate" ColumnName="DeletedDate" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Clients">
+      <EntityTypeMapping TypeName="Aircall_sepModel.Client">
+        <MappingFragment StoreEntitySet="Client">
+          <ScalarProperty Name="Id" ColumnName="Id" />
+          <ScalarProperty Name="RoleId" ColumnName="RoleId" />
+          <ScalarProperty Name="AccountNumber" ColumnName="AccountNumber" />
+          <ScalarProperty Name="FirstName" ColumnName="FirstName" />
+          <ScalarProperty Name="LastName" ColumnName="LastName" />
+          <ScalarProperty Name="Email" ColumnName="Email" />
+          <ScalarProperty Name="Password" ColumnName="Password" />
+          <ScalarProperty Name="Image" ColumnName="Image" />
+          <ScalarProperty Name="PhoneNumber" ColumnName="PhoneNumber" />
+          <ScalarProperty Name="MobileNumber" ColumnName="MobileNumber" />
+          <ScalarProperty Name="OfficeNumber" ColumnName="OfficeNumber" />
+          <ScalarProperty Name="HomeNumber" ColumnName="HomeNumber" />
+          <ScalarProperty Name="HVACUnit" ColumnName="HVACUnit" />
+          <ScalarProperty Name="AffiliateId" ColumnName="AffiliateId" />
+          <ScalarProperty Name="IsUserAffiliateDeleted" ColumnName="IsUserAffiliateDeleted" />
+          <ScalarProperty Name="AffilateDeletedBy" ColumnName="AffilateDeletedBy" />
+          <ScalarProperty Name="AffilateDeletedDate" ColumnName="AffilateDeletedDate" />
+          <ScalarProperty Name="AppLoginStatus" ColumnName="AppLoginStatus" />
+          <ScalarProperty Name="DeviceType" ColumnName="DeviceType" />
+          <ScalarProperty Name="DeviceToken" ColumnName="DeviceToken" />
+          <ScalarProperty Name="StripeCustomerId" ColumnName="StripeCustomerId" />
+          <ScalarProperty Name="IsActive" ColumnName="IsActive" />
+          <ScalarProperty Name="PasswordUrl" ColumnName="PasswordUrl" />
+          <ScalarProperty Name="IsLinkActive" ColumnName="IsLinkActive" />
+          <ScalarProperty Name="ResetPasswordLinkExpireDate" ColumnName="ResetPasswordLinkExpireDate" />
+          <ScalarProperty Name="AddedBy" ColumnName="AddedBy" />
+          <ScalarProperty Name="AddedByType" ColumnName="AddedByType" />
+          <ScalarProperty Name="AddedDate" ColumnName="AddedDate" />
+          <ScalarProperty Name="UpdatedBy" ColumnName="UpdatedBy" />
+          <ScalarProperty Name="UpdatedByType" ColumnName="UpdatedByType" />
+          <ScalarProperty Name="UpdatedDate" ColumnName="UpdatedDate" />
+          <ScalarProperty Name="IsDeleted" ColumnName="IsDeleted" />
+          <ScalarProperty Name="DeletedBy" ColumnName="DeletedBy" />
+          <ScalarProperty Name="DeletedByType" ColumnName="DeletedByType" />
+          <ScalarProperty Name="DeletedDate" ColumnName="DeletedDate" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="ClientAddresses">
+      <EntityTypeMapping TypeName="Aircall_sepModel.ClientAddress">
+        <MappingFragment StoreEntitySet="ClientAddress">
+          <ScalarProperty Name="Id" ColumnName="Id" />
+          <ScalarProperty Name="ClientId" ColumnName="ClientId" />
+          <ScalarProperty Name="Address" ColumnName="Address" />
+          <ScalarProperty Name="State" ColumnName="State" />
+          <ScalarProperty Name="City" ColumnName="City" />
+          <ScalarProperty Name="ZipCode" ColumnName="ZipCode" />
+          <ScalarProperty Name="Latitude" ColumnName="Latitude" />
+          <ScalarProperty Name="Longitude" ColumnName="Longitude" />
+          <ScalarProperty Name="IsDefaultAddress" ColumnName="IsDefaultAddress" />
+          <ScalarProperty Name="AddedBy" ColumnName="AddedBy" />
+          <ScalarProperty Name="AddedByType" ColumnName="AddedByType" />
+          <ScalarProperty Name="AddedDate" ColumnName="AddedDate" />
+          <ScalarProperty Name="UpdatedBy" ColumnName="UpdatedBy" />
+          <ScalarProperty Name="UpdatedByType" ColumnName="UpdatedByType" />
+          <ScalarProperty Name="UpdatedDate" ColumnName="UpdatedDate" />
+          <ScalarProperty Name="IsDeleted" ColumnName="IsDeleted" />
+          <ScalarProperty Name="DeletedBy" ColumnName="DeletedBy" />
+          <ScalarProperty Name="DeletedByType" ColumnName="DeletedByType" />
+          <ScalarProperty Name="DeletedDate" ColumnName="DeletedDate" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="ClientPaymentMethods">
+      <EntityTypeMapping TypeName="Aircall_sepModel.ClientPaymentMethod">
+        <MappingFragment StoreEntitySet="ClientPaymentMethod">
+          <ScalarProperty Name="Id" ColumnName="Id" />
+          <ScalarProperty Name="ClientId" ColumnName="ClientId" />
+          <ScalarProperty Name="CardType" ColumnName="CardType" />
+          <ScalarProperty Name="NameOnCard" ColumnName="NameOnCard" />
+          <ScalarProperty Name="CardNumber" ColumnName="CardNumber" />
+          <ScalarProperty Name="ExpiryMonth" ColumnName="ExpiryMonth" />
+          <ScalarProperty Name="ExpiryYear" ColumnName="ExpiryYear" />
+          <ScalarProperty Name="IsDefaultPayment" ColumnName="IsDefaultPayment" />
+          <ScalarProperty Name="StripeCardId" ColumnName="StripeCardId" />
+          <ScalarProperty Name="IsExpirationNotificationSent" ColumnName="IsExpirationNotificationSent" />
+          <ScalarProperty Name="AddedBy" ColumnName="AddedBy" />
+          <ScalarProperty Name="AddedByType" ColumnName="AddedByType" />
+          <ScalarProperty Name="AddedDate" ColumnName="AddedDate" />
+          <ScalarProperty Name="UpdatedBy" ColumnName="UpdatedBy" />
+          <ScalarProperty Name="UpdatedByType" ColumnName="UpdatedByType" />
+          <ScalarProperty Name="UpdatedDate" ColumnName="UpdatedDate" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="ClientUnits">
+      <EntityTypeMapping TypeName="Aircall_sepModel.ClientUnit">
+        <MappingFragment StoreEntitySet="ClientUnit">
+          <ScalarProperty Name="Id" ColumnName="Id" />
+          <ScalarProperty Name="ClientId" ColumnName="ClientId" />
+          <ScalarProperty Name="PlanId" ColumnName="PlanId" />
+          <ScalarProperty Name="PlanTypeId" ColumnName="PlanTypeId" />
+          <ScalarProperty Name="UnitName" ColumnName="UnitName" />
+          <ScalarProperty Name="ManufactureDate" ColumnName="ManufactureDate" />
+          <ScalarProperty Name="UnitTon" ColumnName="UnitTon" />
+          <ScalarProperty Name="AddressId" ColumnName="AddressId" />
+          <ScalarProperty Name="UnitTypeId" ColumnName="UnitTypeId" />
+          <ScalarProperty Name="AutoRenewal" ColumnName="AutoRenewal" />
+          <ScalarProperty Name="Notes" ColumnName="Notes" />
+          <ScalarProperty Name="Status" ColumnName="Status" />
+          <ScalarProperty Name="PaymentStatus" ColumnName="PaymentStatus" />
+          <ScalarProperty Name="IsMatched" ColumnName="IsMatched" />
+          <ScalarProperty Name="IsDeleted" ColumnName="IsDeleted" />
+          <ScalarProperty Name="IsSpecialApplied" ColumnName="IsSpecialApplied" />
+          <ScalarProperty Name="IsServiceAdded" ColumnName="IsServiceAdded" />
+          <ScalarProperty Name="StripeSubscriptionId" ColumnName="StripeSubscriptionId" />
+          <ScalarProperty Name="IsPlanRenewedOrCancelled" ColumnName="IsPlanRenewedOrCancelled" />
+          <ScalarProperty Name="IsActive" ColumnName="IsActive" />
+          <ScalarProperty Name="AddedBy" ColumnName="AddedBy" />
+          <ScalarProperty Name="AddedByType" ColumnName="AddedByType" />
+          <ScalarProperty Name="AddedDate" ColumnName="AddedDate" />
+          <ScalarProperty Name="UpdatedBy" ColumnName="UpdatedBy" />
+          <ScalarProperty Name="UpdatedByType" ColumnName="UpdatedByType" />
+          <ScalarProperty Name="UpdatedDate" ColumnName="UpdatedDate" />
+          <ScalarProperty Name="DeletedBy" ColumnName="DeletedBy" />
+          <ScalarProperty Name="DeletedByType" ColumnName="DeletedByType" />
+          <ScalarProperty Name="DeletedDate" ColumnName="DeletedDate" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="ClientUnitInvoices">
+      <EntityTypeMapping TypeName="Aircall_sepModel.ClientUnitInvoice">
+        <MappingFragment StoreEntitySet="ClientUnitInvoice">
+          <ScalarProperty Name="Id" ColumnName="Id" />
+          <ScalarProperty Name="ClientId" ColumnName="ClientId" />
+          <ScalarProperty Name="UnitId" ColumnName="UnitId" />
+          <ScalarProperty Name="RenewCancelReason" ColumnName="RenewCancelReason" />
+          <ScalarProperty Name="Amount" ColumnName="Amount" />
+          <ScalarProperty Name="AddedBy" ColumnName="AddedBy" />
+          <ScalarProperty Name="AddedByType" ColumnName="AddedByType" />
+          <ScalarProperty Name="AddedDate" ColumnName="AddedDate" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="ClientUnitManuals">
+      <EntityTypeMapping TypeName="Aircall_sepModel.ClientUnitManual">
+        <MappingFragment StoreEntitySet="ClientUnitManuals">
+          <ScalarProperty Name="SplitType" ColumnName="SplitType" />
+          <ScalarProperty Name="Id" ColumnName="Id" />
+          <ScalarProperty Name="ClientUnitId" ColumnName="ClientUnitId" />
+          <ScalarProperty Name="ManualName" ColumnName="ManualName" />
+          <ScalarProperty Name="ManualUrl" ColumnName="ManualUrl" />
+          <ScalarProperty Name="AddedBy" ColumnName="AddedBy" />
+          <ScalarProperty Name="AddedByType" ColumnName="AddedByType" />
+          <ScalarProperty Name="AddedDate" ColumnName="AddedDate" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="ClientUnitParts">
+      <EntityTypeMapping TypeName="Aircall_sepModel.ClientUnitPart">
+        <MappingFragment StoreEntitySet="ClientUnitParts">
+          <ScalarProperty Name="Breaker" ColumnName="Breaker" />
+          <ScalarProperty Name="Misc" ColumnName="Misc" />
+          <ScalarProperty Name="CoilCleaner" ColumnName="CoilCleaner" />
+          <ScalarProperty Name="Id" ColumnName="Id" />
+          <ScalarProperty Name="UnitId" ColumnName="UnitId" />
+          <ScalarProperty Name="SplitType" ColumnName="SplitType" />
+          <ScalarProperty Name="ModelNumber" ColumnName="ModelNumber" />
+          <ScalarProperty Name="SerialNumber" ColumnName="SerialNumber" />
+          <ScalarProperty Name="ManufactureBrand" ColumnName="ManufactureBrand" />
+          <ScalarProperty Name="ManufactureDate" ColumnName="ManufactureDate" />
+          <ScalarProperty Name="UnitTon" ColumnName="UnitTon" />
+          <ScalarProperty Name="Booster" ColumnName="Booster" />
+          <ScalarProperty Name="RefrigerantType" ColumnName="RefrigerantType" />
+          <ScalarProperty Name="ElectricalService" ColumnName="ElectricalService" />
+          <ScalarProperty Name="MaxBreaker" ColumnName="MaxBreaker" />
+          <ScalarProperty Name="Compressor" ColumnName="Compressor" />
+          <ScalarProperty Name="Capacitor" ColumnName="Capacitor" />
+          <ScalarProperty Name="Contactor" ColumnName="Contactor" />
+          <ScalarProperty Name="Filterdryer" ColumnName="Filterdryer" />
+          <ScalarProperty Name="Defrostboard" ColumnName="Defrostboard" />
+          <ScalarProperty Name="Relay" ColumnName="Relay" />
+          <ScalarProperty Name="TXVValve" ColumnName="TXVValve" />
+          <ScalarProperty Name="ReversingValve" ColumnName="ReversingValve" />
+          <ScalarProperty Name="BlowerMotor" ColumnName="BlowerMotor" />
+          <ScalarProperty Name="Condensingfanmotor" ColumnName="Condensingfanmotor" />
+          <ScalarProperty Name="Inducerdraftmotor" ColumnName="Inducerdraftmotor" />
+          <ScalarProperty Name="Transformer" ColumnName="Transformer" />
+          <ScalarProperty Name="Controlboard" ColumnName="Controlboard" />
+          <ScalarProperty Name="Limitswitch" ColumnName="Limitswitch" />
+          <ScalarProperty Name="Ignitor" ColumnName="Ignitor" />
+          <ScalarProperty Name="Gasvalve" ColumnName="Gasvalve" />
+          <ScalarProperty Name="Pressureswitch" ColumnName="Pressureswitch" />
+          <ScalarProperty Name="Flamesensor" ColumnName="Flamesensor" />
+          <ScalarProperty Name="Rolloutsensor" ColumnName="Rolloutsensor" />
+          <ScalarProperty Name="Doorswitch" ColumnName="Doorswitch" />
+          <ScalarProperty Name="Ignitioncontrolboard" ColumnName="Ignitioncontrolboard" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="ClientUnitPictures">
+      <EntityTypeMapping TypeName="Aircall_sepModel.ClientUnitPicture">
+        <MappingFragment StoreEntitySet="ClientUnitPictures">
+          <ScalarProperty Name="Id" ColumnName="Id" />
+          <ScalarProperty Name="ClientUnitId" ColumnName="ClientUnitId" />
+          <ScalarProperty Name="SplitType" ColumnName="SplitType" />
+          <ScalarProperty Name="UnitImage" ColumnName="UnitImage" />
+          <ScalarProperty Name="AddedBy" ColumnName="AddedBy" />
+          <ScalarProperty Name="AddedByType" ColumnName="AddedByType" />
+          <ScalarProperty Name="AddedDate" ColumnName="AddedDate" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="ClientUnitServiceCounts">
+      <EntityTypeMapping TypeName="Aircall_sepModel.ClientUnitServiceCount">
+        <MappingFragment StoreEntitySet="ClientUnitServiceCount">
+          <ScalarProperty Name="Id" ColumnName="Id" />
+          <ScalarProperty Name="ClientId" ColumnName="ClientId" />
+          <ScalarProperty Name="UnitId" ColumnName="UnitId" />
+          <ScalarProperty Name="TotalPlanService" ColumnName="TotalPlanService" />
+          <ScalarProperty Name="TotalDonePlanService" ColumnName="TotalDonePlanService" />
+          <ScalarProperty Name="TotalRequestService" ColumnName="TotalRequestService" />
+          <ScalarProperty Name="TotalDoneRequestService" ColumnName="TotalDoneRequestService" />
+          <ScalarProperty Name="TotalBillsGenerated" ColumnName="TotalBillsGenerated" />
+          <ScalarProperty Name="StripeUnitSubscriptionCount" ColumnName="StripeUnitSubscriptionCount" />
+          <ScalarProperty Name="IsDeleted" ColumnName="IsDeleted" />
+          <ScalarProperty Name="AddedBy" ColumnName="AddedBy" />
+          <ScalarProperty Name="AddedByType" ColumnName="AddedByType" />
+          <ScalarProperty Name="AddedDate" ColumnName="AddedDate" />
+          <ScalarProperty Name="UpdatedBy" ColumnName="UpdatedBy" />
+          <ScalarProperty Name="UpdatedByType" ColumnName="UpdatedByType" />
+          <ScalarProperty Name="UpdatedDate" ColumnName="UpdatedDate" />
+          <ScalarProperty Name="DeletedBy" ColumnName="DeletedBy" />
+          <ScalarProperty Name="DeletedByType" ColumnName="DeletedByType" />
+          <ScalarProperty Name="DeletedDate" ColumnName="DeletedDate" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="CMSPages">
+      <EntityTypeMapping TypeName="Aircall_sepModel.CMSPage">
+        <MappingFragment StoreEntitySet="CMSPages">
+          <ScalarProperty Name="Id" ColumnName="Id" />
+          <ScalarProperty Name="PageTitle" ColumnName="PageTitle" />
+          <ScalarProperty Name="MenuTitle" ColumnName="MenuTitle" />
+          <ScalarProperty Name="URL" ColumnName="URL" />
+          <ScalarProperty Name="Description" ColumnName="Description" />
+          <ScalarProperty Name="BannerImage" ColumnName="BannerImage" />
+          <ScalarProperty Name="MetaTitle" ColumnName="MetaTitle" />
+          <ScalarProperty Name="MetaKeywords" ColumnName="MetaKeywords" />
+          <ScalarProperty Name="MetaDescription" ColumnName="MetaDescription" />
+          <ScalarProperty Name="AdditionalMeta" ColumnName="AdditionalMeta" />
+          <ScalarProperty Name="Status" ColumnName="Status" />
+          <ScalarProperty Name="IsDeleted" ColumnName="IsDeleted" />
+          <ScalarProperty Name="AddedBy" ColumnName="AddedBy" />
+          <ScalarProperty Name="AddedByType" ColumnName="AddedByType" />
+          <ScalarProperty Name="AddedDate" ColumnName="AddedDate" />
+          <ScalarProperty Name="UpdatedBy" ColumnName="UpdatedBy" />
+          <ScalarProperty Name="UpdatedByType" ColumnName="UpdatedByType" />
+          <ScalarProperty Name="UpdatedDate" ColumnName="UpdatedDate" />
+          <ScalarProperty Name="DeletedBy" ColumnName="DeletedBy" />
+          <ScalarProperty Name="DeletedByTypes" ColumnName="DeletedByTypes" />
+          <ScalarProperty Name="DeletedDate" ColumnName="DeletedDate" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="ContactRequests">
+      <EntityTypeMapping TypeName="Aircall_sepModel.ContactRequest">
+        <MappingFragment StoreEntitySet="ContactRequest">
+          <ScalarProperty Name="Id" ColumnName="Id" />
+          <ScalarProperty Name="Name" ColumnName="Name" />
+          <ScalarProperty Name="Email" ColumnName="Email" />
+          <ScalarProperty Name="PhoneNumber" ColumnName="PhoneNumber" />
+          <ScalarProperty Name="Message" ColumnName="Message" />
+          <ScalarProperty Name="RequestDate" ColumnName="RequestDate" />
+          <ScalarProperty Name="ResponseEmailSubject" ColumnName="ResponseEmailSubject" />
+          <ScalarProperty Name="ResponseBody" ColumnName="ResponseBody" />
+          <ScalarProperty Name="ResponseBy" ColumnName="ResponseBy" />
+          <ScalarProperty Name="ResponseDate" ColumnName="ResponseDate" />
+          <ScalarProperty Name="Status" ColumnName="Status" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="DailyPartListMasters">
+      <EntityTypeMapping TypeName="Aircall_sepModel.DailyPartListMaster">
+        <MappingFragment StoreEntitySet="DailyPartListMaster">
+          <ScalarProperty Name="Id" ColumnName="Id" />
+          <ScalarProperty Name="Name" ColumnName="Name" />
+          <ScalarProperty Name="ColumnName" ColumnName="ColumnName" />
+          <ScalarProperty Name="IsIncludeInService" ColumnName="IsIncludeInService" />
+          <ScalarProperty Name="IsIncludeInRepair" ColumnName="IsIncludeInRepair" />
+          <ScalarProperty Name="AddedBy" ColumnName="AddedBy" />
+          <ScalarProperty Name="AddedByType" ColumnName="AddedByType" />
+          <ScalarProperty Name="AddedDate" ColumnName="AddedDate" />
+          <ScalarProperty Name="UpdatedBy" ColumnName="UpdatedBy" />
+          <ScalarProperty Name="UpdatedByType" ColumnName="UpdatedByType" />
+          <ScalarProperty Name="UpdatedDate" ColumnName="UpdatedDate" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="EmailsSents">
+      <EntityTypeMapping TypeName="Aircall_sepModel.EmailsSent">
+        <MappingFragment StoreEntitySet="EmailsSent">
+          <ScalarProperty Name="Id" ColumnName="Id" />
+          <ScalarProperty Name="ToEmail" ColumnName="ToEmail" />
+          <ScalarProperty Name="FromEmail" ColumnName="FromEmail" />
+          <ScalarProperty Name="Subject" ColumnName="Subject" />
+          <ScalarProperty Name="EmailBody" ColumnName="EmailBody" />
+          <ScalarProperty Name="SentDate" ColumnName="SentDate" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="EmailTemplates">
+      <EntityTypeMapping TypeName="Aircall_sepModel.EmailTemplate">
+        <MappingFragment StoreEntitySet="EmailTemplate">
+          <ScalarProperty Name="AvailableTags" ColumnName="AvailableTags" />
+          <ScalarProperty Name="Id" ColumnName="Id" />
+          <ScalarProperty Name="Name" ColumnName="Name" />
+          <ScalarProperty Name="FromEmail" ColumnName="FromEmail" />
+          <ScalarProperty Name="EmailTemplateSubject" ColumnName="EmailTemplateSubject" />
+          <ScalarProperty Name="EmailBody" ColumnName="EmailBody" />
+          <ScalarProperty Name="Status" ColumnName="Status" />
+          <ScalarProperty Name="AddedBy" ColumnName="AddedBy" />
+          <ScalarProperty Name="AddedByType" ColumnName="AddedByType" />
+          <ScalarProperty Name="AddedDate" ColumnName="AddedDate" />
+          <ScalarProperty Name="UpdatedBy" ColumnName="UpdatedBy" />
+          <ScalarProperty Name="UpdatedByType" ColumnName="UpdatedByType" />
+          <ScalarProperty Name="UpdatedDate" ColumnName="UpdatedDate" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="EmpAppAccessTokens">
+      <EntityTypeMapping TypeName="Aircall_sepModel.EmpAppAccessToken">
+        <MappingFragment StoreEntitySet="EmpAppAccessToken">
+          <ScalarProperty Name="TokenId" ColumnName="TokenId" />
+          <ScalarProperty Name="UserId" ColumnName="UserId" />
+          <ScalarProperty Name="UserType" ColumnName="UserType" />
+          <ScalarProperty Name="AuthToken" ColumnName="AuthToken" />
+          <ScalarProperty Name="IssuedOn" ColumnName="IssuedOn" />
+          <ScalarProperty Name="ExpiresOn" ColumnName="ExpiresOn" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Employees">
+      <EntityTypeMapping TypeName="Aircall_sepModel.Employee">
+        <MappingFragment StoreEntitySet="Employee">
+          <ScalarProperty Name="Id" ColumnName="Id" />
+          <ScalarProperty Name="RoleId" ColumnName="RoleId" />
+          <ScalarProperty Name="FirstName" ColumnName="FirstName" />
+          <ScalarProperty Name="LastName" ColumnName="LastName" />
+          <ScalarProperty Name="UserName" ColumnName="UserName" />
+          <ScalarProperty Name="Email" ColumnName="Email" />
+          <ScalarProperty Name="Password" ColumnName="Password" />
+          <ScalarProperty Name="Image" ColumnName="Image" />
+          <ScalarProperty Name="Address" ColumnName="Address" />
+          <ScalarProperty Name="CitiesId" ColumnName="CitiesId" />
+          <ScalarProperty Name="StateId" ColumnName="StateId" />
+          <ScalarProperty Name="ZipCode" ColumnName="ZipCode" />
+          <ScalarProperty Name="PhoneNumber" ColumnName="PhoneNumber" />
+          <ScalarProperty Name="MobileNumber" ColumnName="MobileNumber" />
+          <ScalarProperty Name="WorkStartTime" ColumnName="WorkStartTime" />
+          <ScalarProperty Name="WorkEndTime" ColumnName="WorkEndTime" />
+          <ScalarProperty Name="IsSalesPerson" ColumnName="IsSalesPerson" />
+          <ScalarProperty Name="IsWorkAreaAssigned" ColumnName="IsWorkAreaAssigned" />
+          <ScalarProperty Name="AppLoginStatus" ColumnName="AppLoginStatus" />
+          <ScalarProperty Name="DeviceType" ColumnName="DeviceType" />
+          <ScalarProperty Name="DeviceToken" ColumnName="DeviceToken" />
+          <ScalarProperty Name="IsActive" ColumnName="IsActive" />
+          <ScalarProperty Name="PasswordUrl" ColumnName="PasswordUrl" />
+          <ScalarProperty Name="ResetPasswordLinkExpireDate" ColumnName="ResetPasswordLinkExpireDate" />
+          <ScalarProperty Name="IsLinkActive" ColumnName="IsLinkActive" />
+          <ScalarProperty Name="IsDeleted" ColumnName="IsDeleted" />
+          <ScalarProperty Name="AddedBy" ColumnName="AddedBy" />
+          <ScalarProperty Name="AddedByType" ColumnName="AddedByType" />
+          <ScalarProperty Name="AddedDate" ColumnName="AddedDate" />
+          <ScalarProperty Name="UpdatedBy" ColumnName="UpdatedBy" />
+          <ScalarProperty Name="UpdatedByType" ColumnName="UpdatedByType" />
+          <ScalarProperty Name="UpdatedDate" ColumnName="UpdatedDate" />
+          <ScalarProperty Name="DeletedBy" ColumnName="DeletedBy" />
+          <ScalarProperty Name="DeletedByType" ColumnName="DeletedByType" />
+          <ScalarProperty Name="DeletedDate" ColumnName="DeletedDate" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="EmployeeLeaves">
+      <EntityTypeMapping TypeName="Aircall_sepModel.EmployeeLeave">
+        <MappingFragment StoreEntitySet="EmployeeLeave">
+          <ScalarProperty Name="Id" ColumnName="Id" />
+          <ScalarProperty Name="EmployeeId" ColumnName="EmployeeId" />
+          <ScalarProperty Name="StartDate" ColumnName="StartDate" />
+          <ScalarProperty Name="EndDate" ColumnName="EndDate" />
+          <ScalarProperty Name="Reason" ColumnName="Reason" />
+          <ScalarProperty Name="IsDeleted" ColumnName="IsDeleted" />
+          <ScalarProperty Name="AddedBy" ColumnName="AddedBy" />
+          <ScalarProperty Name="AddedDate" ColumnName="AddedDate" />
+          <ScalarProperty Name="UpdatedBy" ColumnName="UpdatedBy" />
+          <ScalarProperty Name="UpdatedDate" ColumnName="UpdatedDate" />
+          <ScalarProperty Name="DeletedBy" ColumnName="DeletedBy" />
+          <ScalarProperty Name="DeletedDate" ColumnName="DeletedDate" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="EmployeeLocations">
+      <EntityTypeMapping TypeName="Aircall_sepModel.EmployeeLocation">
+        <MappingFragment StoreEntitySet="EmployeeLocation">
+          <ScalarProperty Name="id" ColumnName="id" />
+          <ScalarProperty Name="EmployeeId" ColumnName="EmployeeId" />
+          <ScalarProperty Name="Latitude" ColumnName="Latitude" />
+          <ScalarProperty Name="Longitude" ColumnName="Longitude" />
+          <ScalarProperty Name="LastUpdatedOn" ColumnName="LastUpdatedOn" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="EmployeePartRequests">
+      <EntityTypeMapping TypeName="Aircall_sepModel.EmployeePartRequest">
+        <MappingFragment StoreEntitySet="EmployeePartRequest">
+          <ScalarProperty Name="Id" ColumnName="Id" />
+          <ScalarProperty Name="EmployeePartRequestId" ColumnName="EmployeePartRequestId" />
+          <ScalarProperty Name="UnitId" ColumnName="UnitId" />
+          <ScalarProperty Name="PartId" ColumnName="PartId" />
+          <ScalarProperty Name="RequestedQuantity" ColumnName="RequestedQuantity" />
+          <ScalarProperty Name="ArrangedQuantity" ColumnName="ArrangedQuantity" />
+          <ScalarProperty Name="PartName" ColumnName="PartName" />
+          <ScalarProperty Name="PartSize" ColumnName="PartSize" />
+          <ScalarProperty Name="Description" ColumnName="Description" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="EmployeePartRequestMasters">
+      <EntityTypeMapping TypeName="Aircall_sepModel.EmployeePartRequestMaster">
+        <MappingFragment StoreEntitySet="EmployeePartRequestMaster">
+          <ScalarProperty Name="EmpNotes" ColumnName="EmpNotes" />
+          <ScalarProperty Name="Notes" ColumnName="Notes" />
+          <ScalarProperty Name="Id" ColumnName="Id" />
+          <ScalarProperty Name="ServiceReportId" ColumnName="ServiceReportId" />
+          <ScalarProperty Name="Status" ColumnName="Status" />
+          <ScalarProperty Name="AddedDate" ColumnName="AddedDate" />
+          <ScalarProperty Name="EmployeeId" ColumnName="EmployeeId" />
+          <ScalarProperty Name="ClientId" ColumnName="ClientId" />
+          <ScalarProperty Name="ClientAddressId" ColumnName="ClientAddressId" />
+          <ScalarProperty Name="StatusUpdatedDate" ColumnName="StatusUpdatedDate" />
+          <ScalarProperty Name="AddedBy" ColumnName="AddedBy" />
+          <ScalarProperty Name="AddedByType" ColumnName="AddedByType" />
+          <ScalarProperty Name="UpdatedBy" ColumnName="UpdatedBy" />
+          <ScalarProperty Name="UpdatedByType" ColumnName="UpdatedByType" />
+          <ScalarProperty Name="UpdatedDate" ColumnName="UpdatedDate" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="EmployeePlanTypes">
+      <EntityTypeMapping TypeName="Aircall_sepModel.EmployeePlanType">
+        <MappingFragment StoreEntitySet="EmployeePlanType">
+          <ScalarProperty Name="Id" ColumnName="Id" />
+          <ScalarProperty Name="EmployeeId" ColumnName="EmployeeId" />
+          <ScalarProperty Name="PlanTypeId" ColumnName="PlanTypeId" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="EmployeeSchedules">
+      <EntityTypeMapping TypeName="Aircall_sepModel.EmployeeSchedule">
+        <MappingFragment StoreEntitySet="EmployeeSchedule">
+          <ScalarProperty Name="Id" ColumnName="Id" />
+          <ScalarProperty Name="EmployeeId" ColumnName="EmployeeId" />
+          <ScalarProperty Name="ScheduleDate" ColumnName="ScheduleDate" />
+          <ScalarProperty Name="StartTime" ColumnName="StartTime" />
+          <ScalarProperty Name="EndTime" ColumnName="EndTime" />
+          <ScalarProperty Name="ServiceId" ColumnName="ServiceId" />
+          <ScalarProperty Name="Description" ColumnName="Description" />
+          <ScalarProperty Name="IsOnLeave" ColumnName="IsOnLeave" />
+          <ScalarProperty Name="LeaveId" ColumnName="LeaveId" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="EmployeeWorkareas">
+      <EntityTypeMapping TypeName="Aircall_sepModel.EmployeeWorkarea">
+        <MappingFragment StoreEntitySet="EmployeeWorkarea">
+          <ScalarProperty Name="Id" ColumnName="Id" />
+          <ScalarProperty Name="EmployeeId" ColumnName="EmployeeId" />
+          <ScalarProperty Name="PriorityArea" ColumnName="PriorityArea" />
+          <ScalarProperty Name="AreaId" ColumnName="AreaId" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="MobileScreens">
+      <EntityTypeMapping TypeName="Aircall_sepModel.MobileScreen">
+        <MappingFragment StoreEntitySet="MobileScreens">
+          <ScalarProperty Name="Id" ColumnName="Id" />
+          <ScalarProperty Name="PageTitle" ColumnName="PageTitle" />
+          <ScalarProperty Name="Description" ColumnName="Description" />
+          <ScalarProperty Name="AddedBy" ColumnName="AddedBy" />
+          <ScalarProperty Name="AddedByType" ColumnName="AddedByType" />
+          <ScalarProperty Name="AddedDate" ColumnName="AddedDate" />
+          <ScalarProperty Name="UpdatedBy" ColumnName="UpdatedBy" />
+          <ScalarProperty Name="UpdatedByType" ColumnName="UpdatedByType" />
+          <ScalarProperty Name="UpdatedDate" ColumnName="UpdatedDate" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="NotificationMasters">
+      <EntityTypeMapping TypeName="Aircall_sepModel.NotificationMaster">
+        <MappingFragment StoreEntitySet="NotificationMaster">
+          <ScalarProperty Name="AvailableTags" ColumnName="AvailableTags" />
+          <ScalarProperty Name="Id" ColumnName="Id" />
+          <ScalarProperty Name="Name" ColumnName="Name" />
+          <ScalarProperty Name="Message" ColumnName="Message" />
+          <ScalarProperty Name="AddedBy" ColumnName="AddedBy" />
+          <ScalarProperty Name="AddedByType" ColumnName="AddedByType" />
+          <ScalarProperty Name="AddedDate" ColumnName="AddedDate" />
+          <ScalarProperty Name="UpdatedBy" ColumnName="UpdatedBy" />
+          <ScalarProperty Name="UpdatedByType" ColumnName="UpdatedByType" />
+          <ScalarProperty Name="UpdatedDate" ColumnName="UpdatedDate" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="OrderItems">
+      <EntityTypeMapping TypeName="Aircall_sepModel.OrderItem">
+        <MappingFragment StoreEntitySet="OrderItems">
+          <ScalarProperty Name="Id" ColumnName="Id" />
+          <ScalarProperty Name="OrderId" ColumnName="OrderId" />
+          <ScalarProperty Name="PartId" ColumnName="PartId" />
+          <ScalarProperty Name="PartName" ColumnName="PartName" />
+          <ScalarProperty Name="PartSize" ColumnName="PartSize" />
+          <ScalarProperty Name="Amount" ColumnName="Amount" />
+          <ScalarProperty Name="Quantity" ColumnName="Quantity" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Orders">
+      <EntityTypeMapping TypeName="Aircall_sepModel.Order">
+        <MappingFragment StoreEntitySet="Orders">
+          <ScalarProperty Name="Id" ColumnName="Id" />
+          <ScalarProperty Name="OrderNumber" ColumnName="OrderNumber" />
+          <ScalarProperty Name="OrderType" ColumnName="OrderType" />
+          <ScalarProperty Name="ClientId" ColumnName="ClientId" />
+          <ScalarProperty Name="Description" ColumnName="Description" />
+          <ScalarProperty Name="OrderAmount" ColumnName="OrderAmount" />
+          <ScalarProperty Name="ChargeBy" ColumnName="ChargeBy" />
+          <ScalarProperty Name="ChequeNo" ColumnName="ChequeNo" />
+          <ScalarProperty Name="BankName" ColumnName="BankName" />
+          <ScalarProperty Name="RoutingNo" ColumnName="RoutingNo" />
+          <ScalarProperty Name="ChequeDate" ColumnName="ChequeDate" />
+          <ScalarProperty Name="NameOnCard" ColumnName="NameOnCard" />
+          <ScalarProperty Name="CardType" ColumnName="CardType" />
+          <ScalarProperty Name="CardNumber" ColumnName="CardNumber" />
+          <ScalarProperty Name="ExpirationMonth" ColumnName="ExpirationMonth" />
+          <ScalarProperty Name="ExpirationYear" ColumnName="ExpirationYear" />
+          <ScalarProperty Name="CCEmail" ColumnName="CCEmail" />
+          <ScalarProperty Name="IsEmailToClient" ColumnName="IsEmailToClient" />
+          <ScalarProperty Name="CustomerRecommendation" ColumnName="CustomerRecommendation" />
+          <ScalarProperty Name="ClientSignature" ColumnName="ClientSignature" />
+          <ScalarProperty Name="AddedBy" ColumnName="AddedBy" />
+          <ScalarProperty Name="AddedByType" ColumnName="AddedByType" />
+          <ScalarProperty Name="AddedDate" ColumnName="AddedDate" />
+          <ScalarProperty Name="UpdatedBy" ColumnName="UpdatedBy" />
+          <ScalarProperty Name="UpdatedByType" ColumnName="UpdatedByType" />
+          <ScalarProperty Name="UpdatedDate" ColumnName="UpdatedDate" />
+          <ScalarProperty Name="IsDeleted" ColumnName="IsDeleted" />
+          <ScalarProperty Name="DeletedBy" ColumnName="DeletedBy" />
+          <ScalarProperty Name="DeletedByType" ColumnName="DeletedByType" />
+          <ScalarProperty Name="DeletedDate" ColumnName="DeletedDate" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="PageBlocks">
+      <EntityTypeMapping TypeName="Aircall_sepModel.PageBlock">
+        <MappingFragment StoreEntitySet="PageBlocks">
+          <ScalarProperty Name="Id" ColumnName="Id" />
+          <ScalarProperty Name="CMSPageId" ColumnName="CMSPageId" />
+          <ScalarProperty Name="BlockId" ColumnName="BlockId" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="PartnerTicketConversations">
+      <EntityTypeMapping TypeName="Aircall_sepModel.PartnerTicketConversation">
+        <MappingFragment StoreEntitySet="PartnerTicketConversation">
+          <ScalarProperty Name="Id" ColumnName="Id" />
+          <ScalarProperty Name="TicketId" ColumnName="TicketId" />
+          <ScalarProperty Name="Message" ColumnName="Message" />
+          <ScalarProperty Name="SubmittedBy" ColumnName="SubmittedBy" />
+          <ScalarProperty Name="SubmittedByType" ColumnName="SubmittedByType" />
+          <ScalarProperty Name="MessageDate" ColumnName="MessageDate" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="PartnerTicketRequests">
+      <EntityTypeMapping TypeName="Aircall_sepModel.PartnerTicketRequest">
+        <MappingFragment StoreEntitySet="PartnerTicketRequest">
+          <ScalarProperty Name="Id" ColumnName="Id" />
+          <ScalarProperty Name="PartnerId" ColumnName="PartnerId" />
+          <ScalarProperty Name="TicketType" ColumnName="TicketType" />
+          <ScalarProperty Name="Subject" ColumnName="Subject" />
+          <ScalarProperty Name="Notes" ColumnName="Notes" />
+          <ScalarProperty Name="AddedDate" ColumnName="AddedDate" />
+          <ScalarProperty Name="Status" ColumnName="Status" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Parts">
+      <EntityTypeMapping TypeName="Aircall_sepModel.Part">
+        <MappingFragment StoreEntitySet="Parts">
+          <ScalarProperty Name="Id" ColumnName="Id" />
+          <ScalarProperty Name="InventoryType" ColumnName="InventoryType" />
+          <ScalarProperty Name="DailyPartListMasterId" ColumnName="DailyPartListMasterId" />
+          <ScalarProperty Name="Name" ColumnName="Name" />
+          <ScalarProperty Name="Size" ColumnName="Size" />
+          <ScalarProperty Name="Description" ColumnName="Description" />
+          <ScalarProperty Name="InboundQuantity" ColumnName="InboundQuantity" />
+          <ScalarProperty Name="ReceivedQuantity" ColumnName="ReceivedQuantity" />
+          <ScalarProperty Name="TotalAcquiredQuantity" ColumnName="TotalAcquiredQuantity" />
+          <ScalarProperty Name="InStockQuantity" ColumnName="InStockQuantity" />
+          <ScalarProperty Name="ReservedQuantity" ColumnName="ReservedQuantity" />
+          <ScalarProperty Name="PurchasedPrice" ColumnName="PurchasedPrice" />
+          <ScalarProperty Name="SellingPrice" ColumnName="SellingPrice" />
+          <ScalarProperty Name="MinReorderQuantity" ColumnName="MinReorderQuantity" />
+          <ScalarProperty Name="ReorderQuantity" ColumnName="ReorderQuantity" />
+          <ScalarProperty Name="Status" ColumnName="Status" />
+          <ScalarProperty Name="IsDeleted" ColumnName="IsDeleted" />
+          <ScalarProperty Name="AddedBy" ColumnName="AddedBy" />
+          <ScalarProperty Name="AddedByType" ColumnName="AddedByType" />
+          <ScalarProperty Name="AddedDate" ColumnName="AddedDate" />
+          <ScalarProperty Name="UpdatedBy" ColumnName="UpdatedBy" />
+          <ScalarProperty Name="UpdatedByType" ColumnName="UpdatedByType" />
+          <ScalarProperty Name="UpdatedDate" ColumnName="UpdatedDate" />
+          <ScalarProperty Name="DeletedBy" ColumnName="DeletedBy" />
+          <ScalarProperty Name="DeletedByType" ColumnName="DeletedByType" />
+          <ScalarProperty Name="DeletedDate" ColumnName="DeletedDate" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Plans">
+      <EntityTypeMapping TypeName="Aircall_sepModel.Plan">
+        <MappingFragment StoreEntitySet="Plan">
+          <ScalarProperty Name="ServiceTimeForAdditionalUnits" ColumnName="ServiceTimeForAdditionalUnits" />
+          <ScalarProperty Name="ServiceTimeForFirstUnit" ColumnName="ServiceTimeForFirstUnit" />
+          <ScalarProperty Name="Drivetime" ColumnName="Drivetime" />
+          <ScalarProperty Name="OtherServiceScheduleDaysGap" ColumnName="OtherServiceScheduleDaysGap" />
+          <ScalarProperty Name="Id" ColumnName="Id" />
+          <ScalarProperty Name="PlanTypeId" ColumnName="PlanTypeId" />
+          <ScalarProperty Name="PackageType" ColumnName="PackageType" />
+          <ScalarProperty Name="Name" ColumnName="Name" />
+          <ScalarProperty Name="PackageDisplayName" ColumnName="PackageDisplayName" />
+          <ScalarProperty Name="Description" ColumnName="Description" />
+          <ScalarProperty Name="PricePerMonth" ColumnName="PricePerMonth" />
+          <ScalarProperty Name="DurationInMonth" ColumnName="DurationInMonth" />
+          <ScalarProperty Name="NumberOfService" ColumnName="NumberOfService" />
+          <ScalarProperty Name="FirstServiceWithinDays" ColumnName="FirstServiceWithinDays" />
+          <ScalarProperty Name="ShowSpecialPrice" ColumnName="ShowSpecialPrice" />
+          <ScalarProperty Name="ShowAutoRenewal" ColumnName="ShowAutoRenewal" />
+          <ScalarProperty Name="DiscountPrice" ColumnName="DiscountPrice" />
+          <ScalarProperty Name="Image" ColumnName="Image" />
+          <ScalarProperty Name="Status" ColumnName="Status" />
+          <ScalarProperty Name="BackGroundColorRGB" ColumnName="BackGroundColorRGB" />
+          <ScalarProperty Name="BackGroundColorHGS" ColumnName="BackGroundColorHGS" />
+          <ScalarProperty Name="StripePlanId" ColumnName="StripePlanId" />
+          <ScalarProperty Name="IsDeleted" ColumnName="IsDeleted" />
+          <ScalarProperty Name="IsVisible" ColumnName="IsVisible" />
+          <ScalarProperty Name="AddedBy" ColumnName="AddedBy" />
+          <ScalarProperty Name="AddedByType" ColumnName="AddedByType" />
+          <ScalarProperty Name="AddedDate" ColumnName="AddedDate" />
+          <ScalarProperty Name="UpdatedBy" ColumnName="UpdatedBy" />
+          <ScalarProperty Name="UpdatedByType" ColumnName="UpdatedByType" />
+          <ScalarProperty Name="UpdatedDate" ColumnName="UpdatedDate" />
+          <ScalarProperty Name="DeletedBy" ColumnName="DeletedBy" />
+          <ScalarProperty Name="DeletedByTypes" ColumnName="DeletedByTypes" />
+          <ScalarProperty Name="DeletedDate" ColumnName="DeletedDate" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="PlanTypes">
+      <EntityTypeMapping TypeName="Aircall_sepModel.PlanType">
+        <MappingFragment StoreEntitySet="PlanType">
+          <ScalarProperty Name="Id" ColumnName="Id" />
+          <ScalarProperty Name="Name" ColumnName="Name" />
+          <ScalarProperty Name="ServiceSlot1" ColumnName="ServiceSlot1" />
+          <ScalarProperty Name="ServiceSlot2" ColumnName="ServiceSlot2" />
+          <ScalarProperty Name="Status" ColumnName="Status" />
+          <ScalarProperty Name="AddedBy" ColumnName="AddedBy" />
+          <ScalarProperty Name="AddedByType" ColumnName="AddedByType" />
+          <ScalarProperty Name="AddedDate" ColumnName="AddedDate" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="RequestedServices">
+      <EntityTypeMapping TypeName="Aircall_sepModel.RequestedService">
+        <MappingFragment StoreEntitySet="RequestedServices">
+          <ScalarProperty Name="Id" ColumnName="Id" />
+          <ScalarProperty Name="ServiceCaseNumber" ColumnName="ServiceCaseNumber" />
+          <ScalarProperty Name="ClientId" ColumnName="ClientId" />
+          <ScalarProperty Name="AddressId" ColumnName="AddressId" />
+          <ScalarProperty Name="PurposeOfVisit" ColumnName="PurposeOfVisit" />
+          <ScalarProperty Name="ServiceRequestedTime" ColumnName="ServiceRequestedTime" />
+          <ScalarProperty Name="ServiceRequestedOn" ColumnName="ServiceRequestedOn" />
+          <ScalarProperty Name="Notes" ColumnName="Notes" />
+          <ScalarProperty Name="ServiceId" ColumnName="ServiceId" />
+          <ScalarProperty Name="AddedBy" ColumnName="AddedBy" />
+          <ScalarProperty Name="AddedByType" ColumnName="AddedByType" />
+          <ScalarProperty Name="AddedDate" ColumnName="AddedDate" />
+          <ScalarProperty Name="UpdatedBy" ColumnName="UpdatedBy" />
+          <ScalarProperty Name="UpdatedByType" ColumnName="UpdatedByType" />
+          <ScalarProperty Name="UpdatedDate" ColumnName="UpdatedDate" />
+          <ScalarProperty Name="IsDeleted" ColumnName="IsDeleted" />
+          <ScalarProperty Name="DeletedBy" ColumnName="DeletedBy" />
+          <ScalarProperty Name="DeletedByType" ColumnName="DeletedByType" />
+          <ScalarProperty Name="DeletedDate" ColumnName="DeletedDate" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="RequestedServiceUnits">
+      <EntityTypeMapping TypeName="Aircall_sepModel.RequestedServiceUnit">
+        <MappingFragment StoreEntitySet="RequestedServiceUnits">
+          <ScalarProperty Name="Id" ColumnName="Id" />
+          <ScalarProperty Name="ServiceId" ColumnName="ServiceId" />
+          <ScalarProperty Name="UnitId" ColumnName="UnitId" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="RescheduleServices">
+      <EntityTypeMapping TypeName="Aircall_sepModel.RescheduleService">
+        <MappingFragment StoreEntitySet="RescheduleService">
+          <ScalarProperty Name="Id" ColumnName="Id" />
+          <ScalarProperty Name="ServiceId" ColumnName="ServiceId" />
+          <ScalarProperty Name="RescheduleDate" ColumnName="RescheduleDate" />
+          <ScalarProperty Name="Rescheduletime" ColumnName="Rescheduletime" />
+          <ScalarProperty Name="Reason" ColumnName="Reason" />
+          <ScalarProperty Name="AddedBy" ColumnName="AddedBy" />
+          <ScalarProperty Name="AddedByType" ColumnName="AddedByType" />
+          <ScalarProperty Name="AddedDate" ColumnName="AddedDate" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Roles">
+      <EntityTypeMapping TypeName="Aircall_sepModel.Role">
+        <MappingFragment StoreEntitySet="Roles">
+          <ScalarProperty Name="Id" ColumnName="Id" />
+          <ScalarProperty Name="Name" ColumnName="Name" />
+          <ScalarProperty Name="IsActive" ColumnName="IsActive" />
+          <ScalarProperty Name="CreatedDate" ColumnName="CreatedDate" />
+          <ScalarProperty Name="UpdatedDate" ColumnName="UpdatedDate" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="SalesVisitRequests">
+      <EntityTypeMapping TypeName="Aircall_sepModel.SalesVisitRequest">
+        <MappingFragment StoreEntitySet="SalesVisitRequest">
+          <ScalarProperty Name="Id" ColumnName="Id" />
+          <ScalarProperty Name="ClientId" ColumnName="ClientId" />
+          <ScalarProperty Name="AddressId" ColumnName="AddressId" />
+          <ScalarProperty Name="Notes" ColumnName="Notes" />
+          <ScalarProperty Name="EmployeeId" ColumnName="EmployeeId" />
+          <ScalarProperty Name="RepliedDate" ColumnName="RepliedDate" />
+          <ScalarProperty Name="AddedBy" ColumnName="AddedBy" />
+          <ScalarProperty Name="AddedByType" ColumnName="AddedByType" />
+          <ScalarProperty Name="AddedDate" ColumnName="AddedDate" />
+          <ScalarProperty Name="AssignedBy" ColumnName="AssignedBy" />
+          <ScalarProperty Name="AssignedByType" ColumnName="AssignedByType" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="ServiceAttemptCounts">
+      <EntityTypeMapping TypeName="Aircall_sepModel.ServiceAttemptCount">
+        <MappingFragment StoreEntitySet="ServiceAttemptCount">
+          <ScalarProperty Name="Id" ColumnName="Id" />
+          <ScalarProperty Name="ServiceId" ColumnName="ServiceId" />
+          <ScalarProperty Name="AttemtFailReason" ColumnName="AttemtFailReason" />
+          <ScalarProperty Name="AttemptDate" ColumnName="AttemptDate" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="ServiceNoShows">
+      <EntityTypeMapping TypeName="Aircall_sepModel.ServiceNoShow">
+        <MappingFragment StoreEntitySet="ServiceNoShow">
+          <ScalarProperty Name="Id" ColumnName="Id" />
+          <ScalarProperty Name="ServiceId" ColumnName="ServiceId" />
+          <ScalarProperty Name="NoShowAmount" ColumnName="NoShowAmount" />
+          <ScalarProperty Name="IsPaymentReceived" ColumnName="IsPaymentReceived" />
+          <ScalarProperty Name="AddedBy" ColumnName="AddedBy" />
+          <ScalarProperty Name="AddedByType" ColumnName="AddedByType" />
+          <ScalarProperty Name="AddedDate" ColumnName="AddedDate" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="ServicePartLists">
+      <EntityTypeMapping TypeName="Aircall_sepModel.ServicePartList">
+        <MappingFragment StoreEntitySet="ServicePartList">
+          <ScalarProperty Name="Id" ColumnName="Id" />
+          <ScalarProperty Name="ServiceId" ColumnName="ServiceId" />
+          <ScalarProperty Name="UnitId" ColumnName="UnitId" />
+          <ScalarProperty Name="PartId" ColumnName="PartId" />
+          <ScalarProperty Name="PartQuantity" ColumnName="PartQuantity" />
+          <ScalarProperty Name="UsedQuantity" ColumnName="UsedQuantity" />
+          <ScalarProperty Name="IsUsed" ColumnName="IsUsed" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="ServiceRatingReviews">
+      <EntityTypeMapping TypeName="Aircall_sepModel.ServiceRatingReview">
+        <MappingFragment StoreEntitySet="ServiceRatingReview">
+          <ScalarProperty Name="Id" ColumnName="Id" />
+          <ScalarProperty Name="ServiceId" ColumnName="ServiceId" />
+          <ScalarProperty Name="EmployeeId" ColumnName="EmployeeId" />
+          <ScalarProperty Name="Rate" ColumnName="Rate" />
+          <ScalarProperty Name="Review" ColumnName="Review" />
+          <ScalarProperty Name="ReviewDate" ColumnName="ReviewDate" />
+          <ScalarProperty Name="EmployeNotes" ColumnName="EmployeNotes" />
+          <ScalarProperty Name="NotesAddedDate" ColumnName="NotesAddedDate" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="ServiceReports">
+      <EntityTypeMapping TypeName="Aircall_sepModel.ServiceReport">
+        <MappingFragment StoreEntitySet="ServiceReport">
+          <ScalarProperty Name="EndLongitude" ColumnName="EndLongitude" />
+          <ScalarProperty Name="EndLatitude" ColumnName="EndLatitude" />
+          <ScalarProperty Name="StartLongitude" ColumnName="StartLongitude" />
+          <ScalarProperty Name="StartLatitude" ColumnName="StartLatitude" />
+          <ScalarProperty Name="BillingType" ColumnName="BillingType" />
+          <ScalarProperty Name="Id" ColumnName="Id" />
+          <ScalarProperty Name="ServiceReportNumber" ColumnName="ServiceReportNumber" />
+          <ScalarProperty Name="ServiceId" ColumnName="ServiceId" />
+          <ScalarProperty Name="WorkStartedTime" ColumnName="WorkStartedTime" />
+          <ScalarProperty Name="WorkCompletedTime" ColumnName="WorkCompletedTime" />
+          <ScalarProperty Name="IsWorkDone" ColumnName="IsWorkDone" />
+          <ScalarProperty Name="WorkPerformed" ColumnName="WorkPerformed" />
+          <ScalarProperty Name="Recommendationsforcustomer" ColumnName="Recommendationsforcustomer" />
+          <ScalarProperty Name="EmployeeNotes" ColumnName="EmployeeNotes" />
+          <ScalarProperty Name="CCEmail" ColumnName="CCEmail" />
+          <ScalarProperty Name="IsEmailToClient" ColumnName="IsEmailToClient" />
+          <ScalarProperty Name="ClientSignature" ColumnName="ClientSignature" />
+          <ScalarProperty Name="AddedBy" ColumnName="AddedBy" />
+          <ScalarProperty Name="AddedByType" ColumnName="AddedByType" />
+          <ScalarProperty Name="AddedDate" ColumnName="AddedDate" />
+          <ScalarProperty Name="UpdatedBy" ColumnName="UpdatedBy" />
+          <ScalarProperty Name="UpdatedByType" ColumnName="UpdatedByType" />
+          <ScalarProperty Name="UpdatedDate" ColumnName="UpdatedDate" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="ServiceReportImages">
+      <EntityTypeMapping TypeName="Aircall_sepModel.ServiceReportImage">
+        <MappingFragment StoreEntitySet="ServiceReportImages">
+          <ScalarProperty Name="Id" ColumnName="Id" />
+          <ScalarProperty Name="ServiceReportId" ColumnName="ServiceReportId" />
+          <ScalarProperty Name="ServiceImage" ColumnName="ServiceImage" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="ServiceReportUnits">
+      <EntityTypeMapping TypeName="Aircall_sepModel.ServiceReportUnit">
+        <MappingFragment StoreEntitySet="ServiceReportUnits">
+          <ScalarProperty Name="Id" ColumnName="Id" />
+          <ScalarProperty Name="ServiceId" ColumnName="ServiceId" />
+          <ScalarProperty Name="UnitId" ColumnName="UnitId" />
+          <ScalarProperty Name="IsCompleted" ColumnName="IsCompleted" />
+          <ScalarProperty Name="ServiceReportId" ColumnName="ServiceReportId" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Services">
+      <EntityTypeMapping TypeName="Aircall_sepModel.Service">
+        <MappingFragment StoreEntitySet="Services">
+          <ScalarProperty Name="Id" ColumnName="Id" />
+          <ScalarProperty Name="ServiceCaseNumber" ColumnName="ServiceCaseNumber" />
+          <ScalarProperty Name="ClientId" ColumnName="ClientId" />
+          <ScalarProperty Name="AddressID" ColumnName="AddressID" />
+          <ScalarProperty Name="PurposeOfVisit" ColumnName="PurposeOfVisit" />
+          <ScalarProperty Name="WorkAreaId" ColumnName="WorkAreaId" />
+          <ScalarProperty Name="EmployeeId" ColumnName="EmployeeId" />
+          <ScalarProperty Name="ScheduleDate" ColumnName="ScheduleDate" />
+          <ScalarProperty Name="ScheduleStartTime" ColumnName="ScheduleStartTime" />
+          <ScalarProperty Name="ScheduleEndTime" ColumnName="ScheduleEndTime" />
+          <ScalarProperty Name="CustomerComplaints" ColumnName="CustomerComplaints" />
+          <ScalarProperty Name="DispatcherNotes" ColumnName="DispatcherNotes" />
+          <ScalarProperty Name="TechnicianNotes" ColumnName="TechnicianNotes" />
+          <ScalarProperty Name="Status" ColumnName="Status" />
+          <ScalarProperty Name="StatusChangeDate" ColumnName="StatusChangeDate" />
+          <ScalarProperty Name="ScheduledBy" ColumnName="ScheduledBy" />
+          <ScalarProperty Name="LastScheduleRunDate" ColumnName="LastScheduleRunDate" />
+          <ScalarProperty Name="IsNoShow" ColumnName="IsNoShow" />
+          <ScalarProperty Name="AddedBy" ColumnName="AddedBy" />
+          <ScalarProperty Name="AddedByType" ColumnName="AddedByType" />
+          <ScalarProperty Name="AddedDate" ColumnName="AddedDate" />
+          <ScalarProperty Name="UpdatedBy" ColumnName="UpdatedBy" />
+          <ScalarProperty Name="UpdatedByType" ColumnName="UpdatedByType" />
+          <ScalarProperty Name="UpdatedDate" ColumnName="UpdatedDate" />
+          <ScalarProperty Name="ServiceCount" ColumnName="ServiceCount" />
+          <ScalarProperty Name="ExpectedStartDate" ColumnName="ExpectedStartDate" />
+          <ScalarProperty Name="ExpectedEndDate" ColumnName="ExpectedEndDate" />
+          <ScalarProperty Name="ApprovalEmailUrl" ColumnName="ApprovalEmailUrl" />
+          <ScalarProperty Name="UrlExpireDate" ColumnName="UrlExpireDate" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="ServiceUnits">
+      <EntityTypeMapping TypeName="Aircall_sepModel.ServiceUnit">
+        <MappingFragment StoreEntitySet="ServiceUnits">
+          <ScalarProperty Name="Id" ColumnName="Id" />
+          <ScalarProperty Name="ServiceId" ColumnName="ServiceId" />
+          <ScalarProperty Name="UnitId" ColumnName="UnitId" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="SiteSettings">
+      <EntityTypeMapping TypeName="Aircall_sepModel.SiteSetting">
+        <MappingFragment StoreEntitySet="SiteSetting">
+          <ScalarProperty Name="Id" ColumnName="Id" />
+          <ScalarProperty Name="Name" ColumnName="Name" />
+          <ScalarProperty Name="Value" ColumnName="Value" />
+          <ScalarProperty Name="AddedBy" ColumnName="AddedBy" />
+          <ScalarProperty Name="AddedByType" ColumnName="AddedByType" />
+          <ScalarProperty Name="AddedDate" ColumnName="AddedDate" />
+          <ScalarProperty Name="UpdatedBy" ColumnName="UpdatedBy" />
+          <ScalarProperty Name="UpdatedByType" ColumnName="UpdatedByType" />
+          <ScalarProperty Name="UpdatedDate" ColumnName="UpdatedDate" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="States">
+      <EntityTypeMapping TypeName="Aircall_sepModel.State">
+        <MappingFragment StoreEntitySet="State">
+          <ScalarProperty Name="Id" ColumnName="Id" />
+          <ScalarProperty Name="Name" ColumnName="Name" />
+          <ScalarProperty Name="Status" ColumnName="Status" />
+          <ScalarProperty Name="IsDefault" ColumnName="IsDefault" />
+          <ScalarProperty Name="IsDeleted" ColumnName="IsDeleted" />
+          <ScalarProperty Name="AddedBy" ColumnName="AddedBy" />
+          <ScalarProperty Name="AddedByType" ColumnName="AddedByType" />
+          <ScalarProperty Name="AddedDate" ColumnName="AddedDate" />
+          <ScalarProperty Name="UpdatedBy" ColumnName="UpdatedBy" />
+          <ScalarProperty Name="UpdatedByType" ColumnName="UpdatedByType" />
+          <ScalarProperty Name="UpdatedDate" ColumnName="UpdatedDate" />
+          <ScalarProperty Name="DeletedBy" ColumnName="DeletedBy" />
+          <ScalarProperty Name="DeletedByType" ColumnName="DeletedByType" />
+          <ScalarProperty Name="DeletedDate" ColumnName="DeletedDate" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="StripeErrorLogs">
+      <EntityTypeMapping TypeName="Aircall_sepModel.StripeErrorLog">
+        <MappingFragment StoreEntitySet="StripeErrorLog">
+          <ScalarProperty Name="Id" ColumnName="Id" />
+          <ScalarProperty Name="ChargeId" ColumnName="ChargeId" />
+          <ScalarProperty Name="Code" ColumnName="Code" />
+          <ScalarProperty Name="DeclineCode" ColumnName="DeclineCode" />
+          <ScalarProperty Name="ErrorType" ColumnName="ErrorType" />
+          <ScalarProperty Name="Error" ColumnName="Error" />
+          <ScalarProperty Name="ErrorSubscription" ColumnName="ErrorSubscription" />
+          <ScalarProperty Name="Message" ColumnName="Message" />
+          <ScalarProperty Name="Parameter" ColumnName="Parameter" />
+          <ScalarProperty Name="Userid" ColumnName="Userid" />
+          <ScalarProperty Name="UnitId" ColumnName="UnitId" />
+          <ScalarProperty Name="DateAdded" ColumnName="DateAdded" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="SystemMessages">
+      <EntityTypeMapping TypeName="Aircall_sepModel.SystemMessage">
+        <MappingFragment StoreEntitySet="SystemMessages">
+          <ScalarProperty Name="Id" ColumnName="Id" />
+          <ScalarProperty Name="Name" ColumnName="Name" />
+          <ScalarProperty Name="Message" ColumnName="Message" />
+          <ScalarProperty Name="AllowToManage" ColumnName="AllowToManage" />
+          <ScalarProperty Name="AddedBy" ColumnName="AddedBy" />
+          <ScalarProperty Name="AddedByType" ColumnName="AddedByType" />
+          <ScalarProperty Name="AddedDate" ColumnName="AddedDate" />
+          <ScalarProperty Name="UpdatedBy" ColumnName="UpdatedBy" />
+          <ScalarProperty Name="UpdatedByType" ColumnName="UpdatedByType" />
+          <ScalarProperty Name="UpdatedDate" ColumnName="UpdatedDate" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="UnitExtraInfoes">
+      <EntityTypeMapping TypeName="Aircall_sepModel.UnitExtraInfo">
+        <MappingFragment StoreEntitySet="UnitExtraInfo">
+          <ScalarProperty Name="Id" ColumnName="Id" />
+          <ScalarProperty Name="UnitId" ColumnName="UnitId" />
+          <ScalarProperty Name="ExtraInfoType" ColumnName="ExtraInfoType" />
+          <ScalarProperty Name="PartId" ColumnName="PartId" />
+          <ScalarProperty Name="LocationOfPart" ColumnName="LocationOfPart" />
+          <ScalarProperty Name="ClientUnitPartId" ColumnName="ClientUnitPartId" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="UnitManuals">
+      <EntityTypeMapping TypeName="Aircall_sepModel.UnitManual">
+        <MappingFragment StoreEntitySet="UnitManuals">
+          <ScalarProperty Name="Id" ColumnName="Id" />
+          <ScalarProperty Name="UnitsId" ColumnName="UnitsId" />
+          <ScalarProperty Name="ManualFileName" ColumnName="ManualFileName" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Units">
+      <EntityTypeMapping TypeName="Aircall_sepModel.Unit">
+        <MappingFragment StoreEntitySet="Units">
+          <ScalarProperty Name="Breaker" ColumnName="Breaker" />
+          <ScalarProperty Name="Misc" ColumnName="Misc" />
+          <ScalarProperty Name="CoilCleaner" ColumnName="CoilCleaner" />
+          <ScalarProperty Name="Id" ColumnName="Id" />
+          <ScalarProperty Name="ModelNumber" ColumnName="ModelNumber" />
+          <ScalarProperty Name="SerialNumber" ColumnName="SerialNumber" />
+          <ScalarProperty Name="ManufactureDate" ColumnName="ManufactureDate" />
+          <ScalarProperty Name="ManufactureBrand" ColumnName="ManufactureBrand" />
+          <ScalarProperty Name="UnitTon" ColumnName="UnitTon" />
+          <ScalarProperty Name="Booster" ColumnName="Booster" />
+          <ScalarProperty Name="Refrigerant" ColumnName="Refrigerant" />
+          <ScalarProperty Name="ElectricalService" ColumnName="ElectricalService" />
+          <ScalarProperty Name="MaxBreaker" ColumnName="MaxBreaker" />
+          <ScalarProperty Name="Compressor" ColumnName="Compressor" />
+          <ScalarProperty Name="Capacitor" ColumnName="Capacitor" />
+          <ScalarProperty Name="Contactor" ColumnName="Contactor" />
+          <ScalarProperty Name="Filterdryer" ColumnName="Filterdryer" />
+          <ScalarProperty Name="Defrostboard" ColumnName="Defrostboard" />
+          <ScalarProperty Name="Relay" ColumnName="Relay" />
+          <ScalarProperty Name="TXVValve" ColumnName="TXVValve" />
+          <ScalarProperty Name="ReversingValve" ColumnName="ReversingValve" />
+          <ScalarProperty Name="BlowerMotor" ColumnName="BlowerMotor" />
+          <ScalarProperty Name="Condensingfanmotor" ColumnName="Condensingfanmotor" />
+          <ScalarProperty Name="Inducerdraftmotor" ColumnName="Inducerdraftmotor" />
+          <ScalarProperty Name="Transformer" ColumnName="Transformer" />
+          <ScalarProperty Name="Controlboard" ColumnName="Controlboard" />
+          <ScalarProperty Name="Limitswitch" ColumnName="Limitswitch" />
+          <ScalarProperty Name="Ignitor" ColumnName="Ignitor" />
+          <ScalarProperty Name="Gasvalve" ColumnName="Gasvalve" />
+          <ScalarProperty Name="Pressureswitch" ColumnName="Pressureswitch" />
+          <ScalarProperty Name="Flamesensor" ColumnName="Flamesensor" />
+          <ScalarProperty Name="Rolloutsensor" ColumnName="Rolloutsensor" />
+          <ScalarProperty Name="Doorswitch" ColumnName="Doorswitch" />
+          <ScalarProperty Name="Ignitioncontrolboard" ColumnName="Ignitioncontrolboard" />
+          <ScalarProperty Name="Status" ColumnName="Status" />
+          <ScalarProperty Name="IsDeleted" ColumnName="IsDeleted" />
+          <ScalarProperty Name="AddedBy" ColumnName="AddedBy" />
+          <ScalarProperty Name="AddedByType" ColumnName="AddedByType" />
+          <ScalarProperty Name="AddedDate" ColumnName="AddedDate" />
+          <ScalarProperty Name="UpdatedBy" ColumnName="UpdatedBy" />
+          <ScalarProperty Name="UpdatedByType" ColumnName="UpdatedByType" />
+          <ScalarProperty Name="UpdatedDate" ColumnName="UpdatedDate" />
+          <ScalarProperty Name="DeletedBy" ColumnName="DeletedBy" />
+          <ScalarProperty Name="DeletedByType" ColumnName="DeletedByType" />
+          <ScalarProperty Name="DeletedDate" ColumnName="DeletedDate" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="UnitTypes">
+      <EntityTypeMapping TypeName="Aircall_sepModel.UnitType">
+        <MappingFragment StoreEntitySet="UnitType">
+          <ScalarProperty Name="Id" ColumnName="Id" />
+          <ScalarProperty Name="UnitTypeName" ColumnName="UnitTypeName" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="UserNotifications">
+      <EntityTypeMapping TypeName="Aircall_sepModel.UserNotification">
+        <MappingFragment StoreEntitySet="UserNotification">
+          <ScalarProperty Name="Id" ColumnName="Id" />
+          <ScalarProperty Name="UserId" ColumnName="UserId" />
+          <ScalarProperty Name="UserTypeId" ColumnName="UserTypeId" />
+          <ScalarProperty Name="Message" ColumnName="Message" />
+          <ScalarProperty Name="Status" ColumnName="Status" />
+          <ScalarProperty Name="CommonId" ColumnName="CommonId" />
+          <ScalarProperty Name="MessageType" ColumnName="MessageType" />
+          <ScalarProperty Name="EmpId" ColumnName="EmpId" />
+          <ScalarProperty Name="RedirectId" ColumnName="RedirectId" />
+          <ScalarProperty Name="RedirectTag" ColumnName="RedirectTag" />
+          <ScalarProperty Name="AddedDate" ColumnName="AddedDate" />
+          <ScalarProperty Name="UpdatedBy" ColumnName="UpdatedBy" />
+          <ScalarProperty Name="UpdatedDate" ColumnName="UpdatedDate" />
+          <ScalarProperty Name="DeletedBy" ColumnName="DeletedBy" />
+          <ScalarProperty Name="DeletedDate" ColumnName="DeletedDate" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Users">
+      <EntityTypeMapping TypeName="Aircall_sepModel.User">
+        <MappingFragment StoreEntitySet="Users">
+          <ScalarProperty Name="Id" ColumnName="Id" />
+          <ScalarProperty Name="RoleId" ColumnName="RoleId" />
+          <ScalarProperty Name="FirstName" ColumnName="FirstName" />
+          <ScalarProperty Name="LastName" ColumnName="LastName" />
+          <ScalarProperty Name="UserName" ColumnName="UserName" />
+          <ScalarProperty Name="Email" ColumnName="Email" />
+          <ScalarProperty Name="Password" ColumnName="Password" />
+          <ScalarProperty Name="Image" ColumnName="Image" />
+          <ScalarProperty Name="IsActive" ColumnName="IsActive" />
+          <ScalarProperty Name="IsDeleted" ColumnName="IsDeleted" />
+          <ScalarProperty Name="PasswordUrl" ColumnName="PasswordUrl" />
+          <ScalarProperty Name="IsLinkActive" ColumnName="IsLinkActive" />
+          <ScalarProperty Name="ResetPasswordLinkExpireDate" ColumnName="ResetPasswordLinkExpireDate" />
+          <ScalarProperty Name="AddedDate" ColumnName="AddedDate" />
+          <ScalarProperty Name="UpdatedDate" ColumnName="UpdatedDate" />
+          <ScalarProperty Name="DeletedDate" ColumnName="DeletedDate" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="WorkAreas">
+      <EntityTypeMapping TypeName="Aircall_sepModel.WorkArea">
+        <MappingFragment StoreEntitySet="WorkArea">
+          <ScalarProperty Name="Id" ColumnName="Id" />
+          <ScalarProperty Name="AreaId" ColumnName="AreaId" />
+          <ScalarProperty Name="ZipCodeId" ColumnName="ZipCodeId" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="ZipCodes">
+      <EntityTypeMapping TypeName="Aircall_sepModel.ZipCode">
+        <MappingFragment StoreEntitySet="ZipCode">
+          <ScalarProperty Name="Id" ColumnName="Id" />
+          <ScalarProperty Name="StateId" ColumnName="StateId" />
+          <ScalarProperty Name="CitiesId" ColumnName="CitiesId" />
+          <ScalarProperty Name="ZipCode1" ColumnName="ZipCode" />
+          <ScalarProperty Name="Status" ColumnName="Status" />
+          <ScalarProperty Name="IsDeleted" ColumnName="IsDeleted" />
+          <ScalarProperty Name="AddedBy" ColumnName="AddedBy" />
+          <ScalarProperty Name="AddedByType" ColumnName="AddedByType" />
+          <ScalarProperty Name="AddedDate" ColumnName="AddedDate" />
+          <ScalarProperty Name="UpdatedBy" ColumnName="UpdatedBy" />
+          <ScalarProperty Name="UpdatedByType" ColumnName="UpdatedByType" />
+          <ScalarProperty Name="UpdatedDate" ColumnName="UpdatedDate" />
+          <ScalarProperty Name="DeletedBy" ColumnName="DeletedBy" />
+          <ScalarProperty Name="DeletedByType" ColumnName="DeletedByType" />
+          <ScalarProperty Name="DeletedDate" ColumnName="DeletedDate" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <FunctionImportMapping FunctionImportName="uspa_ClientPortal_GetNotificationForDashBoardByUserType" FunctionName="Aircall_sepModel.Store.uspa_ClientPortal_GetNotificationForDashBoardByUserType">
+      <ResultMapping>
+        <ComplexTypeMapping TypeName="Aircall_sepModel.uspa_ClientPortal_GetNotificationForDashBoardByUserType_Result">
+          <ScalarProperty Name="Id" ColumnName="Id" />
+          <ScalarProperty Name="UserId" ColumnName="UserId" />
+          <ScalarProperty Name="UserTypeId" ColumnName="UserTypeId" />
+          <ScalarProperty Name="Message" ColumnName="Message" />
+          <ScalarProperty Name="Status" ColumnName="Status" />
+          <ScalarProperty Name="CommonId" ColumnName="CommonId" />
+          <ScalarProperty Name="MessageType" ColumnName="MessageType" />
+          <ScalarProperty Name="EmpId" ColumnName="EmpId" />
+          <ScalarProperty Name="RedirectId" ColumnName="RedirectId" />
+          <ScalarProperty Name="RedirectTag" ColumnName="RedirectTag" />
+          <ScalarProperty Name="AddedDate" ColumnName="AddedDate" />
+          <ScalarProperty Name="Cnt" ColumnName="Cnt" />
+          <ScalarProperty Name="ScheduleDate" ColumnName="ScheduleDate" />
+          <ScalarProperty Name="dispOrd" ColumnName="dispOrd" />
+          <ScalarProperty Name="EmplyeePIC" ColumnName="EmplyeePIC" />
+        </ComplexTypeMapping>
+      </ResultMapping>
+    </FunctionImportMapping>
+    <FunctionImportMapping FunctionImportName="uspa_ClientPortal_GetNotificationForDashBoardForClient" FunctionName="Aircall_sepModel.Store.uspa_ClientPortal_GetNotificationForDashBoardForClient">
+      <ResultMapping>
+        <ComplexTypeMapping TypeName="Aircall_sepModel.uspa_ClientPortal_GetNotificationForDashBoardForClient_Result">
+          <ScalarProperty Name="Id" ColumnName="Id" />
+          <ScalarProperty Name="UserId" ColumnName="UserId" />
+          <ScalarProperty Name="UserTypeId" ColumnName="UserTypeId" />
+          <ScalarProperty Name="Message" ColumnName="Message" />
+          <ScalarProperty Name="Status" ColumnName="Status" />
+          <ScalarProperty Name="CommonId" ColumnName="CommonId" />
+          <ScalarProperty Name="MessageType" ColumnName="MessageType" />
+          <ScalarProperty Name="EmpId" ColumnName="EmpId" />
+          <ScalarProperty Name="RedirectId" ColumnName="RedirectId" />
+          <ScalarProperty Name="RedirectTag" ColumnName="RedirectTag" />
+          <ScalarProperty Name="AddedDate" ColumnName="AddedDate" />
+          <ScalarProperty Name="Cnt" ColumnName="Cnt" />
+          <ScalarProperty Name="ScheduleDate" ColumnName="ScheduleDate" />
+          <ScalarProperty Name="dispOrd" ColumnName="dispOrd" />
+        </ComplexTypeMapping>
+      </ResultMapping>
+    </FunctionImportMapping>
+    <FunctionImportMapping FunctionImportName="uspa_ClientUnit_RenewPlanForApp" FunctionName="Aircall_sepModel.Store.uspa_ClientUnit_RenewPlanForApp">
+      <ResultMapping>
+        <ComplexTypeMapping TypeName="Aircall_sepModel.uspa_ClientUnit_RenewPlanForApp_Result">
+          <ScalarProperty Name="Id" ColumnName="Id" />
+          <ScalarProperty Name="ClientId" ColumnName="ClientId" />
+          <ScalarProperty Name="PlanId" ColumnName="PlanId" />
+          <ScalarProperty Name="PlanTypeId" ColumnName="PlanTypeId" />
+          <ScalarProperty Name="UnitName" ColumnName="UnitName" />
+          <ScalarProperty Name="ManufactureDate" ColumnName="ManufactureDate" />
+          <ScalarProperty Name="UnitTon" ColumnName="UnitTon" />
+          <ScalarProperty Name="AddressId" ColumnName="AddressId" />
+          <ScalarProperty Name="UnitTypeId" ColumnName="UnitTypeId" />
+          <ScalarProperty Name="AutoRenewal" ColumnName="AutoRenewal" />
+          <ScalarProperty Name="Notes" ColumnName="Notes" />
+          <ScalarProperty Name="Status" ColumnName="Status" />
+          <ScalarProperty Name="PaymentStatus" ColumnName="PaymentStatus" />
+          <ScalarProperty Name="IsMatched" ColumnName="IsMatched" />
+          <ScalarProperty Name="IsDeleted" ColumnName="IsDeleted" />
+          <ScalarProperty Name="IsSpecialApplied" ColumnName="IsSpecialApplied" />
+          <ScalarProperty Name="IsServiceAdded" ColumnName="IsServiceAdded" />
+          <ScalarProperty Name="StripeSubscriptionId" ColumnName="StripeSubscriptionId" />
+          <ScalarProperty Name="IsPlanRenewedOrCancelled" ColumnName="IsPlanRenewedOrCancelled" />
+          <ScalarProperty Name="IsActive" ColumnName="IsActive" />
+          <ScalarProperty Name="AddedBy" ColumnName="AddedBy" />
+          <ScalarProperty Name="AddedByType" ColumnName="AddedByType" />
+          <ScalarProperty Name="AddedDate" ColumnName="AddedDate" />
+          <ScalarProperty Name="UpdatedBy" ColumnName="UpdatedBy" />
+          <ScalarProperty Name="UpdatedByType" ColumnName="UpdatedByType" />
+          <ScalarProperty Name="UpdatedDate" ColumnName="UpdatedDate" />
+          <ScalarProperty Name="DeletedBy" ColumnName="DeletedBy" />
+          <ScalarProperty Name="DeletedByType" ColumnName="DeletedByType" />
+          <ScalarProperty Name="DeletedDate" ColumnName="DeletedDate" />
+        </ComplexTypeMapping>
+      </ResultMapping>
+    </FunctionImportMapping>
+    <EntitySetMapping Name="Partners">
+      <EntityTypeMapping TypeName="Aircall_sepModel.Partner">
+        <MappingFragment StoreEntitySet="Partner">
+          <ScalarProperty Name="ZipCode" ColumnName="ZipCode" />
+          <ScalarProperty Name="DeletedDate" ColumnName="DeletedDate" />
+          <ScalarProperty Name="DeletedByType" ColumnName="DeletedByType" />
+          <ScalarProperty Name="DeletedBy" ColumnName="DeletedBy" />
+          <ScalarProperty Name="UpdatedDate" ColumnName="UpdatedDate" />
+          <ScalarProperty Name="UpdatedByType" ColumnName="UpdatedByType" />
+          <ScalarProperty Name="UpdatedBy" ColumnName="UpdatedBy" />
+          <ScalarProperty Name="AddedDate" ColumnName="AddedDate" />
+          <ScalarProperty Name="AddedByType" ColumnName="AddedByType" />
+          <ScalarProperty Name="AddedBy" ColumnName="AddedBy" />
+          <ScalarProperty Name="ResetPasswordLinkExpireDate" ColumnName="ResetPasswordLinkExpireDate" />
+          <ScalarProperty Name="PasswordUrl" ColumnName="PasswordUrl" />
+          <ScalarProperty Name="IsDeleted" ColumnName="IsDeleted" />
+          <ScalarProperty Name="IsActive" ColumnName="IsActive" />
+          <ScalarProperty Name="SalesCommission" ColumnName="SalesCommission" />
+          <ScalarProperty Name="AssignedAffiliateId" ColumnName="AssignedAffiliateId" />
+          <ScalarProperty Name="PhoneNumber" ColumnName="PhoneNumber" />
+          <ScalarProperty Name="StateId" ColumnName="StateId" />
+          <ScalarProperty Name="CitiesId" ColumnName="CitiesId" />
+          <ScalarProperty Name="Address" ColumnName="Address" />
+          <ScalarProperty Name="Image" ColumnName="Image" />
+          <ScalarProperty Name="CompanyName" ColumnName="CompanyName" />
+          <ScalarProperty Name="Password" ColumnName="Password" />
+          <ScalarProperty Name="Email" ColumnName="Email" />
+          <ScalarProperty Name="UserName" ColumnName="UserName" />
+          <ScalarProperty Name="LastName" ColumnName="LastName" />
+          <ScalarProperty Name="FirstName" ColumnName="FirstName" />
+          <ScalarProperty Name="RoleId" ColumnName="RoleId" />
+          <ScalarProperty Name="Id" ColumnName="Id" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <FunctionImportMapping FunctionImportName="uspa_Units_GetUnitsByModelAndSerialNumber" FunctionName="Aircall_sepModel.Store.uspa_Units_GetUnitsByModelAndSerialNumber">
+      <ResultMapping>
+        <ComplexTypeMapping TypeName="Aircall_sepModel.uspa_Units_GetUnitsByModelAndSerialNumber_Result">
+          <ScalarProperty Name="Id" ColumnName="Id" />
+          <ScalarProperty Name="ModelNumber" ColumnName="ModelNumber" />
+          <ScalarProperty Name="SerialNumber" ColumnName="SerialNumber" />
+          <ScalarProperty Name="ManufactureDate" ColumnName="ManufactureDate" />
+          <ScalarProperty Name="ManufactureBrand" ColumnName="ManufactureBrand" />
+          <ScalarProperty Name="UnitTon" ColumnName="UnitTon" />
+          <ScalarProperty Name="Booster" ColumnName="Booster" />
+          <ScalarProperty Name="Refrigerant" ColumnName="Refrigerant" />
+          <ScalarProperty Name="ElectricalService" ColumnName="ElectricalService" />
+          <ScalarProperty Name="MaxBreaker" ColumnName="MaxBreaker" />
+          <ScalarProperty Name="Compressor" ColumnName="Compressor" />
+          <ScalarProperty Name="Capacitor" ColumnName="Capacitor" />
+          <ScalarProperty Name="Contactor" ColumnName="Contactor" />
+          <ScalarProperty Name="Filterdryer" ColumnName="Filterdryer" />
+          <ScalarProperty Name="Defrostboard" ColumnName="Defrostboard" />
+          <ScalarProperty Name="Relay" ColumnName="Relay" />
+          <ScalarProperty Name="TXVValve" ColumnName="TXVValve" />
+          <ScalarProperty Name="ReversingValve" ColumnName="ReversingValve" />
+          <ScalarProperty Name="BlowerMotor" ColumnName="BlowerMotor" />
+          <ScalarProperty Name="Condensingfanmotor" ColumnName="Condensingfanmotor" />
+          <ScalarProperty Name="Inducerdraftmotor" ColumnName="Inducerdraftmotor" />
+          <ScalarProperty Name="Transformer" ColumnName="Transformer" />
+          <ScalarProperty Name="Controlboard" ColumnName="Controlboard" />
+          <ScalarProperty Name="Limitswitch" ColumnName="Limitswitch" />
+          <ScalarProperty Name="Ignitor" ColumnName="Ignitor" />
+          <ScalarProperty Name="Gasvalve" ColumnName="Gasvalve" />
+          <ScalarProperty Name="Pressureswitch" ColumnName="Pressureswitch" />
+          <ScalarProperty Name="Flamesensor" ColumnName="Flamesensor" />
+          <ScalarProperty Name="Rolloutsensor" ColumnName="Rolloutsensor" />
+          <ScalarProperty Name="Doorswitch" ColumnName="Doorswitch" />
+          <ScalarProperty Name="Ignitioncontrolboard" ColumnName="Ignitioncontrolboard" />
+          <ScalarProperty Name="MFGMonthYear" ColumnName="MFGMonthYear" />
+          <ScalarProperty Name="CoilCleaner" ColumnName="CoilCleaner" />
+          <ScalarProperty Name="Misc" ColumnName="Misc" />
+        </ComplexTypeMapping>
+      </ResultMapping>
+    </FunctionImportMapping>
+    <FunctionImportMapping FunctionImportName="uspa_CheckInStockAndScheduleService" FunctionName="Aircall_sepModel.Store.uspa_CheckInStockAndScheduleService">
+      <ResultMapping>
+        <ComplexTypeMapping TypeName="Aircall_sepModel.uspa_CheckInStockAndScheduleService_Result1">
+          <ScalarProperty Name="ServiceId" ColumnName="ServiceId" />
+          <ScalarProperty Name="ScheduleDate" ColumnName="ScheduleDate" />
+          <ScalarProperty Name="ServiceCaseNumber" ColumnName="ServiceCaseNumber" />
+        </ComplexTypeMapping>
+      </ResultMapping>
+    </FunctionImportMapping>
+    <FunctionImportMapping FunctionImportName="uspa_CheckInStockAndScheduleServiceForApp" FunctionName="Aircall_sepModel.Store.uspa_CheckInStockAndScheduleServiceForApp" />
+    <FunctionImportMapping FunctionImportName="uspa_ScheduleServiceForUnDoneUnit" FunctionName="Aircall_sepModel.Store.uspa_ScheduleServiceForUnDoneUnit">
+      <ResultMapping>
+        <ComplexTypeMapping TypeName="Aircall_sepModel.uspa_ScheduleServiceForUnDoneUnit_Result">
+          <ScalarProperty Name="ServiceId" ColumnName="ServiceId" />
+          <ScalarProperty Name="ScheduleDate" ColumnName="ScheduleDate" />
+          <ScalarProperty Name="ServiceCaseNumber" ColumnName="ServiceCaseNumber" />
+        </ComplexTypeMapping>
+      </ResultMapping>
+    </FunctionImportMapping>
+    <EntitySetMapping Name="RequestedServiceBridges">
+      <EntityTypeMapping TypeName="Aircall_sepModel.RequestedServiceBridge">
+        <MappingFragment StoreEntitySet="RequestedServiceBridge">
+          <ScalarProperty Name="ServiceId" ColumnName="ServiceId" />
+          <ScalarProperty Name="RequestedServiceId" ColumnName="RequestedServiceId" />
+          <ScalarProperty Name="Id" ColumnName="Id" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+  </EntityContainerMapping>
+</Mapping>

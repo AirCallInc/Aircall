@@ -1,0 +1,28 @@
+2018-08-04 07:47:26.8933|INFO|api.Helpers.NLogger|JSON
+Method: GET
+URL: http://localhost:15419/v1/Common/GetAllPlanType?grant_type=password&username=elva.wang@gmail.com&password=sa123456&deviceid=abc123
+Controller : api.Controllers.CommonController
+Action : GetAllPlanType
+Action Parameters : {"messageFormat":"JSON","messageArguments":[{}]}
+
+2018-08-04 07:57:33.5893|INFO|api.Helpers.NLogger|JSON
+Method: POST
+URL: http://localhost:15419/v1/profile/clientlogin
+Controller : api.Controllers.ProfileController
+Action : Login
+Action Parameters : {"messageFormat":"JSON","messageArguments":[{"model":{"Email":"elva.wang@gmail.com","Password":"sa123456","DeviceType":null,"DeviceToken":"abc123","Latitude":null,"Longitude":null}}]}
+
+2018-08-04 08:13:13.5089|INFO|api.Helpers.NLogger|JSON
+Method: POST
+URL: http://localhost:15419/v1/profile/clientlogin
+Controller : api.Controllers.ProfileController
+Action : Login
+Action Parameters : {"messageFormat":"JSON","messageArguments":[{"model":{"Email":"elva.wang@gmail.com","Password":"sa123456","DeviceType":null,"DeviceToken":"abc123","Latitude":null,"Longitude":null}}]}
+
+2018-08-04 08:13:30.5576|INFO|api.Helpers.NLogger|JSON
+Method: POST
+URL: http://localhost:15419/v1/profile/clientlogin
+Controller : api.Controllers.ProfileController
+Action : Login
+Action Parameters : {"messageFormat":"JSON","messageArguments":[{"model":{"Email":"elva.wang@gmail.com","Password":"sa123456","DeviceType":null,"DeviceToken":"abc123","Latitude":null,"Longitude":null}}]}
+

@@ -1,0 +1,357 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+ <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <!-- Diagram content (shape and connector positions) -->
+    <edmx:Diagrams>
+      <Diagram DiagramId="1606600c5bb243668aa90803a5e5a9e9" Name="Diagram1" ZoomLevel="101">
+        <EntityTypeShape EntityType="Aircall_DevModel.AppAccessToken" Width="1.5" PointX="0.75" PointY="0.75" />
+        <EntityTypeShape EntityType="Aircall_DevModel.AreaMaster" Width="1.5" PointX="10.5" PointY="157.5" />
+        <EntityTypeShape EntityType="Aircall_DevModel.BillingHistory" Width="1.5" PointX="16.5" PointY="175.5" />
+        <EntityTypeShape EntityType="Aircall_DevModel.Block" Width="1.5" PointX="14.25" PointY="171.875" />
+        <EntityTypeShape EntityType="Aircall_DevModel.City" Width="1.5" PointX="8.25" PointY="164.125" />
+        <EntityTypeShape EntityType="Aircall_DevModel.Client" Width="1.5" PointX="24.75" PointY="158.75" />
+        <EntityTypeShape EntityType="Aircall_DevModel.ClientAddress" Width="1.5" PointX="15.5" PointY="147.875" />
+        <EntityTypeShape EntityType="Aircall_DevModel.ClientCheckNumber" Width="1.5" PointX="2.75" PointY="0.75" />
+        <EntityTypeShape EntityType="Aircall_DevModel.ClientPaymentMethod" Width="1.5" PointX="33" PointY="145.5" />
+        <EntityTypeShape EntityType="Aircall_DevModel.ClientUnit" Width="1.5" PointX="22.75" PointY="133.625" />
+        <EntityTypeShape EntityType="Aircall_DevModel.ClientUnitInvoice" Width="1.5" PointX="27" PointY="146.5" />
+        <EntityTypeShape EntityType="Aircall_DevModel.ClientUnitManual" Width="1.5" PointX="25" PointY="155" />
+        <EntityTypeShape EntityType="Aircall_DevModel.ClientUnitPart" Width="1.5" PointX="31" PointY="152.5" />
+        <EntityTypeShape EntityType="Aircall_DevModel.ClientUnitPicture" Width="1.5" PointX="25" PointY="134" />
+        <EntityTypeShape EntityType="Aircall_DevModel.ClientUnitServiceCount" Width="1.5" PointX="30" PointY="145.25" />
+        <EntityTypeShape EntityType="Aircall_DevModel.ClientUnitSubscription" Width="1.5" PointX="36.25" PointY="159.125" />
+        <EntityTypeShape EntityType="Aircall_DevModel.CMSPage" Width="1.5" PointX="11.25" PointY="169.375" />
+        <EntityTypeShape EntityType="Aircall_DevModel.ContactRequest" Width="1.5" PointX="5.25" PointY="199.375" />
+        <EntityTypeShape EntityType="Aircall_DevModel.DailyPartListMaster" Width="1.5" PointX="8.25" PointY="154.5" />
+        <EntityTypeShape EntityType="Aircall_DevModel.EmailsSent" Width="1.5" PointX="0.75" PointY="3.75" />
+        <EntityTypeShape EntityType="Aircall_DevModel.EmailTemplate" Width="1.5" PointX="5.25" PointY="159.375" />
+        <EntityTypeShape EntityType="Aircall_DevModel.EmpAppAccessToken" Width="1.5" PointX="2.75" PointY="3.75" />
+        <EntityTypeShape EntityType="Aircall_DevModel.Employee" Width="1.5" PointX="8.25" PointY="172.375" />
+        <EntityTypeShape EntityType="Aircall_DevModel.EmployeeLeave" Width="1.5" PointX="10.5" PointY="187.625" />
+        <EntityTypeShape EntityType="Aircall_DevModel.EmployeeLocation" Width="1.5" PointX="4.75" PointY="0.75" />
+        <EntityTypeShape EntityType="Aircall_DevModel.EmployeePartRequest" Width="1.5" PointX="33.25" PointY="159.625" />
+        <EntityTypeShape EntityType="Aircall_DevModel.EmployeePartRequestMaster" Width="1.5" PointX="28" PointY="151.625" />
+        <EntityTypeShape EntityType="Aircall_DevModel.EmployeePlanType" Width="1.5" PointX="10.5" PointY="176.75" />
+        <EntityTypeShape EntityType="Aircall_DevModel.EmployeeSchedule" Width="1.5" PointX="21" PointY="165" />
+        <EntityTypeShape EntityType="Aircall_DevModel.EmployeeWorkarea" Width="1.5" PointX="18.75" PointY="169.125" />
+        <EntityTypeShape EntityType="Aircall_DevModel.FailedBillingHistory" Width="1.5" PointX="28" PointY="158" />
+        <EntityTypeShape EntityType="Aircall_DevModel.MobileScreen" Width="1.5" PointX="11.25" PointY="164.75" />
+        <EntityTypeShape EntityType="Aircall_DevModel.News" Width="1.5" PointX="3" PointY="226.75" />
+        <EntityTypeShape EntityType="Aircall_DevModel.NotificationMaster" Width="1.5" PointX="5.25" PointY="169.75" />
+        <EntityTypeShape EntityType="Aircall_DevModel.OrderItem" Width="1.5" PointX="29.25" PointY="173.75" />
+        <EntityTypeShape EntityType="Aircall_DevModel.Order" Width="1.5" PointX="27" PointY="170.75" />
+        <EntityTypeShape EntityType="Aircall_DevModel.PageBlock" Width="1.5" PointX="21.5" PointY="169.375" />
+        <EntityTypeShape EntityType="Aircall_DevModel.Partner" Width="1.5" PointX="10.5" PointY="148.25" />
+        <EntityTypeShape EntityType="Aircall_DevModel.PartnerTicketConversation" Width="1.5" PointX="15" PointY="132.5" />
+        <EntityTypeShape EntityType="Aircall_DevModel.PartnerTicketRequest" Width="1.5" PointX="12.75" PointY="141" />
+        <EntityTypeShape EntityType="Aircall_DevModel.Part" Width="1.5" PointX="16.5" PointY="156.5" />
+        <EntityTypeShape EntityType="Aircall_DevModel.Plan" Width="1.5" PointX="13.5" PointY="162" />
+        <EntityTypeShape EntityType="Aircall_DevModel.PlanSlave" Width="1.5" PointX="18.75" PointY="165.25" />
+        <EntityTypeShape EntityType="Aircall_DevModel.PlanType" Width="1.5" PointX="5.25" PointY="164.75" />
+        <EntityTypeShape EntityType="Aircall_DevModel.PreRegistration" Width="1.5" PointX="4.75" PointY="3.75" />
+        <EntityTypeShape EntityType="Aircall_DevModel.RequestedServiceBridge" Width="1.5" PointX="21" PointY="149.25" />
+        <EntityTypeShape EntityType="Aircall_DevModel.RequestedService" Width="1.5" PointX="17.75" PointY="135.375" />
+        <EntityTypeShape EntityType="Aircall_DevModel.RequestedServiceUnit" Width="1.5" PointX="25" PointY="138.375" />
+        <EntityTypeShape EntityType="Aircall_DevModel.RescheduleService" Width="1.5" PointX="20" PointY="138" />
+        <EntityTypeShape EntityType="Aircall_DevModel.Role" Width="1.5" PointX="0.75" PointY="125.75" />
+        <EntityTypeShape EntityType="Aircall_DevModel.SalesVisitRequest" Width="1.5" PointX="34" PointY="154.375" />
+        <EntityTypeShape EntityType="Aircall_DevModel.ServiceAttemptCount" Width="1.5" PointX="15" PointY="187.375" />
+        <EntityTypeShape EntityType="Aircall_DevModel.ServiceNoShow" Width="1.5" PointX="22" PointY="173" />
+        <EntityTypeShape EntityType="Aircall_DevModel.ServicePartList" Width="1.5" PointX="21.75" PointY="157.5" />
+        <EntityTypeShape EntityType="Aircall_DevModel.ServiceRatingReview" Width="1.5" PointX="15" PointY="144" />
+        <EntityTypeShape EntityType="Aircall_DevModel.ServiceReport" Width="1.5" PointX="15" PointY="136.25" />
+        <EntityTypeShape EntityType="Aircall_DevModel.ServiceReportImage" Width="1.5" PointX="17.25" PointY="131.875" />
+        <EntityTypeShape EntityType="Aircall_DevModel.ServiceReportUnit" Width="1.5" PointX="25" PointY="143.125" />
+        <EntityTypeShape EntityType="Aircall_DevModel.Service" Width="1.5" PointX="12.75" PointY="145.375" />
+        <EntityTypeShape EntityType="Aircall_DevModel.ServiceUnit" Width="1.5" PointX="21" PointY="146.25" />
+        <EntityTypeShape EntityType="Aircall_DevModel.SiteSetting" Width="1.5" PointX="13.25" PointY="156.75" />
+        <EntityTypeShape EntityType="Aircall_DevModel.State" Width="1.5" PointX="5.25" PointY="174.125" />
+        <EntityTypeShape EntityType="Aircall_DevModel.StripeErrorLog" Width="1.5" PointX="6.75" PointY="0.75" />
+        <EntityTypeShape EntityType="Aircall_DevModel.stripelog" Width="1.5" PointX="0.75" PointY="6.75" />
+        <EntityTypeShape EntityType="Aircall_DevModel.SubscriptionPlan" Width="1.5" PointX="2.75" PointY="6.75" />
+        <EntityTypeShape EntityType="Aircall_DevModel.SystemMessage" Width="1.5" PointX="8.25" PointY="159.75" />
+        <EntityTypeShape EntityType="Aircall_DevModel.UnitExtraInfo" Width="1.5" PointX="35.25" PointY="150.75" />
+        <EntityTypeShape EntityType="Aircall_DevModel.UnitManual" Width="1.5" PointX="21" PointY="152.25" />
+        <EntityTypeShape EntityType="Aircall_DevModel.Unit" Width="1.5" PointX="18.75" PointY="142.5" />
+        <EntityTypeShape EntityType="Aircall_DevModel.UnitType" Width="1.5" PointX="20.5" PointY="135.5" />
+        <EntityTypeShape EntityType="Aircall_DevModel.UserNotification" Width="1.5" PointX="4.75" PointY="6.75" />
+        <EntityTypeShape EntityType="Aircall_DevModel.User" Width="1.5" PointX="3" PointY="194.625" />
+        <EntityTypeShape EntityType="Aircall_DevModel.WorkArea" Width="1.5" PointX="18.75" PointY="159.625" />
+        <EntityTypeShape EntityType="Aircall_DevModel.ZipCode" Width="1.5" PointX="19.5" PointY="172.625" />
+        <AssociationConnector Association="Aircall_DevModel.FK_AreaMaster_Cities" />
+        <AssociationConnector Association="Aircall_DevModel.FK_AreaMaster_Roles" />
+        <AssociationConnector Association="Aircall_DevModel.FK_AreaMaster_Roles1" />
+        <AssociationConnector Association="Aircall_DevModel.FK_AreaMaster_Roles2" />
+        <AssociationConnector Association="Aircall_DevModel.FK_AreaMaster_State" />
+        <AssociationConnector Association="Aircall_DevModel.FK_AreaMaster_Users" />
+        <AssociationConnector Association="Aircall_DevModel.FK_AreaMaster_Users1" />
+        <AssociationConnector Association="Aircall_DevModel.FK_AreaMaster_Users2" />
+        <AssociationConnector Association="Aircall_DevModel.FK_EmployeeWorkarea_AreaMaster" />
+        <AssociationConnector Association="Aircall_DevModel.FK_Services_AreaMaster" />
+        <AssociationConnector Association="Aircall_DevModel.FK_WorkArea_AreaMaster" />
+        <AssociationConnector Association="Aircall_DevModel.FK_BillingHistory_Cities" />
+        <AssociationConnector Association="Aircall_DevModel.FK_BillingHistory_Client" />
+        <AssociationConnector Association="Aircall_DevModel.FK_BillingHistory_Orders" />
+        <AssociationConnector Association="Aircall_DevModel.FK_BillingHistory_State" />
+        <AssociationConnector Association="Aircall_DevModel.FK_Blocks_Roles" />
+        <AssociationConnector Association="Aircall_DevModel.FK_Blocks_Roles1" />
+        <AssociationConnector Association="Aircall_DevModel.FK_Blocks_Roles2" />
+        <AssociationConnector Association="Aircall_DevModel.FK_Blocks_Users" />
+        <AssociationConnector Association="Aircall_DevModel.FK_Blocks_Users1" />
+        <AssociationConnector Association="Aircall_DevModel.FK_Blocks_Users2" />
+        <AssociationConnector Association="Aircall_DevModel.FK_PageBlocks_Blocks" />
+        <AssociationConnector Association="Aircall_DevModel.FK_Cities_Roles" />
+        <AssociationConnector Association="Aircall_DevModel.FK_Cities_Roles1" />
+        <AssociationConnector Association="Aircall_DevModel.FK_Cities_Roles2" />
+        <AssociationConnector Association="Aircall_DevModel.FK_Cities_State" />
+        <AssociationConnector Association="Aircall_DevModel.FK_Cities_Users" />
+        <AssociationConnector Association="Aircall_DevModel.FK_Cities_Users1" />
+        <AssociationConnector Association="Aircall_DevModel.FK_Cities_Users2" />
+        <AssociationConnector Association="Aircall_DevModel.FK_ClientAddress_Cities" />
+        <AssociationConnector Association="Aircall_DevModel.FK_FailedBillingHistory_Cities" />
+        <AssociationConnector Association="Aircall_DevModel.FK_Partner_Cities" />
+        <AssociationConnector Association="Aircall_DevModel.FK_PlanSlave_Cities" />
+        <AssociationConnector Association="Aircall_DevModel.FK_ZipCode_Cities" />
+        <AssociationConnector Association="Aircall_DevModel.FK_Client_Partner" />
+        <AssociationConnector Association="Aircall_DevModel.FK_Client_Roles" />
+        <AssociationConnector Association="Aircall_DevModel.FK_Client_Roles1" />
+        <AssociationConnector Association="Aircall_DevModel.FK_Client_Roles2" />
+        <AssociationConnector Association="Aircall_DevModel.FK_Client_Roles3" />
+        <AssociationConnector Association="Aircall_DevModel.FK_Client_Users" />
+        <AssociationConnector Association="Aircall_DevModel.FK_ClientAddress_Client" />
+        <AssociationConnector Association="Aircall_DevModel.FK_ClientPaymentMethod_Client" />
+        <AssociationConnector Association="Aircall_DevModel.FK_ClientUnit_Client" />
+        <AssociationConnector Association="Aircall_DevModel.FK_ClientUnitInvoice_Client" />
+        <AssociationConnector Association="Aircall_DevModel.FK_ClientUnitServiceCount_Client" />
+        <AssociationConnector Association="Aircall_DevModel.FK_ClientUnitSubscription_Client" />
+        <AssociationConnector Association="Aircall_DevModel.FK_EmployeePartRequestMaster_Client" />
+        <AssociationConnector Association="Aircall_DevModel.FK_FailedBillingHistory_Client" />
+        <AssociationConnector Association="Aircall_DevModel.FK_Orders_Client" />
+        <AssociationConnector Association="Aircall_DevModel.FK_RequestedServices_Client" />
+        <AssociationConnector Association="Aircall_DevModel.FK_SalesVisitRequest_Client" />
+        <AssociationConnector Association="Aircall_DevModel.FK_Services_Client" />
+        <AssociationConnector Association="Aircall_DevModel.FK_ClientAddress_Roles" />
+        <AssociationConnector Association="Aircall_DevModel.FK_ClientAddress_Roles1" />
+        <AssociationConnector Association="Aircall_DevModel.FK_ClientAddress_Roles2" />
+        <AssociationConnector Association="Aircall_DevModel.FK_ClientAddress_State" />
+        <AssociationConnector Association="Aircall_DevModel.FK_ClientUnit_ClientAddress" />
+        <AssociationConnector Association="Aircall_DevModel.FK_EmployeePartRequestMaster_ClientAddress" />
+        <AssociationConnector Association="Aircall_DevModel.FK_RequestedServices_ClientAddress" />
+        <AssociationConnector Association="Aircall_DevModel.FK_Services_ClientAddress" />
+        <AssociationConnector Association="Aircall_DevModel.FK_ClientPaymentMethod_Roles" />
+        <AssociationConnector Association="Aircall_DevModel.FK_ClientPaymentMethod_Roles1" />
+        <AssociationConnector Association="Aircall_DevModel.FK_ClientUnitSubscription_ClientPaymentMethod" />
+        <AssociationConnector Association="Aircall_DevModel.FK_ClientUnit_ClientUnit1" />
+        <AssociationConnector Association="Aircall_DevModel.FK_ClientUnit_Roles" />
+        <AssociationConnector Association="Aircall_DevModel.FK_ClientUnit_Roles1" />
+        <AssociationConnector Association="Aircall_DevModel.FK_ClientUnit_Roles2" />
+        <AssociationConnector Association="Aircall_DevModel.FK_ClientUnit_UnitType" />
+        <AssociationConnector Association="Aircall_DevModel.FK_ClientUnitInvoice_ClientUnit" />
+        <AssociationConnector Association="Aircall_DevModel.FK_ClientUnitManuals_ClientUnit" />
+        <AssociationConnector Association="Aircall_DevModel.FK_ClientUnitParts_ClientUnit" />
+        <AssociationConnector Association="Aircall_DevModel.FK_ClientUnitPictures_ClientUnit" />
+        <AssociationConnector Association="Aircall_DevModel.FK_ClientUnitServiceCount_ClientUnit" />
+        <AssociationConnector Association="Aircall_DevModel.FK_FailedBillingHistory_ClientUnit" />
+        <AssociationConnector Association="Aircall_DevModel.FK_RequestedServiceUnits_ClientUnit" />
+        <AssociationConnector Association="Aircall_DevModel.FK_ServicePartList_ClientUnit" />
+        <AssociationConnector Association="Aircall_DevModel.FK_ServiceReportUnits_ClientUnit" />
+        <AssociationConnector Association="Aircall_DevModel.FK_ServiceUnits_ClientUnit" />
+        <AssociationConnector Association="Aircall_DevModel.FK_UnitExtraInfo_ClientUnit" />
+        <AssociationConnector Association="Aircall_DevModel.FK_ClientUnitInvoice_Roles" />
+        <AssociationConnector Association="Aircall_DevModel.FK_ClientUnitParts_ClientUnitInducerdraftmotor" />
+        <AssociationConnector Association="Aircall_DevModel.FK_ClientUnitParts_Parts" />
+        <AssociationConnector Association="Aircall_DevModel.FK_ClientUnitParts_PartsBlowerMotor" />
+        <AssociationConnector Association="Aircall_DevModel.FK_ClientUnitParts_PartsBooster" />
+        <AssociationConnector Association="Aircall_DevModel.FK_ClientUnitParts_PartsCapacitor" />
+        <AssociationConnector Association="Aircall_DevModel.FK_ClientUnitParts_PartsCoilCleaner" />
+        <AssociationConnector Association="Aircall_DevModel.FK_ClientUnitParts_PartsCompressor" />
+        <AssociationConnector Association="Aircall_DevModel.FK_ClientUnitParts_PartsCondensingfanmotor" />
+        <AssociationConnector Association="Aircall_DevModel.FK_ClientUnitParts_PartsContactor" />
+        <AssociationConnector Association="Aircall_DevModel.FK_ClientUnitParts_PartsControlboard" />
+        <AssociationConnector Association="Aircall_DevModel.FK_ClientUnitParts_PartsDefrostboard" />
+        <AssociationConnector Association="Aircall_DevModel.FK_ClientUnitParts_PartsDoorswitch" />
+        <AssociationConnector Association="Aircall_DevModel.FK_ClientUnitParts_PartsFilterdryer" />
+        <AssociationConnector Association="Aircall_DevModel.FK_ClientUnitParts_PartsFlamesensor" />
+        <AssociationConnector Association="Aircall_DevModel.FK_ClientUnitParts_PartsGasvalve" />
+        <AssociationConnector Association="Aircall_DevModel.FK_ClientUnitParts_PartsIgnitioncontrolboard" />
+        <AssociationConnector Association="Aircall_DevModel.FK_ClientUnitParts_PartsIgnitor" />
+        <AssociationConnector Association="Aircall_DevModel.FK_ClientUnitParts_PartsLimitswitch" />
+        <AssociationConnector Association="Aircall_DevModel.FK_ClientUnitParts_PartsMisc" />
+        <AssociationConnector Association="Aircall_DevModel.FK_ClientUnitParts_PartsPressureswitch" />
+        <AssociationConnector Association="Aircall_DevModel.FK_ClientUnitParts_PartsRefrigerant" />
+        <AssociationConnector Association="Aircall_DevModel.FK_ClientUnitParts_PartsRelay" />
+        <AssociationConnector Association="Aircall_DevModel.FK_ClientUnitParts_PartsReversingValve" />
+        <AssociationConnector Association="Aircall_DevModel.FK_ClientUnitParts_PartsRolloutsensor" />
+        <AssociationConnector Association="Aircall_DevModel.FK_ClientUnitParts_PartsTransformer" />
+        <AssociationConnector Association="Aircall_DevModel.FK_ClientUnitParts_PartsTXVValve" />
+        <AssociationConnector Association="Aircall_DevModel.FK_UnitExtraInfo_ClientUnitParts" />
+        <AssociationConnector Association="Aircall_DevModel.FK_ClientUnitPictures_Roles" />
+        <AssociationConnector Association="Aircall_DevModel.FK_ClientUnitServiceCount_Roles" />
+        <AssociationConnector Association="Aircall_DevModel.FK_ClientUnitServiceCount_Roles1" />
+        <AssociationConnector Association="Aircall_DevModel.FK_ClientUnitServiceCount_Roles2" />
+        <AssociationConnector Association="Aircall_DevModel.FK_ClientUnitSubscription_Orders" />
+        <AssociationConnector Association="Aircall_DevModel.FK_CMSPages_Roles" />
+        <AssociationConnector Association="Aircall_DevModel.FK_CMSPages_Roles1" />
+        <AssociationConnector Association="Aircall_DevModel.FK_CMSPages_Roles2" />
+        <AssociationConnector Association="Aircall_DevModel.FK_CMSPages_Users" />
+        <AssociationConnector Association="Aircall_DevModel.FK_CMSPages_Users1" />
+        <AssociationConnector Association="Aircall_DevModel.FK_CMSPages_Users2" />
+        <AssociationConnector Association="Aircall_DevModel.FK_PageBlocks_CMSPages" />
+        <AssociationConnector Association="Aircall_DevModel.FK_ContactRequest_Users" />
+        <AssociationConnector Association="Aircall_DevModel.FK_DailyPartListMaster_Roles" />
+        <AssociationConnector Association="Aircall_DevModel.FK_DailyPartListMaster_Roles1" />
+        <AssociationConnector Association="Aircall_DevModel.FK_DailyPartListMaster_Users" />
+        <AssociationConnector Association="Aircall_DevModel.FK_DailyPartListMaster_Users1" />
+        <AssociationConnector Association="Aircall_DevModel.FK_Parts_DailyPartListMaster" />
+        <AssociationConnector Association="Aircall_DevModel.FK_EmailTemplate_Roles" />
+        <AssociationConnector Association="Aircall_DevModel.FK_EmailTemplate_Roles1" />
+        <AssociationConnector Association="Aircall_DevModel.FK_EmailTemplate_Users" />
+        <AssociationConnector Association="Aircall_DevModel.FK_EmailTemplate_Users1" />
+        <AssociationConnector Association="Aircall_DevModel.FK_Employee_Roles" />
+        <AssociationConnector Association="Aircall_DevModel.FK_Employee_Roles1" />
+        <AssociationConnector Association="Aircall_DevModel.FK_Employee_Roles2" />
+        <AssociationConnector Association="Aircall_DevModel.FK_Employee_Roles3" />
+        <AssociationConnector Association="Aircall_DevModel.FK_Employee_State" />
+        <AssociationConnector Association="Aircall_DevModel.FK_Employee_Users" />
+        <AssociationConnector Association="Aircall_DevModel.FK_EmployeeLeave_Employee1" />
+        <AssociationConnector Association="Aircall_DevModel.FK_EmployeePartRequestMaster_Employee" />
+        <AssociationConnector Association="Aircall_DevModel.FK_EmployeePlanType_Employee" />
+        <AssociationConnector Association="Aircall_DevModel.FK_EmployeeSchedule_Employee" />
+        <AssociationConnector Association="Aircall_DevModel.FK_EmployeeWorkarea_Employee" />
+        <AssociationConnector Association="Aircall_DevModel.FK_SalesVisitRequest_Employee" />
+        <AssociationConnector Association="Aircall_DevModel.FK_SalesVisitRequest_Employee1" />
+        <AssociationConnector Association="Aircall_DevModel.FK_Services_Employee" />
+        <AssociationConnector Association="Aircall_DevModel.FK_EmployeeLeave_Users3" />
+        <AssociationConnector Association="Aircall_DevModel.FK_EmployeeLeave_Users4" />
+        <AssociationConnector Association="Aircall_DevModel.FK_EmployeeLeave_Users5" />
+        <AssociationConnector Association="Aircall_DevModel.FK_EmployeeSchedule_EmployeeLeave" />
+        <AssociationConnector Association="Aircall_DevModel.FK_EmployeePartRequest_EmployeePartRequestMaster" />
+        <AssociationConnector Association="Aircall_DevModel.FK_EmployeePartRequest_Parts" />
+        <AssociationConnector Association="Aircall_DevModel.FK_EmployeePartRequestMaster_Roles" />
+        <AssociationConnector Association="Aircall_DevModel.FK_EmployeePartRequestMaster_Roles1" />
+        <AssociationConnector Association="Aircall_DevModel.FK_EmployeePartRequestMaster_ServiceReport" />
+        <AssociationConnector Association="Aircall_DevModel.FK_EmployeePlanType_PlanType" />
+        <AssociationConnector Association="Aircall_DevModel.FK_EmployeeSchedule_Services" />
+        <AssociationConnector Association="Aircall_DevModel.FK_FailedBillingHistory_State" />
+        <AssociationConnector Association="Aircall_DevModel.FK_MobileScreens_Roles" />
+        <AssociationConnector Association="Aircall_DevModel.FK_MobileScreens_Roles1" />
+        <AssociationConnector Association="Aircall_DevModel.FK_MobileScreens_Users" />
+        <AssociationConnector Association="Aircall_DevModel.FK_MobileScreens_Users1" />
+        <AssociationConnector Association="Aircall_DevModel.FK_News_Roles" />
+        <AssociationConnector Association="Aircall_DevModel.FK_News_Roles1" />
+        <AssociationConnector Association="Aircall_DevModel.FK_News_Roles2" />
+        <AssociationConnector Association="Aircall_DevModel.FK_NotificationMaster_Roles" />
+        <AssociationConnector Association="Aircall_DevModel.FK_NotificationMaster_Roles1" />
+        <AssociationConnector Association="Aircall_DevModel.FK_NotificationMaster_Users" />
+        <AssociationConnector Association="Aircall_DevModel.FK_NotificationMaster_Users1" />
+        <AssociationConnector Association="Aircall_DevModel.FK_OrderItems_Orders" />
+        <AssociationConnector Association="Aircall_DevModel.FK_Partner_Roles" />
+        <AssociationConnector Association="Aircall_DevModel.FK_Partner_Roles1" />
+        <AssociationConnector Association="Aircall_DevModel.FK_Partner_Roles2" />
+        <AssociationConnector Association="Aircall_DevModel.FK_Partner_Roles3" />
+        <AssociationConnector Association="Aircall_DevModel.FK_Partner_State" />
+        <AssociationConnector Association="Aircall_DevModel.FK_PartnerTicketRequest_Partner" />
+        <AssociationConnector Association="Aircall_DevModel.FK_PartnerTicketConversation_PartnerTicketRequest" />
+        <AssociationConnector Association="Aircall_DevModel.FK_PartnerTicketConversation_Roles" />
+        <AssociationConnector Association="Aircall_DevModel.FK_Parts_Roles" />
+        <AssociationConnector Association="Aircall_DevModel.FK_Parts_Roles1" />
+        <AssociationConnector Association="Aircall_DevModel.FK_Parts_Roles2" />
+        <AssociationConnector Association="Aircall_DevModel.FK_Parts_Users" />
+        <AssociationConnector Association="Aircall_DevModel.FK_Parts_Users1" />
+        <AssociationConnector Association="Aircall_DevModel.FK_Parts_Users2" />
+        <AssociationConnector Association="Aircall_DevModel.FK_ServicePartList_Parts" />
+        <AssociationConnector Association="Aircall_DevModel.FK_UnitExtraInfo_Parts" />
+        <AssociationConnector Association="Aircall_DevModel.FK_Units_Parts" />
+        <AssociationConnector Association="Aircall_DevModel.FK_Units_Parts1" />
+        <AssociationConnector Association="Aircall_DevModel.FK_Units_Parts10" />
+        <AssociationConnector Association="Aircall_DevModel.FK_Units_Parts11" />
+        <AssociationConnector Association="Aircall_DevModel.FK_Units_Parts12" />
+        <AssociationConnector Association="Aircall_DevModel.FK_Units_Parts13" />
+        <AssociationConnector Association="Aircall_DevModel.FK_Units_Parts14" />
+        <AssociationConnector Association="Aircall_DevModel.FK_Units_Parts15" />
+        <AssociationConnector Association="Aircall_DevModel.FK_Units_Parts16" />
+        <AssociationConnector Association="Aircall_DevModel.FK_Units_Parts17" />
+        <AssociationConnector Association="Aircall_DevModel.FK_Units_Parts18" />
+        <AssociationConnector Association="Aircall_DevModel.FK_Units_Parts19" />
+        <AssociationConnector Association="Aircall_DevModel.FK_Units_Parts2" />
+        <AssociationConnector Association="Aircall_DevModel.FK_Units_Parts20" />
+        <AssociationConnector Association="Aircall_DevModel.FK_Units_Parts21" />
+        <AssociationConnector Association="Aircall_DevModel.FK_Units_Parts22" />
+        <AssociationConnector Association="Aircall_DevModel.FK_Units_Parts23" />
+        <AssociationConnector Association="Aircall_DevModel.FK_Units_Parts24" />
+        <AssociationConnector Association="Aircall_DevModel.FK_Units_Parts25" />
+        <AssociationConnector Association="Aircall_DevModel.FK_Units_Parts3" />
+        <AssociationConnector Association="Aircall_DevModel.FK_Units_Parts4" />
+        <AssociationConnector Association="Aircall_DevModel.FK_Units_Parts5" />
+        <AssociationConnector Association="Aircall_DevModel.FK_Units_Parts6" />
+        <AssociationConnector Association="Aircall_DevModel.FK_Units_Parts7" />
+        <AssociationConnector Association="Aircall_DevModel.FK_Units_Parts8" />
+        <AssociationConnector Association="Aircall_DevModel.FK_Units_Parts9" />
+        <AssociationConnector Association="Aircall_DevModel.FK_Plan_PlanType" />
+        <AssociationConnector Association="Aircall_DevModel.FK_Plan_Roles" />
+        <AssociationConnector Association="Aircall_DevModel.FK_Plan_Roles1" />
+        <AssociationConnector Association="Aircall_DevModel.FK_Plan_Roles2" />
+        <AssociationConnector Association="Aircall_DevModel.FK_Plan_Users" />
+        <AssociationConnector Association="Aircall_DevModel.FK_Plan_Users1" />
+        <AssociationConnector Association="Aircall_DevModel.FK_Plan_Users2" />
+        <AssociationConnector Association="Aircall_DevModel.FK_PlanSlave_Plan" />
+        <AssociationConnector Association="Aircall_DevModel.FK_PlanSlave_State" />
+        <AssociationConnector Association="Aircall_DevModel.FK_PlanType_Roles" />
+        <AssociationConnector Association="Aircall_DevModel.FK_PlanType_Users" />
+        <AssociationConnector Association="Aircall_DevModel.FK_RequestedServiceBridge_RequestedServices" />
+        <AssociationConnector Association="Aircall_DevModel.FK_RequestedServiceBridge_Services" />
+        <AssociationConnector Association="Aircall_DevModel.FK_RequestedServices_Roles" />
+        <AssociationConnector Association="Aircall_DevModel.FK_RequestedServices_Roles1" />
+        <AssociationConnector Association="Aircall_DevModel.FK_RequestedServices_Roles2" />
+        <AssociationConnector Association="Aircall_DevModel.FK_RequestedServices_Services" />
+        <AssociationConnector Association="Aircall_DevModel.FK_RequestedServiceUnits_Services" />
+        <AssociationConnector Association="Aircall_DevModel.FK_RescheduleService_Roles" />
+        <AssociationConnector Association="Aircall_DevModel.FK_RescheduleService_Services" />
+        <AssociationConnector Association="Aircall_DevModel.FK_SalesVisitRequest_Roles" />
+        <AssociationConnector Association="Aircall_DevModel.FK_ServiceNoShow_Roles" />
+        <AssociationConnector Association="Aircall_DevModel.FK_ServiceReport_Roles" />
+        <AssociationConnector Association="Aircall_DevModel.FK_ServiceReport_Roles1" />
+        <AssociationConnector Association="Aircall_DevModel.FK_Services_Roles" />
+        <AssociationConnector Association="Aircall_DevModel.FK_Services_Roles1" />
+        <AssociationConnector Association="Aircall_DevModel.FK_SiteSetting_Roles" />
+        <AssociationConnector Association="Aircall_DevModel.FK_SiteSetting_Roles1" />
+        <AssociationConnector Association="Aircall_DevModel.FK_State_Roles" />
+        <AssociationConnector Association="Aircall_DevModel.FK_State_Roles1" />
+        <AssociationConnector Association="Aircall_DevModel.FK_State_Roles2" />
+        <AssociationConnector Association="Aircall_DevModel.FK_SystemMessages_Roles" />
+        <AssociationConnector Association="Aircall_DevModel.FK_SystemMessages_Roles1" />
+        <AssociationConnector Association="Aircall_DevModel.FK_Units_Roles" />
+        <AssociationConnector Association="Aircall_DevModel.FK_Units_Roles1" />
+        <AssociationConnector Association="Aircall_DevModel.FK_Units_Roles2" />
+        <AssociationConnector Association="Aircall_DevModel.FK_Users_Roles" />
+        <AssociationConnector Association="Aircall_DevModel.FK_ZipCode_Roles" />
+        <AssociationConnector Association="Aircall_DevModel.FK_ZipCode_Roles1" />
+        <AssociationConnector Association="Aircall_DevModel.FK_ZipCode_Roles2" />
+        <AssociationConnector Association="Aircall_DevModel.FK_ServiceAttemptCount_Services" />
+        <AssociationConnector Association="Aircall_DevModel.FK_ServiceNoShow_Services" />
+        <AssociationConnector Association="Aircall_DevModel.FK_ServiceNoShow_Users" />
+        <AssociationConnector Association="Aircall_DevModel.FK_ServicePartList_Services" />
+        <AssociationConnector Association="Aircall_DevModel.FK_ServiceRatingReview_Services" />
+        <AssociationConnector Association="Aircall_DevModel.FK_ServiceReport_Services" />
+        <AssociationConnector Association="Aircall_DevModel.FK_ServiceReportImages_ServiceReport" />
+        <AssociationConnector Association="Aircall_DevModel.FK_ServiceReportUnits_ServiceReportUnits" />
+        <AssociationConnector Association="Aircall_DevModel.FK_ServiceReportUnits_Services" />
+        <AssociationConnector Association="Aircall_DevModel.FK_ServiceUnits_Services" />
+        <AssociationConnector Association="Aircall_DevModel.FK_SiteSetting_Users" />
+        <AssociationConnector Association="Aircall_DevModel.FK_SiteSetting_Users1" />
+        <AssociationConnector Association="Aircall_DevModel.FK_State_Users" />
+        <AssociationConnector Association="Aircall_DevModel.FK_State_Users1" />
+        <AssociationConnector Association="Aircall_DevModel.FK_State_Users2" />
+        <AssociationConnector Association="Aircall_DevModel.FK_ZipCode_State" />
+        <AssociationConnector Association="Aircall_DevModel.FK_SystemMessages_Users" />
+        <AssociationConnector Association="Aircall_DevModel.FK_SystemMessages_Users1" />
+        <AssociationConnector Association="Aircall_DevModel.FK_UnitManuals_Units" />
+        <AssociationConnector Association="Aircall_DevModel.FK_ZipCode_Users" />
+        <AssociationConnector Association="Aircall_DevModel.FK_ZipCode_Users1" />
+        <AssociationConnector Association="Aircall_DevModel.FK_ZipCode_Users2" />
+        <AssociationConnector Association="Aircall_DevModel.FK_WorkArea_ZipCode" />
+      </Diagram>
+    </edmx:Diagrams>
+  </edmx:Designer>
+</edmx:Edmx>

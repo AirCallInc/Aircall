@@ -1,0 +1,112 @@
+2016-08-10 16:17:52.6164|INFO|api.Helpers.NLogger|JSON
+Method: POST
+URL: http://192.168.1.119:6987/v1/profile/ClientDashboard
+Controller : api.Controllers.ProfileController
+Action : ClientDashboard
+Action Parameters : {"messageFormat":"JSON","messageArguments":[{"request":{"Email":null,"ClientId":3,"PlanTypeId":0,"PlanId":0,"Month":0,"AddressId":null,"UnitId":0,"ServiceId":0,"PartType":null,"PartTypeId":null,"PageId":0,"ShowDeleted":false,"ServiceCaseNumber":null,"LastCallDateTime":null,"PageNumber":null,"pageSize":0,"DeviceType":null,"DeviceToken":null}}]}
+
+2016-08-10 16:17:52.6164|INFO|api.Helpers.NLogger|JSON
+Method: POST
+URL: http://192.168.1.119:6987/v1/profile/clientUpdateToken
+Controller : api.Controllers.ProfileController
+Action : clientUpdateToken
+Action Parameters : {"messageFormat":"JSON","messageArguments":[{"request":{"Email":null,"ClientId":3,"PlanTypeId":0,"PlanId":0,"Month":0,"AddressId":null,"UnitId":0,"ServiceId":0,"PartType":null,"PartTypeId":null,"PageId":0,"ShowDeleted":false,"ServiceCaseNumber":null,"LastCallDateTime":null,"PageNumber":null,"pageSize":0,"DeviceType":"iPhone","DeviceToken":"d94be1ced74a0f5075813ed892cf380c1a25882d6fb9c0e60d10cd387c49b8c8"}}]}
+
+2016-08-10 16:28:49.3259|INFO|api.Helpers.NLogger|JSON
+Method: POST
+URL: http://192.168.1.119:6987/v1/profile/clientUpdateToken
+Controller : api.Controllers.ProfileController
+Action : clientUpdateToken
+Action Parameters : {"messageFormat":"JSON","messageArguments":[{"request":{"Email":null,"ClientId":3,"PlanTypeId":0,"PlanId":0,"Month":0,"AddressId":null,"UnitId":0,"ServiceId":0,"PartType":null,"PartTypeId":null,"PageId":0,"ShowDeleted":false,"ServiceCaseNumber":null,"LastCallDateTime":null,"PageNumber":null,"pageSize":0,"DeviceType":"iPhone","DeviceToken":"d94be1ced74a0f5075813ed892cf380c1a25882d6fb9c0e60d10cd387c49b8c8"}}]}
+
+2016-08-10 16:29:17.6817|INFO|api.Helpers.NLogger|JSON
+Method: POST
+URL: http://192.168.1.119:6987/v1/profile/ClientDashboard
+Controller : api.Controllers.ProfileController
+Action : ClientDashboard
+Action Parameters : {"messageFormat":"JSON","messageArguments":[{"request":{"Email":null,"ClientId":3,"PlanTypeId":0,"PlanId":0,"Month":0,"AddressId":null,"UnitId":0,"ServiceId":0,"PartType":null,"PartTypeId":null,"PageId":0,"ShowDeleted":false,"ServiceCaseNumber":null,"LastCallDateTime":null,"PageNumber":null,"pageSize":0,"DeviceType":null,"DeviceToken":null}}]}
+
+2016-08-10 17:41:32.6067|INFO|api.Helpers.NLogger|JSON
+Method: POST
+URL: http://192.168.1.119:6987/v1/employee/UpdateUnitDetails
+Controller : api.Controllers.EmployeeController
+Action : UpdateUnitDetails
+Action Parameters : {"messageFormat":"JSON","messageArguments":[{"emp":null}]}
+
+2016-08-10 17:44:21.3394|INFO|api.Helpers.NLogger|JSON
+Method: POST
+URL: http://192.168.1.119:6987/v1/employee/UpdateUnitDetails
+Controller : api.Controllers.EmployeeController
+Action : UpdateUnitDetails
+Action Parameters : {"messageFormat":"JSON","messageArguments":[{"emp":null}]}
+
+2016-08-10 17:45:56.9112|INFO|api.Helpers.NLogger|JSON
+Method: POST
+URL: http://192.168.1.119:6987/v1/employee/UpdateUnitDetails
+Controller : api.Controllers.EmployeeController
+Action : UpdateUnitDetails
+Action Parameters : {"messageFormat":"JSON","messageArguments":[{"emp":null}]}
+
+2016-08-10 17:48:30.9317|INFO|api.Helpers.NLogger|JSON
+Method: POST
+URL: http://192.168.1.119:6987/v1/employee/UpdateUnitDetails
+Controller : api.Controllers.EmployeeController
+Action : UpdateUnitDetails
+Action Parameters : {"messageFormat":"JSON","messageArguments":[{"emp":{"EmployeeId":4,"ClientId":0,"UnitId":2086,"UnitName":null,"AddressId":0,"Parts":[{"IsMatched":true,"ModelNumber":"ACM1000","SerialNumber":"ACS1000","UnitType":"Packaged","ManufactureDate":"\/Date(1391193000000)\/","ManufactureBrand":null,"UnitTon":null,"Refrigerant":null,"ElectricalService":null,"MaxBreaker":null,"Compressor":null,"Capacitor":null,"Contactor":null,"Filterdryer":null,"Defrostboard":null,"Relay":null,"TXVValve":null,"ReversingValve":null,"BlowerMotor":null,"Condensingfanmotor":null,"Inducerdraftmotor":null,"Transformer":null,"Controlboard":null,"Limitswitch":null,"Ignitor":null,"Gasvalve":null,"Pressureswitch":null,"Flamesensor":null,"Rolloutsensor":null,"Doorswitch":null,"Ignitioncontrolboard":null,"OptionalInformation":{"SplitType":"Packaged","QuantityOfFilter":0,"Filters":[],"QuantityOfFuses":0,"FuseTypes":[],"BoosterTypes":null}}]}}]}
+
+2016-08-10 18:05:55.4555|INFO|api.Helpers.NLogger|JSON
+Method: POST
+URL: http://192.168.1.119:6987/v1/employee/UpdateUnitDetails
+Controller : api.Controllers.EmployeeController
+Action : UpdateUnitDetails
+Action Parameters : {"messageFormat":"JSON","messageArguments":[{"emp":{"EmployeeId":4,"ClientId":0,"UnitId":2086,"UnitName":null,"AddressId":0,"Parts":[{"IsMatched":true,"ModelNumber":"ACM1000","SerialNumber":"ACS1000","UnitType":"Packaged","ManufactureDate":"\/Date(1391193000000)\/","ManufactureBrand":null,"UnitTon":null,"Refrigerant":null,"ElectricalService":null,"MaxBreaker":null,"Compressor":null,"Capacitor":null,"Contactor":null,"Filterdryer":null,"Defrostboard":null,"Relay":null,"TXVValve":null,"ReversingValve":null,"BlowerMotor":null,"Condensingfanmotor":null,"Inducerdraftmotor":null,"Transformer":null,"Controlboard":null,"Limitswitch":null,"Ignitor":null,"Gasvalve":null,"Pressureswitch":null,"Flamesensor":null,"Rolloutsensor":null,"Doorswitch":null,"Ignitioncontrolboard":null,"OptionalInformation":{"SplitType":"Packaged","QuantityOfFilter":0,"Filters":[],"QuantityOfFuses":0,"FuseTypes":[],"BoosterTypes":null}}]}}]}
+
+2016-08-10 18:33:54.6537|INFO|api.Helpers.NLogger|JSON
+Method: POST
+URL: http://192.168.1.119:6987/v1/employee/UpdateUnitDetails
+Controller : api.Controllers.EmployeeController
+Action : UpdateUnitDetails
+Action Parameters : {"messageFormat":"JSON","messageArguments":[{"emp":{"EmployeeId":4,"ClientId":0,"UnitId":2086,"UnitName":null,"AddressId":0,"Parts":[{"IsMatched":true,"ModelNumber":"ACM1000","SerialNumber":"ACS1000","UnitType":"Packaged","ManufactureDate":"\/Date(1391193000000)\/","ManufactureBrand":null,"UnitTon":null,"Refrigerant":null,"ElectricalService":null,"MaxBreaker":null,"Compressor":null,"Capacitor":null,"Contactor":null,"Filterdryer":null,"Defrostboard":null,"Relay":null,"TXVValve":null,"ReversingValve":null,"BlowerMotor":null,"Condensingfanmotor":null,"Inducerdraftmotor":null,"Transformer":null,"Controlboard":null,"Limitswitch":null,"Ignitor":null,"Gasvalve":null,"Pressureswitch":null,"Flamesensor":null,"Rolloutsensor":null,"Doorswitch":null,"Ignitioncontrolboard":null,"OptionalInformation":{"QuantityOfFilter":0,"Filters":[],"QuantityOfFuses":0,"FuseTypes":[],"BoosterTypes":null}}]}}]}
+
+2016-08-10 18:34:42.1861|INFO|api.Helpers.NLogger|JSON
+Method: POST
+URL: http://192.168.1.119:6987/v1/employee/UpdateUnitDetails
+Controller : api.Controllers.EmployeeController
+Action : UpdateUnitDetails
+Action Parameters : {"messageFormat":"JSON","messageArguments":[{"emp":{"EmployeeId":4,"ClientId":0,"UnitId":2086,"UnitName":null,"AddressId":0,"Parts":[{"IsMatched":true,"ModelNumber":"ACM1000","SerialNumber":"ACS1000","UnitType":"Packaged","ManufactureDate":"\/Date(1391193000000)\/","ManufactureBrand":null,"UnitTon":null,"Refrigerant":null,"ElectricalService":null,"MaxBreaker":null,"Compressor":null,"Capacitor":null,"Contactor":null,"Filterdryer":null,"Defrostboard":null,"Relay":null,"TXVValve":null,"ReversingValve":null,"BlowerMotor":null,"Condensingfanmotor":null,"Inducerdraftmotor":null,"Transformer":null,"Controlboard":null,"Limitswitch":null,"Ignitor":null,"Gasvalve":null,"Pressureswitch":null,"Flamesensor":null,"Rolloutsensor":null,"Doorswitch":null,"Ignitioncontrolboard":null,"OptionalInformation":{"QuantityOfFilter":0,"Filters":[],"QuantityOfFuses":0,"FuseTypes":[],"BoosterTypes":null}}]}}]}
+
+2016-08-10 18:36:14.5166|INFO|api.Helpers.NLogger|JSON
+Method: POST
+URL: http://192.168.1.119:6987/v1/employee/UpdateUnitDetails
+Controller : api.Controllers.EmployeeController
+Action : UpdateUnitDetails
+Action Parameters : {"messageFormat":"JSON","messageArguments":[{"emp":{"EmployeeId":4,"ClientId":0,"UnitId":2086,"UnitName":null,"AddressId":0,"Parts":[{"IsMatched":true,"ModelNumber":"ACM1000","SerialNumber":"ACS1000","UnitType":"Packaged","ManufactureDate":"\/Date(1391193000000)\/","ManufactureBrand":null,"UnitTon":null,"Refrigerant":null,"ElectricalService":null,"MaxBreaker":null,"Compressor":null,"Capacitor":null,"Contactor":null,"Filterdryer":null,"Defrostboard":null,"Relay":null,"TXVValve":null,"ReversingValve":null,"BlowerMotor":null,"Condensingfanmotor":null,"Inducerdraftmotor":null,"Transformer":null,"Controlboard":null,"Limitswitch":null,"Ignitor":null,"Gasvalve":null,"Pressureswitch":null,"Flamesensor":null,"Rolloutsensor":null,"Doorswitch":null,"Ignitioncontrolboard":null,"OptionalInformation":{"QuantityOfFilter":0,"Filters":[],"QuantityOfFuses":0,"FuseTypes":[],"BoosterTypes":null}}]}}]}
+
+2016-08-10 18:51:31.8879|INFO|api.Helpers.NLogger|JSON
+Method: POST
+URL: http://192.168.1.119:6987/v1/employee/UpdateUnitDetails
+Controller : api.Controllers.EmployeeController
+Action : UpdateUnitDetails
+Action Parameters : {"messageFormat":"JSON","messageArguments":[{"emp":{"EmployeeId":4,"ClientId":0,"UnitId":2103,"UnitName":null,"AddressId":0,"Parts":[{"IsMatched":true,"ModelNumber":"ACM1000","SerialNumber":"ACS1000","UnitType":"Packaged","ManufactureDate":"\/Date(1435602600000)\/","ManufactureBrand":null,"UnitTon":null,"Refrigerant":null,"ElectricalService":null,"MaxBreaker":null,"Compressor":null,"Capacitor":null,"Contactor":null,"Filterdryer":null,"Defrostboard":null,"Relay":null,"TXVValve":null,"ReversingValve":null,"BlowerMotor":null,"Condensingfanmotor":null,"Inducerdraftmotor":null,"Transformer":null,"Controlboard":null,"Limitswitch":null,"Ignitor":null,"Gasvalve":null,"Pressureswitch":null,"Flamesensor":null,"Rolloutsensor":null,"Doorswitch":null,"Ignitioncontrolboard":null,"OptionalInformation":{"QuantityOfFilter":1,"Filters":[{"size":0,"LocationOfPart":true}],"QuantityOfFuses":1,"FuseTypes":[{"FuseType":2}],"BoosterTypes":null}}]}}]}
+
+2016-08-10 18:54:22.0673|INFO|api.Helpers.NLogger|JSON
+Method: POST
+URL: http://192.168.1.119:6987/v1/employee/UpdateUnitDetails
+Controller : api.Controllers.EmployeeController
+Action : UpdateUnitDetails
+Action Parameters : {"messageFormat":"JSON","messageArguments":[{"emp":{"EmployeeId":4,"ClientId":0,"UnitId":2103,"UnitName":null,"AddressId":0,"Parts":[{"IsMatched":true,"ModelNumber":"ACM1000","SerialNumber":"ACS1000","UnitType":"Packaged","ManufactureDate":"\/Date(1435602600000)\/","ManufactureBrand":null,"UnitTon":null,"Refrigerant":null,"ElectricalService":null,"MaxBreaker":null,"Compressor":null,"Capacitor":null,"Contactor":null,"Filterdryer":null,"Defrostboard":null,"Relay":null,"TXVValve":null,"ReversingValve":null,"BlowerMotor":null,"Condensingfanmotor":null,"Inducerdraftmotor":null,"Transformer":null,"Controlboard":null,"Limitswitch":null,"Ignitor":null,"Gasvalve":null,"Pressureswitch":null,"Flamesensor":null,"Rolloutsensor":null,"Doorswitch":null,"Ignitioncontrolboard":null,"OptionalInformation":{"QuantityOfFilter":1,"Filters":[{"size":0,"LocationOfPart":true}],"QuantityOfFuses":1,"FuseTypes":[{"FuseType":2}],"BoosterTypes":null}}]}}]}
+
+2016-08-10 19:00:09.7234|INFO|api.Helpers.NLogger|JSON
+Method: POST
+URL: http://192.168.1.119:6987/v1/employee/UpdateUnitDetails
+Controller : api.Controllers.EmployeeController
+Action : UpdateUnitDetails
+Action Parameters : {"messageFormat":"JSON","messageArguments":[{"emp":{"EmployeeId":4,"ClientId":0,"UnitId":2102,"UnitName":null,"AddressId":0,"Parts":[{"IsMatched":true,"ModelNumber":"ACM1000","SerialNumber":"ACS1000","UnitType":"Packaged","ManufactureDate":"\/Date(1183314600000)\/","ManufactureBrand":null,"UnitTon":null,"Refrigerant":null,"ElectricalService":null,"MaxBreaker":null,"Compressor":null,"Capacitor":null,"Contactor":null,"Filterdryer":null,"Defrostboard":null,"Relay":null,"TXVValve":null,"ReversingValve":null,"BlowerMotor":null,"Condensingfanmotor":null,"Inducerdraftmotor":null,"Transformer":null,"Controlboard":null,"Limitswitch":null,"Ignitor":null,"Gasvalve":null,"Pressureswitch":null,"Flamesensor":null,"Rolloutsensor":null,"Doorswitch":null,"Ignitioncontrolboard":null,"OptionalInformation":{"QuantityOfFilter":1,"Filters":[{"size":1,"LocationOfPart":true}],"QuantityOfFuses":2,"FuseTypes":[{"FuseType":2},{"FuseType":2}],"BoosterTypes":null}}]}}]}
+
+2016-08-10 19:01:02.4493|INFO|api.Helpers.NLogger|JSON
+Method: POST
+URL: http://192.168.1.119:6987/v1/employee/UpdateUnitDetails
+Controller : api.Controllers.EmployeeController
+Action : UpdateUnitDetails
+Action Parameters : {"messageFormat":"JSON","messageArguments":[{"emp":{"EmployeeId":4,"ClientId":0,"UnitId":2102,"UnitName":null,"AddressId":0,"Parts":[{"IsMatched":true,"ModelNumber":"ACM1000","SerialNumber":"ACS1000","UnitType":"Packaged","ManufactureDate":"\/Date(1183314600000)\/","ManufactureBrand":null,"UnitTon":null,"Refrigerant":null,"ElectricalService":null,"MaxBreaker":null,"Compressor":null,"Capacitor":null,"Contactor":null,"Filterdryer":null,"Defrostboard":null,"Relay":null,"TXVValve":null,"ReversingValve":null,"BlowerMotor":null,"Condensingfanmotor":null,"Inducerdraftmotor":null,"Transformer":null,"Controlboard":null,"Limitswitch":null,"Ignitor":null,"Gasvalve":null,"Pressureswitch":null,"Flamesensor":null,"Rolloutsensor":null,"Doorswitch":null,"Ignitioncontrolboard":null,"OptionalInformation":{"QuantityOfFilter":1,"Filters":[{"size":1,"LocationOfPart":true}],"QuantityOfFuses":2,"FuseTypes":[{"FuseType":2},{"FuseType":2}],"BoosterTypes":null}}]}}]}
+

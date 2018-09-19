@@ -1,0 +1,35 @@
+2016-12-23 11:20:11.4854|INFO|api.Helpers.NLogger|JSON
+Method: POST
+URL: http://192.168.1.119:6987/v1/employee/SubmitPartOrder
+Controller : api.Controllers.EmployeeController
+Action : SubmitPartOrder
+Action Parameters : {"messageFormat":"JSON","messageArguments":[{}]}
+
+2016-12-23 14:53:28.6185|INFO|api.Helpers.NLogger|JSON
+Method: POST
+URL: http://192.168.1.119:9999/api/v1/employee/ResendOrder1
+Controller : api.Controllers.EmployeeController
+Action : ResendOrder1
+Action Parameters : {"messageFormat":"JSON","messageArguments":[{"emp":{"NotificationId":0,"EmployeeId":0,"SalesVisitRequestId":0,"Month":0,"Year":0,"Day":0,"ServiceId":0,"ReportId":0,"UnitId":0,"Latitude":null,"Longitude":null,"SearchTerm":null,"PageId":0,"LastCallDateTime":null,"PageNumber":null,"pageSize":0,"OrderId":0,"StatDate":null,"EndDate":null,"DeviceType":null,"DeviceToken":null,"ClientEmails":null,"CCEmail":null}}]}
+
+2016-12-23 14:54:38.5166|INFO|api.Helpers.NLogger|JSON
+Method: POST
+URL: http://192.168.1.119:9999/api/v1/employee/ResendOrder1
+Controller : api.Controllers.EmployeeController
+Action : ResendOrder1
+Action Parameters : {"messageFormat":"JSON","messageArguments":[{"emp":null}]}
+
+2016-12-23 15:14:29.5715|INFO|api.Helpers.NLogger|JSON
+Method: GET
+URL: http://192.168.1.119:9999/api/v1/employee/ResendOrder1?OrderId=106&CCEmail=test@tests.com
+Controller : api.Controllers.EmployeeController
+Action : ResendOrder1
+Action Parameters : {"messageFormat":"JSON","messageArguments":[{"OrderId":106,"CCEmail":"test@tests.com"}]}
+
+2016-12-23 15:17:24.2127|INFO|api.Helpers.NLogger|JSON
+Method: GET
+URL: http://192.168.1.119:9999/api/v1/employee/ResendOrder1?OrderId=107&CCEmail=
+Controller : api.Controllers.EmployeeController
+Action : ResendOrder1
+Action Parameters : {"messageFormat":"JSON","messageArguments":[{"OrderId":107,"CCEmail":null}]}
+

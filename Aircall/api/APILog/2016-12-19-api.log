@@ -1,0 +1,28 @@
+2016-12-19 15:42:14.9647|INFO|api.Helpers.NLogger|JSON
+Method: GET
+URL: http://192.168.1.119:6987/v1/employee/GetAllClients?EmployeeId=15&ShowOnlyWorkAreaClient=1
+Controller : api.Controllers.EmployeeController
+Action : GetAllClients
+Action Parameters : {"messageFormat":"JSON","messageArguments":[{"EmployeeId":15,"ShowOnlyWorkAreaClient":null}]}
+
+2016-12-19 15:44:50.2908|INFO|api.Helpers.NLogger|JSON
+Method: GET
+URL: http://192.168.1.119:6987/v1/employee/GetAllClients?EmployeeId=15&ShowOnlyWorkAreaClient=true
+Controller : api.Controllers.EmployeeController
+Action : GetAllClients
+Action Parameters : {"messageFormat":"JSON","messageArguments":[{"EmployeeId":15,"ShowOnlyWorkAreaClient":true}]}
+
+2016-12-19 15:45:05.1007|INFO|api.Helpers.NLogger|JSON
+Method: GET
+URL: http://192.168.1.119:6987/v1/employee/GetAllClients?EmployeeId=15&ShowOnlyWorkAreaClient=0
+Controller : api.Controllers.EmployeeController
+Action : GetAllClients
+Action Parameters : {"messageFormat":"JSON","messageArguments":[{"EmployeeId":15,"ShowOnlyWorkAreaClient":null}]}
+
+2016-12-19 15:45:13.1401|INFO|api.Helpers.NLogger|JSON
+Method: GET
+URL: http://192.168.1.119:6987/v1/employee/GetAllClients?EmployeeId=15&ShowOnlyWorkAreaClient=false
+Controller : api.Controllers.EmployeeController
+Action : GetAllClients
+Action Parameters : {"messageFormat":"JSON","messageArguments":[{"EmployeeId":15,"ShowOnlyWorkAreaClient":false}]}
+

@@ -1,0 +1,161 @@
+2016-08-22 17:12:45.1119|INFO|api.Helpers.NLogger|JSON
+Method: POST
+URL: http://192.168.1.119:6987/v1/profile/CollectPaymentForRenew
+Controller : api.Controllers.NewProfileController
+Action : CollectPaymentForRenew
+Action Parameters : {"messageFormat":"JSON","messageArguments":[{"request":{"ClientId":2,"EmployeeId":0,"Address":"25-wall street","State":1,"City":1,"ZipCode":"90038","PhoneNumber":"4457923744","MobileNumber":"4467490273","CardType":"Visa","NameOnCard":"Andrew","CardNumber":"************1111","CVV":123,"UnitId":5,"ExpiryMonth":12,"ExpiryYear":2020,"StripeCardId":null,"ClientSignature":null}}]}
+
+2016-08-22 17:21:00.6772|INFO|api.Helpers.NLogger|JSON
+Method: POST
+URL: http://192.168.1.119:6987/v1/profile/CollectPaymentForRenew
+Controller : api.Controllers.NewProfileController
+Action : CollectPaymentForRenew
+Action Parameters : {"messageFormat":"JSON","messageArguments":[{"request":{"ClientId":2,"EmployeeId":0,"Address":"25-wall street","State":1,"City":1,"ZipCode":"90038","PhoneNumber":"4457923744","MobileNumber":"4467490273","CardType":"Visa","NameOnCard":"Andrew","CardNumber":"************1111","CVV":123,"UnitId":5,"ExpiryMonth":12,"ExpiryYear":2020,"StripeCardId":null,"ClientSignature":null,"NotificationId":0}}]}
+
+2016-08-22 17:21:31.4221|INFO|api.Helpers.NLogger|JSON
+Method: POST
+URL: http://192.168.1.119:6987/v1/profile/CollectPaymentForRenew
+Controller : api.Controllers.NewProfileController
+Action : CollectPaymentForRenew
+Action Parameters : {"messageFormat":"JSON","messageArguments":[{"request":{"ClientId":2,"EmployeeId":0,"Address":"25-wall street","State":1,"City":1,"ZipCode":"90038","PhoneNumber":"4457923744","MobileNumber":"4467490273","CardType":"Visa","NameOnCard":"Andrew","CardNumber":"************1111","CVV":123,"UnitId":5,"ExpiryMonth":12,"ExpiryYear":2020,"StripeCardId":null,"ClientSignature":null,"NotificationId":0}}]}
+
+2016-08-22 17:35:16.3988|INFO|api.Helpers.NLogger|JSON
+Method: GET
+URL: http://192.168.1.119:6987/v1/Common/GetAllPlanTypeFromAddressID?AddressId=1
+Controller : api.Controllers.CommonController
+Action : GetAllPlanTypeFromAddressID
+Action Parameters : {"messageFormat":"JSON","messageArguments":[{"AddressId":1}]}
+
+2016-08-22 17:37:50.7098|INFO|api.Helpers.NLogger|JSON
+Method: GET
+URL: http://192.168.1.119:6987/v1/Common/GetAllPlanTypeFromAddressID?AddressId=1
+Controller : api.Controllers.CommonController
+Action : GetAllPlanTypeFromAddressID
+Action Parameters : {"messageFormat":"JSON","messageArguments":[{"AddressId":1}]}
+
+2016-08-22 17:43:07.9776|INFO|api.Helpers.NLogger|JSON
+Method: POST
+URL: http://192.168.1.119:6987/v1/profile/CollectPaymentForRenew
+Controller : api.Controllers.NewProfileController
+Action : CollectPaymentForRenew
+Action Parameters : {"messageFormat":"JSON","messageArguments":[{"request":{"ClientId":2,"EmployeeId":0,"Address":"25-wall street","State":1,"City":1,"ZipCode":"90038","PhoneNumber":"4457923744","MobileNumber":"4467490273","CardType":"Visa","NameOnCard":"Andrew","CardNumber":"************1111","CVV":123,"UnitId":5,"ExpiryMonth":12,"ExpiryYear":2020,"StripeCardId":null,"ClientSignature":null,"NotificationId":0}}]}
+
+2016-08-22 17:51:09.9727|INFO|api.Helpers.NLogger|JSON
+Method: POST
+URL: http://192.168.1.119:6987/v1/profile/CollectPaymentForRenew
+Controller : api.Controllers.NewProfileController
+Action : CollectPaymentForRenew
+Action Parameters : {"messageFormat":"JSON","messageArguments":[{"request":{"ClientId":2,"EmployeeId":0,"Address":"25-wall street","State":1,"City":1,"ZipCode":"90038","PhoneNumber":"4457923744","MobileNumber":"4467490273","CardType":"Visa","NameOnCard":"Andrew","CardNumber":"************1111","CVV":123,"UnitId":5,"ExpiryMonth":12,"ExpiryYear":2020,"StripeCardId":null,"ClientSignature":null,"NotificationId":0}}]}
+
+2016-08-22 17:51:36.7484|INFO|api.Helpers.NLogger|JSON
+Method: POST
+URL: http://192.168.1.119:6987/v1/profile/CollectPaymentForRenew
+Controller : api.Controllers.NewProfileController
+Action : CollectPaymentForRenew
+Action Parameters : {"messageFormat":"JSON","messageArguments":[{"request":{"ClientId":2,"EmployeeId":0,"Address":"25-wall street","State":1,"City":1,"ZipCode":"90038","PhoneNumber":"4457923744","MobileNumber":"4467490273","CardType":"Visa","NameOnCard":"Andrew","CardNumber":"************1111","CVV":123,"UnitId":5,"ExpiryMonth":12,"ExpiryYear":2020,"StripeCardId":null,"ClientSignature":null,"NotificationId":0}}]}
+
+2016-08-22 17:51:57.0058|INFO|api.Helpers.NLogger|JSON
+Method: POST
+URL: http://192.168.1.119:6987/v1/profile/CollectPaymentForRenew
+Controller : api.Controllers.NewProfileController
+Action : CollectPaymentForRenew
+Action Parameters : {"messageFormat":"JSON","messageArguments":[{"request":{"ClientId":2,"EmployeeId":0,"Address":"25-wall street","State":1,"City":1,"ZipCode":"90038","PhoneNumber":"4457923744","MobileNumber":"4467490273","CardType":"Visa","NameOnCard":"Andrew","CardNumber":"************1111","CVV":123,"UnitId":5,"ExpiryMonth":12,"ExpiryYear":2020,"StripeCardId":null,"ClientSignature":null,"NotificationId":0}}]}
+
+2016-08-22 17:52:34.7830|INFO|api.Helpers.NLogger|JSON
+Method: POST
+URL: http://192.168.1.119:6987/v1/profile/CollectPaymentForRenew
+Controller : api.Controllers.NewProfileController
+Action : CollectPaymentForRenew
+Action Parameters : {"messageFormat":"JSON","messageArguments":[{"request":{"ClientId":2,"EmployeeId":0,"Address":"25-wall street","State":1,"City":1,"ZipCode":"90038","PhoneNumber":"4457923744","MobileNumber":"4467490273","CardType":"Visa","NameOnCard":"Andrew","CardNumber":"************1111","CVV":123,"UnitId":5,"ExpiryMonth":12,"ExpiryYear":2020,"StripeCardId":null,"ClientSignature":null,"NotificationId":0}}]}
+
+2016-08-22 17:57:03.1723|INFO|api.Helpers.NLogger|JSON
+Method: POST
+URL: http://192.168.1.119:6987/v1/profile/CollectPaymentForRenew
+Controller : api.Controllers.NewProfileController
+Action : CollectPaymentForRenew
+Action Parameters : {"messageFormat":"JSON","messageArguments":[{"request":{"ClientId":2,"EmployeeId":0,"Address":"25-wall street","State":1,"City":1,"ZipCode":"90038","PhoneNumber":"4457923744","MobileNumber":"4467490273","CardType":"Visa","NameOnCard":"Andrew","CardNumber":"************1111","CVV":123,"UnitId":5,"ExpiryMonth":12,"ExpiryYear":2020,"StripeCardId":null,"ClientSignature":null,"NotificationId":0}}]}
+
+2016-08-22 18:00:20.7525|INFO|api.Helpers.NLogger|JSON
+Method: POST
+URL: http://192.168.1.119:6987/v1/profile/CollectPaymentForRenew
+Controller : api.Controllers.NewProfileController
+Action : CollectPaymentForRenew
+Action Parameters : {"messageFormat":"JSON","messageArguments":[{"request":{"ClientId":2,"EmployeeId":0,"Address":"25-wall street","State":1,"City":1,"ZipCode":"90038","PhoneNumber":"4457923744","MobileNumber":"4467490273","CardType":"Visa","NameOnCard":"Andrew","CardNumber":"************1111","CVV":123,"UnitId":5,"ExpiryMonth":12,"ExpiryYear":2020,"StripeCardId":null,"ClientSignature":null,"NotificationId":0}}]}
+
+2016-08-22 18:00:46.2283|INFO|api.Helpers.NLogger|JSON
+Method: POST
+URL: http://192.168.1.119:6987/v1/profile/CollectPaymentForRenew
+Controller : api.Controllers.NewProfileController
+Action : CollectPaymentForRenew
+Action Parameters : {"messageFormat":"JSON","messageArguments":[{"request":{"ClientId":2,"EmployeeId":0,"Address":"25-wall street","State":1,"City":1,"ZipCode":"90038","PhoneNumber":"4457923744","MobileNumber":"4467490273","CardType":"Visa","NameOnCard":"Andrew","CardNumber":"************1111","CVV":123,"UnitId":5,"ExpiryMonth":12,"ExpiryYear":2020,"StripeCardId":null,"ClientSignature":null,"NotificationId":0}}]}
+
+2016-08-22 18:10:23.9157|INFO|api.Helpers.NLogger|JSON
+Method: POST
+URL: http://192.168.1.119:6987/v1/profile/CollectPaymentForRenew
+Controller : api.Controllers.NewProfileController
+Action : CollectPaymentForRenew
+Action Parameters : {"messageFormat":"JSON","messageArguments":[{"request":{"ClientId":2,"EmployeeId":0,"Address":"25-wall street","State":1,"City":1,"ZipCode":"90038","PhoneNumber":"4457923744","MobileNumber":"4467490273","CardType":"Visa","NameOnCard":"Andrew","CardNumber":"************1111","CVV":123,"UnitId":5,"ExpiryMonth":12,"ExpiryYear":2020,"StripeCardId":null,"ClientSignature":null,"NotificationId":0}}]}
+
+2016-08-22 18:13:10.0516|INFO|api.Helpers.NLogger|JSON
+Method: POST
+URL: http://192.168.1.119:6987/v1/profile/CollectPaymentForRenew
+Controller : api.Controllers.NewProfileController
+Action : CollectPaymentForRenew
+Action Parameters : {"messageFormat":"JSON","messageArguments":[{"request":{"ClientId":2,"EmployeeId":0,"Address":"25-wall street","State":1,"City":1,"ZipCode":"90038","PhoneNumber":"4457923744","MobileNumber":"4467490273","CardType":"Visa","NameOnCard":"Andrew","CardNumber":"************1111","CVV":123,"UnitId":5,"ExpiryMonth":12,"ExpiryYear":2020,"StripeCardId":null,"ClientSignature":null,"NotificationId":0}}]}
+
+2016-08-22 18:16:31.1986|INFO|api.Helpers.NLogger|JSON
+Method: POST
+URL: http://192.168.1.119:6987/v1/profile/CollectPaymentForRenew
+Controller : api.Controllers.NewProfileController
+Action : CollectPaymentForRenew
+Action Parameters : {"messageFormat":"JSON","messageArguments":[{"request":{"ClientId":2,"EmployeeId":0,"Address":"25-wall street","State":1,"City":1,"ZipCode":"90038","PhoneNumber":"4457923744","MobileNumber":"4467490273","CardType":"Visa","NameOnCard":"Andrew","CardNumber":"************1111","CVV":123,"UnitId":5,"ExpiryMonth":12,"ExpiryYear":2020,"StripeCardId":null,"ClientSignature":null,"NotificationId":0}}]}
+
+2016-08-22 18:35:00.6484|INFO|api.Helpers.NLogger|JSON
+Method: POST
+URL: http://192.168.1.119:6987/v1/profile/CollectPaymentForRenew
+Controller : api.Controllers.NewProfileController
+Action : CollectPaymentForRenew
+Action Parameters : {"messageFormat":"JSON","messageArguments":[{"request":{"ClientId":2,"EmployeeId":0,"Address":"25-wall street","State":1,"City":1,"ZipCode":"90038","PhoneNumber":"4457923744","MobileNumber":"4467490273","CardType":"Visa","NameOnCard":"Andrew","CardNumber":"************1111","CVV":123,"UnitId":5,"ExpiryMonth":12,"ExpiryYear":2020,"StripeCardId":null,"ClientSignature":null,"NotificationId":0}}]}
+
+2016-08-22 18:51:27.3491|INFO|api.Helpers.NLogger|JSON
+Method: POST
+URL: http://192.168.1.119:6987/v1/profile/CollectPaymentForRenew
+Controller : api.Controllers.NewProfileController
+Action : CollectPaymentForRenew
+Action Parameters : {"messageFormat":"JSON","messageArguments":[{"request":{"ClientId":2,"EmployeeId":0,"Address":"25-wall street","State":1,"City":1,"ZipCode":"90038","PhoneNumber":"4457923744","MobileNumber":"4467490273","CardType":"Visa","NameOnCard":"Andrew","CardNumber":"************1111","CVV":123,"UnitId":5,"ExpiryMonth":12,"ExpiryYear":2020,"StripeCardId":null,"ClientSignature":null,"NotificationId":0}}]}
+
+2016-08-22 19:52:56.4604|INFO|api.Helpers.NLogger|JSON
+Method: POST
+URL: http://192.168.1.119:6987/v1/profile/ClientDashboard
+Controller : api.Controllers.ProfileController
+Action : ClientDashboard
+Action Parameters : {"messageFormat":"JSON","messageArguments":[{"request":{"Email":null,"ClientId":1046,"PlanTypeId":0,"PlanId":0,"PartId":0,"Month":0,"AddressId":null,"UnitId":0,"ServiceId":null,"PartType":null,"PartTypeId":null,"PageId":0,"ShowDeleted":false,"ServiceCaseNumber":null,"LastCallDateTime":null,"PageNumber":null,"pageSize":0,"DeviceType":null,"DeviceToken":null,"NotificationId":null}}]}
+
+2016-08-22 19:53:29.8742|INFO|api.Helpers.NLogger|JSON
+Method: POST
+URL: http://192.168.1.119:6987/v1/profile/GetExpiredPlanUnitById
+Controller : api.Controllers.NewProfileController
+Action : GetExpiredPlanUnitById
+Action Parameters : {"messageFormat":"JSON","messageArguments":[{"request":{"ClientId":1046,"CardId":0,"UnitId":2619,"NotificationId":10710,"ServiceId":0,"Status":false}}]}
+
+2016-08-22 19:53:38.1627|INFO|api.Helpers.NLogger|JSON
+Method: POST
+URL: http://192.168.1.119:6987/v1/profile/MyCart
+Controller : api.Controllers.ProfileController
+Action : MyCart
+Action Parameters : {"messageFormat":"JSON","messageArguments":[{"request":{"Email":null,"ClientId":1046,"PlanTypeId":0,"PlanId":0,"PartId":0,"Month":0,"AddressId":null,"UnitId":0,"ServiceId":null,"PartType":null,"PartTypeId":null,"PageId":0,"ShowDeleted":false,"ServiceCaseNumber":null,"LastCallDateTime":null,"PageNumber":null,"pageSize":0,"DeviceType":null,"DeviceToken":null,"NotificationId":null}}]}
+
+2016-08-22 19:53:50.0910|INFO|api.Helpers.NLogger|JSON
+Method: POST
+URL: http://192.168.1.119:6987/v1/profile/GetCreditCard
+Controller : api.Controllers.ProfileController
+Action : GetCreditCard
+Action Parameters : {"messageFormat":"JSON","messageArguments":[{"request":{"Id":0,"ClientId":1046,"CardType":null,"NameOnCard":null,"CardNumber":null,"ExpiryMonth":0,"CVV":0,"ExpiryYear":0,"IsDefaultPayment":null,"StripeCardId":null}}]}
+
+2016-08-22 19:54:03.1767|INFO|api.Helpers.NLogger|JSON
+Method: POST
+URL: http://192.168.1.119:6987/v1/profile/CollectPaymentForRenew
+Controller : api.Controllers.NewProfileController
+Action : CollectPaymentForRenew
+Action Parameters : {"messageFormat":"JSON","messageArguments":[{"request":{"ClientId":1046,"EmployeeId":0,"Address":"500 test address","State":1,"City":1,"ZipCode":"90028","PhoneNumber":null,"MobileNumber":"213546","CardType":"Visa","NameOnCard":"Pam","CardNumber":"************1111","CVV":123,"UnitId":2619,"ExpiryMonth":8,"ExpiryYear":2016,"StripeCardId":"","ClientSignature":null,"NotificationId":10710}}]}
+

@@ -1,0 +1,12 @@
+2018-08-08 15:34:43 [NullReferenceException: Object reference not set to an instance of an object.]
+Data:
+
+Stack Trace:
+   at api.Controllers.ProfileController.<GetBillingHistoryDetail>d__46.MoveNext() in D:\Guoxinliu917\Jun\Aircall\Aircall\api\Controllers\ProfileController.cs:line 4197
+
+2018-08-08 15:36:03 [NullReferenceException: Object reference not set to an instance of an object.]
+Data:
+
+Stack Trace:
+   at api.Controllers.ProfileController.<GetBillingHistoryDetail>d__46.MoveNext() in D:\Guoxinliu917\Jun\Aircall\Aircall\api\Controllers\ProfileController.cs:line 4197
+

@@ -1,0 +1,21 @@
+2016-11-02 13:00:39.8449|INFO|api.Helpers.NLogger|JSON
+Method: POST
+URL: http://192.168.1.119:6987/v1/profile/GetClientUnit
+Controller : api.Controllers.ProfileController
+Action : GetClientUnit
+Action Parameters : {"messageFormat":"JSON","messageArguments":[{"request":{"Email":null,"ClientId":2,"PlanTypeId":0,"PlanId":0,"PartId":0,"Month":0,"Year":0,"AddressId":null,"UnitId":0,"ServiceId":null,"RequestedServiceId":null,"PartType":null,"PartTypeId":null,"PageId":0,"ShowDeleted":false,"ServiceCaseNumber":null,"LastCallDateTime":null,"PageNumber":null,"pageSize":0,"DeviceType":null,"DeviceToken":null,"NotificationId":null,"EmployeeId":0,"BillingId":null}}]}
+
+2016-11-02 18:07:28.5071|INFO|api.Helpers.NLogger|JSON
+Method: POST
+URL: http://192.168.1.119:6987/v1/profile/addclientunit
+Controller : api.Controllers.ProfileController
+Action : AddClientUnit
+Action Parameters : {"messageFormat":"JSON","messageArguments":[{"request":{"ClientId":2100,"UnitName":"Sixteen Unit","ManufactureDate":"\/Date(796674600000)\/","PlanTypeId":4,"UnitTon":"400","AddressId":2108,"UnitTypeId":2,"AutoRenewal":true,"SpecialOffer":false,"Status":null,"OptionalInformation":[{"SplitType":"Split-Heating","ModelNumber":"ACM1000","SerialNumber":"ACS1000","QuantityOfFilter":1,"Filters":[{"size":1,"LocationOfPart":true}],"QuantityOfFuses":1,"FuseTypes":[{"FuseType":2}],"BoosterTypes":3},{"SplitType":"Split-Cooling","ModelNumber":"ACM1001","SerialNumber":"ACM1001","QuantityOfFilter":1,"Filters":[{"size":34,"LocationOfPart":true}],"QuantityOfFuses":1,"FuseTypes":[{"FuseType":0}],"BoosterTypes":3}],"DeleteOldData":false}}]}
+
+2016-11-02 19:50:50.2005|INFO|api.Helpers.NLogger|JSON
+Method: POST
+URL: http://192.168.1.119:6987/v1/employee/SubmitServiceReportImage
+Controller : api.Controllers.EmployeeController
+Action : SubmitServiceReportImage
+Action Parameters : {"messageFormat":"JSON","messageArguments":[{}]}
+

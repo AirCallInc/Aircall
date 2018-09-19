@@ -1,0 +1,265 @@
+﻿<html>
+	
+<head>
+	<title>Pending</title>
+	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <meta name="generator" content="HelpNDoc Personal Edition 4.9.2.132">
+	<meta name="keywords" content="">
+	
+	<link type="text/css" rel="stylesheet" media="all" href="css/reset.css" />
+	<link type="text/css" rel="stylesheet" media="all" href="css/base.css" />
+	<link type="text/css" rel="stylesheet" media="all" href="css/hnd.css" />
+	<!--[if lte IE 8]>
+		<link type="text/css" rel="stylesheet" media="all" href="css/ielte8.css" />
+	<![endif]-->
+	<style type="text/css">
+		#topic_header
+		{
+			background-color: #EFEFEF;
+		}
+	</style>
+	<script type="text/javascript" src="js/jquery.min.js"></script>
+	<script type="text/javascript" src="js/hnd.js"></script>
+	<script type="text/javascript">
+		$(document).ready(function()
+		{
+			if (top.frames.length == 0)
+			{
+				var sTopicUrl = top.location.href.substring(top.location.href.lastIndexOf("/") + 1, top.location.href.length);
+				top.location.href = "AirCallDocumentation.html?" + sTopicUrl;
+			}
+			else
+			{
+				var bTocSelected = false;
+				(function waitForTOC()
+				{
+					if (top && top.FrameTOC && top.FrameTOC.SelectTocItem)
+					{
+						top.FrameTOC.SelectTocItem("Pending1");
+						bTocSelected = true;
+					}
+					if (!bTocSelected) setTimeout(function() { waitForTOC(); }, 300);
+				})();
+			}
+		});
+	</script>
+	
+	</head>
+
+<body>
+
+<div id="topic_content">
+		
+<p></p>
+<p class="rvps2"><img width="1575" height="103" alt="" style="padding : 1px;" src="lib/Header.png"></p>
+<p class="rvps3"><span class="rvts12">Pending</span></p>
+<p class="rvps12"><span class="rvts12"><br/></span></p>
+<p class="rvps7"><span class="rvts11">• In this section admin can see these type of services:</span></p>
+<p class="rvps2"><span class="rvts11"><br/></span></p>
+<p class="rvps11"><span class="rvts11">1. Newly added units’ X services except the first service(if scheduled automatically) will be displayed here.</span></p>
+<p class="rvps11"><span class="rvts11"><br/></span></p>
+<p class="rvps11"><span class="rvts11">2. Any services which are not assigned to the employee during the automatic rules i.e. employee has not assigned the work area, the employee is busy, part to do service not available etc.</span></p>
+<p class="rvps11"><span class="rvts11"><br/></span></p>
+<p class="rvps11"><span class="rvts11">3. Any service that is already scheduled but rescheduled by the client, employee or admin,</span><span class="rvts46"> </span><span class="rvts21">will have the rescheduled status here.</span></p>
+<p class="rvps11"><span class="rvts65"><br/></span></p>
+<p class="rvps11"><span class="rvts21">4. Any service that is canceled by the client will have canceled status here.</span></p>
+<p class="rvps11"><span class="rvts11"><br/></span></p>
+<p class="rvps11"><span class="rvts11">5. Newly added requests of the service by the client, employee or admin.</span></p>
+<p class="rvps2"><span class="rvts22"><br/></span></p>
+<p class="rvps11"><img width="750" height="351" alt="" style="padding : 1px;" src="lib/NewItem143.png"></p>
+<p class="rvps2"><span class="rvts22"><br/></span></p>
+<p class="rvps2"><span class="rvts22"><br/></span></p>
+<p class="rvps7"><span class="rvts11">• In this section admin can see the schedule attempt log which indicates that service is failed to assign due to some error. That error log will be shown in the detail of each service while clicking on the schedule button.</span></p>
+<p class="rvps7"><span class="rvts11"><br/></span></p>
+<p class="rvps7"><span class="rvts11">•</span><span class="rvts46"> </span><span class="rvts21">Services in this section which have attempt log &gt; 0 will be highlighted with red color in listing. </span></p>
+<p class="rvps2"><span class="rvts31"><br/></span></p>
+<p class="rvps2"><span class="rvts22"><br/></span></p>
+<p class="rvps7"><img width="750" height="351" alt="" style="padding : 1px;" src="lib/NewItem142.png"></p>
+<p class="rvps2"><span class="rvts6"><br/></span></p>
+<p class="rvps7"><span class="rvts11">• Admin has to provide following information for adding a new request for clients:</span></p>
+<p class="rvps2"><span class="rvts22"><br/></span></p>
+<div class="rvps41"><table border="1" cellpadding="4" cellspacing="-1" style="border-width: 0px; border-collapse: collapse;">
+<tr valign="top">
+<td width="143" height="19" valign="middle" style="border-width : 1px; border-color: #000000; border-style: solid; padding: 0px 7px; background-color: #e5e5e5;"><p class="rvps2"><span class="rvts30">Field</span></p>
+</td>
+<td width="390" height="19" valign="top" style="border-width : 1px; border-color: #000000; border-style: solid; padding: 0px 7px; background-color: #e5e5e5;"><p class="rvps2"><span class="rvts30">Function</span></p>
+</td>
+</tr>
+<tr valign="top">
+<td width="143" height="132" valign="top" style="border-width : 1px; border-color: #000000; border-style: solid; padding: 0px 7px; background-color: #ffffff;"><p class="rvps9"><span class="rvts35">Client Name (*):</span></p>
+</td>
+<td width="390" height="132" valign="top" style="border-width : 1px; border-color: #000000; border-style: solid; padding: 0px 7px; background-color: #ffffff;"><p class="rvps9"><span class="rvts36">Name of client for whom admin wants to add extra services.</span></p>
+<p class="rvps9"><span class="rvts36">From searchable list of client, admin has to select client and select address for which need to add request.</span></p>
+<p class="rvps9"><span class="rvts36">Admin has to select the plans too. If any plan is inactivated by admin then that plan will not be show.</span></p>
+<p class="rvps9"><span class="rvts36">Based on selection of client and address, all the units located at selected address and phone numbers of client will populate (Mobile, Home &amp; Office).</span></p>
+</td>
+</tr>
+<tr valign="top">
+<td width="143" height="19" valign="top" style="border-width : 1px; border-color: #000000; border-style: solid; padding: 0px 7px; background-color: #ffffff;"><p class="rvps9"><span class="rvts35">Service Unit (*)</span></p>
+</td>
+<td width="390" height="19" valign="top" style="border-width : 1px; border-color: #000000; border-style: solid; padding: 0px 7px; background-color: #ffffff;"><p class="rvps9"><span class="rvts36">Can select multiple units, which needs to be serviced.</span></p>
+</td>
+</tr>
+<tr valign="top">
+<td width="143" height="36" valign="top" style="border-width : 1px; border-color: #000000; border-style: solid; padding: 0px 7px; background-color: #ffffff;"><p class="rvps9"><span class="rvts35">Service Request Date (*):</span><span class="rvts35"> &nbsp; &nbsp; &nbsp; &nbsp;</span></p>
+</td>
+<td width="390" height="36" valign="top" style="border-width : 1px; border-color: #000000; border-style: solid; padding: 0px 7px; background-color: #ffffff;"><p class="rvps9"><span class="rvts36">The date when the client has requested to add new service.</span></p>
+</td>
+</tr>
+<tr valign="top">
+<td width="143" height="88" valign="top" style="border-width : 1px; border-color: #000000; border-style: solid; padding: 0px 7px; background-color: #ffffff;"><p class="rvps9"><span class="rvts35">Request For (*):</span></p>
+</td>
+<td width="390" height="88" valign="top" style="border-width : 1px; border-color: #000000; border-style: solid; padding: 0px 7px; background-color: #ffffff;"><p class="rvps2"><span class="rvts36">Admin can request for below things:</span></p>
+<ul style="text-indent: 0px; margin-left: 48px; list-style-position: outside;">
+<li style="margin-left: 0px" class="rvps21"><span class="rvts36">Maintenance</span></li>
+<li style="margin-left: 0px" class="rvps21"><span class="rvts36">Repairing</span></li>
+<li style="margin-left: 0px" class="rvps21"><span class="rvts36">Emergency</span></li>
+<li style="margin-left: 0px" class="rvps21"><span class="rvts36">Continuing Previous Work</span></li>
+</ul>
+</td>
+</tr>
+<tr valign="top">
+<td width="143" height="88" valign="top" style="border-width : 1px; border-color: #000000; border-style: solid; padding: 0px 7px; background-color: #ffffff;"><p class="rvps9"><span class="rvts35">Requested Time (*):</span></p>
+</td>
+<td width="390" height="88" valign="top" style="border-width : 1px; border-color: #000000; border-style: solid; padding: 0px 7px; background-color: #ffffff;"><p class="rvps2"><span class="rvts36">Preferred time for new schedule.</span></p>
+<p class="rvps2"><span class="rvts36">Select one of them:</span></p>
+<ul style="text-indent: 0px; margin-left: 48px; list-style-position: outside;">
+<li style="margin-left: 0px" class="rvps21"><span class="rvts36">8 AM - 12 PM</span></li>
+<li style="margin-left: 0px" class="rvps21"><span class="rvts36">1 PM - 5 PM</span></li>
+</ul>
+<p class="rvps9"><span class="rvts36">This both times can be managed from Site Setting Section.</span></p>
+</td>
+</tr>
+<tr valign="top">
+<td width="143" height="19" valign="top" style="border-width : 1px; border-color: #000000; border-style: solid; padding: 0px 7px; background-color: #ffffff;"><p class="rvps9"><span class="rvts35">Notes (*):</span></p>
+</td>
+<td width="390" height="19" valign="top" style="border-width : 1px; border-color: #000000; border-style: solid; padding: 0px 7px; background-color: #ffffff;"><p class="rvps9"><span class="rvts36">Notes for the new service request.</span></p>
+</td>
+</tr>
+</table>
+</div>
+<p class="rvps2"><span class="rvts6"><br/></span></p>
+<p class="rvps2"><span class="rvts6"><br/></span></p>
+<p class="rvps7"><span class="rvts11">• Admin is able to assign an employee for unit service and schedule the service. Admin will provide the following details:</span></p>
+<p class="rvps2"><span class="rvts11"><br/></span></p>
+<div class="rvps41"><table border="1" cellpadding="4" cellspacing="-1" style="border-width: 0px; border-collapse: collapse;">
+<tr valign="top">
+<td width="143" height="19" valign="middle" style="border-width : 1px; border-color: #000000; border-style: solid; padding: 0px 7px; background-color: #e5e5e5;"><p class="rvps2"><span class="rvts30">Field</span></p>
+</td>
+<td width="390" height="19" valign="top" style="border-width : 1px; border-color: #000000; border-style: solid; padding: 0px 7px; background-color: #e5e5e5;"><p class="rvps2"><span class="rvts30">Function</span></p>
+</td>
+</tr>
+<tr valign="top">
+<td width="143" height="67" valign="top" style="border-width : 1px; border-color: #000000; border-style: solid; padding: 0px 7px; background-color: #ffffff;"><p class="rvps9"><span class="rvts35">Work Area (*):</span></p>
+</td>
+<td width="390" height="67" valign="top" style="border-width : 1px; border-color: #000000; border-style: solid; padding: 0px 7px; background-color: #ffffff;"><p class="rvps9"><span class="rvts36">Select work area from searchable group of work area.</span></p>
+<p class="rvps9"><span class="rvts36">Employee work areas can be managed from Employee Management section.</span></p>
+</td>
+</tr>
+<tr valign="top">
+<td width="143" height="67" valign="top" style="border-width : 1px; border-color: #000000; border-style: solid; padding: 0px 7px; background-color: #ffffff;"><p class="rvps9"><span class="rvts35">Technician (*):</span></p>
+</td>
+<td width="390" height="67" valign="top" style="border-width : 1px; border-color: #000000; border-style: solid; padding: 0px 7px; background-color: #ffffff;"><p class="rvps9"><span class="rvts36">Technician for unit service.</span></p>
+<p class="rvps9"><span class="rvts36">From selected work areas, all assigned employees are displayed.</span></p>
+</td>
+</tr>
+<tr valign="top">
+<td width="143" height="36" valign="top" style="border-width : 1px; border-color: #000000; border-style: solid; padding: 0px 7px; background-color: #ffffff;"><p class="rvps9"><span class="rvts35">Service Scheduled On (*):</span></p>
+</td>
+<td width="390" height="36" valign="top" style="border-width : 1px; border-color: #000000; border-style: solid; padding: 0px 7px; background-color: #ffffff;"><p class="rvps9"><span class="rvts36">Date for unit service schedule.</span></p>
+</td>
+</tr>
+<tr valign="top">
+<td width="143" height="36" valign="top" style="border-width : 1px; border-color: #000000; border-style: solid; padding: 0px 7px; background-color: #ffffff;"><p class="rvps9"><span class="rvts35">Schedule Start Time (*):</span></p>
+</td>
+<td width="390" height="36" valign="top" style="border-width : 1px; border-color: #000000; border-style: solid; padding: 0px 7px; background-color: #ffffff;"><p class="rvps9"><span class="rvts36">Start time of service.</span></p>
+</td>
+</tr>
+<tr valign="top">
+<td width="143" height="36" valign="top" style="border-width : 1px; border-color: #000000; border-style: solid; padding: 0px 7px; background-color: #ffffff;"><p class="rvps9"><span class="rvts35">Schedule End Time (*):</span></p>
+</td>
+<td width="390" height="36" valign="top" style="border-width : 1px; border-color: #000000; border-style: solid; padding: 0px 7px; background-color: #ffffff;"><p class="rvps9"><span class="rvts36">End time of service.</span></p>
+</td>
+</tr>
+<tr valign="top">
+<td width="143" height="36" valign="top" style="border-width : 1px; border-color: #000000; border-style: solid; padding: 0px 7px; background-color: #ffffff;"><p class="rvps9"><span class="rvts35">Customer Complaints (*):</span></p>
+</td>
+<td width="390" height="36" valign="top" style="border-width : 1px; border-color: #000000; border-style: solid; padding: 0px 7px; background-color: #ffffff;"><p class="rvps9"><span class="rvts36">Previous service notes will be displayed here.</span></p>
+</td>
+</tr>
+<tr valign="top">
+<td width="143" height="19" valign="top" style="border-width : 1px; border-color: #000000; border-style: solid; padding: 0px 7px; background-color: #ffffff;"><p class="rvps9"><span class="rvts35">Dispatcher Notes:</span></p>
+</td>
+<td width="390" height="19" valign="top" style="border-width : 1px; border-color: #000000; border-style: solid; padding: 0px 7px; background-color: #ffffff;"><p class="rvps9"><span class="rvts36">Notes of dispatcher.</span></p>
+</td>
+</tr>
+<tr valign="top">
+<td width="143" height="19" valign="top" style="border-width : 1px; border-color: #000000; border-style: solid; padding: 0px 7px; background-color: #ffffff;"><p class="rvps9"><span class="rvts35">Technician Notes:</span></p>
+</td>
+<td width="390" height="19" valign="top" style="border-width : 1px; border-color: #000000; border-style: solid; padding: 0px 7px; background-color: #ffffff;"><p class="rvps9"><span class="rvts36">Notes of technician.</span></p>
+</td>
+</tr>
+<tr valign="top">
+<td width="143" height="49" valign="top" style="border-width : 1px; border-color: #000000; border-style: solid; padding: 0px 7px; background-color: #ffffff;"><p class="rvps9"><span class="rvts35">Daily Part List:</span></p>
+</td>
+<td width="390" height="49" valign="top" style="border-width : 1px; border-color: #000000; border-style: solid; padding: 0px 7px; background-color: #ffffff;"><p class="rvps9"><span class="rvts36">Part (material) required for service.</span></p>
+<p class="rvps9"><span class="rvts36">This is pre-populated and calculated from unit detail section.</span></p>
+</td>
+</tr>
+<tr valign="top">
+<td width="143" height="36" valign="top" style="border-width : 1px; border-color: #000000; border-style: solid; padding: 0px 7px; background-color: #ffffff;"><p class="rvps9"><span class="rvts35">Service Report History:</span></p>
+</td>
+<td width="390" height="36" valign="top" style="border-width : 1px; border-color: #000000; border-style: solid; padding: 0px 7px; background-color: #ffffff;"><p class="rvps9"><span class="rvts36">Admin can view all the past service reports for client unit.</span></p>
+</td>
+</tr>
+</table>
+</div>
+<p class="rvps2"><span class="rvts6"><br/></span></p>
+<p class="rvps2"><span class="rvts6"><br/></span></p>
+<p class="rvps7"><span class="rvts11">• The client can see unit’s pending services with expected start date and expected end date in upcoming schedule section as displayed in the below image using client application/ client portal.</span></p>
+<p class="rvps7"><span class="rvts11"> &nbsp; &nbsp; &nbsp; &nbsp;</span></p>
+<p class="rvps7"><span class="rvts11">• Here, System only shows the plan services which are in pending section. Client can not see the services which are requested or rescheduled and in a pending section.</span></p>
+<p class="rvps2"><span class="rvts22"><br/></span></p>
+<p class="rvps2"><span class="rvts22"><br/></span></p>
+<p class="rvps2"><span class="rvts22"> &nbsp; </span><span class="rvts22"> &nbsp; &nbsp; &nbsp; &nbsp;</span><span class="rvts22"> &nbsp; &nbsp; &nbsp; &nbsp;</span><span class="rvts22"> &nbsp; &nbsp; &nbsp; &nbsp;</span><span class="rvts22"> &nbsp; &nbsp; &nbsp; &nbsp;</span><span class="rvts22"> &nbsp; &nbsp; &nbsp; &nbsp;</span><span class="rvts22"> &nbsp; &nbsp; &nbsp; &nbsp;</span><span class="rvts22"> &nbsp; &nbsp; &nbsp; &nbsp;</span><img width="240" height="430" alt="" style="padding : 1px;" src="lib/NewItem141.png"><span class="rvts22"> &nbsp; &nbsp;</span><span class="rvts22"> &nbsp; &nbsp; &nbsp; &nbsp;</span><span class="rvts22"> &nbsp; &nbsp; &nbsp; &nbsp;</span></p>
+<p class="rvps2"><span class="rvts22"><br/></span></p>
+<p class="rvps11"><span class="rvts22"> &nbsp; &nbsp; &nbsp; &nbsp;</span><span class="rvts22"> &nbsp; &nbsp; &nbsp; &nbsp;</span><span class="rvts22"> &nbsp; &nbsp; &nbsp; &nbsp;</span><span class="rvts22"> &nbsp; &nbsp; &nbsp; &nbsp;</span><span class="rvts22"> &nbsp; &nbsp; &nbsp; &nbsp;</span><span class="rvts22"> &nbsp; &nbsp; &nbsp; &nbsp;</span><span class="rvts22"> &nbsp; &nbsp; &nbsp; &nbsp;</span><span class="rvts22"> &nbsp; &nbsp; &nbsp; &nbsp;</span><span class="rvts22"> &nbsp; &nbsp; &nbsp; &nbsp;</span><span class="rvts22"> &nbsp; &nbsp; &nbsp; &nbsp;</span><span class="rvts22"> &nbsp; &nbsp; &nbsp; &nbsp;</span><span class="rvts22"> &nbsp; &nbsp; &nbsp; &nbsp;</span><span class="rvts22"> &nbsp; &nbsp; &nbsp; &nbsp;</span><span class="rvts22"> &nbsp; &nbsp; &nbsp; &nbsp;</span><img width="750" height="351" alt="" style="vertical-align: text-top; padding : 1px;" src="lib/NewItem140.png"></p>
+<p class="rvps2"><span class="rvts22"><br/></span></p>
+<p class="rvps2"><span class="rvts22"><br/></span></p>
+<p class="rvps27"><span class="rvts31"><br/></span></p>
+<p class="rvps7"><img width="746" height="295" alt="" style="padding : 1px;" src="lib/NewItem173.png"></p>
+<p class="rvps2"><span class="rvts47"><br/></span></p>
+<p class="rvps7"><span class="rvts11">• </span><span class="rvts47">As you can see in the image, admin can also get information of employee using timeline view.</span></p>
+<p class="rvps27"><span class="rvts47"><br/></span></p>
+<p class="rvps7"><span class="rvts11">• </span><span class="rvts47">In time line calendar, Information will be displayed work area vise. By default 3 days schedule will be displayed in time line.</span></p>
+<p class="rvps27"><span class="rvts47"><br/></span></p>
+<p class="rvps7"><span class="rvts11">• </span><span class="rvts47">To get a detail of particular employee</span></p>
+<p class="rvps27"><span class="rvts47"> </span><span class="rvts47"> &nbsp; &nbsp; &nbsp; &nbsp;</span><span class="rvts47"> &nbsp; &nbsp; &nbsp; &nbsp;</span><span class="rvts47"> &nbsp; &nbsp; &nbsp; &nbsp;</span><span class="rvts47">1) &nbsp;Select employee from the dropdown</span></p>
+<p class="rvps27"><span class="rvts47"> </span><span class="rvts47"> &nbsp; &nbsp; &nbsp; &nbsp;</span><span class="rvts47"> &nbsp; &nbsp; &nbsp; &nbsp;</span><span class="rvts47"> &nbsp; &nbsp; &nbsp; &nbsp;</span><span class="rvts47">2) Timeline will display only that employee’s data</span></p>
+<p class="rvps27"><span class="rvts47"> </span><span class="rvts47"> &nbsp; &nbsp; &nbsp; &nbsp;</span><span class="rvts47"> &nbsp; &nbsp; &nbsp; &nbsp;</span><span class="rvts47"> &nbsp; &nbsp; &nbsp; &nbsp;</span><span class="rvts47">3) Click on ‘Map’ to see his current location.</span><span class="rvts67"> His current l</span><span class="rvts66">ocation will be sent via the employee application in every 3 minutes of time span.</span></p>
+<p class="rvps27"><span class="rvts31"><br/></span></p>
+<p class="rvps27"><span class="rvts47"> </span></p>
+<p class="rvps7"><span class="rvts11">• </span><span class="rvts47">In map view, Current location of employee will be displayed as a blue marker on map and his scheduled location will be displayed as a red marker on map.</span></p>
+<p class="rvps27"><span class="rvts47"><br/></span></p>
+<p class="rvps7"><span class="rvts11">• </span><span class="rvts47">To schedule a service directly from the timeline,</span></p>
+<p class="rvps27"><span class="rvts47"><br/></span></p>
+<p class="rvps27"><span class="rvts47"> </span><span class="rvts47"> &nbsp; &nbsp; &nbsp; &nbsp;</span><span class="rvts47"> &nbsp; &nbsp; &nbsp; &nbsp;</span><span class="rvts47"> &nbsp; &nbsp; &nbsp; &nbsp;</span><span class="rvts47">1) select a service from the pending section</span></p>
+<p class="rvps27"><span class="rvts47"> </span><span class="rvts47"> &nbsp; &nbsp; &nbsp; &nbsp;</span><span class="rvts47"> &nbsp; &nbsp; &nbsp; &nbsp;</span><span class="rvts47"> &nbsp; &nbsp; &nbsp; &nbsp;</span><span class="rvts47">2) now double click on the time line area on which you want to schedule the service.</span></p>
+<p class="rvps27"><span class="rvts47"> </span><span class="rvts47"> &nbsp; &nbsp; &nbsp; &nbsp;</span><span class="rvts47"> &nbsp; &nbsp; &nbsp; &nbsp;</span><span class="rvts47"> &nbsp; &nbsp; &nbsp; &nbsp;</span><span class="rvts47">3) A popup will displayed which contains time and employee name for that service.</span></p>
+<p class="rvps42"><span class="rvts47">4) Click on ‘Save’ ,Admin will be redirected to the schedule detail screen, on which he/she can see all the scheduled detail and from that page, by clicking on ‘Schedule’ service will be scheduled on a selected date.</span></p>
+<p class="rvps27"><span class="rvts47"> </span><span class="rvts47"> &nbsp; &nbsp; &nbsp; &nbsp;</span><span class="rvts47"> &nbsp; &nbsp; &nbsp; &nbsp;</span><span class="rvts47"> &nbsp; &nbsp; &nbsp; &nbsp;</span><span class="rvts47">5) By clicking on ‘Cancel’ Popup will be disappear.</span></p>
+<p class="rvps27"><span class="rvts47"><br/></span></p>
+<p class="rvps7"><span class="rvts11">• </span><span class="rvts47">If employee is on leave then in time line, Admin can see a Red view with text ‘On Leave’ so Admin get idea which employee is on leave.</span></p>
+<p class="rvps7"><span class="rvts47"><br/></span></p>
+<p class="rvps7"><img width="869" height="298" alt="" style="padding : 1px;" src="lib/map.png"></p>
+<p class="rvps27"><span class="rvts49"><br/></span></p>
+<p class="rvps27"><span class="rvts49"><br/></span></p>
+<p class="rvps27"><span class="rvts31"><br/></span></p>
+<p></p>
+
+</div>
+	
+	</body>
+	
+</html>
+

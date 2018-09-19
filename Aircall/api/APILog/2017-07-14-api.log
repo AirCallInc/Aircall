@@ -1,0 +1,119 @@
+2017-07-14 11:02:28.2177|INFO|api.Helpers.NLogger|JSON
+Method: GET
+URL: http://192.168.1.121:8989/api/v1/common/SendSalesAgreement?ClientId=1131
+Controller : api.Controllers.CommonController
+Action : SendSalesAgreement
+Action Parameters : {"messageFormat":"JSON","messageArguments":[{"ClientId":1131}]}
+
+2017-07-14 11:12:16.7193|INFO|api.Helpers.NLogger|JSON
+Method: GET
+URL: http://192.168.1.121:8989/api/v1/common/SendSalesAgreement?ClientId=1131
+Controller : api.Controllers.CommonController
+Action : SendSalesAgreement
+Action Parameters : {"messageFormat":"JSON","messageArguments":[{"ClientId":1131}]}
+
+2017-07-14 11:13:13.9565|INFO|api.Helpers.NLogger|JSON
+Method: GET
+URL: http://192.168.1.121:8989/api/v1/common/SendSalesAgreement?ClientId=1131
+Controller : api.Controllers.CommonController
+Action : SendSalesAgreement
+Action Parameters : {"messageFormat":"JSON","messageArguments":[{"ClientId":1131}]}
+
+2017-07-14 11:30:20.4407|INFO|api.Helpers.NLogger|JSON
+Method: GET
+URL: http://192.168.1.121:8989/api/v1/common/SendSalesAgreement?ClientId=1131
+Controller : api.Controllers.CommonController
+Action : SendSalesAgreement
+Action Parameters : {"messageFormat":"JSON","messageArguments":[{"ClientId":1131}]}
+
+2017-07-14 11:31:33.4337|INFO|api.Helpers.NLogger|JSON
+Method: GET
+URL: http://192.168.1.121:8989/api/v1/common/SendSalesAgreement?ClientId=1131
+Controller : api.Controllers.CommonController
+Action : SendSalesAgreement
+Action Parameters : {"messageFormat":"JSON","messageArguments":[{"ClientId":1131}]}
+
+2017-07-14 11:31:44.7657|INFO|api.Helpers.NLogger|JSON
+Method: GET
+URL: http://192.168.1.121:8989/api/v1/common/SendSalesAgreement?ClientId=1131
+Controller : api.Controllers.CommonController
+Action : SendSalesAgreement
+Action Parameters : {"messageFormat":"JSON","messageArguments":[{"ClientId":1131}]}
+
+2017-07-14 11:34:07.4260|INFO|api.Helpers.NLogger|JSON
+Method: GET
+URL: http://192.168.1.121:8989/api/v1/common/SendSalesAgreement?ClientId=1131
+Controller : api.Controllers.CommonController
+Action : SendSalesAgreement
+Action Parameters : {"messageFormat":"JSON","messageArguments":[{"ClientId":1131}]}
+
+2017-07-14 11:34:21.4315|INFO|api.Helpers.NLogger|JSON
+Method: GET
+URL: http://192.168.1.121:8989/api/v1/common/SendSalesAgreement?ClientId=1131
+Controller : api.Controllers.CommonController
+Action : SendSalesAgreement
+Action Parameters : {"messageFormat":"JSON","messageArguments":[{"ClientId":1131}]}
+
+2017-07-14 11:34:28.5632|INFO|api.Helpers.NLogger|JSON
+Method: GET
+URL: http://192.168.1.121:8989/api/v1/common/SendSalesAgreement?ClientId=1131
+Controller : api.Controllers.CommonController
+Action : SendSalesAgreement
+Action Parameters : {"messageFormat":"JSON","messageArguments":[{"ClientId":1131}]}
+
+2017-07-14 11:36:25.8936|INFO|api.Helpers.NLogger|JSON
+Method: GET
+URL: http://192.168.1.121:8989/api/v1/common/SendSalesAgreement?ClientId=1131
+Controller : api.Controllers.CommonController
+Action : SendSalesAgreement
+Action Parameters : {"messageFormat":"JSON","messageArguments":[{"ClientId":1131}]}
+
+2017-07-14 11:36:34.2833|INFO|api.Helpers.NLogger|JSON
+Method: GET
+URL: http://192.168.1.121:8989/api/v1/common/SendSalesAgreement?ClientId=1131
+Controller : api.Controllers.CommonController
+Action : SendSalesAgreement
+Action Parameters : {"messageFormat":"JSON","messageArguments":[{"ClientId":1131}]}
+
+2017-07-14 11:39:41.6472|INFO|api.Helpers.NLogger|JSON
+Method: GET
+URL: http://192.168.1.121:8989/api/v1/common/SendSalesAgreement?ClientId=1131
+Controller : api.Controllers.CommonController
+Action : SendSalesAgreement
+Action Parameters : {"messageFormat":"JSON","messageArguments":[{"ClientId":1131}]}
+
+2017-07-14 11:39:50.9469|INFO|api.Helpers.NLogger|JSON
+Method: GET
+URL: http://192.168.1.121:8989/api/v1/common/SendSalesAgreement?ClientId=1131
+Controller : api.Controllers.CommonController
+Action : SendSalesAgreement
+Action Parameters : {"messageFormat":"JSON","messageArguments":[{"ClientId":1131}]}
+
+2017-07-14 11:40:14.8201|INFO|api.Helpers.NLogger|JSON
+Method: GET
+URL: http://192.168.1.121:8989/api/v1/common/SendSalesAgreement?ClientId=1131
+Controller : api.Controllers.CommonController
+Action : SendSalesAgreement
+Action Parameters : {"messageFormat":"JSON","messageArguments":[{"ClientId":1131}]}
+
+2017-07-14 11:40:34.5612|INFO|api.Helpers.NLogger|JSON
+Method: GET
+URL: http://192.168.1.121:8989/api/v1/common/SendSalesAgreement?ClientId=1131
+Controller : api.Controllers.CommonController
+Action : SendSalesAgreement
+Action Parameters : {"messageFormat":"JSON","messageArguments":[{"ClientId":1131}]}
+
+2017-07-14 11:40:39.3519|INFO|api.Helpers.NLogger|JSON
+Method: GET
+URL: http://192.168.1.121:8989/api/v1/common/SendSalesAgreement?ClientId=1131
+Controller : api.Controllers.CommonController
+Action : SendSalesAgreement
+Action Parameters : {"messageFormat":"JSON","messageArguments":[{"ClientId":1131}]}
+
+2017-07-14 11:50:34.8424|INFO|api.Helpers.NLogger|JSON
+Method: GET
+URL: http://192.168.1.121:8989/api/v1/common/SendSalesAgreement?ClientId=1131
+Controller : api.Controllers.CommonController
+Action : SendSalesAgreement
+Action Parameters : {"messageFormat":"JSON","messageArguments":[{"ClientId":1131}]}
+

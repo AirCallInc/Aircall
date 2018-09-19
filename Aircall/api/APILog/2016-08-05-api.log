@@ -1,0 +1,112 @@
+2016-08-05 15:01:13.5315|INFO|api.Helpers.NLogger|JSON
+Method: POST
+URL: http://192.168.1.119:6987/employee/GetServiceUnitDetails
+Controller : api.Controllers.EmployeeController
+Action : GetServiceUnitDetails
+Action Parameters : {"messageFormat":"JSON","messageArguments":[{"emp":{"EmployeeId":0,"Month":0,"Day":0,"ServiceId":0,"ReportId":0,"UnitId":54,"Latitude":null,"Longitude":null,"SearchTerm":null,"PageId":0,"LastCallDateTime":null,"PageNumber":null,"pageSize":0,"OrderId":0,"StatDate":null,"EndDate":null}}]}
+
+2016-08-05 15:01:25.0452|INFO|api.Helpers.NLogger|JSON
+Method: POST
+URL: http://192.168.1.119:6987/employee/GetServiceUnitDetails
+Controller : api.Controllers.EmployeeController
+Action : GetServiceUnitDetails
+Action Parameters : {"messageFormat":"JSON","messageArguments":[{"emp":{"EmployeeId":0,"Month":0,"Day":0,"ServiceId":0,"ReportId":0,"UnitId":54,"Latitude":null,"Longitude":null,"SearchTerm":null,"PageId":0,"LastCallDateTime":null,"PageNumber":null,"pageSize":0,"OrderId":0,"StatDate":null,"EndDate":null}}]}
+
+2016-08-05 15:02:34.7394|INFO|api.Helpers.NLogger|JSON
+Method: POST
+URL: http://192.168.1.119:6987/employee/GetServiceUnitDetails
+Controller : api.Controllers.EmployeeController
+Action : GetServiceUnitDetails
+Action Parameters : {"messageFormat":"JSON","messageArguments":[{"emp":{"EmployeeId":0,"Month":0,"Day":0,"ServiceId":0,"ReportId":0,"UnitId":54,"Latitude":null,"Longitude":null,"SearchTerm":null,"PageId":0,"LastCallDateTime":null,"PageNumber":null,"pageSize":0,"OrderId":0,"StatDate":null,"EndDate":null}}]}
+
+2016-08-05 15:03:26.5128|INFO|api.Helpers.NLogger|JSON
+Method: POST
+URL: http://192.168.1.119:6987/employee/GetServiceUnitDetails
+Controller : api.Controllers.EmployeeController
+Action : GetServiceUnitDetails
+Action Parameters : {"messageFormat":"JSON","messageArguments":[{"emp":{"EmployeeId":0,"Month":0,"Day":0,"ServiceId":0,"ReportId":0,"UnitId":54,"Latitude":null,"Longitude":null,"SearchTerm":null,"PageId":0,"LastCallDateTime":null,"PageNumber":null,"pageSize":0,"OrderId":0,"StatDate":null,"EndDate":null}}]}
+
+2016-08-05 15:13:20.3259|INFO|api.Helpers.NLogger|JSON
+Method: POST
+URL: http://192.168.1.119:6987/employee/GetScheduledServiceUnitDetails
+Controller : api.Controllers.EmployeeController
+Action : GetScheduledServiceUnitDetails
+Action Parameters : {"messageFormat":"JSON","messageArguments":[{"emp":{"EmployeeId":0,"Month":0,"Day":0,"ServiceId":0,"ReportId":0,"UnitId":0,"Latitude":null,"Longitude":null,"SearchTerm":null,"PageId":0,"LastCallDateTime":null,"PageNumber":null,"pageSize":0,"OrderId":0,"StatDate":null,"EndDate":null}}]}
+
+2016-08-05 15:13:58.4803|INFO|api.Helpers.NLogger|JSON
+Method: POST
+URL: http://192.168.1.119:6987/employee/CheckUnitMatchDetails
+Controller : api.Controllers.EmployeeController
+Action : CheckUnitMatchDetails
+Action Parameters : {"messageFormat":"JSON","messageArguments":[{"emp":{"Parts":null}}]}
+
+2016-08-05 15:14:32.2644|INFO|api.Helpers.NLogger|JSON
+Method: POST
+URL: http://192.168.1.119:6987/employee/CheckUnitMatchDetails
+Controller : api.Controllers.EmployeeController
+Action : CheckUnitMatchDetails
+Action Parameters : {"messageFormat":"JSON","messageArguments":[{"emp":{"Parts":[]}}]}
+
+2016-08-05 15:17:54.5305|INFO|api.Helpers.NLogger|JSON
+Method: POST
+URL: http://192.168.1.119:6987/employee/CheckUnitMatchDetails
+Controller : api.Controllers.EmployeeController
+Action : CheckUnitMatchDetails
+Action Parameters : {"messageFormat":"JSON","messageArguments":[{"emp":{"Parts":[{"SplitType":"Heating","ModelNumber":"ACM1000","SerialNumber":"ACS1000"}]}}]}
+
+2016-08-05 15:18:09.1043|INFO|api.Helpers.NLogger|JSON
+Method: POST
+URL: http://192.168.1.119:6987/employee/CheckUnitMatchDetails
+Controller : api.Controllers.EmployeeController
+Action : CheckUnitMatchDetails
+Action Parameters : {"messageFormat":"JSON","messageArguments":[{"emp":{"Parts":[{"SplitType":"Heating","ModelNumber":"ACM1000","SerialNumber":"ACS1000"}]}}]}
+
+2016-08-05 15:38:42.9555|INFO|api.Helpers.NLogger|JSON
+Method: POST
+URL: http://192.168.1.119:6987/employee/CheckUnitMatchDetails
+Controller : api.Controllers.EmployeeController
+Action : CheckUnitMatchDetails
+Action Parameters : {"messageFormat":"JSON","messageArguments":[{"emp":{"Parts":[{"SplitType":"Heating","ModelNumber":"ACM1000","SerialNumber":"ACS1000"}]}}]}
+
+2016-08-05 16:01:32.1205|INFO|api.Helpers.NLogger|JSON
+Method: POST
+URL: http://192.168.1.119:6987/employee/CheckUnitMatchDetails
+Controller : api.Controllers.EmployeeController
+Action : CheckUnitMatchDetails
+Action Parameters : {"messageFormat":"JSON","messageArguments":[{"emp":{"Parts":[{"UnitType":null,"ModelNumber":"ACM1000","SerialNumber":"ACS1000"}]}}]}
+
+2016-08-05 16:12:19.6092|INFO|api.Helpers.NLogger|JSON
+Method: POST
+URL: http://192.168.1.119:6987/employee/CheckUnitMatchDetails
+Controller : api.Controllers.EmployeeController
+Action : CheckUnitMatchDetails
+Action Parameters : {"messageFormat":"JSON","messageArguments":[{"emp":{"Parts":[{"UnitType":"Heating","ModelNumber":"ACM1000","SerialNumber":"ACS1000"}]}}]}
+
+2016-08-05 18:19:36.3578|INFO|api.Helpers.NLogger|JSON
+Method: POST
+URL: http://192.168.1.119:6987/v1/profile/UpdateClientProfile
+Controller : api.Controllers.ProfileController
+Action : UpdateClientProfile
+Action Parameters : {"messageFormat":"JSON","messageArguments":[{}]}
+
+2016-08-05 18:19:54.8360|INFO|api.Helpers.NLogger|JSON
+Method: POST
+URL: http://192.168.1.119:6987/v1/profile/UpdateClientProfile
+Controller : api.Controllers.ProfileController
+Action : UpdateClientProfile
+Action Parameters : {"messageFormat":"JSON","messageArguments":[{}]}
+
+2016-08-05 19:00:21.5094|INFO|api.Helpers.NLogger|JSON
+Method: POST
+URL: http://192.168.1.119:6987/v1/employee/CheckUnitMatchDetails
+Controller : api.Controllers.EmployeeController
+Action : CheckUnitMatchDetails
+Action Parameters : {"messageFormat":"JSON","messageArguments":[{"emp":{"Parts":[{"UnitType":"Heating","ModelNumber":"ACM1000","SerialNumber":"ACS1000"}]}}]}
+
+2016-08-05 19:00:36.3230|INFO|api.Helpers.NLogger|JSON
+Method: POST
+URL: http://192.168.1.119:6987/v1/employee/CheckUnitMatchDetails
+Controller : api.Controllers.EmployeeController
+Action : CheckUnitMatchDetails
+Action Parameters : {"messageFormat":"JSON","messageArguments":[{"emp":{"Parts":[{"UnitType":"Heating","ModelNumber":"ACM1000","SerialNumber":"ACS1000"}]}}]}
+

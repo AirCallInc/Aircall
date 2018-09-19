@@ -1,0 +1,49 @@
+2016-11-25 13:14:41.5938|INFO|api.Helpers.NLogger|JSON
+Method: POST
+URL: http://192.168.1.119:6987/v1/employee/GetDashBoardMonthDayWiseServiceList
+Controller : api.Controllers.EmployeeController
+Action : GetDashBoardMonthDayWiseServiceList
+Action Parameters : {"messageFormat":"JSON","messageArguments":[{"request":{"NotificationId":0,"EmployeeId":15,"SalesVisitRequestId":0,"Month":11,"Year":2016,"Day":25,"ServiceId":0,"ReportId":0,"UnitId":0,"Latitude":null,"Longitude":null,"SearchTerm":null,"PageId":0,"LastCallDateTime":null,"PageNumber":null,"pageSize":0,"OrderId":0,"StatDate":null,"EndDate":null,"DeviceType":null,"DeviceToken":null,"ClientEmails":null}}]}
+
+2016-11-25 13:15:31.1079|INFO|api.Helpers.NLogger|JSON
+Method: POST
+URL: http://192.168.1.119:6987/v1/employee/GetDashBoardMonthDayWiseServiceList
+Controller : api.Controllers.EmployeeController
+Action : GetDashBoardMonthDayWiseServiceList
+Action Parameters : {"messageFormat":"JSON","messageArguments":[{"request":{"NotificationId":0,"EmployeeId":15,"SalesVisitRequestId":0,"Month":11,"Year":2016,"Day":30,"ServiceId":0,"ReportId":0,"UnitId":0,"Latitude":null,"Longitude":null,"SearchTerm":null,"PageId":0,"LastCallDateTime":null,"PageNumber":null,"pageSize":0,"OrderId":0,"StatDate":null,"EndDate":null,"DeviceType":null,"DeviceToken":null,"ClientEmails":null}}]}
+
+2016-11-25 13:16:44.8387|INFO|api.Helpers.NLogger|JSON
+Method: POST
+URL: http://192.168.1.119:6987/v1/employee/GetDashBoardMonthDayWiseServiceList
+Controller : api.Controllers.EmployeeController
+Action : GetDashBoardMonthDayWiseServiceList
+Action Parameters : {"messageFormat":"JSON","messageArguments":[{"request":{"NotificationId":0,"EmployeeId":15,"SalesVisitRequestId":0,"Month":12,"Year":2016,"Day":1,"ServiceId":0,"ReportId":0,"UnitId":0,"Latitude":null,"Longitude":null,"SearchTerm":null,"PageId":0,"LastCallDateTime":null,"PageNumber":null,"pageSize":0,"OrderId":0,"StatDate":null,"EndDate":null,"DeviceType":null,"DeviceToken":null,"ClientEmails":null}}]}
+
+2016-11-25 18:13:28.7332|INFO|api.Helpers.NLogger|JSON
+Method: POST
+URL: http://192.168.1.119:6987/v1/employee/SubmitServiceReport
+Controller : api.Controllers.EmployeeController
+Action : SubmitServiceReport
+Action Parameters : {"messageFormat":"JSON","messageArguments":[{"request":{"EmployeeId":15,"ServiceId":475,"ScheduleStartTime":"06:12 PM","ScheduleEndTime":"06:13 PM","IsWorkNotDone":false,"WorkPerformed":"Fjgghj","Recommendationsforcustomer":"Ghjghj","BillingType":null,"EmailToClient":["jincarlo@gmail.com",""],"CCEmail":"","RequestedParts":[{"UnitId":9,"PartId":3,"Quantity":3,"PartName":"Booster","PartSize":"10","Description":"","EmpNotes":"Gfhgjghj"}],"EmployeeNotes":"Ghjghj","Units":[{"Id":9,"UnitName":null,"IsCompleted":true,"ServiceUnitParts":[{"PartId":2,"PartName":null,"Qty":3},{"PartId":2,"PartName":null,"Qty":3},{"PartId":2,"PartName":null,"Qty":3}]},{"Id":178,"UnitName":null,"IsCompleted":false,"ServiceUnitParts":[]}],"Images":null,"ClientId":null,"StartLatitude":null,"StartLongitude":null,"EndLatitude":null,"EndLongitude":null}}]}
+
+2016-11-25 18:19:28.2488|INFO|api.Helpers.NLogger|JSON
+Method: POST
+URL: http://192.168.1.119:6987/v1/employee/SubmitServiceReport
+Controller : api.Controllers.EmployeeController
+Action : SubmitServiceReport
+Action Parameters : {"messageFormat":"JSON","messageArguments":[{"request":{"EmployeeId":15,"ServiceId":475,"ScheduleStartTime":"06:12 PM","ScheduleEndTime":"06:13 PM","IsWorkNotDone":false,"WorkPerformed":"Fjgghj","Recommendationsforcustomer":"Ghjghj","BillingType":null,"EmailToClient":["jincarlo@gmail.com",""],"CCEmail":"","RequestedParts":[{"UnitId":9,"PartId":3,"Quantity":3,"PartName":"Booster","PartSize":"10","Description":"","EmpNotes":"Gfhgjghj"}],"EmployeeNotes":"Ghjghj","Units":[{"Id":9,"UnitName":null,"IsCompleted":true,"ServiceUnitParts":[{"PartId":2,"PartName":null,"Qty":3},{"PartId":2,"PartName":null,"Qty":3},{"PartId":2,"PartName":null,"Qty":3}]},{"Id":178,"UnitName":null,"IsCompleted":false,"ServiceUnitParts":[]}],"Images":null,"ClientId":null,"StartLatitude":null,"StartLongitude":null,"EndLatitude":null,"EndLongitude":null}}]}
+
+2016-11-25 18:20:35.4813|INFO|api.Helpers.NLogger|JSON
+Method: POST
+URL: http://192.168.1.119:6987/v1/employee/SubmitServiceReport
+Controller : api.Controllers.EmployeeController
+Action : SubmitServiceReport
+Action Parameters : {"messageFormat":"JSON","messageArguments":[{"request":{"EmployeeId":15,"ServiceId":475,"ScheduleStartTime":"06:12 PM","ScheduleEndTime":"06:13 PM","IsWorkNotDone":false,"WorkPerformed":"Fjgghj","Recommendationsforcustomer":"Ghjghj","BillingType":null,"EmailToClient":["jincarlo@gmail.com",""],"CCEmail":"","RequestedParts":[{"UnitId":9,"PartId":3,"Quantity":3,"PartName":"Booster","PartSize":"10","Description":"","EmpNotes":"Gfhgjghj"}],"EmployeeNotes":"Ghjghj","Units":[{"Id":9,"UnitName":null,"IsCompleted":true,"ServiceUnitParts":[{"PartId":2,"PartName":null,"Qty":3},{"PartId":2,"PartName":null,"Qty":3},{"PartId":2,"PartName":null,"Qty":3}]},{"Id":178,"UnitName":null,"IsCompleted":false,"ServiceUnitParts":[]}],"Images":null,"ClientId":null,"StartLatitude":null,"StartLongitude":null,"EndLatitude":null,"EndLongitude":null}}]}
+
+2016-11-25 18:26:06.2095|INFO|api.Helpers.NLogger|JSON
+Method: POST
+URL: http://192.168.1.119:6987/v1/employee/SubmitServiceReport
+Controller : api.Controllers.EmployeeController
+Action : SubmitServiceReport
+Action Parameters : {"messageFormat":"JSON","messageArguments":[{"request":{"EmployeeId":15,"ServiceId":475,"ScheduleStartTime":"06:12 PM","ScheduleEndTime":"06:13 PM","IsWorkNotDone":false,"WorkPerformed":"Fjgghj","Recommendationsforcustomer":"Ghjghj","BillingType":null,"EmailToClient":["jincarlo@gmail.com",""],"CCEmail":"","RequestedParts":[{"UnitId":9,"PartId":3,"Quantity":3,"PartName":"Booster","PartSize":"10","Description":"","EmpNotes":"Gfhgjghj"}],"EmployeeNotes":"Ghjghj","Units":[{"Id":9,"UnitName":null,"IsCompleted":true,"ServiceUnitParts":[{"PartId":2,"PartName":null,"Qty":3},{"PartId":2,"PartName":null,"Qty":3},{"PartId":2,"PartName":null,"Qty":3}]},{"Id":178,"UnitName":null,"IsCompleted":false,"ServiceUnitParts":[]}],"Images":null,"ClientId":null,"StartLatitude":null,"StartLongitude":null,"EndLatitude":null,"EndLongitude":null}}]}
+

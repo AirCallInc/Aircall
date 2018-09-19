@@ -1,0 +1,154 @@
+2017-03-22 11:27:28.6884|INFO|api.Helpers.NLogger|JSON
+Method: POST
+URL: http://192.168.1.119:9999/api/v1/profile/checkClientExists
+Controller : api.Controllers.ProfileController
+Action : checkClientExists
+Action Parameters : {"messageFormat":"JSON","messageArguments":[{"request":{"FirstName":null,"LastName":null,"Email":"testing.demo@gmail.com","Password":null,"Image":null,"MobileNumber":null,"Company":null,"AffiliateId":null,"DeviceType":null,"DeviceToken":null,"AddedDate":"\/Date(-62135596800000)\/","SendDisclosureEmail":false}}]}
+
+2017-03-22 11:27:49.2156|INFO|api.Helpers.NLogger|JSON
+Method: POST
+URL: http://192.168.1.119:9999/api/v1/profile/clientRegister
+Controller : api.Controllers.ProfileController
+Action : Register
+Action Parameters : {"messageFormat":"JSON","messageArguments":[{"request":{"FirstName":"John","LastName":"Watson","Email":"testing.demo@gmail.com","Password":"b908aa5c2138ee566f4428d048a6d501","Image":null,"MobileNumber":null,"Company":null,"AffiliateId":null,"DeviceType":null,"DeviceToken":null,"AddedDate":"\/Date(-62135596800000)\/","SendDisclosureEmail":false}}]}
+
+2017-03-22 11:55:56.6749|INFO|api.Helpers.NLogger|JSON
+Method: POST
+URL: https://192.168.1.119:9999/api/v1/profile/checkClientExists
+Controller : api.Controllers.ProfileController
+Action : checkClientExists
+Action Parameters : {"messageFormat":"JSON","messageArguments":[{"request":{"FirstName":null,"LastName":null,"Email":"testing.demo+6@gmail.com","Password":null,"Image":null,"MobileNumber":null,"Company":null,"AffiliateId":null,"DeviceType":null,"DeviceToken":null,"AddedDate":"\/Date(-62135596800000)\/","SendDisclosureEmail":false}}]}
+
+2017-03-22 11:56:24.7569|INFO|api.Helpers.NLogger|JSON
+Method: POST
+URL: https://192.168.1.119:9999/api/v1/profile/clientRegister
+Controller : api.Controllers.ProfileController
+Action : Register
+Action Parameters : {"messageFormat":"JSON","messageArguments":[{"request":{"FirstName":"John","LastName":"Watson","Email":"testing.demo+6@gmail.com","Password":"71f0a5caa4002fac45cb81b862aaf781","Image":null,"MobileNumber":null,"Company":null,"AffiliateId":null,"DeviceType":null,"DeviceToken":null,"AddedDate":"\/Date(-62135596800000)\/","SendDisclosureEmail":false}}]}
+
+2017-03-22 12:17:22.0653|INFO|api.Helpers.NLogger|JSON
+Method: POST
+URL: https://192.168.1.119:9999/api/v1/profile/checkClientExists
+Controller : api.Controllers.ProfileController
+Action : checkClientExists
+Action Parameters : {"messageFormat":"JSON","messageArguments":[{"request":{"FirstName":null,"LastName":null,"Email":"testing.demo+7@gmail.com","Password":null,"Image":null,"MobileNumber":null,"Company":null,"AffiliateId":null,"DeviceType":null,"DeviceToken":null,"AddedDate":"\/Date(-62135596800000)\/","SendDisclosureEmail":false}}]}
+
+2017-03-22 12:17:38.6892|INFO|api.Helpers.NLogger|JSON
+Method: POST
+URL: https://192.168.1.119:9999/api/v1/profile/clientRegister
+Controller : api.Controllers.ProfileController
+Action : Register
+Action Parameters : {"messageFormat":"JSON","messageArguments":[{"request":{"FirstName":"John","LastName":"Watson","Email":"testing.demo+7@gmail.com","Password":"a6e6d6f80d859eaebfefffbc38d2219e","Image":null,"MobileNumber":"1111111111","Company":null,"AffiliateId":null,"DeviceType":null,"DeviceToken":null,"AddedDate":"\/Date(-62135596800000)\/","SendDisclosureEmail":false}}]}
+
+2017-03-22 12:21:42.0126|INFO|api.Helpers.NLogger|JSON
+Method: POST
+URL: https://192.168.1.119:9999/api/v1/profile/clientRegister
+Controller : api.Controllers.ProfileController
+Action : Register
+Action Parameters : {"messageFormat":"JSON","messageArguments":[{"request":{"FirstName":"John","LastName":"Watson","Email":"testing.demo+8@gmail.com","Password":"5aad14c8091b457537cf099da0ce6669","Image":null,"MobileNumber":"1111111111","Company":null,"AffiliateId":null,"DeviceType":null,"DeviceToken":null,"AddedDate":"\/Date(-62135596800000)\/","SendDisclosureEmail":false}}]}
+
+2017-03-22 12:23:50.0265|INFO|api.Helpers.NLogger|JSON
+Method: POST
+URL: https://192.168.1.119:9999/api/v1/profile/clientRegister
+Controller : api.Controllers.ProfileController
+Action : Register
+Action Parameters : {"messageFormat":"JSON","messageArguments":[{"request":{"FirstName":"John","LastName":"Watson","Email":"testing.demo+8@gmail.com","Password":"5aad14c8091b457537cf099da0ce6669","Image":null,"MobileNumber":"1111111111","Company":null,"AffiliateId":null,"DeviceType":null,"DeviceToken":null,"AddedDate":"\/Date(-62135596800000)\/","SendDisclosureEmail":false}}]}
+
+2017-03-22 12:24:07.8819|INFO|api.Helpers.NLogger|JSON
+Method: POST
+URL: https://192.168.1.119:9999/api/v1/profile/clientRegister
+Controller : api.Controllers.ProfileController
+Action : Register
+Action Parameters : {"messageFormat":"JSON","messageArguments":[{"request":{"FirstName":"John","LastName":"Watson","Email":"testing.demo+9@gmail.com","Password":"2ceb5a909534e348ba2bb2790c6ca463","Image":null,"MobileNumber":"1111111111","Company":null,"AffiliateId":null,"DeviceType":null,"DeviceToken":null,"AddedDate":"\/Date(-62135596800000)\/","SendDisclosureEmail":false}}]}
+
+2017-03-22 12:27:12.3799|INFO|api.Helpers.NLogger|JSON
+Method: POST
+URL: https://192.168.1.119:9999/api/v1/profile/clientRegister
+Controller : api.Controllers.ProfileController
+Action : Register
+Action Parameters : {"messageFormat":"JSON","messageArguments":[{"request":{"FirstName":"John","LastName":"Watson","Email":"testing.demo+10@gmail.com","Password":"9a9628f654572288dc2a1706b52f7a34","Image":null,"MobileNumber":"1111111111","Company":null,"AffiliateId":null,"DeviceType":null,"DeviceToken":null,"AddedDate":"\/Date(-62135596800000)\/","SendDisclosureEmail":false}}]}
+
+2017-03-22 12:37:37.9837|INFO|api.Helpers.NLogger|JSON
+Method: POST
+URL: https://192.168.1.119:9999/api/v1/profile/clientRegister
+Controller : api.Controllers.ProfileController
+Action : Register
+Action Parameters : {"messageFormat":"JSON","messageArguments":[{"request":{"FirstName":"John","LastName":"Watson","Email":"testing.demo+11@gmail.com","Password":"b01277cb316a01cb3deeb812f10104c0","Image":null,"MobileNumber":"1111111111","Company":null,"AffiliateId":null,"DeviceType":null,"DeviceToken":null,"AddedDate":"\/Date(-62135596800000)\/","SendDisclosureEmail":false}}]}
+
+2017-03-22 12:46:07.5398|INFO|api.Helpers.NLogger|JSON
+Method: POST
+URL: https://192.168.1.119:9999/api/v1/profile/clientRegister
+Controller : api.Controllers.ProfileController
+Action : Register
+Action Parameters : {"messageFormat":"JSON","messageArguments":[{"request":{"FirstName":"John","LastName":"Watson","Email":"testing.demo+12@gmail.com","Password":"0dbf6bce17c4389d44e672e55307c907","Image":null,"MobileNumber":"1111111111","Company":null,"AffiliateId":null,"DeviceType":null,"DeviceToken":null,"AddedDate":"\/Date(-62135596800000)\/","SendDisclosureEmail":false}}]}
+
+2017-03-22 14:42:08.1600|INFO|api.Helpers.NLogger|JSON
+Method: POST
+URL: https://localhost:9999/api/v1/profile/checkClientExists
+Controller : api.Controllers.ProfileController
+Action : checkClientExists
+Action Parameters : {"messageFormat":"JSON","messageArguments":[{"request":{"FirstName":null,"LastName":null,"Email":"testing.demo+66@gmail.com","Password":null,"Image":null,"MobileNumber":null,"Company":null,"AffiliateId":null,"DeviceType":null,"DeviceToken":null,"AddedDate":"\/Date(-62135596800000)\/","SendDisclosureEmail":false}}]}
+
+2017-03-22 14:42:31.2284|INFO|api.Helpers.NLogger|JSON
+Method: POST
+URL: https://localhost:9999/api/v1/profile/clientRegister
+Controller : api.Controllers.ProfileController
+Action : Register
+Action Parameters : {"messageFormat":"JSON","messageArguments":[{"request":{"FirstName":"John","LastName":"Watson","Email":"testing.demo+66@gmail.com","Password":"b586e55960aa82ad94355e495b1b7736","Image":null,"MobileNumber":"1111111111","Company":null,"AffiliateId":null,"DeviceType":null,"DeviceToken":null,"AddedDate":"\/Date(-62135596800000)\/","SendDisclosureEmail":false}}]}
+
+2017-03-22 14:43:04.2275|INFO|api.Helpers.NLogger|JSON
+Method: POST
+URL: https://localhost:9999/api/v1/profile/clientRegister
+Controller : api.Controllers.ProfileController
+Action : Register
+Action Parameters : {"messageFormat":"JSON","messageArguments":[{"request":{"FirstName":"John","LastName":"Watson","Email":"testing.demo+66@gmail.com","Password":"b586e55960aa82ad94355e495b1b7736","Image":null,"MobileNumber":"1111111111","Company":null,"AffiliateId":null,"DeviceType":null,"DeviceToken":null,"AddedDate":"\/Date(-62135596800000)\/","SendDisclosureEmail":false}}]}
+
+2017-03-22 14:56:24.3408|INFO|api.Helpers.NLogger|JSON
+Method: POST
+URL: https://localhost:9999/api/v1/profile/checkClientExists
+Controller : api.Controllers.ProfileController
+Action : checkClientExists
+Action Parameters : {"messageFormat":"JSON","messageArguments":[{"request":{"FirstName":null,"LastName":null,"Email":"testing.demo+66@gmail.com","Password":null,"Image":null,"MobileNumber":null,"Company":null,"AffiliateId":null,"DeviceType":null,"DeviceToken":null,"AddedDate":"\/Date(-62135596800000)\/","SendDisclosureEmail":false}}]}
+
+2017-03-22 14:56:32.7851|INFO|api.Helpers.NLogger|JSON
+Method: POST
+URL: https://localhost:9999/api/v1/profile/checkClientExists
+Controller : api.Controllers.ProfileController
+Action : checkClientExists
+Action Parameters : {"messageFormat":"JSON","messageArguments":[{"request":{"FirstName":null,"LastName":null,"Email":"testing.demo+67@gmail.com","Password":null,"Image":null,"MobileNumber":null,"Company":null,"AffiliateId":null,"DeviceType":null,"DeviceToken":null,"AddedDate":"\/Date(-62135596800000)\/","SendDisclosureEmail":false}}]}
+
+2017-03-22 14:56:46.5341|INFO|api.Helpers.NLogger|JSON
+Method: POST
+URL: https://localhost:9999/api/v1/profile/clientRegister
+Controller : api.Controllers.ProfileController
+Action : Register
+Action Parameters : {"messageFormat":"JSON","messageArguments":[{"request":{"FirstName":"John","LastName":"Watson","Email":"testing.demo+67@gmail.com","Password":"31510a15c71a2428bb7cd00e2d8f3b5d","Image":null,"MobileNumber":"1111111111","Company":null,"AffiliateId":null,"DeviceType":null,"DeviceToken":null,"AddedDate":"\/Date(-62135596800000)\/","SendDisclosureEmail":false}}]}
+
+2017-03-22 14:59:58.2312|INFO|api.Helpers.NLogger|JSON
+Method: POST
+URL: https://localhost:9999/api/v1/profile/clientRegister
+Controller : api.Controllers.ProfileController
+Action : Register
+Action Parameters : {"messageFormat":"JSON","messageArguments":[{"request":{"FirstName":"John","LastName":"Watson","Email":"testing.demo+65@gmail.com","Password":"b2557d116d262a64584a5f8e1470e50b","Image":null,"MobileNumber":"1111111111","Company":null,"AffiliateId":null,"DeviceType":null,"DeviceToken":null,"AddedDate":"\/Date(-62135596800000)\/","SendDisclosureEmail":false}}]}
+
+2017-03-22 15:04:40.0720|INFO|api.Helpers.NLogger|JSON
+Method: POST
+URL: https://localhost:9999/api/v1/profile/clientRegister
+Controller : api.Controllers.ProfileController
+Action : Register
+Action Parameters : {"messageFormat":"JSON","messageArguments":[{"request":{"FirstName":"John","LastName":"Watson","Email":"testing.demo+60@gmail.com","Password":"b223a2910596c5cfe56345dd1504ebd7","Image":null,"MobileNumber":"1111111111","Company":null,"AffiliateId":null,"DeviceType":null,"DeviceToken":null,"AddedDate":"\/Date(-62135596800000)\/","SendDisclosureEmail":false}}]}
+
+2017-03-22 15:07:10.5976|INFO|api.Helpers.NLogger|JSON
+Method: POST
+URL: https://localhost:9999/api/v1/profile/clientRegister
+Controller : api.Controllers.ProfileController
+Action : Register
+Action Parameters : {"messageFormat":"JSON","messageArguments":[{"request":{"FirstName":"John","LastName":"Watson","Email":"testing.demo+61@gmail.com","Password":"b090b9fdf1cc77cccb728a863c038f1e","Image":null,"MobileNumber":"1111111111","Company":null,"AffiliateId":null,"DeviceType":null,"DeviceToken":null,"AddedDate":"\/Date(-62135596800000)\/","SendDisclosureEmail":false}}]}
+
+2017-03-22 15:09:43.2275|INFO|api.Helpers.NLogger|JSON
+Method: POST
+URL: https://localhost:9999/api/v1/profile/clientRegister
+Controller : api.Controllers.ProfileController
+Action : Register
+Action Parameters : {"messageFormat":"JSON","messageArguments":[{"request":{"FirstName":"John","LastName":"Watson","Email":"testing.demo+62@gmail.com","Password":"b7404df1b3915dcdb9efb4794c7e7110","Image":null,"MobileNumber":"1111111111","Company":null,"AffiliateId":null,"DeviceType":null,"DeviceToken":null,"AddedDate":"\/Date(-62135596800000)\/","SendDisclosureEmail":false}}]}
+

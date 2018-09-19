@@ -1,0 +1,15 @@
+C:\Inetpub\wwwroot\aussie vss\NewAussie.root\NewAussie\dblib\obj\Release\ResolveAssemblyReference.cache
+C:\Inetpub\wwwroot\aussie vss\NewAussie.root\NewAussie\dblib\bin\Debug\dblib.dll
+C:\Inetpub\wwwroot\aussie vss\NewAussie.root\NewAussie\dblib\obj\Release\dblib.dll
+C:\Inetpub\wwwroot\ProZion\dblib\bin\Debug\dblib.dll
+C:\Inetpub\wwwroot\ProZion\dblib\obj\Release\ResolveAssemblyReference.cache
+C:\Inetpub\wwwroot\ProZion\dblib\obj\Release\dblib.dll
+E:\Projects\latest\AircallObjects\dblib\bin\Debug\dblib.dll
+E:\Projects\latest\AircallObjects\dblib\obj\Release\dblib.dll
+E:\Projects\latest\AircallObjects\dblib\obj\Release\dblib.csprojResolveAssemblyReference.cache
+E:\Vishnu\Project\Aircall\23-06-2017\AircallObjects\dblib\bin\Debug\dblib.dll
+E:\Vishnu\Project\Aircall\23-06-2017\AircallObjects\dblib\obj\Release\dblib.csprojResolveAssemblyReference.cache
+E:\Vishnu\Project\Aircall\23-06-2017\AircallObjects\dblib\obj\Release\dblib.dll
+D:\Guoxinliu917\Jun\Aircall\AircallObjects\dblib\bin\Debug\dblib.dll
+D:\Guoxinliu917\Jun\Aircall\AircallObjects\dblib\obj\Release\dblib.dll
+D:\Guoxinliu917\Jun\Aircall\AircallObjects\dblib\obj\Release\dblib.csproj.CoreCompileInputs.cache

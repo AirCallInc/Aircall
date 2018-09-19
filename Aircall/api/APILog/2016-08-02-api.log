@@ -1,0 +1,140 @@
+2016-08-02 11:51:12.2326|INFO|api.Helpers.NLogger|JSON
+Method: POST
+URL: http://192.168.1.119:6987/profile/PastServiceListingDetail
+Controller : api.Controllers.ProfileController
+Action : PastServiceListingDetail
+Action Parameters : {"messageFormat":"JSON","messageArguments":[{"request":{"Email":null,"ClientId":4,"PlanTypeId":0,"PlanId":0,"Month":0,"AddressId":null,"UnitId":0,"ServiceId":9,"PartType":null,"PageId":0,"ShowDeleted":false,"LastCallDateTime":null,"PageNumber":null,"pageSize":0}}]}
+
+2016-08-02 11:52:26.8455|INFO|api.Helpers.NLogger|JSON
+Method: POST
+URL: http://192.168.1.119:6987/profile/PastServiceListingDetail
+Controller : api.Controllers.ProfileController
+Action : PastServiceListingDetail
+Action Parameters : {"messageFormat":"JSON","messageArguments":[{"request":{"Email":null,"ClientId":4,"PlanTypeId":0,"PlanId":0,"Month":0,"AddressId":null,"UnitId":0,"ServiceId":10002,"PartType":null,"PageId":0,"ShowDeleted":false,"LastCallDateTime":null,"PageNumber":null,"pageSize":0}}]}
+
+2016-08-02 11:52:39.8415|INFO|api.Helpers.NLogger|JSON
+Method: POST
+URL: http://192.168.1.119:6987/profile/PastServiceListingDetail
+Controller : api.Controllers.ProfileController
+Action : PastServiceListingDetail
+Action Parameters : {"messageFormat":"JSON","messageArguments":[{"request":{"Email":null,"ClientId":4,"PlanTypeId":0,"PlanId":0,"Month":0,"AddressId":null,"UnitId":0,"ServiceId":10002,"PartType":null,"PageId":0,"ShowDeleted":false,"LastCallDateTime":null,"PageNumber":null,"pageSize":0}}]}
+
+2016-08-02 12:25:13.7932|INFO|api.Helpers.NLogger|JSON
+Method: POST
+URL: http://192.168.1.119:6987/profile/DeleteOldData
+Controller : api.Controllers.ProfileController
+Action : DeleteOldData
+Action Parameters : {"messageFormat":"JSON","messageArguments":[{"request":{"ClientId":3,"UnitName":null,"ManufactureDate":null,"PlanTypeId":null,"UnitTon":null,"AddressId":null,"UnitTypeId":null,"AutoRenewal":null,"SpecialOffer":null,"Status":null,"OptionalInformation":null,"DeleteOldData":false}}]}
+
+2016-08-02 12:25:21.7097|INFO|api.Helpers.NLogger|JSON
+Method: POST
+URL: http://192.168.1.119:6987/profile/DeleteOldData
+Controller : api.Controllers.ProfileController
+Action : DeleteOldData
+Action Parameters : {"messageFormat":"JSON","messageArguments":[{"request":{"ClientId":3,"UnitName":null,"ManufactureDate":null,"PlanTypeId":null,"UnitTon":null,"AddressId":null,"UnitTypeId":null,"AutoRenewal":null,"SpecialOffer":null,"Status":null,"OptionalInformation":null,"DeleteOldData":false}}]}
+
+2016-08-02 12:26:14.9762|INFO|api.Helpers.NLogger|JSON
+Method: POST
+URL: http://192.168.1.119:6987/profile/DeleteOldData
+Controller : api.Controllers.ProfileController
+Action : DeleteOldData
+Action Parameters : {"messageFormat":"JSON","messageArguments":[{"request":{"ClientId":3,"UnitName":null,"ManufactureDate":null,"PlanTypeId":null,"UnitTon":null,"AddressId":null,"UnitTypeId":null,"AutoRenewal":null,"SpecialOffer":null,"Status":null,"OptionalInformation":null,"DeleteOldData":false}}]}
+
+2016-08-02 12:36:41.0678|INFO|api.Helpers.NLogger|JSON
+Method: POST
+URL: http://192.168.1.119:6987/profile/DeleteOldData
+Controller : api.Controllers.ProfileController
+Action : DeleteOldData
+Action Parameters : {"messageFormat":"JSON","messageArguments":[{"request":{"ClientId":3,"UnitName":null,"ManufactureDate":null,"PlanTypeId":null,"UnitTon":null,"AddressId":null,"UnitTypeId":null,"AutoRenewal":null,"SpecialOffer":null,"Status":null,"OptionalInformation":null,"DeleteOldData":false}}]}
+
+2016-08-02 12:36:59.0138|INFO|api.Helpers.NLogger|JSON
+Method: POST
+URL: http://192.168.1.119:6987/profile/DeleteOldData
+Controller : api.Controllers.ProfileController
+Action : DeleteOldData
+Action Parameters : {"messageFormat":"JSON","messageArguments":[{"request":{"ClientId":3,"UnitName":null,"ManufactureDate":null,"PlanTypeId":null,"UnitTon":null,"AddressId":null,"UnitTypeId":null,"AutoRenewal":null,"SpecialOffer":null,"Status":null,"OptionalInformation":null,"DeleteOldData":false}}]}
+
+2016-08-02 13:14:58.3651|INFO|api.Helpers.NLogger|JSON
+Method: POST
+URL: http://192.168.1.119:6987/profile/GetBillingHistory
+Controller : api.Controllers.ProfileController
+Action : GetBillingHistory
+Action Parameters : {"messageFormat":"JSON","messageArguments":[{"request":{"Email":null,"ClientId":3,"PlanTypeId":0,"PlanId":0,"Month":0,"AddressId":null,"UnitId":0,"ServiceId":0,"PartType":null,"PageId":0,"ShowDeleted":false,"LastCallDateTime":null,"PageNumber":null,"pageSize":0}}]}
+
+2016-08-02 13:15:12.1601|INFO|api.Helpers.NLogger|JSON
+Method: POST
+URL: http://192.168.1.119:6987/profile/GetBillingHistory
+Controller : api.Controllers.ProfileController
+Action : GetBillingHistory
+Action Parameters : {"messageFormat":"JSON","messageArguments":[{"request":{"Email":null,"ClientId":3,"PlanTypeId":0,"PlanId":0,"Month":0,"AddressId":null,"UnitId":0,"ServiceId":0,"PartType":null,"PageId":0,"ShowDeleted":false,"LastCallDateTime":null,"PageNumber":null,"pageSize":0}}]}
+
+2016-08-02 15:16:02.6959|INFO|api.Helpers.NLogger|JSON
+Method: POST
+URL: http://192.168.1.119:6987/employee/ForgotPassword
+Controller : api.Controllers.EmployeeController
+Action : ForgotPassword
+Action Parameters : {"messageFormat":"JSON","messageArguments":[{"request":{"Email":"itesting.demo@gmail.com","ClientId":0,"PlanTypeId":0,"PlanId":0,"Month":0,"AddressId":null,"UnitId":0,"ServiceId":0,"PartType":null,"PageId":0,"ShowDeleted":false,"LastCallDateTime":null,"PageNumber":null,"pageSize":0}}]}
+
+2016-08-02 15:16:45.1821|INFO|api.Helpers.NLogger|JSON
+Method: POST
+URL: http://192.168.1.119:6987/employee/ForgotPassword
+Controller : api.Controllers.EmployeeController
+Action : ForgotPassword
+Action Parameters : {"messageFormat":"JSON","messageArguments":[{"request":{"Email":"itesting.demo@gmail.com","ClientId":0,"PlanTypeId":0,"PlanId":0,"Month":0,"AddressId":null,"UnitId":0,"ServiceId":0,"PartType":null,"PageId":0,"ShowDeleted":false,"LastCallDateTime":null,"PageNumber":null,"pageSize":0}}]}
+
+2016-08-02 15:17:36.2669|INFO|api.Helpers.NLogger|JSON
+Method: POST
+URL: http://192.168.1.119:6987/profile/clientForgotPassword
+Controller : api.Controllers.ProfileController
+Action : ForgotPassword
+Action Parameters : {"messageFormat":"JSON","messageArguments":[{"request":{"Email":"itesting.demo@gmail.com","ClientId":0,"PlanTypeId":0,"PlanId":0,"Month":0,"AddressId":null,"UnitId":0,"ServiceId":0,"PartType":null,"PageId":0,"ShowDeleted":false,"LastCallDateTime":null,"PageNumber":null,"pageSize":0}}]}
+
+2016-08-02 15:22:02.7435|INFO|api.Helpers.NLogger|JSON
+Method: POST
+URL: http://192.168.1.119:6987/profile/clientForgotPassword
+Controller : api.Controllers.ProfileController
+Action : ForgotPassword
+Action Parameters : {"messageFormat":"JSON","messageArguments":[{"request":{"Email":"itesting.demo@gmail.com","ClientId":0,"PlanTypeId":0,"PlanId":0,"Month":0,"AddressId":null,"UnitId":0,"ServiceId":0,"PartType":null,"PageId":0,"ShowDeleted":false,"LastCallDateTime":null,"PageNumber":null,"pageSize":0}}]}
+
+2016-08-02 15:27:02.4912|INFO|api.Helpers.NLogger|JSON
+Method: POST
+URL: http://192.168.1.119:6987/profile/clientForgotPassword
+Controller : api.Controllers.ProfileController
+Action : ForgotPassword
+Action Parameters : {"messageFormat":"JSON","messageArguments":[{"request":{"Email":"itesting.demo@gmail.com","ClientId":0,"PlanTypeId":0,"PlanId":0,"Month":0,"AddressId":null,"UnitId":0,"ServiceId":0,"PartType":null,"PageId":0,"ShowDeleted":false,"LastCallDateTime":null,"PageNumber":null,"pageSize":0}}]}
+
+2016-08-02 16:19:40.1618|INFO|api.Helpers.NLogger|JSON
+Method: POST
+URL: http://192.168.1.119:6987/employee/ForgotPassword
+Controller : api.Controllers.EmployeeController
+Action : ForgotPassword
+Action Parameters : {"messageFormat":"JSON","messageArguments":[{"request":{"Email":"testing.demu@gmail.com","ClientId":0,"PlanTypeId":0,"PlanId":0,"Month":0,"AddressId":null,"UnitId":0,"ServiceId":0,"PartType":null,"PageId":0,"ShowDeleted":false,"ServiceCaseNumber":null,"LastCallDateTime":null,"PageNumber":null,"pageSize":0}}]}
+
+2016-08-02 16:19:55.0181|INFO|api.Helpers.NLogger|JSON
+Method: POST
+URL: http://192.168.1.119:6987/employee/ForgotPassword
+Controller : api.Controllers.EmployeeController
+Action : ForgotPassword
+Action Parameters : {"messageFormat":"JSON","messageArguments":[{"request":{"Email":"testing.demu@gmail.com","ClientId":0,"PlanTypeId":0,"PlanId":0,"Month":0,"AddressId":null,"UnitId":0,"ServiceId":0,"PartType":null,"PageId":0,"ShowDeleted":false,"ServiceCaseNumber":null,"LastCallDateTime":null,"PageNumber":null,"pageSize":0}}]}
+
+2016-08-02 16:22:04.7076|INFO|api.Helpers.NLogger|JSON
+Method: POST
+URL: http://192.168.1.119:6987/employee/ForgotPassword
+Controller : api.Controllers.EmployeeController
+Action : ForgotPassword
+Action Parameters : {"messageFormat":"JSON","messageArguments":[{"request":{"Email":"testing.demu@gmail.com","ClientId":0,"PlanTypeId":0,"PlanId":0,"Month":0,"AddressId":null,"UnitId":0,"ServiceId":0,"PartType":null,"PageId":0,"ShowDeleted":false,"ServiceCaseNumber":null,"LastCallDateTime":null,"PageNumber":null,"pageSize":0}}]}
+
+2016-08-02 16:22:45.1671|INFO|api.Helpers.NLogger|JSON
+Method: POST
+URL: http://192.168.1.119:6987/employee/ForgotPassword
+Controller : api.Controllers.EmployeeController
+Action : ForgotPassword
+Action Parameters : {"messageFormat":"JSON","messageArguments":[{"request":{"Email":"testing.demu@gmail.com","ClientId":0,"PlanTypeId":0,"PlanId":0,"Month":0,"AddressId":null,"UnitId":0,"ServiceId":0,"PartType":null,"PageId":0,"ShowDeleted":false,"ServiceCaseNumber":null,"LastCallDateTime":null,"PageNumber":null,"pageSize":0}}]}
+
+2016-08-02 17:04:29.9009|INFO|api.Helpers.NLogger|JSON
+Method: POST
+URL: http://192.168.1.119:6987/employee/SubmitRequestServiceForClient
+Controller : api.Controllers.EmployeeController
+Action : SubmitRequestServiceForClient
+Action Parameters : {"messageFormat":"JSON","messageArguments":[{"SubmittedData":{"EmployeeId":4,"ClientId":2,"AddressId":4,"UnitIds":[2106,2010],"TimeSlot":"08:00 AM - 12:00 PM","ServiceDate":"\/Date(1470076200000)\/","PurposeOfVisit":"ContinuingPreviousWork","Notes":"Notes"}}]}
+

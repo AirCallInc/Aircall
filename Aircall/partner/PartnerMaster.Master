@@ -1,0 +1,90 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="PartnerMaster.master.cs" Inherits="Aircall.partner.PartnerMaster" %>
+
+<%@ Register TagPrefix="uc1" TagName="Header" Src="~/partner/controls/header.ascx" %>
+<%@ Register TagPrefix="uc1" TagName="Sidebar" Src="~/partner/controls/sidebar.ascx" %>
+<%@ Register TagPrefix="uc1" TagName="Footer" Src="~/partner/controls/footer.ascx" %>
+
+<!DOCTYPE html>
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+    <title>Aircall Partner</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+    <meta content="" name="description" />
+    <meta content="" name="author" />
+
+    <link href="<%=Application["SiteAddress"]%>partner/assets/bootstrap/css/bootstrap.min.css" rel="stylesheet" />
+    <link href="<%=Application["SiteAddress"]%>partner/assets/bootstrap/css/bootstrap-responsive.min.css" rel="stylesheet" />
+    <%--<link href="<%=Application["SiteAddress"]%>partner/assets/chosen-bootstrap/chosen/chosen.css" rel="stylesheet" type="text/css" />--%>
+    <link href="<%=Application["SiteAddress"]%>partner/assets/font-awesome/css/font-awesome.css" rel="stylesheet" />
+    <link href="<%=Application["SiteAddress"]%>partner/css/style.min.css" rel="stylesheet" />
+    <link href="<%=Application["SiteAddress"]%>partner/css/style_responsive.css" rel="stylesheet" />
+    <%--<link href="<%=Application["SiteAddress"]%>partner/assets/fancybox/source/jquery.fancybox.css"
+        rel="stylesheet" />--%>
+    <link href="<%=Application["SiteAddress"]%>partner/assets/bootstrap-toggle-buttons/static/stylesheets/bootstrap-toggle-buttons.css" rel="stylesheet" />
+    <link href="<%=Application["SiteAddress"]%>partner/assets/uniform/css/uniform.default.css" rel="stylesheet" type="text/css" />
+    <link rel="stylesheet" href="<%=Application["SiteAddress"] %>partner/assets/data-tables/DT_bootstrap.css" />
+    <link href="<%=Application["SiteAddress"]%>partner/assets/jqvmap/jqvmap/jqvmap.css" media="screen" rel="stylesheet" type="text/css" />
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <script src="<%=Application["SiteAddress"]%>partner/js/jquery-1.8.3.min.js"></script>
+    <link href="<%=Application["SiteAddress"]%>partner/css/style_default.css" rel="stylesheet" id='style_color' />
+    <asp:ContentPlaceHolder ID="head" runat="server">
+    </asp:ContentPlaceHolder>
+</head>
+<body class="fixed-top">
+    <form id="aspNetForm" runat="server">
+        <asp:ScriptManager ID="ScriptManager1" runat="server"></asp:ScriptManager>
+        <div>
+            <!--Header-->
+            <uc1:Header ID="Header" runat="server" />
+
+            <!--Content-->
+            <div id="container" class="row-fluid">
+                <!--Sidebar Start-->
+                <div id="sidebar" class="nav-collapse collapse">
+                    <div class="sidebar-toggler hidden-phone"></div>
+                    <uc1:Sidebar ID="Sidebar" runat="server" />
+                </div>
+                <!--Sidebar End-->
+
+                <!--Main Content Start-->
+                <div id="main-content">
+                    <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+                    </asp:ContentPlaceHolder>
+                </div>
+                <!--Main Content End-->
+            </div>
+
+            <!--Footer-->
+            <uc1:Footer ID="Footer" runat="server" />
+
+            <script type="text/javascript" src="<%=Application["SiteAddress"]%>partner/assets/bootstrap/js/bootstrap.min.js"></script>
+            <script type="text/javascript" src="<%=Application["SiteAddress"]%>partner/js/jquery.blockui.js"></script>
+            <script type="text/javascript" src="<%=Application["SiteAddress"]%>partner/assets/flot/jquery.flot.js"></script>
+            <%--<script type="text/javascript" src="<%=Application["SiteAddress"]%>partner/assets/flot/jquery.flot.resize.js"></script>--%>
+            <script type="text/javascript" src="<%=Application["SiteAddress"]%>partner/assets/flot/jquery.flot.pie.js"></script>
+            <script type="text/javascript" src="<%=Application["SiteAddress"]%>partner/assets/flot/jquery.flot.stack.js"></script>
+            <script type="text/javascript" src="<%=Application["SiteAddress"]%>partner/assets/flot/jquery.flot.crosshair.js"></script>
+            <script type="text/javascript" src="<%=Application["SiteAddress"]%>partner/assets/flot/jquery.flot.axislabels.js"></script>
+            <script type="text/javascript" src="<%=Application["SiteAddress"]%>partner/assets/uniform/jquery.uniform.min.js"></script>
+            <script type="text/javascript" src="<%=Application["SiteAddress"]%>partner/assets/data-tables/jquery.dataTables.js"></script>
+            <script type="text/javascript" src="<%=Application["SiteAddress"]%>partner/assets/data-tables/DT_bootstrap.js"></script>
+            <%--<script type="text/javascript" src="<%=Application["SiteAddress"]%>partner/assets/chosen-bootstrap/chosen/chosen.jquery.min.js"></script>--%>
+            <%--<script type="text/javascript" src="<%=Application["SiteAddress"]%>partner/assets/bootstrap-inputmask/bootstrap-inputmask.min.js"></script>--%>
+            <script type="text/javascript" src="<%=Application["SiteAddress"]%>partner/assets/bootstrap-toggle-buttons/static/js/jquery.toggle.buttons.js"></script>
+            <%--<script type="text/javascript" src="<%=Application["SiteAddress"]%>partner/assets/bootstrap-wysihtml5/wysihtml5-0.3.0.js"></script>
+            <script type="text/javascript" src="<%=Application["SiteAddress"]%>partner/assets/bootstrap-wysihtml5/bootstrap-wysihtml5.js"></script>--%>
+            <script src="<%=Application["SiteAddress"]%>partner/js/scripts.js"></script>
+            <script src="<%=Application["SiteAddress"]%>partner/js/common.js"></script>
+            <script>
+                jQuery(document).ready(function () {
+                    if (document.URL.indexOf("dashboard.aspx") != -1) {
+
+                    }
+                    else { App.init(); }
+
+                });</script>
+        </div>
+    </form>
+</body>
+</html>

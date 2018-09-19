@@ -1,0 +1,35 @@
+2018-08-12 09:28:22.9692|INFO|api.Helpers.NLogger|JSON
+Method: POST
+URL: http://localhost:15419/v1/profile/clientlogin
+Controller : api.Controllers.ProfileController
+Action : Login
+Action Parameters : {"messageFormat":"JSON","messageArguments":[{"model":{"Email":"elva.wang@gmail.com","Password":"58d65bdd8944dc8375c30b2ba10ae699","DeviceType":null,"DeviceToken":"abc123","Latitude":null,"Longitude":null}}]}
+
+2018-08-12 09:28:53.2923|INFO|api.Helpers.NLogger|JSON
+Method: POST
+URL: http://localhost:15419/v1/Profile/AddClientAddress
+Controller : api.Controllers.ProfileController
+Action : AddClientAddress
+Action Parameters : {"messageFormat":"JSON","messageArguments":[{"ModelData":{"Id":0,"ClientId":1152,"Address":"Xiangzhou","State":1,"StateName":"California","City":6,"CityName":"Alhambra","ZipCode":"91803","Latitude":null,"Longitude":null,"IsDefaultAddress":null,"AllowDelete":false,"ShowAddressInApp":false,"PhoneNumber":null,"MobileNumber":null,"OfficeNumber":null,"HomeNumber":null,"Email":null,"PDFUrl":null,"PendingInactive":false}}]}
+
+2018-08-12 09:38:59.9571|INFO|api.Helpers.NLogger|JSON
+Method: POST
+URL: http://localhost:15419/v1/Profile/AddClientAddress
+Controller : api.Controllers.ProfileController
+Action : AddClientAddress
+Action Parameters : {"messageFormat":"JSON","messageArguments":[{"ModelData":{"Id":0,"ClientId":1152,"Address":"Xiangzhou","State":1,"StateName":"California","City":6,"CityName":"Alhambra","ZipCode":"91803","Latitude":null,"Longitude":null,"IsDefaultAddress":null,"AllowDelete":false,"ShowAddressInApp":false,"PhoneNumber":null,"MobileNumber":null,"OfficeNumber":null,"HomeNumber":null,"Email":null,"PDFUrl":null,"PendingInactive":false}}]}
+
+2018-08-12 23:44:44.5724|INFO|api.Helpers.NLogger|JSON
+Method: POST
+URL: http://localhost:15419/v1/profile/clientlogin
+Controller : api.Controllers.ProfileController
+Action : Login
+Action Parameters : {"messageFormat":"JSON","messageArguments":[{"model":{"Email":"elva.wang@gmail.com","Password":"58d65bdd8944dc8375c30b2ba10ae699","DeviceType":null,"DeviceToken":"abc123","Latitude":null,"Longitude":null}}]}
+
+2018-08-12 23:45:07.4597|INFO|api.Helpers.NLogger|JSON
+Method: GET
+URL: http://localhost:15419/v1/Common/GetAllPlanType
+Controller : api.Controllers.CommonController
+Action : GetAllPlanType
+Action Parameters : {"messageFormat":"JSON","messageArguments":[{}]}
+

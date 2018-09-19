@@ -1,0 +1,28 @@
+2017-04-29 16:50:57.6659|INFO|api.Helpers.NLogger|JSON
+Method: POST
+URL: http://192.168.1.126:9999/api/v1/profile/ServiceRecheduleRequest
+Controller : api.Controllers.ProfileController
+Action : ServiceRecheduleRequest
+Action Parameters : {"messageFormat":"JSON","messageArguments":[{"request":{"EmployeeId":null,"ServiceId":10104,"ClientId":1019,"AddressId":0,"PurposeOfVisit":null,"ServiceRequestedTime":"08:00 AM - 12:00 PM","ServiceRequestedOn":"\/Date(1494140400000)\/","Notes":null,"Reason":"4th","IsCancelled":false,"Units":null,"NotificationId":0,"IsLateReschedule":false}}]}
+
+2017-04-29 17:14:34.0115|INFO|api.Helpers.NLogger|JSON
+Method: POST
+URL: http://192.168.1.126:9999/api/v1/profile/ServiceRecheduleRequest
+Controller : api.Controllers.ProfileController
+Action : ServiceRecheduleRequest
+Action Parameters : {"messageFormat":"JSON","messageArguments":[{"request":{"EmployeeId":null,"ServiceId":10104,"ClientId":1019,"AddressId":0,"PurposeOfVisit":null,"ServiceRequestedTime":"08:00 AM - 12:00 PM","ServiceRequestedOn":"\/Date(1494140400000)\/","Notes":null,"Reason":"4th","IsCancelled":false,"Units":null,"NotificationId":0,"IsLateReschedule":false}}]}
+
+2017-04-29 17:23:06.6892|INFO|api.Helpers.NLogger|JSON
+Method: POST
+URL: http://192.168.1.126:9999/api/v1/profile/ServiceRecheduleRequest
+Controller : api.Controllers.ProfileController
+Action : ServiceRecheduleRequest
+Action Parameters : {"messageFormat":"JSON","messageArguments":[{"request":{"EmployeeId":null,"ServiceId":10104,"ClientId":1019,"AddressId":0,"PurposeOfVisit":null,"ServiceRequestedTime":"08:00 AM - 12:00 PM","ServiceRequestedOn":"\/Date(1494140400000)\/","Notes":null,"Reason":"4th","IsCancelled":false,"Units":null,"NotificationId":0,"IsLateReschedule":false}}]}
+
+2017-04-29 17:27:12.7818|INFO|api.Helpers.NLogger|JSON
+Method: POST
+URL: http://192.168.1.126:9999/api/v1/profile/ServiceRecheduleRequest
+Controller : api.Controllers.ProfileController
+Action : ServiceRecheduleRequest
+Action Parameters : {"messageFormat":"JSON","messageArguments":[{"request":{"EmployeeId":null,"ServiceId":10104,"ClientId":1019,"AddressId":0,"PurposeOfVisit":null,"ServiceRequestedTime":"08:00 AM - 12:00 PM","ServiceRequestedOn":"\/Date(1494140400000)\/","Notes":null,"Reason":"4th","IsCancelled":false,"Units":null,"NotificationId":0,"IsLateReschedule":false}}]}
+

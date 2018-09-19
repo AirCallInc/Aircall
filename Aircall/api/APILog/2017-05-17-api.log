@@ -1,0 +1,7 @@
+2017-05-17 17:26:10.8187|INFO|api.Helpers.NLogger|JSON
+Method: GET
+URL: http://192.168.1.124:8989/api/v1/employee/ResendReport1?ReportId=9&CCEmail=testlocalcoding@gmail.com
+Controller : api.Controllers.EmployeeController
+Action : ResendReport1
+Action Parameters : {"messageFormat":"JSON","messageArguments":[{"ReportId":9,"CCEmail":"testlocalcoding@gmail.com"}]}
+

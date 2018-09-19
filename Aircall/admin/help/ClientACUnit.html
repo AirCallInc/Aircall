@@ -1,0 +1,746 @@
+
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+  <meta charset="utf-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="generator" content="HelpNDoc Personal Edition 5.2.0.265">
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <link rel="icon" href="favicon.ico"/>
+
+  <title>Client AC Unit</title>
+  <meta name="description" content="" /> 
+  <meta name="keywords" content="">
+
+
+
+  <!-- Twitter Card data -->
+  <meta name="twitter:card" content="summary">
+  <meta name="twitter:title" content="Client AC Unit">
+  <meta name="twitter:description" content="">
+
+  <!-- Open Graph data -->
+  <meta property="og:title" content="Client AC Unit" />
+  <meta property="og:type" content="article" />
+  <meta property="og:description" content="" />
+  <meta property="og:site_name" content="AirCall Documentation" /> 
+
+  <!-- Bootstrap core CSS -->
+  <link href="vendors/bootstrap-3.3.6/css/bootstrap.min.css" rel="stylesheet"/>
+
+  <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
+  <link href="vendors/bootstrap-3.3.6/css/ie10-viewport-bug-workaround.css" rel="stylesheet"/>
+
+  <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+  <!--[if lt IE 9]>
+      <script src="vendors/html5shiv-3.7.2/html5shiv.min.js"></script>
+      <script src="vendors/respond-1.4.2/respond.min.js"></script>
+    <![endif]-->
+
+  <!-- JsTree styles -->
+  <link href="vendors/jstree-3.3.2/themes/default/style.min.css" rel="stylesheet"/>
+
+  <!-- Hnd styles -->
+  <link href="css/layout.min.css" rel="stylesheet" />
+  <link href="css/effects.min.css" rel="stylesheet" />
+  <link href="css/theme-light-blue.min.css" rel="stylesheet" />
+  <link href="css/print.min.css" rel="stylesheet" media="print" />
+  <style type="text/css">nav { width: 350px} @media screen and (min-width:769px) { body.md-nav-expanded #main { margin-left: 350px} body.md-nav-expanded header { padding-left: 364px} }</style>
+
+  <!-- Content style -->
+  <link href="css/hnd.content.css" rel="stylesheet" />
+
+  
+
+
+
+</head>
+
+<body class="md-nav-expanded">
+
+
+
+  <div id="skip-link">
+    <a href="#main-content" class="element-invisible">Skip to main content</a>
+  </div>
+
+  <header class="headroom">
+    <button class="hnd-toggle btn btn-default">
+      <span class="sr-only">Toggle navigation</span>
+      <span class="icon-bar"></span><span class="icon-bar"></span><span class="icon-bar"></span>        
+    </button>
+    <h1>AirCall Documentation</h1>
+    
+  </header>
+
+  <nav class="md-nav-expanded">
+    <!-- Nav tabs -->
+    <ul class="tab-tabs nav nav-tabs" role="tablist">
+      <li id="nav-close"> 
+        <button class="hnd-toggle btn btn-default">
+          <span class="glyphicon glyphicon-remove" aria-hidden="true"></span>
+        </button>
+      </li>
+      
+	  
+        <li role="presentation" class="tab active">
+            <a href="#contents" aria-controls="contents" role="tab" data-toggle="tab">
+                <i class="glyphicon glyphicon-list"></i>
+                Contents
+            </a>
+        </li>
+      
+        <li role="presentation" class="tab">
+            <a href="#index" aria-controls="index" role="tab" data-toggle="tab">
+                <i class="glyphicon glyphicon-asterisk"></i>
+                Index
+            </a>
+        </li>
+      
+        <li role="presentation" class="tab">
+            <a href="#search" aria-controls="search" role="tab" data-toggle="tab">
+                <i class="glyphicon glyphicon-search"></i>
+                Search
+            </a>
+        </li>
+      
+    </ul>  <!-- /Nav tabs -->
+
+    <!-- Tab panes -->
+    <div class="tab-content">
+	  
+      <div role="tabpanel" class="tab-pane active" id="contents">
+        <div id="toc" class="tree-container unselectable"
+            data-url="_toc.json"
+            data-openlvl="1"
+        >
+            
+        </div>
+      </div>  <!-- /contents-->
+      
+      <div role="tabpanel" class="tab-pane" id="index">
+        <div id="keywords" class="tree-container unselectable"
+            data-url="_keywords.json"
+            data-openlvl="1"
+        >
+            
+        </div>
+      </div>  <!-- /index-->
+      
+      <div role="tabpanel" class="tab-pane" id="search">
+        <div class="search-content">
+          <div class="search-input">
+            <form id="search-form">
+              <div class="form-group">
+                <div class="input-group">
+                  <input type="text" class="form-control" id="input-search" name="input-search" placeholder="Search..." />
+                  <span class="input-group-btn">
+                    <button class="btn btn-default" type="submit">
+                      <span class="glyphicon glyphicon-search" aria-hidden="true"></span>
+                    </button>
+                  </span>
+                </div>
+              </div>
+            </form>
+          </div>  <!-- /search-input -->
+          <div class="search-result">
+            <div id="search-info"></div>
+            <div class="tree-container unselectable" id="search-tree"></div>
+          </div>  <!-- /search-result -->
+        </div>  <!-- /search-content -->
+      </div>  <!-- /search-->
+      
+    </div>  <!-- /Tab panes -->
+
+  </nav>
+
+  <div id="main">
+
+    <article>
+        <div id="topic-content" class="container-fluid" 
+		  data-hnd-id="ClientACUnit"
+		  data-hnd-context="20"
+		  data-hnd-title="Client AC Unit"
+		>
+            
+                <div class="navigation">
+                    <ol class="breadcrumb">
+                        <li><a href="ClientManagement.html">Client Management</a></li>
+                    </ol>
+                    <div class="nav-arrows">
+                        <div class="btn-group btn-group-xs" role="group"><a class="btn btn-default" href="ClientManagement.html" title="Client Management" role="button"><span class="glyphicon glyphicon-menu-up" aria-hidden="true"></span></a><a class="btn btn-default" href="ClientProfiles.html" title="Client Profiles" role="button"><span class="glyphicon glyphicon-menu-left" aria-hidden="true"></span></a><a class="btn btn-default" href="BillingHistory.html" title="Billing History" role="button"><span class="glyphicon glyphicon-menu-right" aria-hidden="true"></span></a></div>
+                    </div>
+                </div> 
+            
+
+            <a id="main-content"></a>
+
+            
+
+            <div class="main-content">
+                
+<p></p>
+<p class="rvps2"><img width="1575" height="103" alt="" style="padding : 1px;" src="lib/Header.png"></p>
+<p class="rvps12"><span class="rvts12">Client AC Unit</span></p>
+<p class="rvps7"><span class="rvts12"><br/></span></p>
+<p class="rvps7"><span class="rvts11">• Admin can add, edit, delete units from this section.</span></p>
+<p class="rvps2"><span class="rvts11"><br/></span></p>
+<p class="rvps7"><span class="rvts11">• AC units added by the client, admin or employee are displayed in this section.</span></p>
+<p class="rvps2"><span class="rvts11"><br/></span></p>
+<p class="rvps7"><span class="rvts11">• The listing will show the Client name, plan type, unit name, status, address, and edit option to edit the unit detail.</span></p>
+<p class="rvps7"><span class="rvts38"><br/></span></p>
+<ul style="text-indent: 0px; padding: 0; margin: 0 0 0 24px; list-style-position: outside; list-style-type: disc;"><ul style="text-indent: 0px; padding: 0; margin: 0 0 0 48px; list-style-position: outside; list-style-type: circle;">
+<li style="text-indent: 0px" class="rvps7"><span class="rvts38">The fields marked (*) are compulsory.</span></li>
+</ul></ul>
+<p class="rvps7"><span class="rvts38"><br/></span></p>
+<p class="rvps7"><span class="rvts38"><br/></span></p>
+<div class="rvps10"><table border="1" cellpadding="4" cellspacing="-1" style="border-width: 0px; background-color: #ffffff; border-collapse: collapse;">
+<tr valign="top">
+<td width="143" height="19" valign="middle" style="border-width : 1px; border-color: #000000; border-style: solid; padding: 0px 7px; background-color: #e5e5e5;"><p class="rvps2"><span class="rvts32">Field</span></p>
+</td>
+<td width="390" height="19" valign="top" style="border-width : 1px; border-color: #000000; border-style: solid; padding: 0px 7px; background-color: #e5e5e5;"><p class="rvps2"><span class="rvts32">Function</span></p>
+</td>
+</tr>
+<tr valign="top">
+<td width="143" height="49" valign="top" style="border-width : 1px; border-color: #000000; border-style: solid; padding: 0px 7px;"><p class="rvps9"><span class="rvts32">Client Name (*):</span></p>
+</td>
+<td width="390" height="49" valign="top" style="border-width : 1px; border-color: #000000; border-style: solid; padding: 0px 7px;"><p class="rvps9"><span class="rvts31">Name of client for whom admin wants to add ac unit.</span></p>
+<p class="rvps9"><span class="rvts31">Here a client is selected from a searchable list.</span></p>
+</td>
+</tr>
+<tr valign="top">
+<td width="143" height="84" valign="top" style="border-width : 1px; border-color: #000000; border-style: solid; padding: 0px 7px;"><p class="rvps9"><span class="rvts32">Address of Unit (*):</span></p>
+</td>
+<td width="390" height="84" valign="top" style="border-width : 1px; border-color: #000000; border-style: solid; padding: 0px 7px;"><p class="rvps9"><span class="rvts31">Address where the unit is located.</span></p>
+<p class="rvps9"><span class="rvts31">Based on selection of client, all addresses of selected client are displayed.and it not added yet then option to add the new.</span></p>
+</td>
+</tr>
+<tr valign="top">
+<td width="143" height="157" valign="top" style="border-width : 1px; border-color: #000000; border-style: solid; padding: 0px 7px;"><p class="rvps9"><span class="rvts32">Plan Type (*):</span></p>
+</td>
+<td width="390" height="157" valign="top" style="border-width : 1px; border-color: #000000; border-style: solid; padding: 0px 7px;"><p class="rvps2"><span class="rvts31">Type of the plan for ac unit.</span></p>
+<p class="rvps2"><span class="rvts31">There are 4 different plans:</span></p>
+<ol style="text-indent: 0px; padding: 0; margin: 0 0 0 48px; list-style-position: outside; list-style-type: decimal;">
+<li value="1" style="margin-left: 0px" class="rvps21"><span class="rvts31">Residential</span></li>
+<li value="2" style="margin-left: 0px" class="rvps21"><span class="rvts31">Commercial</span></li>
+<li value="3" style="margin-left: 0px" class="rvps21"><span class="rvts31">Industrial</span></li>
+<li value="4" style="margin-left: 0px" class="rvps21"><span class="rvts31">Multi-family</span></li>
+</ol>
+<p class="rvps2"><span class="rvts31">Each plan has two packages</span></p>
+<ol style="text-indent: 0px; padding: 0; margin: 0 0 0 48px; list-style-position: outside; list-style-type: decimal;">
+<li value="1" style="margin-left: 0px" class="rvps21"><span class="rvts31">Package A (Unit &lt; 10 years)</span></li>
+<li value="2" style="margin-left: 0px" class="rvps21"><span class="rvts31">Package B (Unit &gt; 10 years)</span></li>
+</ol>
+</td>
+</tr>
+<tr valign="top">
+<td width="143" height="53" valign="top" style="border-width : 1px; border-color: #000000; border-style: solid; padding: 0px 7px;"><p class="rvps9"><span class="rvts32">Unit Name </span></p>
+</td>
+<td width="390" height="53" valign="top" style="border-width : 1px; border-color: #000000; border-style: solid; padding: 0px 7px;"><p class="rvps2"><span class="rvts31">name of the unit. if not entered by the client or admin then system will auto generate the unit name i.e. AC1, AC2 and so on.</span></p>
+</td>
+</tr>
+<tr valign="top">
+<td width="143" height="122" valign="top" style="border-width : 1px; border-color: #000000; border-style: solid; padding: 0px 7px;"><p class="rvps9"><span class="rvts32">Type of Unit (*):</span></p>
+</td>
+<td width="390" height="122" valign="top" style="border-width : 1px; border-color: #000000; border-style: solid; padding: 0px 7px;"><p class="rvps2"><span class="rvts31">Which type of unit wants to add.</span></p>
+<p class="rvps2"><span class="rvts31">There are 3 different types of unit:</span></p>
+<ol style="text-indent: 0px; padding: 0; margin: 0 0 0 48px; list-style-position: outside; list-style-type: decimal;">
+<li value="1" style="margin-left: 0px" class="rvps21"><span class="rvts31">Packaged</span></li>
+</ol>
+<ol style="text-indent: 0px; padding: 0; margin: 0 0 0 46px; list-style-position: outside; list-style-type: decimal;">
+<li value="1" style="margin-left: 0px" class="rvps22"><span class="rvts31">Split (if this is chosen, double all entry fields)</span></li>
+</ol>
+<ol style="text-indent: 0px; padding: 0; margin: 0 0 0 48px; list-style-position: outside; list-style-type: decimal;">
+<li value="2" style="margin-left: 0px" class="rvps21"><span class="rvts31">Heating</span></li>
+</ol>
+<p class="rvps2"><span class="rvts31">Fields that have NA (Not Available) should not be hidden everywhere expect of unit edit screen.</span></p>
+</td>
+</tr>
+<tr valign="top">
+<td width="143" height="19" valign="top" style="border-width : 1px; border-color: #000000; border-style: solid; padding: 0px 7px;"><p class="rvps9"><span class="rvts32">Manufacture Brand:</span></p>
+</td>
+<td width="390" height="19" valign="top" style="border-width : 1px; border-color: #000000; border-style: solid; padding: 0px 7px;"><p class="rvps9"><span class="rvts31">Name of Manufacture for AC unit.</span></p>
+</td>
+</tr>
+<tr valign="top">
+<td width="143" height="19" valign="top" style="border-width : 1px; border-color: #000000; border-style: solid; padding: 0px 7px;"><p class="rvps9"><span class="rvts32">Model Number:</span></p>
+</td>
+<td width="390" height="19" valign="top" style="border-width : 1px; border-color: #000000; border-style: solid; padding: 0px 7px;"><p class="rvps9"><span class="rvts31">Model number of ac unit.</span></p>
+</td>
+</tr>
+<tr valign="top">
+<td width="143" height="115" valign="top" style="border-width : 1px; border-color: #000000; border-style: solid; padding: 0px 7px;"><p class="rvps9"><span class="rvts32">Manufacture Date:</span></p>
+</td>
+<td width="390" height="115" valign="top" style="border-width : 1px; border-color: #000000; border-style: solid; padding: 0px 7px;"><p class="rvps9"><span class="rvts31">Date of manufacture for ac unit.</span></p>
+<p class="rvps9"><span class="rvts31">Here based on manufacture date, the purchased plan package will change.</span></p>
+<p class="rvps9"><span class="rvts31">If admin doesn’t specify the year, this information will be added by employee on their first visit.</span></p>
+</td>
+</tr>
+<tr valign="top">
+<td width="143" height="19" valign="top" style="border-width : 1px; border-color: #000000; border-style: solid; padding: 0px 7px;"><p class="rvps9"><span class="rvts32">Serial Number:</span></p>
+</td>
+<td width="390" height="19" valign="top" style="border-width : 1px; border-color: #000000; border-style: solid; padding: 0px 7px;"><p class="rvps9"><span class="rvts31">Serial number of ac unit.</span></p>
+</td>
+</tr>
+<tr valign="top">
+<td width="143" height="19" valign="top" style="border-width : 1px; border-color: #000000; border-style: solid; padding: 0px 7px;"><p class="rvps9"><span class="rvts32">Type of freeon:</span></p>
+</td>
+<td width="390" height="19" valign="top" style="border-width : 1px; border-color: #000000; border-style: solid; padding: 0px 7px;"><p class="rvps9"><span class="rvts31">Defines the type of freeon</span></p>
+</td>
+</tr>
+<tr valign="top">
+<td width="143" height="19" valign="top" style="border-width : 1px; border-color: #000000; border-style: solid; padding: 0px 7px;"><p class="rvps9"><span class="rvts32">Capacity of freeon:</span></p>
+</td>
+<td width="390" height="19" valign="top" style="border-width : 1px; border-color: #000000; border-style: solid; padding: 0px 7px;"><p class="rvps9"><span class="rvts31">Defines the capacity of freeon</span></p>
+</td>
+</tr>
+<tr valign="top">
+<td width="143" height="53" valign="top" style="border-width : 1px; border-color: #000000; border-style: solid; padding: 0px 7px;"><p class="rvps9"><span class="rvts32">Quantity of filters:</span></p>
+</td>
+<td width="390" height="53" valign="top" style="border-width : 1px; border-color: #000000; border-style: solid; padding: 0px 7px;"><p class="rvps2"><span class="rvts31">Number of filters used in the unit. When entering quantity, the count of filter size and location should match the quantity allowing admin to specify each filter size and location. </span></p>
+</td>
+</tr>
+<tr valign="top">
+<td width="143" height="19" valign="top" style="border-width : 1px; border-color: #000000; border-style: solid; padding: 0px 7px;"><p class="rvps9"><span class="rvts32">Filter Size:</span></p>
+</td>
+<td width="390" height="19" valign="top" style="border-width : 1px; border-color: #000000; border-style: solid; padding: 0px 7px;"><p class="rvps2"><span class="rvts31">Size of filter for unit. Number of fields should match the quantity.</span></p>
+</td>
+</tr>
+<tr valign="top">
+<td width="143" height="53" valign="top" style="border-width : 1px; border-color: #000000; border-style: solid; padding: 0px 7px;"><p class="rvps9"><span class="rvts32">Filter Location:</span></p>
+</td>
+<td width="390" height="53" valign="top" style="border-width : 1px; border-color: #000000; border-style: solid; padding: 0px 7px;"><p class="rvps2"><span class="rvts31">There are two types of filter location. Should match the quantity.</span></p>
+<ol style="text-indent: 0px; padding: 0; margin: 0 0 0 48px; list-style-position: outside; list-style-type: decimal;">
+<li value="1" style="margin-left: 0px" class="rvps21"><span class="rvts31">Inside Equipment</span></li>
+<li value="2" style="margin-left: 0px" class="rvps21"><span class="rvts31">Inside Space</span></li>
+</ol>
+</td>
+</tr>
+<tr valign="top">
+<td width="143" height="19" valign="top" style="border-width : 1px; border-color: #000000; border-style: solid; padding: 0px 7px;"><p class="rvps9"><span class="rvts32">Unit Ton:</span></p>
+</td>
+<td width="390" height="19" valign="top" style="border-width : 1px; border-color: #000000; border-style: solid; padding: 0px 7px;"><p class="rvps9"><span class="rvts31">Ton of the unit.</span></p>
+</td>
+</tr>
+<tr valign="top">
+<td width="143" height="19" valign="top" style="border-width : 1px; border-color: #000000; border-style: solid; padding: 0px 7px;"><p class="rvps9"><span class="rvts32">Refrigerant Type:</span></p>
+</td>
+<td width="390" height="19" valign="top" style="border-width : 1px; border-color: #000000; border-style: solid; padding: 0px 7px;"><p class="rvps9"><span class="rvts31">Type of refrigerant.</span></p>
+</td>
+</tr>
+<tr valign="top">
+<td width="143" height="36" valign="top" style="border-width : 1px; border-color: #000000; border-style: solid; padding: 0px 7px;"><p class="rvps9"><span class="rvts32">Refrigerant Factory Charge:</span></p>
+</td>
+<td width="390" height="36" valign="top" style="border-width : 1px; border-color: #000000; border-style: solid; padding: 0px 7px;"><p class="rvps9"><span class="rvts31">Refrigerant Factory Charge</span></p>
+</td>
+</tr>
+<tr valign="top">
+<td width="143" height="119" valign="top" style="border-width : 1px; border-color: #000000; border-style: solid; padding: 0px 7px;"><p class="rvps9"><span class="rvts32">Electrical Service:</span></p>
+</td>
+<td width="390" height="119" valign="top" style="border-width : 1px; border-color: #000000; border-style: solid; padding: 0px 7px;"><p class="rvps9"><span class="rvts31">Defines the electrical service for units</span></p>
+<p class="rvps2"><span class="rvts31">There are different 4 types of electrical service</span></p>
+<ol style="text-indent: 0px; padding: 0; margin: 0 0 0 48px; list-style-position: outside; list-style-type: decimal;">
+<li value="1" style="margin-left: 0px" class="rvps21"><span class="rvts31">230/1/60</span></li>
+<li value="2" style="margin-left: 0px" class="rvps21"><span class="rvts31">230/3/60</span></li>
+<li value="3" style="margin-left: 0px" class="rvps21"><span class="rvts31">460/3/60</span></li>
+<li value="4" style="margin-left: 0px" class="rvps21"><span class="rvts31">120/1/60</span></li>
+</ol>
+</td>
+</tr>
+<tr valign="top">
+<td width="143" height="128" valign="top" style="border-width : 1px; border-color: #000000; border-style: solid; padding: 0px 7px;"><p class="rvps9"><span class="rvts32">Max breaker </span></p>
+</td>
+<td width="390" height="128" valign="top" style="border-width : 1px; border-color: #000000; border-style: solid; padding: 0px 7px;"><p class="rvps9"><span class="rvts31">Max breaker of the unit. it is non inventory part . </span></p>
+<p class="rvps9"><span class="rvts31">And its vales are:</span></p>
+<p class="rvps9"><span class="rvts31">20amp,25amp,30amp,35amp,40amp,45amp,50amp,60amp,70amp,80amp,90amp,100amp,100+amp</span></p>
+</td>
+</tr>
+<tr valign="top">
+<td width="143" height="19" valign="top" style="border-width : 1px; border-color: #000000; border-style: solid; padding: 0px 7px;"><p class="rvps9"><span class="rvts32">Breaker </span></p>
+</td>
+<td width="390" height="19" valign="top" style="border-width : 1px; border-color: #000000; border-style: solid; padding: 0px 7px;"><p class="rvps9"><span class="rvts31">Breaker of the unit.</span></p>
+</td>
+</tr>
+<tr valign="top">
+<td width="143" height="19" valign="top" style="border-width : 1px; border-color: #000000; border-style: solid; padding: 0px 7px;"><p class="rvps9"><span class="rvts32">Compressor:</span></p>
+</td>
+<td width="390" height="19" valign="top" style="border-width : 1px; border-color: #000000; border-style: solid; padding: 0px 7px;"><p class="rvps9"><span class="rvts31">Compressor used for AC unit.</span></p>
+</td>
+</tr>
+<tr valign="top">
+<td width="143" height="19" valign="top" style="border-width : 1px; border-color: #000000; border-style: solid; padding: 0px 7px;"><p class="rvps9"><span class="rvts32">Capacitor:</span></p>
+</td>
+<td width="390" height="19" valign="top" style="border-width : 1px; border-color: #000000; border-style: solid; padding: 0px 7px;"><p class="rvps9"><span class="rvts31">Capacitor of the AC unit.</span></p>
+</td>
+</tr>
+<tr valign="top">
+<td width="143" height="19" valign="top" style="border-width : 1px; border-color: #000000; border-style: solid; padding: 0px 7px;"><p class="rvps9"><span class="rvts32">Contactor:</span></p>
+</td>
+<td width="390" height="19" valign="top" style="border-width : 1px; border-color: #000000; border-style: solid; padding: 0px 7px;"><p class="rvps9"><span class="rvts31">Contactor of the AC unit.</span></p>
+</td>
+</tr>
+<tr valign="top">
+<td width="143" height="19" valign="top" style="border-width : 1px; border-color: #000000; border-style: solid; padding: 0px 7px;"><p class="rvps9"><span class="rvts32">Filter dryer:</span></p>
+</td>
+<td width="390" height="19" valign="top" style="border-width : 1px; border-color: #000000; border-style: solid; padding: 0px 7px;"><p class="rvps9"><span class="rvts31">Filter dryer of the unit.</span></p>
+</td>
+</tr>
+<tr valign="top">
+<td width="143" height="19" valign="top" style="border-width : 1px; border-color: #000000; border-style: solid; padding: 0px 7px;"><p class="rvps9"><span class="rvts32">Defrost board:</span></p>
+</td>
+<td width="390" height="19" valign="top" style="border-width : 1px; border-color: #000000; border-style: solid; padding: 0px 7px;"><p class="rvps9"><span class="rvts31">Defrost board of the unit.</span></p>
+</td>
+</tr>
+<tr valign="top">
+<td width="143" height="19" valign="top" style="border-width : 1px; border-color: #000000; border-style: solid; padding: 0px 7px;"><p class="rvps9"><span class="rvts32">Relay:</span></p>
+</td>
+<td width="390" height="19" valign="top" style="border-width : 1px; border-color: #000000; border-style: solid; padding: 0px 7px;"><p class="rvps9"><span class="rvts31">Relay of the unit.</span></p>
+</td>
+</tr>
+<tr valign="top">
+<td width="143" height="19" valign="top" style="border-width : 1px; border-color: #000000; border-style: solid; padding: 0px 7px;"><p class="rvps9"><span class="rvts32">TXV Valve:</span></p>
+</td>
+<td width="390" height="19" valign="top" style="border-width : 1px; border-color: #000000; border-style: solid; padding: 0px 7px;"><p class="rvps9"><span class="rvts31">TXV valve of the unit.</span></p>
+</td>
+</tr>
+<tr valign="top">
+<td width="143" height="19" valign="top" style="border-width : 1px; border-color: #000000; border-style: solid; padding: 0px 7px;"><p class="rvps9"><span class="rvts32">Reversing Valve:</span></p>
+</td>
+<td width="390" height="19" valign="top" style="border-width : 1px; border-color: #000000; border-style: solid; padding: 0px 7px;"><p class="rvps9"><span class="rvts31">Reversing valve of the unit.</span></p>
+</td>
+</tr>
+<tr valign="top">
+<td width="143" height="19" valign="top" style="border-width : 1px; border-color: #000000; border-style: solid; padding: 0px 7px;"><p class="rvps9"><span class="rvts32">Fuses:</span></p>
+</td>
+<td width="390" height="19" valign="top" style="border-width : 1px; border-color: #000000; border-style: solid; padding: 0px 7px;"><p class="rvps9"><span class="rvts31">Fuses of the unit.</span></p>
+</td>
+</tr>
+<tr valign="top">
+<td width="143" height="19" valign="top" style="border-width : 1px; border-color: #000000; border-style: solid; padding: 0px 7px;"><p class="rvps9"><span class="rvts32">Blower Motor:</span></p>
+</td>
+<td width="390" height="19" valign="top" style="border-width : 1px; border-color: #000000; border-style: solid; padding: 0px 7px;"><p class="rvps9"><span class="rvts31">Blower motor of the unit.</span></p>
+</td>
+</tr>
+<tr valign="top">
+<td width="143" height="36" valign="top" style="border-width : 1px; border-color: #000000; border-style: solid; padding: 0px 7px;"><p class="rvps9"><span class="rvts32">Condensing fan motor:</span></p>
+</td>
+<td width="390" height="36" valign="top" style="border-width : 1px; border-color: #000000; border-style: solid; padding: 0px 7px;"><p class="rvps9"><span class="rvts31">Condensing fan of the unit.</span></p>
+</td>
+</tr>
+<tr valign="top">
+<td width="143" height="36" valign="top" style="border-width : 1px; border-color: #000000; border-style: solid; padding: 0px 7px;"><p class="rvps9"><span class="rvts32">Inducer draft motor/ flu vent motor:</span></p>
+</td>
+<td width="390" height="36" valign="top" style="border-width : 1px; border-color: #000000; border-style: solid; padding: 0px 7px;"><p class="rvps9"><span class="rvts31">Inducer draft of the unit.</span></p>
+</td>
+</tr>
+<tr valign="top">
+<td width="143" height="19" valign="top" style="border-width : 1px; border-color: #000000; border-style: solid; padding: 0px 7px;"><p class="rvps9"><span class="rvts32">Transformer:</span></p>
+</td>
+<td width="390" height="19" valign="top" style="border-width : 1px; border-color: #000000; border-style: solid; padding: 0px 7px;"><p class="rvps9"><span class="rvts31">Transformer of the unit.</span></p>
+</td>
+</tr>
+<tr valign="top">
+<td width="143" height="19" valign="top" style="border-width : 1px; border-color: #000000; border-style: solid; padding: 0px 7px;"><p class="rvps9"><span class="rvts32">Control board:</span></p>
+</td>
+<td width="390" height="19" valign="top" style="border-width : 1px; border-color: #000000; border-style: solid; padding: 0px 7px;"><p class="rvps9"><span class="rvts31">Control board of the unit.</span></p>
+</td>
+</tr>
+<tr valign="top">
+<td width="143" height="19" valign="top" style="border-width : 1px; border-color: #000000; border-style: solid; padding: 0px 7px;"><p class="rvps9"><span class="rvts32">Limit switch:</span></p>
+</td>
+<td width="390" height="19" valign="top" style="border-width : 1px; border-color: #000000; border-style: solid; padding: 0px 7px;"><p class="rvps9"><span class="rvts31">Limit switch of the unit.</span></p>
+</td>
+</tr>
+<tr valign="top">
+<td width="143" height="19" valign="top" style="border-width : 1px; border-color: #000000; border-style: solid; padding: 0px 7px;"><p class="rvps9"><span class="rvts32">Ignitor:</span></p>
+</td>
+<td width="390" height="19" valign="top" style="border-width : 1px; border-color: #000000; border-style: solid; padding: 0px 7px;"><p class="rvps9"><span class="rvts31">Ignitor of the unit.</span></p>
+</td>
+</tr>
+<tr valign="top">
+<td width="143" height="19" valign="top" style="border-width : 1px; border-color: #000000; border-style: solid; padding: 0px 7px;"><p class="rvps9"><span class="rvts32">Gas valve:</span></p>
+</td>
+<td width="390" height="19" valign="top" style="border-width : 1px; border-color: #000000; border-style: solid; padding: 0px 7px;"><p class="rvps9"><span class="rvts31">Gas valve of the unit.</span></p>
+</td>
+</tr>
+<tr valign="top">
+<td width="143" height="19" valign="top" style="border-width : 1px; border-color: #000000; border-style: solid; padding: 0px 7px;"><p class="rvps9"><span class="rvts32">Pressure switch:</span></p>
+</td>
+<td width="390" height="19" valign="top" style="border-width : 1px; border-color: #000000; border-style: solid; padding: 0px 7px;"><p class="rvps9"><span class="rvts31">Pressure switch of the unit.</span></p>
+</td>
+</tr>
+<tr valign="top">
+<td width="143" height="19" valign="top" style="border-width : 1px; border-color: #000000; border-style: solid; padding: 0px 7px;"><p class="rvps9"><span class="rvts32">Flame sensor:</span></p>
+</td>
+<td width="390" height="19" valign="top" style="border-width : 1px; border-color: #000000; border-style: solid; padding: 0px 7px;"><p class="rvps9"><span class="rvts31">Flame sensor of the unit.</span></p>
+</td>
+</tr>
+<tr valign="top">
+<td width="143" height="19" valign="top" style="border-width : 1px; border-color: #000000; border-style: solid; padding: 0px 7px;"><p class="rvps9"><span class="rvts32">Roll out sensor:</span></p>
+</td>
+<td width="390" height="19" valign="top" style="border-width : 1px; border-color: #000000; border-style: solid; padding: 0px 7px;"><p class="rvps9"><span class="rvts31">Roll out sensor of the unit.</span></p>
+</td>
+</tr>
+<tr valign="top">
+<td width="143" height="19" valign="top" style="border-width : 1px; border-color: #000000; border-style: solid; padding: 0px 7px;"><p class="rvps9"><span class="rvts32">Door switch:</span></p>
+</td>
+<td width="390" height="19" valign="top" style="border-width : 1px; border-color: #000000; border-style: solid; padding: 0px 7px;"><p class="rvps9"><span class="rvts31">Door switch of the unit.</span></p>
+</td>
+</tr>
+<tr valign="top">
+<td width="143" height="19" valign="top" style="border-width : 1px; border-color: #000000; border-style: solid; padding: 0px 7px;"><p class="rvps9"><span class="rvts32">Misc</span></p>
+</td>
+<td width="390" height="19" valign="top" style="border-width : 1px; border-color: #000000; border-style: solid; padding: 0px 7px;"><p class="rvps9"><span class="rvts31">Misc of the unit.</span></p>
+</td>
+</tr>
+<tr valign="top">
+<td width="143" height="19" valign="top" style="border-width : 1px; border-color: #000000; border-style: solid; padding: 0px 7px;"><p class="rvps9"><span class="rvts32">Coil cleaner</span></p>
+</td>
+<td width="390" height="19" valign="top" style="border-width : 1px; border-color: #000000; border-style: solid; padding: 0px 7px;"><p class="rvps9"><span class="rvts31">Coil cleaner of the unit.</span></p>
+</td>
+</tr>
+<tr valign="top">
+<td width="143" height="36" valign="top" style="border-width : 1px; border-color: #000000; border-style: solid; padding: 0px 7px;"><p class="rvps9"><span class="rvts32">Ignition control board:</span></p>
+</td>
+<td width="390" height="36" valign="top" style="border-width : 1px; border-color: #000000; border-style: solid; padding: 0px 7px;"><p class="rvps9"><span class="rvts31">Ignition control board of the unit.</span></p>
+</td>
+</tr>
+<tr valign="top">
+<td width="143" height="19" valign="top" style="border-width : 1px; border-color: #000000; border-style: solid; padding: 0px 7px;"><p class="rvps9"><span class="rvts32">Unit Pictures:</span></p>
+</td>
+<td width="390" height="19" valign="top" style="border-width : 1px; border-color: #000000; border-style: solid; padding: 0px 7px;"><p class="rvps9"><span class="rvts31">Pictures of AC units.</span></p>
+</td>
+</tr>
+<tr valign="top">
+<td width="143" height="19" valign="top" style="border-width : 1px; border-color: #000000; border-style: solid; padding: 0px 7px;"><p class="rvps9"><span class="rvts32">Notes:</span></p>
+</td>
+<td width="390" height="19" valign="top" style="border-width : 1px; border-color: #000000; border-style: solid; padding: 0px 7px;"><p class="rvps9"><span class="rvts31">Notes for AC unit. </span></p>
+</td>
+</tr>
+<tr valign="top">
+<td width="143" height="18" valign="top" style="border-width : 1px; border-color: #000000; border-style: solid; padding: 0px 7px;"><p class="rvps2"><span class="rvts32">Unit Manuals:</span></p>
+</td>
+<td width="390" height="18" valign="top" style="border-width : 1px; border-color: #000000; border-style: solid; padding: 0px 7px;"><p class="rvps2"><span class="rvts31">Manuals for AC unit. Ability to load multiple PDF’s.</span></p>
+</td>
+</tr>
+<tr valign="top">
+<td width="143" height="19" valign="top" style="border-width : 1px; border-color: #000000; border-style: solid; padding: 0px 7px;"><p class="rvps9"><span class="rvts32">Service History:</span></p>
+</td>
+<td width="390" height="19" valign="top" style="border-width : 1px; border-color: #000000; border-style: solid; padding: 0px 7px;"><p class="rvps2"><span class="rvts31">List of all completed services report for this AC unit.</span></p>
+</td>
+</tr>
+<tr valign="top">
+<td width="143" height="183" valign="top" style="border-width : 1px; border-color: #000000; border-style: solid; padding: 0px 7px;"><p class="rvps9"><span class="rvts32">Unit Status:</span></p>
+</td>
+<td width="390" height="183" valign="top" style="border-width : 1px; border-color: #000000; border-style: solid; padding: 0px 7px;"><p class="rvps9"><span class="rvts31">Defines the status of the AC unit.</span></p>
+<p class="rvps2"><span class="rvts31">The Status of AC unit is either Serviced (green), Service Soon (orange), or Need Repair (red).</span></p>
+<p class="rvps2"><span class="rvts31">When a new AC unit was added at that time status of each unit is Service Soon (orange).</span></p>
+<p class="rvps9"><span class="rvts31">Technician will go to that unit located address and check that all fields are perfect or not.</span></p>
+<p class="rvps2"><span class="rvts31">If everything is perfect, then admin will update status to Serviced (green) and proceed to schedule the first appointment.</span></p>
+</td>
+</tr>
+</table>
+</div>
+<p class="rvps10"><span class="rvts31"><br/></span></p>
+<p class="rvps10"><span class="rvts31"><br/></span></p>
+<p class="rvps7"><span class="rvts11">• Units can also be added from the client application and the client portal.</span></p>
+<p class="rvps7"><span class="rvts11"><br/></span></p>
+<p class="rvps7"><span class="rvts11">• </span><span class="rvts33">If the plan to which unit will be added, is inactivated by admin then that plan will not be shown in the client/ employee application during adding the new unit.</span></p>
+<p class="rvps2"><span class="rvts31"><br/></span></p>
+<p class="rvps7"><span class="rvts11">• If the admin cancel the subscription for the plan then unit attached to that plan will be removed from this listing</span><span class="rvts46"> </span><span class="rvts21">and from the client application’s my units section but it will remain in the database.</span></p>
+<p class="rvps2"><span class="rvts11"><br/></span></p>
+<p class="rvps7"><span class="rvts11">• After adding the units, X services of that units decided by the admin will provide the user within X months of intervals.</span></p>
+<p class="rvps7"><span class="rvts11"><br/></span></p>
+<p class="rvps7"><span class="rvts11"><br/></span></p>
+<p class="rvps7"><img width="775" height="351" alt="" style="padding : 1px;" src="lib/NewItem48.png"><span class="rvts11"> &nbsp; &nbsp; &nbsp; &nbsp;</span></p>
+<p class="rvps7"><span class="rvts11"><br/></span></p>
+<p class="rvps7"><span class="rvts11"> &nbsp; &nbsp; &nbsp; &nbsp;</span><span class="rvts11"> &nbsp; &nbsp; &nbsp; &nbsp;</span><span class="rvts11"> &nbsp; &nbsp; &nbsp; &nbsp;</span><span class="rvts11"> &nbsp; &nbsp; &nbsp; &nbsp;</span><span class="rvts11"> &nbsp; &nbsp; &nbsp; &nbsp;</span></p>
+<p class="rvps7"><img width="242" height="429" alt="" style="padding : 1px;" src="lib/Simulator Screen Shot Mar 4 2017 113400 AM.png"></p>
+<p class="rvps7"><img width="590" height="331" alt="" style="padding : 1px;" src="lib/Screen Shot 2017-03-06 at 12015 PM.png"><span class="rvts21"> &nbsp; &nbsp; &nbsp; &nbsp;</span><span class="rvts21"> &nbsp; &nbsp; &nbsp; &nbsp;</span></p>
+<p class="rvps7"><span class="rvts11"><br/></span></p>
+<p class="rvps7"><span class="rvts11">• </span><span class="rvts47">If any unit is in the cart or payment is failed for the unit then when client/employee going to add new unit he/she will be prompted that the old un-purchased units are there you want to purchase them or not. </span></p>
+<p class="rvps2"><span class="rvts49"><br/></span></p>
+<p class="rvps7"><span class="rvts11">• </span><span class="rvts47">If client wants to change the address after adding units then following cases may possible:</span></p>
+<p class="rvps2"><span class="rvts49"><br/></span></p>
+<p class="rvps24"><span class="rvts50">Case 1: The unit is added but the scheduler is not run yet. So the services will not be added.</span></p>
+<p class="rvps23"><span class="rvts21"><br/></span></p>
+<p class="rvps7"><span class="rvts11">• </span><span class="rvts21">In this case, the Admin can change the address of that added by clicking on the edit button from the listing . </span></p>
+<p class="rvps2"><span class="rvts47"><br/></span></p>
+<p class="rvps24"><span class="rvts50">Case 2 :The unit is added and also the scheduler is run and the services will be added.</span></p>
+<p class="rvps23"><span class="rvts21"><br/></span></p>
+<p class="rvps7"><span class="rvts11">•</span><span class="rvts21">In this case, </span></p>
+<p class="rvps24"><span class="rvts21">Suppose the client has added three units : AC1, AC2, AC3 on the Address 1</span></p>
+<p class="rvps23"><span class="rvts21"><br/></span></p>
+<p class="rvps24"><span class="rvts21">So the services will be added as follows for all the above three units :</span></p>
+<p class="rvps23"><span class="rvts21"><br/></span></p>
+<p class="rvps24"><span class="rvts21">C1-90038-S1-01 - Scheduled</span></p>
+<p class="rvps24"><span class="rvts21">C1-90038-S2-01 - Pending</span></p>
+<p class="rvps24"><span class="rvts21">C1-90038-S3-01 - Pending</span></p>
+<p class="rvps24"><span class="rvts21">C1-90038-S4-01 - Pending</span></p>
+<p class="rvps24"><span class="rvts21">C1-90038-S5-01 - Pending</span></p>
+<p class="rvps24"><span class="rvts21">C1-90038-S6-01 - Pending</span></p>
+<p class="rvps23"><span class="rvts21"><br/></span></p>
+<p class="rvps7"><span class="rvts11">• </span><span class="rvts21">Now the employee will go at the client’s address and then he found that AC3 unit is not available on the Address 1.</span></p>
+<p class="rvps23"><span class="rvts21"><br/></span></p>
+<p class="rvps7"><span class="rvts11">• </span><span class="rvts21">At this time, while filling the service report for C1-90038-S1-01, the employee can not select the AC3 unit.</span></p>
+<p class="rvps23"><span class="rvts21"><br/></span></p>
+<p class="rvps7"><span class="rvts11">• </span><span class="rvts21">And he has to add notes like “AC3 unit is not available on the Address1 and change the address of AC3 to Address 2”.</span></p>
+<p class="rvps23"><span class="rvts21"><br/></span></p>
+<p class="rvps7"><span class="rvts11">• </span><span class="rvts21">The Employee has to add the notes. So by this notes, in the listing of Service Reports in the Admin Panel, Admin can find the service reports which has this kind of notes to change the address of the unit.</span></p>
+<p class="rvps23"><span class="rvts21"><br/></span></p>
+<p class="rvps7"><span class="rvts11">• </span><span class="rvts21">In the Service Report listing, the record / row will have the different color than the other rows. So Admin can easily find out this kind of request and can change the address of requested unit without checking notes into all the service reports.</span></p>
+<p class="rvps23"><span class="rvts21"><br/></span></p>
+<p class="rvps24"><span class="rvts50">For Scheduled Service : C1-90038-S1-01</span></p>
+<p class="rvps23"><span class="rvts21"><br/></span></p>
+<p class="rvps7"><span class="rvts11">• </span><span class="rvts21">As above, at the time of filling the service report, AC3 unit is not selected by the Employee.</span></p>
+<p class="rvps23"><span class="rvts21"><br/></span></p>
+<p class="rvps7"><span class="rvts11">• </span><span class="rvts21">So for AC3 unit, one new service will be added with “Continuous Previous Work” status.</span></p>
+<p class="rvps23"><span class="rvts21"><br/></span></p>
+<p class="rvps7"><span class="rvts11">• </span><span class="rvts21">Now when the admin will change the address of the unit, the status of added “Continuous Previous Work” service will be changed to the “Address Changed”.</span></p>
+<p class="rvps23"><span class="rvts21"><br/></span></p>
+<p class="rvps7"><span class="rvts11">• </span><span class="rvts21">Or if that service will have any other unit in “Continuous Previous Work” service, then AC3 (for which the address is changed) will be removed from the “Continuous Previous Work” service.</span></p>
+<p class="rvps23"><span class="rvts21"><br/></span></p>
+<p class="rvps24"><span class="rvts50">For Pending Services : C1-90038-S2-01, C1-90038-S3-01, C1-90038-S4-01, C1-90038-S5-01, C1-90038-S6-01</span></p>
+<p class="rvps23"><span class="rvts21"><br/></span></p>
+<p class="rvps7"><span class="rvts11">• </span><span class="rvts21">The other above pending services which has the unit AC3, from those all the pending services, AC3 unit will be removed.</span></p>
+<p class="rvps23"><span class="rvts21"><br/></span></p>
+<p class="rvps7"><span class="rvts11">• </span><span class="rvts21">After completing the above process, now for unit AC3, no services will be available in the Admin.</span></p>
+<p class="rvps23"><span class="rvts21"><br/></span></p>
+<p class="rvps7"><span class="rvts11">• </span><span class="rvts21">So now when the scheduler will run, the new 6 services will be added for AC3 units as per the Automatic Rules for the updated address.</span></p>
+<p class="rvps23"><span class="rvts21"><br/></span></p>
+<p class="rvps7"><span class="rvts11">• </span><span class="rvts33">Thus the process of changing the address of added units will be managed.</span></p>
+<p class="rvps2"><span class="rvts49"><br/></span></p>
+<p class="rvps2"><span class="rvts49"><br/></span></p>
+<p class="rvps7"><span class="rvts48">Case 3: The unit is added and its first service is completed. </span></p>
+<p class="rvps2"><span class="rvts48"><br/></span></p>
+<p class="rvps7"><span class="rvts11">• </span><span class="rvts47">In this case if the client wants to change the unit’s address then in admin panel, while admin going to change the client’s address, admin will prompted with that admin can not change the address because its one or more service is completed. </span></p>
+<p class="rvps2"><span class="rvts47"><br/></span></p>
+<p class="rvps2"><span class="rvts47"><br/></span></p>
+<p class="rvps7"><span class="rvts11">• </span><span class="rvts47">In short, before completing any service of the unit, admin can change the client’s address. </span></p>
+<p class="rvps7"><span class="rvts47"><br/></span></p>
+<p class="rvps7"><span class="rvts11">• </span><span class="rvts47">Employee also can add AC unit from employee application on behalf of client using Check, PO or Credit Card.</span></p>
+<p class="rvps25"><span class="rvts47"><br/></span></p>
+<p class="rvps7"><span class="rvts11">• </span><span class="rvts47">To add unit from employee application follow below steps:</span></p>
+<p class="rvps25"><span class="rvts47"><br/></span></p>
+<p class="rvps25"><span class="rvts47"> &nbsp; &nbsp; &nbsp; &nbsp;</span><span class="rvts47"> &nbsp; &nbsp; &nbsp; &nbsp;</span><span class="rvts47">1) Login into application</span></p>
+<p class="rvps25"><span class="rvts47"> &nbsp; &nbsp; &nbsp; &nbsp;</span><span class="rvts47"> &nbsp; &nbsp; &nbsp; &nbsp;</span><span class="rvts47">2) Open side menu, then select unit list from the menu</span></p>
+<p class="rvps25"><span class="rvts47"> &nbsp; &nbsp; &nbsp; &nbsp;</span><span class="rvts47"> &nbsp; &nbsp; &nbsp; &nbsp;</span><span class="rvts47">3) Then click on plus button, A Pop-up will be asked same as displayed in the below image.</span></p>
+<p class="rvps25"><span class="rvts47"> &nbsp; &nbsp; &nbsp; &nbsp;</span><span class="rvts47"> &nbsp; &nbsp; &nbsp; &nbsp;</span><span class="rvts47">4) Then Select any one option and click on OK.</span></p>
+<p class="rvps25"><span class="rvts47"><br/></span></p>
+<p class="rvps7"><img width="232" height="412" alt="" style="padding : 1px;" src="lib/NewItem180.png"></p>
+<p class="rvps25"><span class="rvts47"><br/></span></p>
+<p class="rvps25"><span class="rvts47"><br/></span></p>
+<p class="rvps7"><span class="rvts11">• </span><span class="rvts47">If ‘Credit Card’ option selected, then Employee can purchase up to five units at the same transaction (same as current client application – limitation driven by stripe processing and system selections), and proceed to purchase.</span></p>
+<p class="rvps25"><span class="rvts47"><br/></span></p>
+<p class="rvps7"><span class="rvts11">• </span><span class="rvts47">The 36 invoices will be added into the database for this specific unit. From 36 invoices, 35 will have the status as “UnPaid” &amp; first invoice will be charged using Stipe service and the status of that invoice will be as “Paid” (assuming the charge went through successfully).</span></p>
+<p class="rvps25"><span class="rvts47"><br/></span></p>
+<p class="rvps25"><span class="rvts47"><br/></span></p>
+<p class="rvps7"><span class="rvts11">• </span><span class="rvts47">If “Check’ option selected, then there will be no limit to the number of units that can be added in the same transaction since we are not using stripe and below information will be asked at the time of checkout.</span></p>
+<p class="rvps25"><span class="rvts47"><br/></span></p>
+<p class="rvps25"><span class="rvts47"><br/></span></p>
+<p class="rvps25"><span class="rvts47"> &nbsp; &nbsp; &nbsp; &nbsp;</span><span class="rvts47"> &nbsp; &nbsp; &nbsp; &nbsp;</span><span class="rvts47">1) Check Number (optional)</span></p>
+<p class="rvps25"><span class="rvts47"> &nbsp; &nbsp; &nbsp; &nbsp;</span><span class="rvts47"> &nbsp; &nbsp; &nbsp; &nbsp;</span><span class="rvts47">2) 2 images - Front &amp; back for check (optional)</span></p>
+<p class="rvps25"><span class="rvts47"> &nbsp; &nbsp; &nbsp; &nbsp;</span><span class="rvts47"> &nbsp; &nbsp; &nbsp; &nbsp;</span><span class="rvts47">3) Notes for Accounting (optional)</span></p>
+<p class="rvps25"><span class="rvts47"><br/></span></p>
+<p class="rvps25"><span class="rvts47"><br/></span></p>
+<p class="rvps7"><img width="190" height="339" alt="" style="padding : 1px;" src="lib/NewItem179.png"></p>
+<p class="rvps25"><span class="rvts47"><br/></span></p>
+<p class="rvps7"><span class="rvts11">• </span><span class="rvts47">If “PO’ option selected, then there will be no limit to the number of units that can be added in the same transaction since we are not using stripe and below information will be asked at the time of checkout.</span></p>
+<p class="rvps25"><span class="rvts47"><br/></span></p>
+<p class="rvps25"><span class="rvts47"> &nbsp; &nbsp; &nbsp; &nbsp;</span><span class="rvts47"> &nbsp; &nbsp;</span><span class="rvts47"> &nbsp; &nbsp; &nbsp; &nbsp;</span><span class="rvts47">1) PO Number (Optional)</span></p>
+<p class="rvps25"><span class="rvts47"> &nbsp; &nbsp; &nbsp; &nbsp;</span><span class="rvts47"> &nbsp; &nbsp; &nbsp; &nbsp;</span><span class="rvts47">2) Check Number (Optional)</span></p>
+<p class="rvps25"><span class="rvts47"> &nbsp; &nbsp; &nbsp; &nbsp;</span><span class="rvts47"> &nbsp; &nbsp; &nbsp; &nbsp;</span><span class="rvts47">3) Notes for Accounting (Optional)</span><span class="rvts47"> &nbsp; &nbsp; &nbsp; &nbsp;</span></p>
+<p class="rvps25"><span class="rvts47"><br/></span></p>
+<p class="rvps7"><img width="215" height="383" alt="" style="padding : 1px;" src="lib/NewItem178.png"></p>
+<p class="rvps25"><span class="rvts47"> &nbsp; &nbsp; &nbsp; &nbsp;</span><span class="rvts47"> &nbsp; &nbsp; &nbsp; &nbsp;</span></p>
+<p class="rvps2"><span class="rvts51"><br/></span></p>
+<p class="rvps7"><span class="rvts11">• </span><span class="rvts47">After checkout, Based on the Plan duration i.e. 36 entries per unit will be added into the database with 36 invoices per unit with option status “Paid” / “Unpaid”.</span></p>
+<p class="rvps25"><span class="rvts47"><br/></span></p>
+<p class="rvps7"><span class="rvts11">• </span><span class="rvts47">If the check number will be entered from the employee application, then first invoice from 36 will be added as “Paid” and other 35 invoices will be added as “Unpaid”.</span></p>
+<p class="rvps25"><span class="rvts47"><br/></span></p>
+<p class="rvps7"><span class="rvts11">• </span><span class="rvts47">The 36 invoices will be per unit.</span></p>
+<p class="rvps25"><span class="rvts47"><br/></span></p>
+<p class="rvps7"><span class="rvts11">• </span><span class="rvts47">For other 35 invoices, per month admin has to add the check details and mark the invoice as “Paid”.</span></p>
+<p class="rvps2"><span class="rvts32"><br/></span></p>
+<p class="rvps2"><span class="rvts31"><br/></span></p>
+<p class="rvps7"><span class="rvts47"><br/></span></p>
+<p class="rvps2"><span class="rvts31"><br/></span></p>
+<p></p>
+<p class="rvps6" style="clear: both;"><span class="rvts13">Created with the Personal Edition of HelpNDoc: </span><a class="rvts14" href="https://www.helpndoc.com/feature-tour">Easily create EBooks</a></p>
+
+            </div>
+            
+            
+        </div>  <!-- /#topic-content -->
+    </article>
+
+    <footer></footer>
+
+  </div>  <!-- /#main -->
+
+  <div class="mask" data-toggle="sm-nav-expanded"></div>
+  
+  <!-- Modal -->
+  <div class="modal fade" id="hndModal" tabindex="-1" role="dialog" aria-labelledby="hndModalLabel">
+    <div class="modal-dialog" role="document">
+      <div class="modal-content">
+        <div class="modal-header">
+          <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+          <h4 class="modal-title" id="hndModalLabel"></h4>
+        </div>
+        <div class="modal-body">
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-primary modal-btn-close" data-dismiss="modal">Close</button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Scripts -->
+  <script src="vendors/jquery-1.11.3/jquery.min.js"></script>
+  <script src="vendors/bootstrap-3.3.6/js/bootstrap.min.js"></script>
+  <script src="vendors/fastclick-1.0.6/fastclick.min.js"></script>
+  <script src="vendors/markjs-8.8.3/jquery.mark.min.js"></script>
+  <script src="vendors/uri-1.18.9/uri.min.js"></script>
+  <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
+  <script src="vendors/bootstrap-3.3.6/js/ie10-viewport-bug-workaround.js"></script>
+  
+  <!-- Headroom -->
+  <script src="vendors/headroom-0.9.3/headroom.min.js"></script>
+  <script src="vendors/headroom-0.9.3/jquery.headroom.min.js"></script>
+
+  <!-- JsTree -->
+  <script src="vendors/jstree-3.3.2/jstree.min.js"></script>
+
+  <!-- HelpNDoc scripts -->
+  <script src="_translations.js"></script>
+  <script src="js/hndsd.min.js"></script>
+  <script src="js/hndse.min.js"></script>
+  <script src="js/app.min.js"></script>
+
+  <!-- Scripts -->
+  <script>
+    $(function() {
+      // Instanciate FastClick
+      Origami.fastclick(document.body);
+      // Create the app
+      var app = new Hnd.App();
+      // Update translations
+      hnd_ut(app);
+	  // Custom JS
+	  
+      // Boot the app
+      app.Boot();
+    });
+  </script>
+
+
+
+</body>
+
+</html>
+

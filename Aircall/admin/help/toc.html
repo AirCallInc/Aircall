@@ -1,0 +1,605 @@
+﻿<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html>
+
+<head>
+	<title>AirCall Documentation- Table of Contents</title>
+	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <meta name="generator" content="HelpNDoc Personal Edition 4.9.2.132">
+	<link type="text/css" rel="stylesheet" media="all" href="css/reset.css" />
+	<link type="text/css" rel="stylesheet" media="all" href="css/silver-theme/jquery-ui-1.8.12.custom.css" />
+	<link type="text/css" rel="stylesheet" media="all" href="css/dynatree/chm/ui.dynatree.css" />
+	<link type="text/css" rel="stylesheet" media="all" href="css/base.css" />
+	<link type="text/css" rel="stylesheet" media="all" href="css/hnd.css" />
+    <link type="text/css" rel="stylesheet" media="all" href="css/toc.css" />
+	<!--[if lte IE 8]>
+		<link type="text/css" rel="stylesheet" media="all" href="css/ielte8.css" />
+	<![endif]-->
+	<style type="text/css">
+		#tabs .ui-widget-header
+		{
+			background-color: #EFEFEF;
+		}
+	</style>
+	<script type="text/javascript" src="js/jquery.min.js"></script>
+	<script type="text/javascript" src="js/jquery-ui-1.8.17.custom.min.js"></script>
+    <script type="text/javascript" src="js/jquery.cookie.js"></script>
+    <script type="text/javascript" src="js/jquery.dynatree.min.js"></script>
+	<script type="text/javascript" src="js/hndjsse.js"></script>
+	<script type="text/javascript">
+	
+		window.bSearchDataLoaded = false;
+		var sHelpIdToActivate = '';
+	
+		$(document).ready(function()
+		{
+			var sAnchorName = '';
+			try { sAnchorName = top.location.href.substring(top.location.href.lastIndexOf("#") + 1, top.location.href.length); }
+			catch(err) { sAnchorName = ''; }
+			var nSelectedTab = 0;
+			if (sAnchorName == '_index') nSelectedTab = 1
+			else if (sAnchorName == '_search') nSelectedTab = 2;			
+			$("#tabs").tabs({
+				selected: nSelectedTab,
+				select: function(event, ui) { HideKwPopup(); }
+			});
+			
+			// Toc
+			if ($("#tab-toc").length) {
+				$("#tab-toc").dynatree({
+					clickFolderMode: 1,
+					debugLevel: 0,
+					imagePath: 'css/dynatree/chm/',
+					onActivate: function(node){
+						if ($("#tab-keywords").length && $("#tab-keywords").dynatree && $("#tab-keywords").dynatree("getTree") && $("#tab-keywords").dynatree("getTree").activateKey)
+							$("#tab-keywords").dynatree("getTree").activateKey(null);
+						if(node.data.href && node.data.href != '#'){
+							window.open(node.data.href, node.data.target);
+						}
+					}
+				});
+				// Expand all nodes if required
+				$("#tab-toc").dynatree("getRoot").visit(function(node){
+						node.expand(true);
+					});
+				// Select the active help id
+				if (sHelpIdToActivate != '') $("#tab-toc").dynatree("getTree").activateKey(sHelpIdToActivate);
+			}
+			
+			// Keywords
+			
+			if ($("#tab-keywords").length) {
+				$("#tab-keywords").dynatree({
+					clickFolderMode: 1,
+					debugLevel: 0,
+					imagePath: 'css/dynatree/chm/',
+					onClick: function(node, event){
+						HideKwPopup();
+						if (node.data && node.data.click)
+						{
+							var aRefList = null;
+							eval('aRefList=' + node.data.click);
+							if (ShowKwPopup(node.li, aRefList))
+							{
+								if ($("#tab-toc") && $("#tab-toc").dynatree && $("#tab-toc").dynatree("getTree") && $("#tab-toc").dynatree("getTree").activateKey)
+									$("#tab-toc").dynatree("getTree").activateKey(null);
+								if(node.data.href && node.data.href != '#'){
+									window.open(node.data.href, node.data.target);
+								}
+							}
+						}
+					}
+				});
+				// Expand all nodes if required
+				$("#tab-keywords").dynatree("getRoot").visit(function(node){
+						node.expand(true);
+					});
+				}
+			
+			// Load search data
+			(function() {
+				var se = document.createElement('script'); se.type = 'text/javascript'; se.async = true;
+				se.src = 'js/hndsd.js';
+				var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(se, s);
+			})();
+		});
+		
+		$('body').click(function() {
+			HideKwPopup();
+		});
+		
+		function SelectTocItem(sHelpId)
+		{
+			if ($("#tab-toc").length && $("#tab-toc").dynatree && $("#tab-toc").dynatree("getTree") && $("#tab-toc").dynatree("getTree").getNodeByKey) {
+				$("#tab-toc").dynatree("getTree").getNodeByKey(sHelpId).activateSilently();
+			}
+			else {
+				sHelpIdToActivate = sHelpId;
+			}
+		}
+		
+		function HideKwPopup()
+		{
+			if($("#popupMenu")) $("#popupMenu").remove();
+		}
+		
+		function ShowKwPopup(oSender, aLinks)
+		{
+			HideKwPopup();
+			if (!aLinks || !aLinks.length || aLinks.length == 0) return false
+			else if (aLinks.length == 1) return true
+			else
+			{
+				var oParentDiv = document.createElement("DIV");
+				oParentDiv.id = "popupMenu";
+				var oLink = null;
+				// Close button
+				oLink = document.createElement("SPAN");
+				oLink.className = "close-button";
+				oLink.innerHTML = "X";
+				oLink.href = "#";
+				oLink.onclick = HideKwPopup;
+				oParentDiv.appendChild(oLink);
+				// Items
+				for (var nCnt=0; nCnt<aLinks.length; nCnt++)
+				{
+					oLink = document.createElement("A");
+					oLink.innerHTML = aLinks[nCnt][0];
+					oLink.href = aLinks[nCnt][1];
+					oLink.target = "FrameMain";
+					oLink.onclick = HideKwPopup;
+					oParentDiv.appendChild(oLink);
+				}
+				document.body.appendChild(oParentDiv);
+				var pos = $(oSender).offset(); 
+				var height = $(oSender).height();
+				$(oParentDiv).css({
+					"left": (pos.left+20) + "px",
+					"top": (pos.top + height + 5) + "px"
+				});
+				$(oParentDiv).show();
+				return false;
+			}
+		}
+		
+		function PerformSearch()
+		{
+			if (!window.bSearchDataLoaded) {
+				$("#search_results").html("Search engine data hasn't been fully loaded yet or an error occurred while loading it. This usually happens when documentation is browsed locally.");
+				return;
+			}
+			sValue = $("#search_value").val();
+			$("#search_results").html('Searching...');
+			var oSearchEngine = new HndJsSe;
+			oSearchEngine.ParseInput(sValue);			
+			oSearchEngine.PerformSearch();
+			if (!oSearchEngine.aResults || !oSearchEngine.aResults.length)
+			{
+				$("#search_results").html('No results found.');
+			}
+			else
+			{
+				$("#search_results").html('<div id="search_results_content"></div>');
+				var oUl = $("#search_results_content").append("<ul id='lr'></ul>").find("ul");
+				for (var nCnt = 0; nCnt < oSearchEngine.aResults.length; nCnt++)
+				{
+					if (oSearchEngine.aResults[nCnt][0] < aTl.length)
+					{
+						oUl.append("<li><a href='" + aTl[oSearchEngine.aResults[nCnt][0]][0] + "?search=" + escape(sValue) + "' target='FrameMain'>" + unescape(aTl[oSearchEngine.aResults[nCnt][0]][1]) + "</a></li>");
+					}
+				}
+				// Tree
+				$("#search_results_content").dynatree({
+					clickFolderMode: 1,
+					debugLevel: 0,
+					imagePath: 'css/dynatree/chm/',
+					onActivate: function(node){
+						if ($("#search_results_content") && $("#search_results_content").dynatree && $("#search_results_content").dynatree("getTree") && $("#search_results_content").dynatree("getTree").activateKey)
+							$("#search_results_content").dynatree("getTree").activateKey(null);
+						if(node.data.href && node.data.href != '#'){
+							window.open(node.data.href, node.data.target);
+						}
+					}
+				});
+			}
+		}
+	</script>
+</head>
+
+<body>
+
+	<div id="tabs">
+		<ul>
+			<li><a href="#tab-toc">Contents</a></li>
+		<!--	<li><a href="#tab-keywords">Index</a></li> --!>
+			<li><a href="#tab-search">Search</a></li>
+			</ul>
+		<div id="tab-toc">
+			<ul id="toc" class="">
+
+				<li class="" id="Introduction" data="icon: '0.png'">
+							<a
+							href="Introduction.html"
+							target="FrameMain">
+								Introduction</a>
+
+				</li><li class="" id="PlanManagement" data="icon: '0.png'">
+							<a
+							href="PlanManagement.html"
+							target="FrameMain">
+								Plan Management</a>
+
+				</li><li class="folder" id="LocationManagement" data="">
+							<a
+							href="LocationManagement.html"
+							target="FrameMain">
+								Location Management</a>
+
+				<ul><li class="" id="States" data="icon: '16.png'">
+							<a
+							href="States.html"
+							target="FrameMain">
+								States</a>
+
+				</li><li class="" id="City" data="icon: '16.png'">
+							<a
+							href="City.html"
+							target="FrameMain">
+								City</a>
+
+				</li><li class="" id="ZipCode" data="icon: '16.png'">
+							<a
+							href="ZipCode.html"
+							target="FrameMain">
+								Zip Code</a>
+
+				</li><li class="" id="Area" data="icon: '16.png'">
+							<a
+							href="Area.html"
+							target="FrameMain">
+								Area</a>
+
+				</li></ul></li><li class="folder" id="InventoryManagement" data="">
+							<a
+							href="InventoryManagement.html"
+							target="FrameMain">
+								Inventory Management</a>
+
+				<ul><li class="" id="DailyPartList" data="icon: '16.png'">
+							<a
+							href="DailyPartList.html"
+							target="FrameMain">
+								Daily Part List</a>
+
+				</li><li class="" id="PartList" data="icon: '16.png'">
+							<a
+							href="PartList.html"
+							target="FrameMain">
+								Part List</a>
+
+				</li><li class="" id="UnitTypeList" data="icon: '16.png'">
+							<a
+							href="UnitTypeList.html"
+							target="FrameMain">
+								Unit Type List</a>
+
+				</li><li class="" id="EmployeePartRequest" data="icon: '16.png'">
+							<a
+							href="EmployeePartRequest.html"
+							target="FrameMain">
+								Employee Part Request</a>
+
+				</li><li class="" id="EmployeePartList" data="icon: '16.png'">
+							<a
+							href="EmployeePartList.html"
+							target="FrameMain">
+								Employee Part List</a>
+
+				</li></ul></li><li class="folder" id="EmployeeManagement" data="">
+							<a
+							href="EmployeeManagement.html"
+							target="FrameMain">
+								Employee Management</a>
+
+				<ul><li class="" id="EmployeeProfile" data="icon: '16.png'">
+							<a
+							href="EmployeeProfile.html"
+							target="FrameMain">
+								Employee Profile</a>
+
+				</li><li class="" id="EmployeeWorkArea" data="icon: '16.png'">
+							<a
+							href="EmployeeWorkArea.html"
+							target="FrameMain">
+								Employee WorkArea</a>
+
+				</li><li class="" id="LeaveManagement" data="icon: '16.png'">
+							<a
+							href="LeaveManagement.html"
+							target="FrameMain">
+								Leave Management</a>
+
+				</li><li class="" id="SendNotification" data="icon: '16.png'">
+							<a
+							href="SendNotification.html"
+							target="FrameMain">
+								Send Notification</a>
+
+				</li><li class="" id="RatingAndReviews" data="icon: '16.png'">
+							<a
+							href="RatingAndReviews.html"
+							target="FrameMain">
+								Rating And Reviews</a>
+
+				</li></ul></li><li class="folder" id="ClientManagement" data="">
+							<a
+							href="ClientManagement.html"
+							target="FrameMain">
+								Client Management</a>
+
+				<ul><li class="" id="ClientProfiles" data="icon: '16.png'">
+							<a
+							href="ClientProfiles.html"
+							target="FrameMain">
+								Client Profiles</a>
+
+				</li><li class="" id="ClientACUnit" data="icon: '16.png'">
+							<a
+							href="ClientACUnit.html"
+							target="FrameMain">
+								Client AC Unit</a>
+
+				</li><li class="" id="BillingHistory" data="icon: '16.png'">
+							<a
+							href="BillingHistory.html"
+							target="FrameMain">
+								Billing History</a>
+
+				</li><li class="" id="SendNotification1" data="icon: '16.png'">
+							<a
+							href="SendNotification1.html"
+							target="FrameMain">
+								Send Notification</a>
+
+				</li><li class="" id="RenewOrCancelPlan" data="icon: '16.png'">
+							<a
+							href="RenewOrCancelPlan.html"
+							target="FrameMain">
+								Renew Or Cancel Plan</a>
+
+				</li><li class="" id="ACUnitSubscription" data="icon: '16.png'">
+							<a
+							href="ACUnitSubscription.html"
+							target="FrameMain">
+								AC Unit Subscription</a>
+
+				</li></ul></li><li class="" id="PartnerManagement" data="icon: '0.png'">
+							<a
+							href="PartnerManagement.html"
+							target="FrameMain">
+								Partner Management</a>
+
+				</li><li class="" id="ServiceManamentAutomaticRules" data="icon: '0.png'">
+							<a
+							href="ServiceManamentAutomaticRules.html"
+							target="FrameMain">
+								Service Manament(Automatic Rules)</a>
+
+				</li><li class="folder" id="Services" data="">
+							<a
+							href="Services.html"
+							target="FrameMain">
+								Services</a>
+
+				<ul><li class="" id="Pending1" data="icon: '16.png'">
+							<a
+							href="Pending1.html"
+							target="FrameMain">
+								Pending</a>
+
+				</li><li class="" id="WaitingForApproval" data="icon: '16.png'">
+							<a
+							href="WaitingForApproval.html"
+							target="FrameMain">
+								Waiting For Approval</a>
+
+				</li><li class="" id="Scheduled" data="icon: '16.png'">
+							<a
+							href="Scheduled.html"
+							target="FrameMain">
+								Scheduled</a>
+
+				</li><li class="" id="NoShowService1" data="icon: '16.png'">
+							<a
+							href="NoShowService1.html"
+							target="FrameMain">
+								No Show Service</a>
+
+				</li><li class="" id="Completed1" data="icon: '16.png'">
+							<a
+							href="Completed1.html"
+							target="FrameMain">
+								Completed</a>
+
+				</li><li class="" id="History" data="icon: '16.png'">
+							<a
+							href="History.html"
+							target="FrameMain">
+								History</a>
+
+				</li><li class="" id="ServiceReport" data="icon: '16.png'">
+							<a
+							href="ServiceReport.html"
+							target="FrameMain">
+								Service Report</a>
+
+				</li></ul></li><li class="folder" id="RequestManagement1" data="">
+							<a
+							href="RequestManagement1.html"
+							target="FrameMain">
+								Request Management</a>
+
+				<ul><li class="" id="ContactUs1" data="icon: '16.png'">
+							<a
+							href="ContactUs1.html"
+							target="FrameMain">
+								Contact Us</a>
+
+				</li><li class="" id="SalesVisit1" data="icon: '16.png'">
+							<a
+							href="SalesVisit1.html"
+							target="FrameMain">
+								Sales Visit</a>
+
+				</li><li class="" id="PartnerTicket1" data="icon: '16.png'">
+							<a
+							href="PartnerTicket1.html"
+							target="FrameMain">
+								Partner Ticket</a>
+
+				</li></ul></li><li class="" id="Orders1" data="icon: '0.png'">
+							<a
+							href="Orders1.html"
+							target="FrameMain">
+								Orders</a>
+
+				</li><li class="folder" id="Reports1" data="">
+							<a
+							href="Reports1.html"
+							target="FrameMain">
+								Reports</a>
+
+				<ul><li class="" id="Sales1" data="icon: '16.png'">
+							<a
+							href="Sales1.html"
+							target="FrameMain">
+								Sales</a>
+
+				</li><li class="" id="Units1" data="icon: '16.png'">
+							<a
+							href="Units1.html"
+							target="FrameMain">
+								Units</a>
+
+				</li><li class="" id="Ratings1" data="icon: '16.png'">
+							<a
+							href="Ratings1.html"
+							target="FrameMain">
+								Ratings</a>
+
+				</li><li class="" id="LowStock1" data="icon: '16.png'">
+							<a
+							href="LowStock1.html"
+							target="FrameMain">
+								Low Stock</a>
+
+				</li><li class="" id="MissingInventory1" data="icon: '16.png'">
+							<a
+							href="MissingInventory1.html"
+							target="FrameMain">
+								Missing Inventory</a>
+
+				</li><li class="" id="PartnerSales1" data="icon: '16.png'">
+							<a
+							href="PartnerSales1.html"
+							target="FrameMain">
+								Partner Sales</a>
+
+				</li><li class="" id="RecurringBilling" data="icon: '16.png'">
+							<a
+							href="RecurringBilling.html"
+							target="FrameMain">
+								Recurring Billing</a>
+
+				</li></ul></li><li class="folder" id="Others1" data="">
+							<a
+							href="Others1.html"
+							target="FrameMain">
+								Others</a>
+
+				<ul><li class="" id="EmailTemplate1" data="icon: '16.png'">
+							<a
+							href="EmailTemplate1.html"
+							target="FrameMain">
+								Email Template</a>
+
+				</li><li class="" id="NotificationList1" data="icon: '16.png'">
+							<a
+							href="NotificationList1.html"
+							target="FrameMain">
+								Notification List</a>
+
+				</li><li class="" id="SendEmail1" data="icon: '16.png'">
+							<a
+							href="SendEmail1.html"
+							target="FrameMain">
+								Send Email</a>
+
+				</li><li class="" id="SiteSettings1" data="icon: '16.png'">
+							<a
+							href="SiteSettings1.html"
+							target="FrameMain">
+								Site Settings</a>
+
+				</li></ul></li><li class="" id="Dashboard1" data="icon: '0.png'">
+							<a
+							href="Dashboard1.html"
+							target="FrameMain">
+								Dashboard</a>
+
+				</li><li class="" id="News" data="icon: '0.png'">
+							<a
+							href="News.html"
+							target="FrameMain">
+								News</a>
+
+				</li><li class="folder" id="CMS1" data="">
+							<a
+							href="CMS1.html"
+							target="FrameMain">
+								CMS</a>
+
+				<ul><li class="" id="Block" data="icon: '16.png'">
+							<a
+							href="Block.html"
+							target="FrameMain">
+								Block</a>
+
+				</li><li class="" id="Pages1" data="icon: '16.png'">
+							<a
+							href="Pages1.html"
+							target="FrameMain">
+								Pages</a>
+
+				</li><li class="" id="MobileScreens1" data="icon: '16.png'">
+							<a
+							href="MobileScreens1.html"
+							target="FrameMain">
+								Mobile Screens</a>
+
+				</li></ul></li></ul>
+		</div>
+		
+		<div id="tab-keywords">
+
+			<ul id="keywords" class="">
+
+				</li>
+				</ul>
+				
+		</div>
+		
+		<div id="tab-search">
+			<form onsubmit="PerformSearch(); return false;">
+				<label for="search_value">Search:</label>
+				<input id="search_value" name="search_value"></input>
+				<input type="submit" value="Search"/>
+			</form>
+			<div id="search_results"></div>
+		</div>
+		
+		</div>
+    
+</body>
+
+</html>
+
