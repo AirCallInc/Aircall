@@ -108,12 +108,12 @@ namespace TestPanel
 
             string customerProfileId = "1504706322";
             string customerAddressId = "1871993045";
-            string customerPaymentProfileId = "1504009290";
+            string customerPaymentProfileId = "1504646584";
             string errCode = "", errText = "";
             bool isSuccess = false;
             string subscriptionId = "";
 
-            helper.CreateSubscriptionFromCustomerProfile(customerProfileId, customerPaymentProfileId, customerAddressId, schedule, 35.55m, ref isSuccess, ref subscriptionId, ref errCode, ref errText);
+            helper.CreateSubscriptionFromCustomerProfile(customerProfileId, customerPaymentProfileId, customerAddressId, schedule, 37.55m, ref isSuccess, ref subscriptionId, ref errCode, ref errText);
             MessageBox.Show("Done");
         }
 
@@ -130,8 +130,13 @@ namespace TestPanel
 
             var billTo = new customerAddressType
             {
-                firstName = "John",
-                lastName = "Snow"
+                firstName = "GuoxinA",
+                lastName = "Liu",
+                address = "123 Main St.",
+                city = "Bellevue",
+                state = "WA",
+                zip = "98004",
+                country = "USA",
             };
 
             string ApiLoginID = "6Mj5Z6aMh";

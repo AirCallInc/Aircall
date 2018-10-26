@@ -140,4 +140,3 @@ D:\Guoxinliu917\Jun\Aircall\LogUtility\bin\Debug\LogUtility.pdb
 D:\Guoxinliu917\Jun\Aircall\LogUtility\obj\Debug\LogUtility.dll
 D:\Guoxinliu917\Jun\Aircall\LogUtility\obj\Debug\LogUtility.pdb
 D:\Guoxinliu917\Jun\Aircall\LogUtility\obj\Debug\LogUtility.csproj.CoreCompileInputs.cache
-D:\Guoxinliu917\Jun\Aircall\LogUtility\obj\Debug\LogUtility.csprojAssemblyReference.cache

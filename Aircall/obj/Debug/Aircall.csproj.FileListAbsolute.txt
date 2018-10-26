@@ -103,3 +103,7 @@ D:\Guoxinliu917\Jun\Aircall\Aircall\obj\Debug\Aircall.csprojAssemblyReference.ca
 D:\Guoxinliu917\Jun\Aircall\Aircall\obj\Debug\Aircall.csproj.CoreCompileInputs.cache
 D:\Guoxinliu917\Jun\Aircall\Aircall\obj\Debug\Aircall.csproj.CopyComplete
 D:\Guoxinliu917\Jun\Aircall\Aircall\bin\uploads\plan\Aicall_Plan_v2.pdf
+D:\Guoxinliu917\Jun\Aircall\Aircall\bin\NLog.config
+D:\Guoxinliu917\Jun\Aircall\Aircall\bin\LogUtility.dll
+D:\Guoxinliu917\Jun\Aircall\Aircall\bin\NLog.dll
+D:\Guoxinliu917\Jun\Aircall\Aircall\bin\LogUtility.pdb

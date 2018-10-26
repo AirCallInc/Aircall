@@ -3,7 +3,9 @@ using System.Configuration;
 using System.Data;
 using System.Data.SqlClient;
 using System.Data.SqlTypes;
-using System.Collections.Specialized; 
+using System.Collections.Specialized;
+using NLog;
+using LogUtility;
 
 namespace ZWT.DbLib
 {
@@ -12,7 +14,10 @@ namespace ZWT.DbLib
 	/// </summary>
 	public class SqlDataLib : IDataLib
 	{
-		#region "private members of this implementation"
+        private LogHelper _logHelper = new LogHelper();
+        private readonly Logger _logger = LogManager.GetCurrentClassLogger();
+
+        #region "private members of this implementation"
         private static string _connString = System.Configuration.ConfigurationManager.ConnectionStrings["ConnectionString"].ToString();// ConfigurationSettings.AppSettings["ConnectionString"];
         //private static string _connString = ConfigurationManager;
 			private SqlConnection _sqlConn;
@@ -422,40 +427,61 @@ namespace ZWT.DbLib
 		{
 			SqlCommand	myCommand;
 
-			try
-			{
-				OpenConnection();
-				if(_sqlCmd != null)
-					myCommand = _sqlCmd;
-				else
-					myCommand = new SqlCommand();
+            try
+            {
+                OpenConnection();
+                if (_sqlCmd != null)
+                    myCommand = _sqlCmd;
+                else
+                    myCommand = new SqlCommand();
 
-				myCommand.CommandType = CommandType.StoredProcedure; 
-				myCommand.CommandText = spName;
-				myCommand.Connection = _sqlConn;
+                myCommand.CommandType = CommandType.StoredProcedure;
+                myCommand.CommandText = spName;
+                myCommand.Connection = _sqlConn;
 
-				SqlParameter prmReturnValue = myCommand.Parameters.Add("@RETURN_VALUE", SqlDbType.Int);
-				prmReturnValue.Direction = ParameterDirection.ReturnValue;
-				
-				myCommand.ExecuteNonQuery();
-				//int id = Convert.ToInt32(myCommand.ExecuteScalar());
+                SqlParameter prmReturnValue = myCommand.Parameters.Add("@RETURN_VALUE", SqlDbType.Int);
+                prmReturnValue.Direction = ParameterDirection.ReturnValue;
 
-				/*if (prmReturnValue.Value != null && prmReturnValue.Value != DBNull.Value)
+                myCommand.ExecuteNonQuery();
+                //int id = Convert.ToInt32(myCommand.ExecuteScalar());
+
+                /*if (prmReturnValue.Value != null && prmReturnValue.Value != DBNull.Value)
 				{
 					return (int)prmReturnValue.Value;
 				}
 				else
 					return 2;*/
 
-				//find the @@ROWCOUNT return parameter
-				//return Convert.ToInt32(myCommand.Parameters["RETURN_VALUE"].Value);
-				return (int)prmReturnValue.Value;
-				//return id;
-			}//try
-			finally
-			{
-				CloseConnection();
-			}
+                //find the @@ROWCOUNT return parameter
+                //return Convert.ToInt32(myCommand.Parameters["RETURN_VALUE"].Value);
+                try
+                {
+                    return (int)prmReturnValue.Value;
+                }
+                catch (Exception ex)
+                {
+                    string errMsg = _logHelper.GetFullErrorMessage(ex);
+                    _logger.Error(errMsg);
+
+                    System.Collections.Generic.Dictionary<string, object> dic = new System.Collections.Generic.Dictionary<string, object>();
+                    dic["prmReturnValue.Value"] = prmReturnValue.Value;
+
+                    object[] arr = { dic };
+
+                    _logger.Error(ex, "Error when execute store procudure " + spName, arr);
+
+                    throw ex;
+                }
+                //return id;
+            }//try
+            catch (Exception ex2)
+            {
+                _logger.Error(ex2, "Error when execute store procudure " + spName);
+            }
+            finally
+            {
+                CloseConnection();
+            }
 			return -1;
 		}//ExeSP
 

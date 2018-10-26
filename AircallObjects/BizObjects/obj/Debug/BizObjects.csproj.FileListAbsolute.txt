@@ -99,3 +99,6 @@ D:\Guoxinliu917\Jun\Aircall\AircallObjects\BizObjects\obj\Debug\BizObjects.pdb
 D:\Guoxinliu917\Jun\Aircall\AircallObjects\BizObjects\obj\Debug\BizObjects.csprojAssemblyReference.cache
 D:\Guoxinliu917\Jun\Aircall\AircallObjects\BizObjects\obj\Debug\BizObjects.csproj.CoreCompileInputs.cache
 D:\Guoxinliu917\Jun\Aircall\AircallObjects\BizObjects\obj\Debug\BizObjects.csproj.CopyComplete
+D:\Guoxinliu917\Jun\Aircall\AircallObjects\BizObjects\bin\Debug\LogUtility.dll
+D:\Guoxinliu917\Jun\Aircall\AircallObjects\BizObjects\bin\Debug\NLog.dll
+D:\Guoxinliu917\Jun\Aircall\AircallObjects\BizObjects\bin\Debug\LogUtility.pdb

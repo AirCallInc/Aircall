@@ -54,6 +54,9 @@
       <SpecificVersion>False</SpecificVersion>
       <HintPath>bin\Newtonsoft.Json.dll</HintPath>
     </Reference>
+    <Reference Include="NLog">
+      <HintPath>.\NLog.dll</HintPath>
+    </Reference>
     <Reference Include="PresentationCore" />
     <Reference Include="PushNotification, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
       <SpecificVersion>False</SpecificVersion>
@@ -1581,6 +1584,9 @@
     <Content Include="admin\help\img\Thumbs.db" />
     <Content Include="admin\help\lib\Thumbs.db" />
     <Content Include="signup_iframe.aspx" />
+    <Content Include="NLog.config">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
     <None Include="Properties\PublishProfiles\Aircall publish.pubxml" />
     <Content Include="uploads\plan\Aicall_Plan_v2.pdf">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
@@ -3456,6 +3462,10 @@
     <ProjectReference Include="..\DBUtility\DBUtility.csproj">
       <Project>{ee627dc5-6aac-4955-b0bf-1c922cbaca03}</Project>
       <Name>DBUtility</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\LogUtility\LogUtility.csproj">
+      <Project>{046dc84f-dd34-4b8f-a426-2396f451768d}</Project>
+      <Name>LogUtility</Name>
     </ProjectReference>
   </ItemGroup>
   <PropertyGroup>

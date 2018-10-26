@@ -61,7 +61,7 @@ namespace BizObjects
             dataLib.AddParameter("@AddedBy", SqlDbType.Int, this.AddedBy);
             dataLib.AddParameter("@AddedByType", SqlDbType.Int, this.AddedByType);
             dataLib.AddParameter("@AddedDate", SqlDbType.DateTime, this.AddedDate);
-            dataLib.AddParameter("@VisitPerYear", SqlDbType.DateTime, this.VisitPerYear);
+            dataLib.AddParameter("@VisitPerYear", SqlDbType.Int, this.VisitPerYear);
         }
 
         public override void AddUpdateParams(ref ZWT.DbLib.IDataLib dataLib)

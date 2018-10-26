@@ -15,6 +15,8 @@ using System.Web.UI.WebControls;
 using Stripe;
 using AuthorizeNetLib;
 using AuthorizeNet.Api.Contracts.V1;
+using LogUtility;
+using NLog;
 
 namespace Aircall.admin
 {
@@ -41,6 +43,8 @@ namespace Aircall.admin
         IServiceReportService objServiceReportService;
         IClientUnitSubscriptionService objClientUnitSubscriptionService;
         public bool SubscriptionCreated;
+        private LogHelper _logHelper = new LogHelper();
+        private readonly Logger _logger = LogManager.GetCurrentClassLogger();
 
         protected void Page_Load(object sender, EventArgs e)
         {
@@ -944,6 +948,11 @@ namespace Aircall.admin
                 }
                 catch (Exception Ex)
                 {
+                    string errMsg = _logHelper.GetFullErrorMessage(Ex);
+                    _logger.Error(errMsg);
+
+                    _logger.Error(Ex, "Error when add unit");
+
                     dvMessage.InnerHtml = "<strong>Error!</strong> " + Ex.Message.ToString().Trim();
                     dvMessage.Attributes.Add("class", "alert alert-error");
                     dvMessage.Visible = true;

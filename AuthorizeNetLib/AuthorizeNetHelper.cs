@@ -7,6 +7,8 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Configuration;
+using System.Security.Authentication;
+using System.Net;
 
 namespace AuthorizeNetLib
 {
@@ -41,6 +43,16 @@ namespace AuthorizeNetLib
 
         public AuthorizeNetHelper()
         {
+            const SslProtocols _Tls12 = (SslProtocols)0x00000C00;
+            const SecurityProtocolType Tls12 = (SecurityProtocolType)_Tls12;
+            ServicePointManager.SecurityProtocol = Tls12;
+
+            ServicePointManager.ServerCertificateValidationCallback +=
+            (sender, cert, chain, error) =>
+            {
+                return true;
+            };
+
             _ApiLoginID = ConfigurationManager.AppSettings["ApiLoginID"];
             _ApiTransactionKey = ConfigurationManager.AppSettings["ApiTransactionKey"];
             _SandBox = ConfigurationManager.AppSettings["SandBox"].ToLower() == "true";
@@ -191,11 +203,52 @@ namespace AuthorizeNetLib
 
         public void CreateSubscriptionFromCustomerProfile(string customerProfileId, string customerPaymentProfileId, string customerAddressId, paymentScheduleType schedule, decimal amount, ref bool isSuccess, ref string subscriptionId, ref string errCode, ref string errText)
         {
+            System.Threading.Thread.Sleep(15000);//In order to solve E000040 error
+
             customerProfileIdType customerProfile = new customerProfileIdType()
             {
                 customerProfileId = customerProfileId,
                 customerPaymentProfileId = customerPaymentProfileId,
                 customerAddressId = customerAddressId
+            };
+
+            ARBSubscriptionType subscriptionType = new ARBSubscriptionType()
+            {
+                amount = amount,
+                paymentSchedule = schedule,
+                profile = customerProfile
+            };
+
+            var request = new ARBCreateSubscriptionRequest { subscription = subscriptionType };
+
+            var controller = new ARBCreateSubscriptionController(request);
+            controller.Execute();
+
+            ARBCreateSubscriptionResponse response = controller.GetApiResponse();
+
+            if (response != null && response.messages.resultCode == messageTypeEnum.Ok)
+            {
+                if (response != null && response.messages.message != null)
+                {
+                    isSuccess = true;
+                    subscriptionId = response.subscriptionId.ToString();
+                }
+            }
+            else if (response != null)
+            {
+                errCode = response.messages.message[0].code;
+                errText = response.messages.message[0].text;
+            }
+        }
+
+        public void CreateSubscriptionFromCustomerProfile_2(string customerProfileId, string customerPaymentProfileId, paymentScheduleType schedule, decimal amount, ref bool isSuccess, ref string subscriptionId, ref string errCode, ref string errText)
+        {
+            System.Threading.Thread.Sleep(15000);//In order to solve E000040 error
+
+            customerProfileIdType customerProfile = new customerProfileIdType()
+            {
+                customerProfileId = customerProfileId,
+                customerPaymentProfileId = customerPaymentProfileId,
             };
 
             ARBSubscriptionType subscriptionType = new ARBSubscriptionType()
@@ -290,6 +343,10 @@ namespace AuthorizeNetLib
                     isSuccess = true;
 
                     if (response.messages.message != null)
+                    {
+                        customerPaymentProfileId = response.customerPaymentProfileId;
+                    }
+                    else
                     {
                         customerPaymentProfileId = response.customerPaymentProfileId;
                     }

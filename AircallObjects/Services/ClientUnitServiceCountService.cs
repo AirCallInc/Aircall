@@ -1,4 +1,6 @@
-﻿using System;
+﻿using LogUtility;
+using NLog;
+using System;
 using System.Collections.Generic;
 using System.Data;
 using System.Linq;
@@ -20,6 +22,8 @@ namespace Services
     public class ClientUnitServiceCountService : IClientUnitServiceCountService
     {
         IDataLib dbLib;
+        private LogHelper _logHelper = new LogHelper();
+        private readonly Logger _logger = LogManager.GetCurrentClassLogger();
 
         public int AddClientUnitServiceCount(ref BizObjects.ClientUnitServiceCount ClientUnitServiceCount)
         {
@@ -38,6 +42,8 @@ namespace Services
             }
             catch (Exception ex)
             {
+                string errMsg = _logHelper.GetFullErrorMessage(ex);
+                _logger.Error(errMsg);
                 dbLib.RollbackTransaction();
                 throw ex;
             }

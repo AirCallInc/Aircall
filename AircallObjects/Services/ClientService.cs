@@ -47,6 +47,8 @@ namespace Services
         bool UpdateClientToAuthorizeNet(string email, string description, string customerProfileId, ref string errCode, ref string errText);
         bool CreatePaymentProfile(string firstName, string lastName, string customerProfileId, string cardNumber, string expirationDate, string cardCode, ref string customerPaymentProfileId, ref string errCode, ref string errText);
         bool AddClientAddressToAuthorizeNet(int clientId, string stateName, string cityName, string zip, string addressStr, ref string customerAddressId, ref string errCode, ref string errText);
+        int AddBillingAddress(int clientId, string stateName, string cityName, string zip, string address, string firstName, string lastName);
+        bool CreatePaymentProfileWithBillingAddress(string firstName, string lastName, string customerProfileId, string cardNumber, string expirationDate, string cardCode, ref string customerPaymentProfileId, ref string errCode, ref string errText, string address, string city, string state, string zip);
     }
 
     public class ClientService : IClientService
@@ -324,6 +326,35 @@ namespace Services
             {
                 firstName = firstName,
                 lastName = lastName
+            };
+
+            var helper = new AuthorizeNetHelper();
+            bool isSuccess = false;
+
+            helper.CreateCustomerPaymentProfile(customerProfileId, echeck, billTo, ref isSuccess, ref customerPaymentProfileId, ref errCode, ref errText);
+
+            return isSuccess;
+        }
+
+        public bool CreatePaymentProfileWithBillingAddress(string firstName, string lastName, string customerProfileId, string cardNumber, string expirationDate, string cardCode, ref string customerPaymentProfileId, ref string errCode, ref string errText, string address, string city, string state, string zip)
+        {
+            var creditCard = new creditCardType
+            {
+                cardNumber = cardNumber,
+                expirationDate = expirationDate,
+                cardCode = cardCode,
+            };
+
+            paymentType echeck = new paymentType { Item = creditCard };
+
+            var billTo = new customerAddressType
+            {
+                firstName = firstName,
+                lastName = lastName,
+                address = address,
+                city = city,
+                state = state,
+                zip = zip,
             };
 
             var helper = new AuthorizeNetHelper();
@@ -896,6 +927,37 @@ namespace Services
                 }
 
                 return false;
+            }
+        }
+
+        public int AddBillingAddress(int clientId, string stateName, string cityName, string zip, string address, string firstName, string lastName)
+        {
+            string strsql = null;
+            dbLib = DataLibFactory.CreateDAL();
+            strsql = "uspa_BillingAddress_Insert";
+            try
+            {
+                dbLib.OpenConnection();
+                dbLib.BeginTransaction();
+                dbLib.InitParameters();
+                dbLib.AddParameter("@ClientId", SqlDbType.Int, clientId);
+                dbLib.AddParameter("@State", SqlDbType.NVarChar, stateName);
+                dbLib.AddParameter("@City", SqlDbType.NVarChar, cityName);
+                dbLib.AddParameter("@ZipCode", SqlDbType.NVarChar, zip);
+                dbLib.AddParameter("@Address", SqlDbType.NVarChar, address);
+                dbLib.AddParameter("@FirstName", SqlDbType.NVarChar, firstName);
+                dbLib.AddParameter("@LastName", SqlDbType.NVarChar, lastName);
+                var rtn = dbLib.ExeSP(strsql);
+                return rtn;
+            }
+            catch (Exception ex)
+            {
+                dbLib.RollbackTransaction();
+                throw ex;
+            }
+            finally
+            {
+                dbLib.CloseConnection();
             }
         }
     }

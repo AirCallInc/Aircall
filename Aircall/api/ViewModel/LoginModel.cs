@@ -405,6 +405,8 @@ namespace api.ViewModel
         public string PDFUrl { get; set; }
         public bool PendingInactive { get; set; }
         public bool? IgnoreDuplicate { get; set; }
+        public string FirstName { get; set; }
+        public string LastName { get; set; }
     }
 
     public class Location

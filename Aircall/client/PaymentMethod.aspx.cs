@@ -644,6 +644,27 @@ namespace Aircall.client
                 lastName = LastName
             };
 
+            if (Session["billingAdd"] != null)
+            {
+                DataTable dtadd = Session["billingAdd"] as DataTable;
+                var bdr = dtadd.Rows[0];
+                var firstName = bdr["FirstName"].ToString();
+                var lastName = bdr["LastName"].ToString();
+                var address = bdr["Address"].ToString();
+                var zipCode = bdr["ZipCode"].ToString();
+                var state = bdr["StateName"].ToString();
+                var city = bdr["CityName"].ToString();
+                billTo = new customerAddressType
+                {
+                    firstName = FirstName,
+                    lastName = LastName,
+                    address = address,
+                    state = state,
+                    city = city,
+                    zip = zipCode
+                };
+            }
+
             var helper = new AuthorizeNetHelper();
 
             helper.CreateCustomerPaymentProfile(customerProfileId, echeck, billTo, ref isSuccess, ref customerPaymentProfileId, ref errCode, ref errText);

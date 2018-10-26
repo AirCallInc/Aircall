@@ -300,7 +300,7 @@ namespace Aircall.admin
             var billTo = new customerAddressType
             {
                 firstName = FirstName,
-                lastName = LastName
+                lastName = LastName,
             };
 
             var helper = new AuthorizeNetHelper();

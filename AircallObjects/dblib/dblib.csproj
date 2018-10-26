@@ -90,6 +90,9 @@
     <Prefer32Bit>false</Prefer32Bit>
   </PropertyGroup>
   <ItemGroup>
+    <Reference Include="NLog">
+      <HintPath>..\..\Aircall\NLog.dll</HintPath>
+    </Reference>
     <Reference Include="System">
       <Name>System</Name>
     </Reference>
@@ -136,6 +139,12 @@
   <ItemGroup>
     <Folder Include="obj\Debug\TempPE\" />
     <Folder Include="obj\Release\" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\..\LogUtility\LogUtility.csproj">
+      <Project>{046dc84f-dd34-4b8f-a426-2396f451768d}</Project>
+      <Name>LogUtility</Name>
+    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
   <PropertyGroup>

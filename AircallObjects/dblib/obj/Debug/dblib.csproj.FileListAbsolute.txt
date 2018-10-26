@@ -106,4 +106,8 @@ D:\Guoxinliu917\Jun\Aircall\AircallObjects\dblib\bin\Debug\dblib.pdb
 D:\Guoxinliu917\Jun\Aircall\AircallObjects\dblib\obj\Debug\dblib.dll
 D:\Guoxinliu917\Jun\Aircall\AircallObjects\dblib\obj\Debug\dblib.pdb
 D:\Guoxinliu917\Jun\Aircall\AircallObjects\dblib\obj\Debug\dblib.csproj.CoreCompileInputs.cache
+D:\Guoxinliu917\Jun\Aircall\AircallObjects\dblib\bin\Debug\LogUtility.dll
+D:\Guoxinliu917\Jun\Aircall\AircallObjects\dblib\bin\Debug\NLog.dll
+D:\Guoxinliu917\Jun\Aircall\AircallObjects\dblib\bin\Debug\LogUtility.pdb
 D:\Guoxinliu917\Jun\Aircall\AircallObjects\dblib\obj\Debug\dblib.csprojAssemblyReference.cache
+D:\Guoxinliu917\Jun\Aircall\AircallObjects\dblib\obj\Debug\dblib.csproj.CopyComplete

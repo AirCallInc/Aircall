@@ -3652,13 +3652,27 @@ namespace api.Controllers
                                 var errCode = "";
                                 var errText = "";
                                 string customerPaymentProfileId = "";
+                                var city = db.Cities.FirstOrDefault(c => c.Id == request.City).Name;
+                                var state = db.States.FirstOrDefault(st => st.Id == request.State).Name;
                                 string expirationDate = request.ExpiryMonth.ToString().PadLeft(2, '0') + (request.ExpiryYear.ToString().Length > 2 ? request.ExpiryYear.ToString().Substring(2, 2) : request.ExpiryYear.ToString());
-                                var ret = objClientService.CreatePaymentProfile(UserInfo.FirstName, UserInfo.LastName, UserInfo.CustomerProfileId, request.CardNumber, expirationDate, request.CVV.ToString(), ref customerPaymentProfileId, ref errCode, ref errText);
+                                //var ret = objClientService.CreatePaymentProfile(UserInfo.FirstName, UserInfo.LastName, UserInfo.CustomerProfileId, request.CardNumber, expirationDate, request.CVV.ToString(), ref customerPaymentProfileId, ref errCode, ref errText);
+                                var ret = objClientService.CreatePaymentProfileWithBillingAddress(request.FirstName, request.LastName, UserInfo.CustomerProfileId, request.CardNumber, expirationDate, request.CVV.ToString(), ref customerPaymentProfileId, ref errCode, ref errText, request.Address, city, state, request.ZipCode);
 
                                 if (!ret)
                                 {
                                     res.StatusCode = (int)HttpStatusCode.BadRequest;
                                     res.Message = "Add credit card to authorizenet failed. Error Code: " + errCode + " Error Text: " + errText;
+                                    LogUtility.LogHelper log = new LogUtility.LogHelper();
+                                    log.Log(res.Message);
+                                    res.Data = null;
+                                    db.Dispose();
+                                    return Ok(res);
+                                }
+
+                                if (string.IsNullOrEmpty(customerPaymentProfileId))
+                                {
+                                    res.StatusCode = (int)HttpStatusCode.BadRequest;
+                                    res.Message = "Add credit card to authorizenet failed. customerPaymentProfileId is empty. Error Code: " + errCode + " Error Text: " + errText;
                                     LogUtility.LogHelper log = new LogUtility.LogHelper();
                                     log.Log(res.Message);
                                     res.Data = null;

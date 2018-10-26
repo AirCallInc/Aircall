@@ -96,4 +96,3 @@ D:\Guoxinliu917\Jun\Aircall\DBUtility\bin\Debug\DBUtility.pdb
 D:\Guoxinliu917\Jun\Aircall\DBUtility\obj\Debug\DBUtility.dll
 D:\Guoxinliu917\Jun\Aircall\DBUtility\obj\Debug\DBUtility.pdb
 D:\Guoxinliu917\Jun\Aircall\DBUtility\obj\Debug\DBUtility.csproj.CoreCompileInputs.cache
-D:\Guoxinliu917\Jun\Aircall\DBUtility\obj\Debug\DBUtility.csprojAssemblyReference.cache

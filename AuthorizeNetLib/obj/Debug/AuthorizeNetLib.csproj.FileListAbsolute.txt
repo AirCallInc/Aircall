@@ -5,4 +5,3 @@ D:\Guoxinliu917\Jun\Aircall\AuthorizeNetLib\obj\Debug\AuthorizeNetLib.dll
 D:\Guoxinliu917\Jun\Aircall\AuthorizeNetLib\obj\Debug\AuthorizeNetLib.pdb
 D:\Guoxinliu917\Jun\Aircall\AuthorizeNetLib\obj\Debug\AuthorizeNetLib.csproj.CoreCompileInputs.cache
 D:\Guoxinliu917\Jun\Aircall\AuthorizeNetLib\obj\Debug\AuthorizeNetLib.csproj.CopyComplete
-D:\Guoxinliu917\Jun\Aircall\AuthorizeNetLib\obj\Debug\AuthorizeNetLib.csprojAssemblyReference.cache
